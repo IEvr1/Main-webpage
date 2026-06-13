@@ -1,5 +1,13 @@
 {
   "rewrites": [
+    {
+      "source": "/shoptraffic",
+      "destination": "https://waitless-landing.vercel.app/shoptraffic"
+    },
+    {
+      "source": "/shoptraffic/:path*",
+      "destination": "https://waitless-landing.vercel.app/shoptraffic/:path*"
+    },
     { "source": "/onlinebooking", "destination": "/onlinebooking/index.html" }
   ]
 }
