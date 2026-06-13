@@ -1,0 +1,149 @@
+/* Home Hero */
+.home-hero {
+  padding: 3rem 1.25rem 4.5rem;
+  background: transparent;
+  text-align: center;
+}
+
+.home-hero__content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.home-hero__title {
+  font-size: clamp(1.875rem, 4.5vw, 2.875rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  color: var(--color-text);
+}
+
+.home-hero__subtitle {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+.home-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* App Cards */
+.apps-section {
+  padding: var(--section-padding);
+  background-color: var(--color-surface);
+}
+
+.apps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.app-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.75rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.app-card:hover {
+  box-shadow: var(--shadow-soft);
+  border-color: #a7f3d0;
+}
+
+.app-card--soon {
+  opacity: 0.75;
+}
+
+.app-card__icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  color: var(--color-accent);
+}
+
+.app-card__tag {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 0.25rem 0.625rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  background: var(--color-accent-light);
+  border-radius: 6px;
+}
+
+.app-card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.625rem;
+}
+
+.app-card__text {
+  flex: 1;
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.app-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  color: var(--color-accent);
+}
+
+.app-card__link svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.2s;
+}
+
+.app-card__link:hover {
+  color: var(--color-accent-hover);
+}
+
+.app-card__link:hover svg {
+  transform: translateX(3px);
+}
+
+.app-card__badge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+@media (min-width: 640px) {
+  .apps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .apps-grid {
+    max-width: var(--max-width);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
