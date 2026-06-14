@@ -22,6 +22,14 @@
   --hero-accent: rgb(190 242 100 / 0.12);
   --bg-glow: rgb(16 185 129 / 0.08);
   --bg-glow-2: rgb(190 242 100 / 0.06);
+  --color-accent: var(--primary);
+  --color-accent-hover: var(--primary-hover);
+  --color-accent-light: var(--surface-muted);
+  --color-border: var(--border);
+  --color-surface: var(--surface);
+  --color-text: var(--foreground);
+  --color-text-muted: var(--muted-foreground);
+  --color-ring: var(--ring);
 }
 
 @theme inline {

@@ -1,33 +1,38 @@
+import type { Lang } from '../i18n/types';
+import { t } from '../i18n/i18n';
+
 const base = import.meta.env.BASE_URL;
 
-const screenshots = [
-  {
-    src: `${base}landing/screenshot-chat.svg`,
-    caption: 'Διεπαφή chat κράτησης',
-    alt: 'Οθόνη chat για online κράτηση ραντεβού',
-  },
-  {
-    src: `${base}landing/screenshot-dashboard.svg`,
-    caption: 'Dashboard επιχείρησης',
-    alt: 'Πίνακας ελέγχου με ραντεβού και KPIs',
-  },
-  {
-    src: `${base}landing/screenshot-sms.svg`,
-    caption: 'SMS επιβεβαίωση & υπενθύμιση',
-    alt: 'Μήνυμα SMS επιβεβαίωσης και υπενθύμισης με link διαχείρισης ραντεβού',
-  },
-];
+type ScreenshotsProps = {
+  lang: Lang;
+};
 
-export default function Screenshots() {
+export default function Screenshots({ lang }: ScreenshotsProps) {
+  const screenshots = [
+    {
+      src: `${base}landing/screenshot-chat.svg`,
+      caption: t('booking.screenshots.chat.caption', lang),
+      alt: t('booking.screenshots.chat.alt', lang),
+    },
+    {
+      src: `${base}landing/screenshot-dashboard.svg`,
+      caption: t('booking.screenshots.dashboard.caption', lang),
+      alt: t('booking.screenshots.dashboard.alt', lang),
+    },
+    {
+      src: `${base}landing/screenshot-sms.svg`,
+      caption: t('booking.screenshots.sms.caption', lang),
+      alt: t('booking.screenshots.sms.alt', lang),
+    },
+  ];
+
   return (
     <section className="screenshots-section" aria-labelledby="screenshots-title">
       <div className="container">
         <h2 id="screenshots-title" className="section-title">
-          Ρίξτε μια ματιά
+          {t('booking.screenshots.title', lang)}
         </h2>
-        <p className="section-subtitle">
-          Από την εμπειρία του πελάτη μέχρι τα εργαλεία διαχείρισης της επιχείρησής σας.
-        </p>
+        <p className="section-subtitle">{t('booking.screenshots.subtitle', lang)}</p>
 
         <div className="screenshots-grid">
           {screenshots.map((shot) => (

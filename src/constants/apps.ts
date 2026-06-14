@@ -1,3 +1,6 @@
+import type { Lang } from '../i18n/types';
+import { t } from '../i18n/i18n';
+
 export type AppStatus = 'active' | 'coming-soon';
 
 export type CompanyApp = {
@@ -9,23 +12,23 @@ export type CompanyApp = {
   tag?: string;
 };
 
-export const COMPANY_APPS: CompanyApp[] = [
-  {
-    id: 'online-booking',
-    title: 'Online Γραφέας 24/7',
-    description:
-      'Chat, QR code και SMS επιβεβαίωση και υπενθύμιση. Για επιχειρήσεις με ραντεβού — κομμωτήρια, κλινικές, ιατρεία, spa, γυμναστήρια, συνεργεία και άλλα.',
-    href: '/onlinebooking/',
-    status: 'active',
-    tag: 'Ραντεβού & κρατήσεις',
-  },
-  {
-    id: 'shop-traffic',
-    title: 'Live Business Traffic',
-    description:
-      'Ζωντανή εικόνα της κίνησης — δείχνει στους πελάτες πόσο γεμάτο είναι το κατάστημα τώρα, χωρίς ραντεβού. Για κουρεία, κομμωτήρια, φαρμακεία, καφέ και άλλα walk-in καταστήματα.',
-    href: '/shoptraffic/',
-    status: 'active',
-    tag: 'Ζωντανή κίνηση',
-  },
-];
+export function getCompanyApps(lang: Lang): CompanyApp[] {
+  return [
+    {
+      id: 'online-booking',
+      title: t('apps.onlineBooking.title', lang),
+      description: t('apps.onlineBooking.description', lang),
+      href: '/onlinebooking/',
+      status: 'active',
+      tag: t('apps.onlineBooking.tag', lang),
+    },
+    {
+      id: 'shop-traffic',
+      title: t('apps.shopTraffic.title', lang),
+      description: t('apps.shopTraffic.description', lang),
+      href: '/shoptraffic/',
+      status: 'active',
+      tag: t('apps.shopTraffic.tag', lang),
+    },
+  ];
+}

@@ -1,5 +1,7 @@
 import type { ReactElement } from 'react';
-import { COMPANY_APPS } from '../../constants/apps';
+import type { Lang } from '../../i18n/types';
+import { t } from '../../i18n/i18n';
+import { getCompanyApps } from '../../constants/apps';
 
 function BookingIcon() {
   return (
@@ -26,20 +28,23 @@ const appIcons: Record<string, () => ReactElement> = {
   'shop-traffic': TrafficIcon,
 };
 
-export default function AppCards() {
+type AppCardsProps = {
+  lang: Lang;
+};
+
+export default function AppCards({ lang }: AppCardsProps) {
+  const apps = getCompanyApps(lang);
+
   return (
     <section id="apps" className="apps-section" aria-labelledby="apps-title">
       <div className="container">
         <h2 id="apps-title" className="section-title">
-          Οι εφαρμογές μας
+          {t('home.apps.title', lang)}
         </h2>
-        <p className="section-subtitle">
-          Επιλέξτε την εφαρμογή που σας ενδιαφέρει — κάθε λύση σχεδιάζεται για συγκεκριμένες
-          επιχειρηματικές ανάγκες.
-        </p>
+        <p className="section-subtitle">{t('home.apps.subtitle', lang)}</p>
 
         <div className="apps-grid">
-          {COMPANY_APPS.map((app) => {
+          {apps.map((app) => {
             const Icon = appIcons[app.id];
             const isActive = app.status === 'active';
 
@@ -54,13 +59,13 @@ export default function AppCards() {
 
                 {isActive ? (
                   <a href={app.href} className="app-card__link">
-                    Μάθετε περισσότερα
+                    {t('common.learnMore', lang)}
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                       <path d="M5 12h14M13 6l6 6-6 6" />
                     </svg>
                   </a>
                 ) : (
-                  <span className="app-card__badge">Σύντομα διαθέσιμο</span>
+                  <span className="app-card__badge">{t('common.comingSoon', lang)}</span>
                 )}
               </article>
             );

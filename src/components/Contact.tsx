@@ -1,16 +1,20 @@
+import type { Lang } from '../i18n/types';
+import { t } from '../i18n/i18n';
 import { CONTACT } from '../constants/contact';
 import ContactForm from './ContactForm';
 
-export default function Contact() {
+type ContactProps = {
+  lang: Lang;
+};
+
+export default function Contact({ lang }: ContactProps) {
   return (
     <section id="contact" className="contact-section" aria-labelledby="contact-title">
       <div className="container">
         <h2 id="contact-title" className="section-title">
-          Επικοινωνία
+          {t('contact.title', lang)}
         </h2>
-        <p className="section-subtitle">
-          Θέλετε demo ή έχετε ερώτηση; Στείλτε μας μήνυμα — θα απαντήσουμε εντός 24 ωρών.
-        </p>
+        <p className="section-subtitle">{t('contact.subtitle', lang)}</p>
 
         <div className="contact-layout">
           <div className="contact-info">
@@ -21,7 +25,7 @@ export default function Contact() {
             <p className="contact-info__phone">{CONTACT.phone}</p>
           </div>
 
-          <ContactForm />
+          <ContactForm lang={lang} />
         </div>
       </div>
     </section>

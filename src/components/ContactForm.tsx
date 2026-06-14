@@ -1,13 +1,12 @@
 import { useState, type FormEvent } from 'react';
+import type { Lang } from '../i18n/types';
+import { t } from '../i18n/i18n';
 import { CONTACT } from '../constants/contact';
 import {
   validateContactForm,
   type ContactFormData,
   type ContactFormErrors,
 } from '../utils/validation';
-
-const MESSAGE_PLACEHOLDER = `Τύπος επιχείρησης
-Ποιο προϊόν ενδιαφέρεστε`;
 
 const initialForm: ContactFormData = {
   name: '',
@@ -18,16 +17,20 @@ const initialForm: ContactFormData = {
 
 type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error';
 
-function openMailto(form: ContactFormData) {
-  const subject = encodeURIComponent('Επικοινωνία — NexAI');
+type ContactFormProps = {
+  lang: Lang;
+};
+
+function openMailto(form: ContactFormData, lang: Lang) {
+  const subject = encodeURIComponent(t('contact.form.mailtoSubject', lang));
   const body = encodeURIComponent(
-    `Όνομα: ${form.name.trim()}\nEmail: ${form.email.trim()}\nΤηλ: ${form.phone.trim() || '—'}\n\n${form.message.trim()}`,
+    `${t('contact.form.mailtoName', lang)}: ${form.name.trim()}\nEmail: ${form.email.trim()}\n${t('contact.form.mailtoPhone', lang)}: ${form.phone.trim() || '—'}\n\n${form.message.trim()}`,
   );
 
   window.location.href = `mailto:${CONTACT.email}?subject=${subject}&body=${body}`;
 }
 
-export default function ContactForm() {
+export default function ContactForm({ lang }: ContactFormProps) {
   const [form, setForm] = useState<ContactFormData>(initialForm);
   const [errors, setErrors] = useState<ContactFormErrors>({});
   const [status, setStatus] = useState<SubmitStatus>('idle');
@@ -45,7 +48,7 @@ export default function ContactForm() {
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const validationErrors = validateContactForm(form);
+    const validationErrors = validateContactForm(form, lang);
 
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
@@ -74,7 +77,7 @@ export default function ContactForm() {
       const data = (await response.json().catch(() => ({}))) as { error?: string };
 
       if (response.status === 404) {
-        openMailto(form);
+        openMailto(form, lang);
         setStatus('idle');
         return;
       }
@@ -82,11 +85,11 @@ export default function ContactForm() {
       setStatus('error');
       setSubmitError(
         data.error === 'Email service not configured'
-          ? `Η υπηρεσία δεν είναι ρυθμισμένη ακόμα. Στείλτε μας στο ${CONTACT.email}.`
-          : 'Δεν ήταν δυνατή η αποστολή. Δοκιμάστε ξανά ή στείλτε email απευθείας.',
+          ? t('contact.form.errorNotConfigured', lang, { email: CONTACT.email })
+          : t('contact.form.errorGeneric', lang),
       );
     } catch {
-      openMailto(form);
+      openMailto(form, lang);
       setStatus('idle');
     }
   }
@@ -103,7 +106,7 @@ export default function ContactForm() {
       />
 
       <div className="form-group">
-        <label htmlFor="name">Όνομα *</label>
+        <label htmlFor="name">{t('contact.form.name', lang)}</label>
         <input
           id="name"
           type="text"
@@ -117,7 +120,7 @@ export default function ContactForm() {
       </div>
 
       <div className="form-group">
-        <label htmlFor="email">Email *</label>
+        <label htmlFor="email">{t('contact.form.email', lang)}</label>
         <input
           id="email"
           type="email"
@@ -131,7 +134,7 @@ export default function ContactForm() {
       </div>
 
       <div className="form-group">
-        <label htmlFor="phone">Τηλέφωνο</label>
+        <label htmlFor="phone">{t('contact.form.phone', lang)}</label>
         <input
           id="phone"
           type="tel"
@@ -139,19 +142,20 @@ export default function ContactForm() {
           onChange={(e) => handleChange('phone', e.target.value)}
           className={errors.phone ? 'error' : ''}
           autoComplete="tel"
+          inputMode="tel"
           disabled={status === 'submitting'}
         />
         {errors.phone && <span className="form-error">{errors.phone}</span>}
       </div>
 
       <div className="form-group">
-        <label htmlFor="message">Μήνυμα *</label>
+        <label htmlFor="message">{t('contact.form.message', lang)}</label>
         <textarea
           id="message"
           value={form.message}
           onChange={(e) => handleChange('message', e.target.value)}
           className={errors.message ? 'error' : ''}
-          placeholder={MESSAGE_PLACEHOLDER}
+          placeholder={t('contact.form.messagePlaceholder', lang)}
           disabled={status === 'submitting'}
         />
         {errors.message && <span className="form-error">{errors.message}</span>}
@@ -159,7 +163,7 @@ export default function ContactForm() {
 
       {status === 'success' && (
         <p className="form-status form-status--success" role="status">
-          Ευχαριστούμε! Το μήνυμά σας στάλθηκε — θα απαντήσουμε εντός 24 ωρών.
+          {t('contact.form.success', lang)}
         </p>
       )}
 
@@ -171,10 +175,12 @@ export default function ContactForm() {
       )}
 
       <button type="submit" className="btn btn-primary" disabled={status === 'submitting'}>
-        {status === 'submitting' ? 'Αποστολή…' : 'Αποστολή μηνύματος'}
+        {status === 'submitting'
+          ? t('contact.form.submitting', lang)
+          : t('contact.form.submit', lang)}
       </button>
 
-      <p className="form-note">Θα απαντήσουμε εντός 24 ωρών.</p>
+      <p className="form-note">{t('contact.form.note', lang)}</p>
     </form>
   );
 }

@@ -1,1 +1,1 @@
-export type Lang = 'el' | 'en';
+export type { Lang } from '../i18n/types';

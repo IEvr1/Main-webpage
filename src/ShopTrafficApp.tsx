@@ -1,32 +1,17 @@
-import { useEffect, useMemo, useState } from 'react';
 import { brandLogoUrl } from './constants/contact';
 import { WaitlessLanding } from './components/shoptraffic/WaitlessLanding';
-import { LanguageSwitcher } from './shoptraffic/components/LanguageSwitcher';
+import { LanguageSwitcher } from './components/LanguageSwitcher';
 import { getDemoShopUrl } from './shoptraffic/demo-shop-url';
-import { getLangCookie, getLangFromUrl, resolveLang, t } from './shoptraffic/i18n';
-import type { Lang } from './shoptraffic/types';
+import { t } from './i18n/i18n';
+import { useLang } from './i18n/useLang';
 
-function useLang(): [Lang, (lang: Lang) => void] {
-  const initial = useMemo(
-    () => resolveLang(getLangFromUrl(), getLangCookie(), 'el'),
-    [],
-  );
-  const [lang, setLang] = useState<Lang>(initial);
-
-  useEffect(() => {
-    document.documentElement.lang = lang === 'el' ? 'el' : 'en';
-    document.title = t('waitless.metaTitle', lang);
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) {
-      meta.setAttribute('content', t('waitless.metaDescription', lang));
-    }
-  }, [lang]);
-
-  return [lang, setLang];
-}
+const SHOP_TRAFFIC_META = {
+  titleKey: 'waitless.metaTitle',
+  descriptionKey: 'waitless.metaDescription',
+} as const;
 
 export default function ShopTrafficApp() {
-  const [lang, setLang] = useLang();
+  const [lang, setLang] = useLang(SHOP_TRAFFIC_META);
   const demoShopUrl = getDemoShopUrl();
 
   return (

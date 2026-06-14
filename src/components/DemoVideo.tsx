@@ -1,10 +1,16 @@
 import { useEffect, useState } from 'react';
+import type { Lang } from '../i18n/types';
+import { t } from '../i18n/i18n';
 
 const base = import.meta.env.BASE_URL;
 const VIDEO_PATH = `${base}landing/demo.mp4`;
 const POSTER_PATH = `${base}landing/demo-poster.svg`;
 
-export default function DemoVideo() {
+type DemoVideoProps = {
+  lang: Lang;
+};
+
+export default function DemoVideo({ lang }: DemoVideoProps) {
   const [videoAvailable, setVideoAvailable] = useState<boolean | null>(null);
 
   useEffect(() => {
@@ -17,17 +23,15 @@ export default function DemoVideo() {
     <section className="demo-section" aria-labelledby="demo-title">
       <div className="container">
         <h2 id="demo-title" className="section-title">
-          Δείτε πώς λειτουργεί
+          {t('booking.demo.title', lang)}
         </h2>
-        <p className="section-subtitle">
-          Μια γρήγορη περιήγηση στη ροή κράτησης — από το chat μέχρι την επιβεβαίωση και υπενθύμιση SMS.
-        </p>
+        <p className="section-subtitle">{t('booking.demo.subtitle', lang)}</p>
 
         <div className="video-wrapper">
           {videoAvailable ? (
             <video controls preload="metadata" poster={POSTER_PATH}>
               <source src={VIDEO_PATH} type="video/mp4" />
-              Το πρόγραμμα περιήγησής σας δεν υποστηρίζει video.
+              {t('booking.demo.noVideo', lang)}
             </video>
           ) : (
             <div className="video-placeholder">
@@ -42,11 +46,8 @@ export default function DemoVideo() {
                 <circle cx="12" cy="12" r="10" />
                 <polygon points="10,8 16,12 10,16" fill="currentColor" stroke="none" />
               </svg>
-              <p className="video-placeholder__title">Demo video — σύντομα διαθέσιμο</p>
-              <p className="video-placeholder__text">
-                Αντικαταστήστε το placeholder προσθέτοντας το video σας στον φάκελο
-                public/landing/.
-              </p>
+              <p className="video-placeholder__title">{t('booking.demo.placeholderTitle', lang)}</p>
+              <p className="video-placeholder__text">{t('booking.demo.placeholderText', lang)}</p>
               <code className="video-placeholder__path">public/landing/demo.mp4</code>
             </div>
           )}
