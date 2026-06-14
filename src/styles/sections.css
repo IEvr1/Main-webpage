@@ -268,6 +268,50 @@
   border: none;
 }
 
+.contact-form .btn-primary:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.contact-form__honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.form-note {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin-top: -0.25rem;
+}
+
+.form-status {
+  padding: 0.875rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.form-status--success {
+  background: var(--color-accent-light);
+  border: 1px solid var(--color-border);
+  color: var(--color-accent-hover);
+}
+
+.form-status--error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: var(--color-error);
+}
+
+.form-status--error a {
+  color: inherit;
+  font-weight: 500;
+}
+
 @media (min-width: 768px) {
   .benefits-grid {
     grid-template-columns: repeat(3, 1fr);

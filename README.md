@@ -26,7 +26,7 @@ npm run preview
 2. **Demo video** — responsive 16:9 player ή placeholder
 3. **Οφέλη** — 3 κάρτες με icons
 4. **Screenshots** — gallery με lazy loading
-5. **Επικοινωνία** — φόρμα με client-side validation + mailto
+5. **Επικοινωνία** — φόρμα με validation + αποστολή email στο info@nexaipla.com
 
 ## Αντικατάσταση assets
 
@@ -44,14 +44,18 @@ npm run preview
 
 ## Επικοινωνία — ρύθμιση
 
-Επεξεργαστείτε τα στοιχεία στο [`src/constants/contact.ts`](src/constants/contact.ts):
+Τα στοιχεία επικοινωνίας βρίσκονται στο [`src/constants/contact.ts`](src/constants/contact.ts).
 
-```ts
-export const CONTACT = {
-  email: 'info@example.com',
-  phone: '+30 210 000 0000',
-} as const;
-```
+### Αποστολή email από τη φόρμα
+
+Η φόρμα στέλνει μηνύματα στο `info@nexaipla.com` μέσω [Web3Forms](https://web3forms.com) και Vercel serverless function ([`api/contact.ts`](api/contact.ts)).
+
+1. Δημιουργήστε λογαριασμό στο Web3Forms με το email `info@nexaipla.com`
+2. Αντιγράψτε το access key
+3. Προσθέστε το στο Vercel: **Settings → Environment Variables → `WEB3FORMS_ACCESS_KEY`**
+4. Κάντε redeploy
+
+Για τοπικό testing με API: `npx vercel dev` (το `npm run dev` χρησιμοποιεί fallback mailto όταν το API δεν είναι διαθέσιμο).
 
 ## Σύνδεση με chat app
 

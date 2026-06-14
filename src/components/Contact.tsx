@@ -9,7 +9,7 @@ export default function Contact() {
           Επικοινωνία
         </h2>
         <p className="section-subtitle">
-          Θέλετε demo ή έχετε ερώτηση; Στείλτε μας μήνυμα — θα επικοινωνήσουμε μαζί σας.
+          Θέλετε demo ή έχετε ερώτηση; Στείλτε μας μήνυμα — θα απαντήσουμε εντός 24 ωρών.
         </p>
 
         <div className="contact-layout">
