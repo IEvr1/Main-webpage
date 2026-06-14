@@ -12,20 +12,20 @@ export type CompanyApp = {
 export const COMPANY_APPS: CompanyApp[] = [
   {
     id: 'online-booking',
-    title: 'Online Κρατήσεις Κομμωτηρίου',
+    title: 'Online Γραφέας Ραντεβού 24/7',
     description:
-      'Κρατήσεις μέσω chat με SMS επιβεβαίωση. QR code, επιλογή υπηρεσίας και τεχνικού, dashboard και Google Calendar.',
+      'Chat, QR code και SMS επιβεβαίωση. Για επιχειρήσεις με ραντεβού — κομμωτήρια, κλινικές, ιατρεία, spa, γυμναστήρια, συνεργεία και άλλα.',
     href: '/onlinebooking/',
     status: 'active',
-    tag: 'Κομμωτήρια',
+    tag: 'Ραντεβού & κρατήσεις',
   },
   {
     id: 'shop-traffic',
-    title: 'Waitless',
+    title: 'Live Business Traffic',
     description:
-      'Ζωντανή εικόνα του καταστήματος — δείχνει στους πελάτες πόσο γεμάτο είναι το κουρείο ή το κομμωτήριο, χωρίς κλείσιμο ραντεβού.',
-    href: 'https://www.nexaipla.com/shoptraffic',
+      'Ζωντανή εικόνα της κίνησης — δείχνει στους πελάτες πόσο γεμάτο είναι το κατάστημα τώρα, χωρίς κλείσιμο ραντεβού. Για κουρεία, κομμωτήρια, φαρμακεία, καφέ και άλλα walk-in καταστήματα.',
+    href: '/shoptraffic/',
     status: 'active',
-    tag: 'Κουρεία & Κομμωτήρια',
+    tag: 'Ζωντανή κίνηση',
   },
 ];

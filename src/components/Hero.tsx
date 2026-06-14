@@ -3,11 +3,11 @@ export default function Hero() {
     <section className="hero">
       <div className="container hero__content">
         <h1 className="hero__title">
-          Online κρατήσεις κομμωτηρίου μέσω chat — με SMS επιβεβαίωση
+          Online Γραφέας Ραντεβού 24/7 — με SMS επιβεβαίωση
         </h1>
         <p className="hero__subtitle">
-          Σκανάρετε QR, κλείστε ραντεβού μέσω chat, επιλέξτε υπηρεσία, τεχνικό και
-          ώρα — και διαχειριστείτε το ραντεβού σας από link στο SMS.
+          Σκανάρετε QR, κλείστε ραντεβού μέσω chat και διαχειριστείτε την κράτησή σας
+          από link στο SMS. Ιδανικό για κάθε επιχείρηση που δουλεύει με ραντεβού.
         </p>
         <div className="hero__actions">
           <a href="/chat" className="btn btn-primary">
