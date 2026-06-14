@@ -1,4 +1,3 @@
-import { brandLogoUrl } from '../../constants/contact';
 import type { Lang } from '../../shoptraffic/types';
 import { t } from '../../shoptraffic/i18n';
 import { LandingHeroReveal } from '../../shoptraffic/components/LandingHeroReveal';
@@ -32,7 +31,7 @@ function PillarCard({
   return (
     <a
       href={href}
-      className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-surface p-6 pt-7 shadow-sm ring-1 ring-emerald-950/[0.04] transition duration-200 hover:-translate-y-0.5 hover:border-primary/35 hover:shadow-lg hover:shadow-emerald-950/10 motion-reduce:transform-none dark:ring-white/[0.06]"
+      className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-surface p-6 pt-7 shadow-sm ring-1 ring-slate-950/[0.04] transition duration-200 hover:-translate-y-0.5 hover:border-primary/35 hover:shadow-lg hover:shadow-slate-950/10 motion-reduce:transform-none dark:ring-white/[0.06]"
     >
       <span
         className="absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r from-primary via-primary/60 to-primary opacity-90"
@@ -49,8 +48,20 @@ function PillarCard({
   );
 }
 
-const heroPanelClass =
-  'relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-950 via-teal-950 to-[#021a14] px-6 py-14 text-hero-fg shadow-2xl shadow-emerald-950/40 ring-1 ring-emerald-400/15 sm:px-10 sm:py-16 lg:px-14 lg:py-20';
+const heroPanelClass = 'relative overflow-hidden py-10 sm:py-14 lg:py-16';
+
+const heroCtaClass =
+  'inline-flex items-center justify-center rounded-lg bg-primary px-7 py-3.5 text-center text-sm font-semibold text-primary-foreground shadow-sm transition hover:bg-primary-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background';
+
+const heroCtaWideClass = `${heroCtaClass} w-full sm:w-auto px-8 py-3.5`;
+
+const heroSecondaryCtaClass =
+  'inline-flex items-center justify-center rounded-lg border-2 border-primary bg-transparent px-7 py-3.5 text-center text-sm font-semibold text-primary transition hover:border-primary-hover hover:bg-accent hover:text-primary-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background';
+
+const heroSecondaryCtaWideClass = `${heroSecondaryCtaClass} w-full sm:w-auto px-8 py-3.5`;
+
+const ctaBandClass =
+  'mt-16 rounded-2xl border border-border bg-accent/60 px-6 py-12 text-center shadow-sm sm:px-10 sm:py-14';
 
 export function WaitlessLanding({
   lang,
@@ -85,43 +96,27 @@ export function WaitlessLanding({
     <div className="pb-8 sm:pb-12">
       <section aria-labelledby="hero-heading" className={heroPanelClass}>
         <div
-          className="pointer-events-none absolute -right-20 top-0 size-[28rem] rounded-full bg-[radial-gradient(circle_at_center,rgb(16_185_129_/_0.12),transparent_62%)] blur-2xl"
-          aria-hidden
-        />
-        <div
-          className="pointer-events-none absolute -bottom-32 -left-24 size-96 rounded-full bg-emerald-500/15 blur-3xl"
+          className="pointer-events-none absolute -right-16 top-0 size-[24rem] rounded-full bg-[radial-gradient(circle_at_center,rgb(2_132_199_/_0.06),transparent_65%)] blur-3xl"
           aria-hidden
         />
         <LandingHeroReveal>
           <div className="relative mx-auto max-w-4xl">
-            <p
-              data-hero-reveal
-              className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-200/90"
-            >
-              {t('waitless.heroEyebrow', lang)}
-            </p>
             <h1
               id="hero-heading"
               data-hero-reveal
-              className="mt-4 text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl"
+              className="text-4xl font-semibold leading-[1.08] tracking-tight text-foreground sm:text-5xl lg:text-6xl"
             >
-              {t('waitless.heroHeadline', lang)}
+              {t('app.tagline', lang)}
             </h1>
             <p
               data-hero-reveal
-              className="mt-5 max-w-2xl text-lg leading-relaxed text-emerald-50/95 sm:text-xl"
-            >
-              {t('app.tagline', lang)}
-            </p>
-            <p
-              data-hero-reveal
-              className="mt-4 max-w-2xl text-base leading-relaxed text-emerald-100/85"
+              className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground"
             >
               {t('waitless.heroLead', lang)}
             </p>
             <p
               data-hero-reveal
-              className="mt-3 max-w-2xl text-sm leading-relaxed text-emerald-200/75"
+              className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground"
             >
               {t('waitless.heroSub', lang)}
             </p>
@@ -133,13 +128,13 @@ export function WaitlessLanding({
                 href={demoShopUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3.5 text-center text-sm font-semibold text-primary-foreground shadow-lg shadow-emerald-950/25 transition hover:bg-primary-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-950"
+                className={heroCtaClass}
               >
                 {t('waitless.ctaDemo', lang)}
               </a>
               <a
                 href="#pelatis"
-                className="inline-flex items-center justify-center rounded-full border border-white/25 bg-white/5 px-7 py-3.5 text-center text-sm font-semibold text-white backdrop-blur-sm transition hover:border-emerald-200/40 hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-200/60 focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-950"
+                className={heroSecondaryCtaClass}
               >
                 {t('waitless.ctaExplore', lang)}
               </a>
@@ -148,7 +143,7 @@ export function WaitlessLanding({
             {ownerNote ? (
               <p
                 data-hero-reveal
-                className="mt-10 max-w-2xl border-t border-white/10 pt-8 text-sm leading-relaxed text-emerald-100/80"
+                className="mt-10 max-w-2xl border-t border-border pt-8 text-sm leading-relaxed text-muted-foreground"
               >
                 {ownerNote}
               </p>
@@ -227,7 +222,7 @@ export function WaitlessLanding({
             {t('waitless.pricingIntro', lang)}
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5">
-            <div className="rounded-2xl border border-border bg-surface p-6 shadow-sm ring-1 ring-emerald-950/[0.04] dark:ring-white/[0.06]">
+            <div className="rounded-2xl border border-border bg-surface p-6 shadow-sm ring-1 ring-slate-950/[0.04] dark:ring-white/[0.06]">
               <p className="text-xs font-semibold uppercase tracking-widest text-primary">
                 {t('waitless.pricingOneTimeTitle', lang)}
               </p>
@@ -238,7 +233,7 @@ export function WaitlessLanding({
                 {t('waitless.pricingOneTimeDesc', lang)}
               </p>
             </div>
-            <div className="rounded-2xl border border-border bg-surface p-6 shadow-sm ring-1 ring-emerald-950/[0.04] dark:ring-white/[0.06]">
+            <div className="rounded-2xl border border-border bg-surface p-6 shadow-sm ring-1 ring-slate-950/[0.04] dark:ring-white/[0.06]">
               <p className="text-xs font-semibold uppercase tracking-widest text-primary">
                 {t('waitless.pricingMonthlyTitle', lang)}
               </p>
@@ -268,39 +263,14 @@ export function WaitlessLanding({
           </div>
         </LandingSection>
 
-        <LandingSection id="epikoinonia" title={t('waitless.sectionContact', lang)}>
-          <div className="rounded-2xl border border-border bg-surface p-6 shadow-sm ring-1 ring-emerald-950/[0.04] dark:ring-white/[0.06]">
-            <p className="text-base leading-relaxed text-muted-foreground">
-              {t('waitless.contactIntro', lang)}
-            </p>
-            <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-              <a
-                href="mailto:info@nexaipla.com"
-                className="inline-flex w-full items-center justify-center rounded-full border border-border bg-surface px-6 py-3 text-sm font-semibold text-foreground transition hover:border-primary/35 hover:bg-surface-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
-              >
-                {t('waitless.contactEmail', lang)}
-              </a>
-              <a
-                href="tel:+35794016866"
-                className="inline-flex w-full items-center justify-center rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
-              >
-                {t('waitless.contactCall', lang)}
-              </a>
-            </div>
-          </div>
-        </LandingSection>
-
-        <section
-          aria-labelledby="cta-footer-heading"
-          className={`${heroPanelClass} mt-16 px-6 py-12 text-center sm:px-10 sm:py-14`}
-        >
+        <section aria-labelledby="cta-footer-heading" className={ctaBandClass}>
           <h2
             id="cta-footer-heading"
-            className="text-2xl font-semibold tracking-tight text-white sm:text-3xl"
+            className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl"
           >
-            {t('waitless.heroHeadline', lang)}
+            {t('waitless.heroLead', lang)}
           </h2>
-          <p className="mx-auto mt-3 max-w-lg text-sm text-emerald-100/85">
+          <p className="mx-auto mt-3 max-w-lg text-sm text-muted-foreground">
             {t('waitless.heroSub', lang)}
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -308,44 +278,19 @@ export function WaitlessLanding({
               href={demoShopUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-primary-foreground transition hover:bg-primary-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-950 sm:w-auto"
+              className={heroCtaWideClass}
             >
               {t('waitless.ctaDemo', lang)}
             </a>
             <a
               href="#pelatis"
-              className="inline-flex w-full items-center justify-center rounded-full border border-white/25 px-8 py-3.5 text-sm font-semibold text-white transition hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-200/60 focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-950 sm:w-auto"
+              className={heroSecondaryCtaWideClass}
             >
               {t('waitless.ctaExplore', lang)}
             </a>
           </div>
         </section>
 
-        <footer className="mt-12 border-t border-border pt-10 text-center">
-          <a href="/" className="mx-auto inline-block transition opacity-90 hover:opacity-100">
-            <img src={brandLogoUrl} alt="NexAIpla" className="mx-auto h-14 w-auto" />
-          </a>
-          <p className="mt-4 text-sm font-medium text-foreground">
-            {t('waitless.footerTagline', lang)}
-          </p>
-          <div className="mt-5 flex flex-col items-center justify-center gap-2 text-sm text-muted-foreground sm:flex-row sm:gap-4">
-            <a
-              href="mailto:info@nexaipla.com"
-              className="font-medium text-foreground transition hover:text-primary"
-            >
-              info@nexaipla.com
-            </a>
-            <span className="hidden text-border sm:inline" aria-hidden>
-              ·
-            </span>
-            <a
-              href="tel:+35794016866"
-              className="font-medium text-foreground transition hover:text-primary"
-            >
-              +357-94016866
-            </a>
-          </div>
-        </footer>
       </div>
     </div>
   );

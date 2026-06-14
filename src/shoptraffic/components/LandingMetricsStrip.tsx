@@ -5,12 +5,12 @@ function MetricCell({ label, value }: { label: string; value: string }) {
   return (
     <div
       data-hero-reveal
-      className="rounded-xl border border-white/10 bg-white/[0.06] px-4 py-3 shadow-inner shadow-black/20 backdrop-blur-sm"
+      className="rounded-xl border border-border bg-surface px-4 py-3 shadow-sm"
     >
-      <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-emerald-200/85">
+      <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
         {label}
       </p>
-      <p className="mt-1.5 text-xl font-semibold tabular-nums tracking-tight text-white sm:text-2xl">
+      <p className="mt-1.5 text-xl font-semibold tabular-nums tracking-tight text-foreground sm:text-2xl">
         {value}
       </p>
     </div>

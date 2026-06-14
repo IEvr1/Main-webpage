@@ -23,21 +23,21 @@
 }
 
 .lang-switcher__btn:hover {
-  background: var(--color-accent-light, #ecfdf5);
+  background: var(--color-accent-light, #e0f2fe);
   color: var(--color-text, #0f172a);
 }
 
 .lang-switcher__btn:focus-visible {
-  outline: 2px solid var(--color-ring, #10b981);
+  outline: 2px solid var(--color-ring, #0ea5e9);
   outline-offset: 2px;
 }
 
 .lang-switcher__btn--active {
-  background: var(--color-accent, #047857);
+  background: var(--color-accent, #0284c7);
   color: #ffffff;
 }
 
 .lang-switcher__btn--active:hover {
-  background: var(--color-accent-hover, #065f46);
+  background: var(--color-accent-hover, #0369a1);
   color: #ffffff;
 }
