@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="hero">
       <div className="container hero__content">
         <h1 className="hero__title">
-          Online Γραφέας Ραντεβού 24/7 — με SMS επιβεβαίωση
+          Online Γραφέας 24/7 — με SMS επιβεβαίωση και υπενθύμιση
         </h1>
         <p className="hero__subtitle">
           Σκανάρετε QR, κλείστε ραντεβού μέσω chat και διαχειριστείτε την κράτησή σας

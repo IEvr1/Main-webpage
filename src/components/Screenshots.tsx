@@ -13,8 +13,8 @@ const screenshots = [
   },
   {
     src: `${base}landing/screenshot-sms.svg`,
-    caption: 'SMS επιβεβαίωση',
-    alt: 'Μήνυμα SMS με link διαχείρισης ραντεβού',
+    caption: 'SMS επιβεβαίωση & υπενθύμιση',
+    alt: 'Μήνυμα SMS επιβεβαίωσης και υπενθύμισης με link διαχείρισης ραντεβού',
   },
 ];
 

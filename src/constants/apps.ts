@@ -12,9 +12,9 @@ export type CompanyApp = {
 export const COMPANY_APPS: CompanyApp[] = [
   {
     id: 'online-booking',
-    title: 'Online Γραφέας Ραντεβού 24/7',
+    title: 'Online Γραφέας 24/7',
     description:
-      'Chat, QR code και SMS επιβεβαίωση. Για επιχειρήσεις με ραντεβού — κομμωτήρια, κλινικές, ιατρεία, spa, γυμναστήρια, συνεργεία και άλλα.',
+      'Chat, QR code και SMS επιβεβαίωση και υπενθύμιση. Για επιχειρήσεις με ραντεβού — κομμωτήρια, κλινικές, ιατρεία, spa, γυμναστήρια, συνεργεία και άλλα.',
     href: '/onlinebooking/',
     status: 'active',
     tag: 'Ραντεβού & κρατήσεις',

@@ -6,6 +6,9 @@ import {
   type ContactFormErrors,
 } from '../utils/validation';
 
+const MESSAGE_PLACEHOLDER = `Τύπος επιχείρησης
+Ποιο προϊόν ενδιαφέρεστε`;
+
 const initialForm: ContactFormData = {
   name: '',
   email: '',
@@ -148,6 +151,7 @@ export default function ContactForm() {
           value={form.message}
           onChange={(e) => handleChange('message', e.target.value)}
           className={errors.message ? 'error' : ''}
+          placeholder={MESSAGE_PLACEHOLDER}
           disabled={status === 'submitting'}
         />
         {errors.message && <span className="form-error">{errors.message}</span>}

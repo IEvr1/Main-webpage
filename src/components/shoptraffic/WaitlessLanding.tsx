@@ -323,7 +323,7 @@ export function WaitlessLanding({
 
         <footer className="mt-12 border-t border-border pt-10 text-center">
           <a href="/" className="mx-auto inline-block transition opacity-90 hover:opacity-100">
-            <img src={brandLogoUrl} alt="NexAIpla" className="mx-auto h-8 w-auto" />
+            <img src={brandLogoUrl} alt="NexAIpla" className="mx-auto h-14 w-auto" />
           </a>
           <p className="mt-4 text-sm font-medium text-foreground">
             {t('waitless.footerTagline', lang)}

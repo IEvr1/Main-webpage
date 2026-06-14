@@ -254,8 +254,14 @@
 }
 
 .form-group textarea {
-  min-height: 120px;
+  min-height: 140px;
   resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #94a3b8;
+  opacity: 1;
 }
 
 .form-error {

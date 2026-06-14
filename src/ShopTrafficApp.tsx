@@ -34,7 +34,7 @@ export default function ShopTrafficApp() {
       <header className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 border-b border-border pb-5">
         <div className="flex min-w-0 items-center gap-3 sm:gap-4">
           <a href="/" className="shrink-0 transition opacity-90 hover:opacity-100">
-            <img src={brandLogoUrl} alt="NexAIpla" className="h-8 w-auto sm:h-9" />
+            <img src={brandLogoUrl} alt="NexAIpla" className="h-14 w-auto sm:h-16" />
           </a>
           <div className="min-w-0 border-l border-border pl-3 sm:pl-4">
             <p className="truncate text-base font-bold tracking-tight text-foreground sm:text-xl md:text-2xl">

@@ -20,7 +20,7 @@ export default function DemoVideo() {
           Δείτε πώς λειτουργεί
         </h2>
         <p className="section-subtitle">
-          Μια γρήγορη περιήγηση στη ροή κράτησης — από το chat μέχρι την επιβεβαίωση SMS.
+          Μια γρήγορη περιήγηση στη ροή κράτησης — από το chat μέχρι την επιβεβαίωση και υπενθύμιση SMS.
         </p>
 
         <div className="video-wrapper">
