@@ -7,24 +7,25 @@
 }
 
 :root {
-  --color-bg: #f4f7f5;
+  --color-bg: #f8fafc;
   --color-surface: #ffffff;
   --color-text: #0f172a;
   --color-text-muted: #475569;
   --color-accent: #047857;
   --color-accent-hover: #065f46;
   --color-accent-light: #ecfdf5;
-  --color-border: #d1fae5;
+  --color-border: #e2e8f0;
+  --color-border-hover: #cbd5e1;
   --color-error: #b54a4a;
   --color-ring: #10b981;
-  --color-bg-glow: rgba(16, 185, 129, 0.08);
-  --color-bg-glow-2: rgba(190, 242, 100, 0.06);
+  --color-bg-glow: rgba(15, 23, 42, 0.03);
+  --color-bg-glow-2: rgba(4, 120, 87, 0.04);
 
   --font-family: 'Noto Sans', -apple-system, 'Segoe UI', sans-serif;
   --max-width: 1100px;
   --section-padding: 4rem 1.25rem;
   --radius: 12px;
-  --shadow-soft: 0 4px 24px rgba(4, 120, 87, 0.08);
+  --shadow-soft: 0 4px 24px rgba(15, 23, 42, 0.06);
 }
 
 html {

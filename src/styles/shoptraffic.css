@@ -1,27 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f4f7f5;
+  --background: #f8fafc;
   --foreground: #0f172a;
   --surface: #ffffff;
-  --surface-muted: #ecfdf5;
-  --border: #d1fae5;
+  --surface-muted: #f1f5f9;
+  --border: #e2e8f0;
   --muted-foreground: #475569;
   --primary: #047857;
   --primary-hover: #065f46;
   --primary-foreground: #ffffff;
   --ring: #10b981;
-  --accent: #d9f99d;
-  --accent-hover: #bef264;
-  --accent-foreground: #14532d;
+  --accent: #d1fae5;
+  --accent-hover: #a7f3d0;
+  --accent-foreground: #065f46;
   --hero-bg: #052e16;
   --hero-bg-mid: #064e3b;
   --hero-bg-end: #022c22;
   --hero-fg: #fafafa;
-  --hero-muted: #a7f3d0;
-  --hero-accent: rgb(190 242 100 / 0.12);
-  --bg-glow: rgb(16 185 129 / 0.08);
-  --bg-glow-2: rgb(190 242 100 / 0.06);
+  --hero-muted: #86efac;
+  --hero-accent: rgb(16 185 129 / 0.12);
+  --bg-glow: rgb(15 23 42 / 0.03);
+  --bg-glow-2: rgb(4 120 87 / 0.04);
   --color-accent: var(--primary);
   --color-accent-hover: var(--primary-hover);
   --color-accent-light: var(--surface-muted);
@@ -54,27 +54,27 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #030806;
-    --foreground: #ecfdf5;
-    --surface: #0c1914;
-    --surface-muted: #052e16;
-    --border: #14532d;
+    --background: #0f172a;
+    --foreground: #f1f5f9;
+    --surface: #1e293b;
+    --surface-muted: #334155;
+    --border: #334155;
     --muted-foreground: #94a3b8;
     --primary: #34d399;
     --primary-hover: #6ee7b7;
     --primary-foreground: #052e16;
     --ring: #4ade80;
-    --accent: #d9f99d;
-    --accent-hover: #ecfccb;
-    --accent-foreground: #14532d;
+    --accent: #064e3b;
+    --accent-hover: #065f46;
+    --accent-foreground: #a7f3d0;
     --hero-bg: #022c22;
     --hero-bg-mid: #064e3b;
     --hero-bg-end: #010f0a;
     --hero-fg: #f8fafc;
     --hero-muted: #86efac;
-    --hero-accent: rgb(190 242 100 / 0.1);
-    --bg-glow: rgb(52 211 153 / 0.08);
-    --bg-glow-2: rgb(190 242 100 / 0.04);
+    --hero-accent: rgb(52 211 153 / 0.1);
+    --bg-glow: rgb(15 23 42 / 0.4);
+    --bg-glow-2: rgb(52 211 153 / 0.04);
   }
 }
 

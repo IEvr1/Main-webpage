@@ -119,7 +119,7 @@
 
 .benefit-card:hover {
   box-shadow: var(--shadow-soft);
-  border-color: #a7f3d0;
+  border-color: var(--color-border-hover);
 }
 
 .benefit-card__icon {

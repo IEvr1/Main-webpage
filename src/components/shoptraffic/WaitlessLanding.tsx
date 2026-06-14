@@ -35,7 +35,7 @@ function PillarCard({
       className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-surface p-6 pt-7 shadow-sm ring-1 ring-emerald-950/[0.04] transition duration-200 hover:-translate-y-0.5 hover:border-primary/35 hover:shadow-lg hover:shadow-emerald-950/10 motion-reduce:transform-none dark:ring-white/[0.06]"
     >
       <span
-        className="absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r from-primary via-accent to-primary opacity-90"
+        className="absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r from-primary via-primary/60 to-primary opacity-90"
         aria-hidden
       />
       <h3 className="text-lg font-semibold tracking-tight text-foreground">{title}</h3>
@@ -85,7 +85,7 @@ export function WaitlessLanding({
     <div className="pb-8 sm:pb-12">
       <section aria-labelledby="hero-heading" className={heroPanelClass}>
         <div
-          className="pointer-events-none absolute -right-20 top-0 size-[28rem] rounded-full bg-[radial-gradient(circle_at_center,rgb(190_242_100_/_0.14),transparent_62%)] blur-2xl"
+          className="pointer-events-none absolute -right-20 top-0 size-[28rem] rounded-full bg-[radial-gradient(circle_at_center,rgb(16_185_129_/_0.12),transparent_62%)] blur-2xl"
           aria-hidden
         />
         <div
@@ -133,7 +133,7 @@ export function WaitlessLanding({
                 href={demoShopUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-full bg-accent px-7 py-3.5 text-center text-sm font-semibold text-accent-foreground shadow-lg shadow-lime-950/25 transition hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-950"
+                className="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3.5 text-center text-sm font-semibold text-primary-foreground shadow-lg shadow-emerald-950/25 transition hover:bg-primary-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-950"
               >
                 {t('waitless.ctaDemo', lang)}
               </a>
@@ -308,7 +308,7 @@ export function WaitlessLanding({
               href={demoShopUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center rounded-full bg-accent px-8 py-3.5 text-sm font-semibold text-accent-foreground transition hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-950 sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-primary-foreground transition hover:bg-primary-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-950 sm:w-auto"
             >
               {t('waitless.ctaDemo', lang)}
             </a>
