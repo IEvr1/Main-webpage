@@ -23,6 +23,14 @@ export function getCompanyApps(lang: Lang): CompanyApp[] {
       tag: t('apps.onlineBooking.tag', lang),
     },
     {
+      id: 'food-order',
+      title: t('apps.foodOrder.title', lang),
+      description: t('apps.foodOrder.description', lang),
+      href: '/foodorder/',
+      status: 'active',
+      tag: t('apps.foodOrder.tag', lang),
+    },
+    {
       id: 'shop-traffic',
       title: t('apps.shopTraffic.title', lang),
       description: t('apps.shopTraffic.description', lang),

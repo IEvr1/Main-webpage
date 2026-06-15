@@ -11,6 +11,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         onlinebooking: resolve(__dirname, 'onlinebooking/index.html'),
         shoptraffic: resolve(__dirname, 'shoptraffic/index.html'),
+        foodorder: resolve(__dirname, 'foodorder/index.html'),
       },
     },
   },
