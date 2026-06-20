@@ -42,7 +42,7 @@ export function getCompanyApps(lang: Lang): CompanyApp[] {
       id: 'custom-apps',
       title: t('apps.customApps.title', lang),
       description: t('apps.customApps.description', lang),
-      href: '#contact',
+      href: '/custom/',
       status: 'custom',
       tag: t('apps.customApps.tag', lang),
     },

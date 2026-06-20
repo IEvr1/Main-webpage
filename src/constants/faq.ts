@@ -27,3 +27,10 @@ export const SHOPTRAFFIC_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'waitless.faq.q3', answerKey: 'waitless.faq.a3' },
   { questionKey: 'waitless.faq.q4', answerKey: 'waitless.faq.a4' },
 ];
+
+export const CUSTOM_FAQ: readonly FaqItemDef[] = [
+  { questionKey: 'custom.faq.q1', answerKey: 'custom.faq.a1' },
+  { questionKey: 'custom.faq.q2', answerKey: 'custom.faq.a2' },
+  { questionKey: 'custom.faq.q3', answerKey: 'custom.faq.a3' },
+  { questionKey: 'custom.faq.q4', answerKey: 'custom.faq.a4' },
+];

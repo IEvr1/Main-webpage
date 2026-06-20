@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/shoptraffic", "destination": "/shoptraffic/index.html" },
     { "source": "/onlinebooking", "destination": "/onlinebooking/index.html" },
-    { "source": "/foodorder", "destination": "/foodorder/index.html" }
+    { "source": "/foodorder", "destination": "/foodorder/index.html" },
+    { "source": "/custom", "destination": "/custom/index.html" }
   ]
 }
