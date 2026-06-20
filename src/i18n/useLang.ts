@@ -17,10 +17,34 @@ export function useLang(meta?: PageMeta): [Lang, (lang: Lang) => void] {
   useEffect(() => {
     document.documentElement.lang = lang === 'el' ? 'el' : 'en';
     if (meta) {
-      document.title = t(meta.titleKey, lang);
+      const title = t(meta.titleKey, lang);
+      const descriptionText = t(meta.descriptionKey, lang);
+      document.title = title;
+
       const description = document.querySelector('meta[name="description"]');
       if (description) {
-        description.setAttribute('content', t(meta.descriptionKey, lang));
+        description.setAttribute('content', descriptionText);
+      }
+
+      for (const selector of [
+        'meta[property="og:title"]',
+        'meta[name="twitter:title"]',
+      ]) {
+        const tag = document.querySelector(selector);
+        if (tag) tag.setAttribute('content', title);
+      }
+
+      for (const selector of [
+        'meta[property="og:description"]',
+        'meta[name="twitter:description"]',
+      ]) {
+        const tag = document.querySelector(selector);
+        if (tag) tag.setAttribute('content', descriptionText);
+      }
+
+      const ogLocale = document.querySelector('meta[property="og:locale"]');
+      if (ogLocale) {
+        ogLocale.setAttribute('content', lang === 'el' ? 'el_CY' : 'en_US');
       }
     }
   }, [lang, meta?.titleKey, meta?.descriptionKey]);

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="NexAIpla">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1050" cy="120" r="180" fill="#0284c7" opacity="0.08" />
+  <circle cx="150" cy="520" r="220" fill="#0284c7" opacity="0.06" />
+  <text x="600" y="280" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#0f172a">NexAIpla</text>
+  <text x="600" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="500" fill="#475569">Smart technology solutions for businesses</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#0284c7">Online bookings · Food orders · Live shop traffic</text>
+</svg>

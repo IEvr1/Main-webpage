@@ -1,7 +1,7 @@
 import type { Lang } from '../i18n/types';
 import { t } from '../i18n/i18n';
 
-export type AppStatus = 'active' | 'coming-soon';
+export type AppStatus = 'active' | 'coming-soon' | 'custom';
 
 export type CompanyApp = {
   id: string;
@@ -37,6 +37,14 @@ export function getCompanyApps(lang: Lang): CompanyApp[] {
       href: '/shoptraffic/',
       status: 'active',
       tag: t('apps.shopTraffic.tag', lang),
+    },
+    {
+      id: 'custom-apps',
+      title: t('apps.customApps.title', lang),
+      description: t('apps.customApps.description', lang),
+      href: '#contact',
+      status: 'custom',
+      tag: t('apps.customApps.tag', lang),
     },
   ];
 }

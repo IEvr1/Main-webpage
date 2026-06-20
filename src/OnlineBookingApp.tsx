@@ -5,6 +5,8 @@ import Benefits from './components/Benefits';
 import Screenshots from './components/Screenshots';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FaqSection from './components/FaqSection';
+import { BOOKING_FAQ } from './constants/faq';
 import { useLang } from './i18n/useLang';
 
 const BOOKING_META = {
@@ -23,6 +25,12 @@ export default function OnlineBookingApp() {
         <DemoVideo lang={lang} />
         <Benefits lang={lang} />
         <Screenshots lang={lang} />
+        <FaqSection
+          lang={lang}
+          titleKey="booking.faq.title"
+          subtitleKey="booking.faq.subtitle"
+          items={BOOKING_FAQ}
+        />
         <Contact lang={lang} />
       </main>
       <Footer lang={lang} />

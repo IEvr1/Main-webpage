@@ -33,10 +33,20 @@ function FoodOrderIcon() {
   );
 }
 
+function CustomAppsIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+      <path d="M8 10h.01M12 10h.01M16 10h.01" />
+    </svg>
+  );
+}
+
 const appIcons: Record<string, () => ReactElement> = {
   'online-booking': BookingIcon,
   'shop-traffic': TrafficIcon,
   'food-order': FoodOrderIcon,
+  'custom-apps': CustomAppsIcon,
 };
 
 type AppCardsProps = {
@@ -58,9 +68,13 @@ export default function AppCards({ lang }: AppCardsProps) {
           {apps.map((app) => {
             const Icon = appIcons[app.id];
             const isActive = app.status === 'active';
+            const isCustom = app.status === 'custom';
 
             return (
-              <article key={app.id} className={`app-card${isActive ? '' : ' app-card--soon'}`}>
+              <article
+                key={app.id}
+                className={`app-card${isActive || isCustom ? '' : ' app-card--soon'}${isCustom ? ' app-card--custom' : ''}`}
+              >
                 <div className="app-card__icon">{Icon ? <Icon /> : null}</div>
 
                 {app.tag ? <span className="app-card__tag">{app.tag}</span> : null}
@@ -68,9 +82,9 @@ export default function AppCards({ lang }: AppCardsProps) {
                 <h3 className="app-card__title">{app.title}</h3>
                 <p className="app-card__text">{app.description}</p>
 
-                {isActive ? (
+                {isActive || isCustom ? (
                   <a href={app.href} className="app-card__link">
-                    {t('common.learnMore', lang)}
+                    {t(isCustom ? 'common.discuss' : 'common.learnMore', lang)}
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                       <path d="M5 12h14M13 6l6 6-6 6" />
                     </svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.nexaipla.com/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/?lang=en" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/onlinebooking</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/onlinebooking" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/onlinebooking?lang=en" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/foodorder</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/foodorder" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/foodorder?lang=en" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/shoptraffic</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/shoptraffic" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/shoptraffic?lang=en" />
+  </url>
+</urlset>

@@ -3,6 +3,8 @@ import HomeHero from './components/home/HomeHero';
 import AppCards from './components/home/AppCards';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FaqSection from './components/FaqSection';
+import { HOME_FAQ } from './constants/faq';
 import { useLang } from './i18n/useLang';
 
 const HOME_META = {
@@ -19,6 +21,12 @@ export default function HomeApp() {
       <HomeHero lang={lang} />
       <main>
         <AppCards lang={lang} />
+        <FaqSection
+          lang={lang}
+          titleKey="home.faq.title"
+          subtitleKey="home.faq.subtitle"
+          items={HOME_FAQ}
+        />
         <Contact lang={lang} />
       </main>
       <Footer lang={lang} />

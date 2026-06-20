@@ -2,7 +2,9 @@ import { brandLogoUrl } from './constants/contact';
 import { WaitlessLanding } from './components/shoptraffic/WaitlessLanding';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FaqSection from './components/FaqSection';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
+import { SHOPTRAFFIC_FAQ } from './constants/faq';
 import { getDemoShopUrl } from './shoptraffic/demo-shop-url';
 import { t } from './i18n/i18n';
 import { useLang } from './i18n/useLang';
@@ -44,6 +46,12 @@ export default function ShopTrafficApp() {
           <WaitlessLanding lang={lang} demoShopUrl={demoShopUrl} />
         </main>
       </div>
+      <FaqSection
+        lang={lang}
+        titleKey="waitless.faq.title"
+        subtitleKey="waitless.faq.subtitle"
+        items={SHOPTRAFFIC_FAQ}
+      />
       <Contact lang={lang} />
       <Footer lang={lang} />
     </>
