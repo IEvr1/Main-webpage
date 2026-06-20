@@ -15,7 +15,7 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 | Search type | Realistic target |
 |-------------|------------------|
 | `NexAIpla` (brand) | #1 after indexing |
-| Niche + Cyprus (e.g. salon SMS booking Cyprus) | Top 3–10 with content + backlinks (months) |
+| Niche + Cyprus/Greece (e.g. salon SMS booking) | Top 3–10 with content + backlinks (months) |
 | Generic global terms | Unlikely without major authority spend |
 
 **Formula:** specific keyword + clear page + useful content + real backlinks + time.
@@ -55,18 +55,18 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 | # | Step | Status | Action |
 |---|------|--------|--------|
 | 9 | Pick one primary keyword per page | ✅ Done | See table below |
-| 10 | Tune titles & meta descriptions | 🟡 Partial | Booking + custom done; home/food/shop optional tune |
+| 10 | Tune titles & meta descriptions | ✅ Done | Cyprus & Greece; locale `el` (no country split) |
 | 11 | Internal links with descriptive anchors | ⬜ Pending | Link between home ↔ product pages with keyword-rich text |
 
 **Suggested keyword map (edit when you choose final targets):**
 
 | Page | Primary keyword (EN) | Primary keyword (EL) |
 |------|----------------------|----------------------|
-| Home | business software Cyprus | λύσεις τεχνολογίας επιχειρήσεις Κύπρος |
-| Online booking | online appointment booking Cyprus | online ραντεβού επιχειρήσεις Κύπρος |
-| Food order | restaurant online ordering Cyprus | παραγγελίες φαγητού online εστιατόρια Κύπρο |
-| Shop traffic | live shop traffic Cyprus | ζωντανή κίνηση καταστήματος Κύπρος |
-| Custom apps | custom business apps Cyprus | προσαρμοσμένες εφαρμογές επιχειρήσεις Κύπρος |
+| Home | business software Cyprus & Greece | εφαρμογές επιχειρήσεις Κύπρος Ελλάδα |
+| Online booking | online appointment booking Cyprus & Greece | online ραντεβού επιχειρήσεις Κύπρος Ελλάδα |
+| Food order | restaurant online ordering Cyprus & Greece | παραγγελίες φαγητού online εστιατόρια |
+| Shop traffic | live shop traffic Cyprus & Greece | ζωντανή κίνηση καταστήματος |
+| Custom apps | custom business apps Cyprus & Greece | προσαρμοσμένες εφαρμογές επιχειρήσεις |
 
 ### Phase 4 — Measurement
 
@@ -80,7 +80,7 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 | # | Step | Status | Action |
 |---|------|--------|--------|
 | 14 | 5–10 quality backlinks | ⬜ Pending | LinkedIn, directories, partners, email signature |
-| 15 | 2–4 blog / guide articles | ⬜ Pending | Cyprus business pain points; link from home |
+| 15 | 2–4 blog / guide articles | ⬜ Pending | Cyprus & Greece business pain points; link from home |
 | 16 | Optional industry landing pages | ⬜ Later | e.g. `/for-salons`, `/for-restaurants` |
 | 17 | PNG `og-image` (1200×630) | ⬜ Optional | Replace `public/og-image.svg` for better social previews |
 
@@ -114,7 +114,9 @@ ALWAYS
   → Weekly step 8 + 13; monthly steps 18–19
 ```
 
-**Current recommendation:** Deploy → re-submit sitemap in GSC → request indexing for `/custom` and updated `/onlinebooking`.
+**Current recommendation:** Deploy → request re-indexing for updated pages (titles changed).
+
+**Markets:** Cyprus & Greece (equal). **Locale:** `el` without `el_CY` / `el_GR` split.
 
 ---
 
@@ -140,7 +142,7 @@ ALWAYS
 |-----------|----------------|
 | `site:nexaipla.com` shows pages | 1–2 weeks after indexing requests |
 | #1 for `NexAIpla` | Days–weeks after indexed |
-| Top 10 for niche Cyprus keywords | 2–6 months |
+| Top 10 for niche Cyprus/Greece keywords | 2–6 months |
 | Top 3 for niche keywords | 6–12 months + content & backlinks |
 
 ---
@@ -157,5 +159,6 @@ ALWAYS
 
 | Date | Change |
 |------|--------|
+| 2026-06-20 | Markets expanded to Cyprus & Greece (equal); locale `el`; JSON-LD areaServed both countries |
 | 2026-06-20 | Booking titles broadened (appointment businesses); `/custom` page added; sitemap → 5 URLs |
 | 2026-06-20 | Phase 1 complete; sitemap Success (4 pages); checklist created |

@@ -44,7 +44,7 @@ export function useLang(meta?: PageMeta): [Lang, (lang: Lang) => void] {
 
       const ogLocale = document.querySelector('meta[property="og:locale"]');
       if (ogLocale) {
-        ogLocale.setAttribute('content', lang === 'el' ? 'el_CY' : 'en_US');
+        ogLocale.setAttribute('content', lang === 'el' ? 'el' : 'en_US');
       }
     }
   }, [lang, meta?.titleKey, meta?.descriptionKey]);
