@@ -34,3 +34,10 @@ export const CUSTOM_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'custom.faq.q3', answerKey: 'custom.faq.a3' },
   { questionKey: 'custom.faq.q4', answerKey: 'custom.faq.a4' },
 ];
+
+export const DOCSAPP_FAQ: readonly FaqItemDef[] = [
+  { questionKey: 'docsapp.faq.q1', answerKey: 'docsapp.faq.a1' },
+  { questionKey: 'docsapp.faq.q2', answerKey: 'docsapp.faq.a2' },
+  { questionKey: 'docsapp.faq.q3', answerKey: 'docsapp.faq.a3' },
+  { questionKey: 'docsapp.faq.q4', answerKey: 'docsapp.faq.a4' },
+];

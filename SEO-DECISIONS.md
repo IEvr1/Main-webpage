@@ -4,7 +4,7 @@ Reference file for humans and agents: what is done, what is next, and how to cho
 
 **Site:** https://www.nexaipla.com  
 **Property:** Google Search Console — `nexaipla.com`  
-**Last updated:** 2026-06-20
+**Last updated:** 2026-06-24
 
 ---
 
@@ -29,17 +29,17 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 | # | Step | Status | Notes |
 |---|------|--------|-------|
 | 1 | `robots.txt` + `sitemap.xml` in `public/` | ✅ Done | Live at `/robots.txt`, `/sitemap.xml` |
-| 2 | Meta tags, canonical, OG, Twitter per page | ✅ Done | All 5 `index.html` files |
+| 2 | Meta tags, canonical, OG, Twitter per page | ✅ Done | All 6 `index.html` files |
 | 3 | JSON-LD (Organization / SoftwareApplication) | ✅ Done | Static in HTML |
 | 4 | FAQ sections + FAQPage schema | ✅ Done | `FaqSection` on all landing pages |
 | 5 | Google Search Console verified | ✅ Done | Domain property |
-| 6 | Sitemap submitted & read successfully | ✅ Done | Re-submit after deploy — now 5 pages |
+| 6 | Sitemap submitted & read successfully | ✅ Done | Re-submit after deploy — now 6 pages |
 
 ### Phase 2 — Indexing (do now)
 
 | # | Step | Status | Action |
 |---|------|--------|--------|
-| 7 | Request indexing for all 5 URLs | ⬜ Next | Search Console → URL inspection → Request indexing for each URL below |
+| 7 | Request indexing for all 6 URLs | ⬜ Next | Search Console → URL inspection → Request indexing for each URL below |
 | 8 | Confirm pages indexed | ⬜ Pending | Weekly: **Indexing → Pages**; Google: `site:nexaipla.com` |
 
 **URLs to inspect:**
@@ -49,6 +49,7 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 - https://www.nexaipla.com/foodorder
 - https://www.nexaipla.com/shoptraffic
 - https://www.nexaipla.com/custom
+- https://www.nexaipla.com/docsapp
 
 ### Phase 3 — Keyword focus (high impact)
 
@@ -67,6 +68,7 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 | Food order | restaurant online ordering Cyprus & Greece | παραγγελίες φαγητού online εστιατόρια |
 | Shop traffic | live shop traffic Cyprus & Greece | ζωντανή κίνηση καταστήματος |
 | Custom apps | custom business apps Cyprus & Greece | προσαρμοσμένες εφαρμογές επιχειρήσεις |
+| DocsApp | local document AI offline Windows | τοπική τεχνητή νοημοσύνη εγγράφων offline |
 
 ### Phase 4 — Measurement
 
@@ -125,7 +127,7 @@ ALWAYS
 | File | Purpose |
 |------|---------|
 | `public/robots.txt` | Crawl rules + sitemap pointer |
-| `public/sitemap.xml` | URL list for Google (5 pages) |
+| `public/sitemap.xml` | URL list for Google (6 pages) |
 | `public/og-image.svg` | Social preview image |
 | `index.html`, `*/index.html` | Static SEO meta + JSON-LD |
 | `src/i18n/en.json`, `el.json` | Dynamic titles/descriptions + FAQ copy |
@@ -159,6 +161,7 @@ ALWAYS
 
 | Date | Change |
 |------|--------|
+| 2026-06-24 | DocsApp landing page added at `/docsapp`; sitemap → 6 URLs |
 | 2026-06-20 | Markets expanded to Cyprus & Greece (equal); locale `el`; JSON-LD areaServed both countries |
 | 2026-06-20 | Booking titles broadened (appointment businesses); `/custom` page added; sitemap → 5 URLs |
 | 2026-06-20 | Phase 1 complete; sitemap Success (4 pages); checklist created |

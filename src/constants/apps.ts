@@ -39,6 +39,14 @@ export function getCompanyApps(lang: Lang): CompanyApp[] {
       tag: t('apps.shopTraffic.tag', lang),
     },
     {
+      id: 'docs-app',
+      title: t('apps.docsApp.title', lang),
+      description: t('apps.docsApp.description', lang),
+      href: '/docsapp/',
+      status: 'active',
+      tag: t('apps.docsApp.tag', lang),
+    },
+    {
       id: 'custom-apps',
       title: t('apps.customApps.title', lang),
       description: t('apps.customApps.description', lang),

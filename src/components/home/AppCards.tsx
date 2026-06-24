@@ -33,6 +33,16 @@ function FoodOrderIcon() {
   );
 }
 
+function DocsAppIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z" />
+      <path d="M14 2v6h6M8 13h8M8 17h5" />
+      <path d="M18 16a3 3 0 01-5.5 1.5" />
+    </svg>
+  );
+}
+
 function CustomAppsIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
@@ -46,6 +56,7 @@ const appIcons: Record<string, () => ReactElement> = {
   'online-booking': BookingIcon,
   'shop-traffic': TrafficIcon,
   'food-order': FoodOrderIcon,
+  'docs-app': DocsAppIcon,
   'custom-apps': CustomAppsIcon,
 };
 
