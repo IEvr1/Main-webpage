@@ -57,6 +57,13 @@ npm run preview
 
 Για τοπικό testing με API: `npx vercel dev` (το `npm run dev` χρησιμοποιεί fallback mailto όταν το API δεν είναι διαθέσιμο).
 
+### SEO automation
+
+- **Internal links:** κάθε σελίδα προϊόντος εμφανίζει `RelatedApps` με συνδέσμους προς άλλες εφαρμογές
+- **Sitemap:** ανανεώνεται αυτόματα στο `npm run build` (`scripts/generate-sitemap.mjs`)
+- **GA4:** προαιρετικά — ορίστε `VITE_GA_MEASUREMENT_ID` στο Vercel (π.χ. `G-XXXXXXXXXX`)
+- **CI:** `npm run seo:check` ελέγχει meta tags και sitemap (GitHub Actions)
+
 ### Zoho lead automation (CRM)
 
 Μετά την αποστολή email μέσω Web3Forms, η φόρμα μπορεί να δημιουργεί αυτόματα lead στο **Zoho CRM** (και προαιρετικά να καλεί **Zoho Flow** για επιπλέον ενέργειες).

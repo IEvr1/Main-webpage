@@ -57,7 +57,7 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 |---|------|--------|--------|
 | 9 | Pick one primary keyword per page | ✅ Done | See table below |
 | 10 | Tune titles & meta descriptions | ✅ Done | Cyprus & Greece; locale `el` (no country split) |
-| 11 | Internal links with descriptive anchors | ⬜ Pending | Link between home ↔ product pages with keyword-rich text |
+| 11 | Internal links with descriptive anchors | ✅ Done | `RelatedApps` on all product pages + home app cards |
 
 **Suggested keyword map (edit when you choose final targets):**
 
@@ -74,7 +74,7 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 
 | # | Step | Status | Action |
 |---|------|--------|--------|
-| 12 | Google Analytics 4 | ⬜ Pending | Create property; add tracking snippet or Vercel integration |
+| 12 | Google Analytics 4 | ✅ Done (setup) | Add `VITE_GA_MEASUREMENT_ID` in Vercel; tracking loads on all pages |
 | 13 | Weekly Search Console review | ⬜ Ongoing | Performance (queries), Indexing (errors), Core Web Vitals |
 
 ### Phase 5 — Authority & content (ranking lift)
@@ -133,7 +133,11 @@ ALWAYS
 | `src/i18n/en.json`, `el.json` | Dynamic titles/descriptions + FAQ copy |
 | `src/i18n/useLang.ts` | Updates title, description, OG on language switch |
 | `src/components/FaqSection.tsx` | FAQ UI + FAQPage schema |
-| `src/constants/seo.ts` | Site URL constants |
+| `src/constants/site-routes.json` | Sitemap URL list (single source of truth) |
+| `scripts/generate-sitemap.mjs` | Regenerates `public/sitemap.xml` on build |
+| `scripts/seo-check.mjs` | Validates meta tags + sitemap in CI |
+| `src/components/RelatedApps.tsx` | Internal links between product pages |
+| `src/utils/analytics.ts` | Optional GA4 page-view tracking |
 | `src/constants/faq.ts` | FAQ item definitions per page |
 
 ---
@@ -161,6 +165,7 @@ ALWAYS
 
 | Date | Change |
 |------|--------|
+| 2026-06-27 | SEO automation: related links, build-time sitemap, GA4 hook, CI seo:check |
 | 2026-06-24 | DocsApp landing page added at `/docsapp`; sitemap → 6 URLs |
 | 2026-06-20 | Markets expanded to Cyprus & Greece (equal); locale `el`; JSON-LD areaServed both countries |
 | 2026-06-20 | Booking titles broadened (appointment businesses); `/custom` page added; sitemap → 5 URLs |

@@ -1,0 +1,8 @@
+[
+  { "path": "/", "priority": 1.0 },
+  { "path": "/onlinebooking", "priority": 0.9, "appId": "online-booking" },
+  { "path": "/foodorder", "priority": 0.9, "appId": "food-order" },
+  { "path": "/shoptraffic", "priority": 0.9, "appId": "shop-traffic" },
+  { "path": "/custom", "priority": 0.8, "appId": "custom-apps" },
+  { "path": "/docsapp", "priority": 0.9, "appId": "docs-app" }
+]
