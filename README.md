@@ -72,10 +72,10 @@ npm run preview
 
 Σύντομα:
 
-1. Δημιουργήστε OAuth client στο [Zoho API Console](https://api-console.zoho.eu)
-2. Προσθέστε στο Vercel: `ZOHO_CLIENT_ID`, `ZOHO_CLIENT_SECRET`, `ZOHO_REFRESH_TOKEN`
-3. (Προαιρετικά) Ρυθμίστε φίλτρο στο Zoho Mail για φάκελο **Website Leads**
-4. Redeploy
+1. Δημιουργήστε OAuth client στο [Zoho API Console](https://api-console.zoho.eu) (Server-based)
+2. Προσθέστε στο `.env`: `ZOHO_CLIENT_ID`, `ZOHO_CLIENT_SECRET`
+3. Τρέξτε `npm run zoho:token` για να πάρετε το `ZOHO_REFRESH_TOKEN` (browser + paste code)
+4. Προσθέστε τις ίδιες μεταβλητές στο Vercel και κάντε redeploy
 
 ## Σύνδεση με chat app
 
