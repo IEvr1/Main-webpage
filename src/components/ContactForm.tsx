@@ -75,55 +75,25 @@ export default function ContactForm({ lang }: ContactFormProps) {
         lang,
       };
 
-      const web3Key = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY?.trim();
-      let emailSent = false;
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
 
-      if (web3Key) {
-        const web3Response = await fetch('https://api.web3forms.com/submit', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            Accept: 'application/json',
-          },
-          body: JSON.stringify({
-            access_key: web3Key,
-            subject: 'Επικοινωνία — NexAI',
-            from_name: form.name.trim(),
-            email: form.email.trim(),
-            phone: form.phone.trim() || '—',
-            message: form.message.trim(),
-            replyto: form.email.trim(),
-          }),
-        });
+      const data = (await response.json().catch(() => ({}))) as {
+        success?: boolean;
+        error?: string;
+      };
 
-        const web3Data = (await web3Response.json().catch(() => ({}))) as { success?: boolean };
-        emailSent = web3Response.ok && Boolean(web3Data.success);
-      }
-
-      if (!emailSent && !web3Key) {
-        openMailto(form, lang);
-        setStatus('idle');
+      if (response.ok && data.success) {
+        setForm(initialForm);
+        setStatus('success');
         return;
       }
 
-      if (!emailSent) {
-        setStatus('error');
-        setSubmitError(t('contact.form.errorGeneric', lang));
-        return;
-      }
-
-      try {
-        await fetch('/api/contact', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
-        });
-      } catch {
-        // Zoho sync is best-effort; email already sent via Web3Forms.
-      }
-
-      setForm(initialForm);
-      setStatus('success');
+      setStatus('error');
+      setSubmitError(t('contact.form.errorGeneric', lang));
     } catch {
       openMailto(form, lang);
       setStatus('idle');

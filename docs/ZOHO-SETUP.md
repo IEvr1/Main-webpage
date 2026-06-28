@@ -9,14 +9,14 @@ Visitor submits form on nexaipla.com
         ↓
 Vercel API (/api/contact)
         ↓
-   ┌────┴────┐
-   ↓         ↓
-Web3Forms   Zoho CRM (+ optional Zoho Flow)
+   ┌────┼────┐
+   ↓    ↓    ↓
+Zoho Mail  Zoho CRM  Zoho Flow (optional)
    ↓
 Email to info@nexaipla.com (Zoho Mail inbox)
 ```
 
-The customer still gets the normal success message even if Zoho sync fails. Email via Web3Forms is the primary channel; Zoho is added on top.
+The customer gets a success message when email delivery or Zoho sync succeeds. Email via Zoho Mail API is the primary channel; CRM/Flow run in parallel.
 
 ---
 
@@ -132,8 +132,14 @@ In **Vercel → Project → Settings → Environment Variables**:
 | `ZOHO_ACCOUNTS_URL` | `https://accounts.zoho.eu` (or `.com` for US) |
 | `ZOHO_API_DOMAIN` | `https://www.zohoapis.eu` (or `.com` for US) |
 | `ZOHO_CRM_LEAD_SOURCE` | `Website` (optional) |
+| `ZOHO_MAIL_API_DOMAIN` | `https://mail.zoho.eu` (or `.com` for US) |
+| `CONTACT_NOTIFY_EMAIL` | `info@nexaipla.com` |
+| `CONTACT_FROM_EMAIL` | `info@nexaipla.com` (optional) |
+| `ZOHO_MAIL_ACCOUNT_ID` | Optional — auto-discovered if omitted |
 
 Redeploy after saving.
+
+> **Mail OAuth scope:** The refresh token must include `ZohoMail.messages.CREATE` and `ZohoMail.accounts.READ`. Re-run `npm run zoho:token -- --write` after updating the script if email delivery fails with `INVALID_OAUTHSCOPE`.
 
 ### A4. Test
 

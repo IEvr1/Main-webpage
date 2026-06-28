@@ -17,7 +17,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 const envPath = resolve(root, '.env');
 
-const SCOPE = 'ZohoCRM.modules.leads.CREATE,ZohoCRM.modules.leads.READ';
+const SCOPE =
+  'ZohoCRM.modules.leads.CREATE,ZohoCRM.modules.leads.READ,ZohoMail.messages.CREATE,ZohoMail.accounts.READ';
 const REDIRECT_URI = 'https://www.nexaipla.com';
 const shouldWrite = process.argv.includes('--write');
 

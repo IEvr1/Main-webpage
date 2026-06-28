@@ -48,16 +48,22 @@ npm run preview
 
 ### Αποστολή email από τη φόρμα
 
-Η φόρμα στέλνει μηνύματα στο `info@nexaipla.com` μέσω [Web3Forms](https://web3forms.com) **από τον browser** (client-side) και συγχρονίζει leads στο Zoho CRM μέσω [`api/contact.ts`](api/contact.ts).
+Η φόρμα στέλνει μηνύματα στο `info@nexaipla.com` μέσω **Zoho Mail API** στο [`api/contact.ts`](api/contact.ts) (server-side). Παράλληλα δημιουργεί lead στο Zoho CRM και καλεί προαιρετικά Zoho Flow.
 
-1. Δημιουργήστε λογαριασμό στο Web3Forms με το email `info@nexaipla.com`
-2. Αντιγράψτε το access key
-3. Προσθέστε το στο Vercel: **Settings → Environment Variables → `VITE_WEB3FORMS_ACCESS_KEY`**
+1. Ρυθμίστε Zoho CRM + Mail — [`docs/ZOHO-SETUP.md`](docs/ZOHO-SETUP.md)
+2. Δημιουργήστε refresh token με scopes CRM **και** Mail:
+   ```bash
+   npm run zoho:token -- --write
+   ```
+3. Προσθέστε στο Vercel (Production + Preview):
+   - `ZOHO_*` credentials
+   - `CONTACT_NOTIFY_EMAIL=info@nexaipla.com`
+   - `ZOHO_MAIL_API_DOMAIN=https://mail.zoho.eu`
 4. Κάντε redeploy
 
-> **Σημείο:** Το Web3Forms free plan δεν επιτρέπει server-side κλήσεις από Vercel. Το email στέλνεται από τον browser· το `/api/contact` χειρίζεται μόνο Zoho CRM/Flow.
+> **Σημείο:** Το Web3Forms αντικαταστάθηκε — τα emails από `notify@web3forms.com` συχνά δεν φτάνουν στο Zoho Mail (spam/bounce). Η αποστολή γίνεται πλέον απευθείας από το Zoho Mail σας.
 
-Για τοπικό testing με API: `npx vercel dev` (το `npm run dev` χρησιμοποιεί fallback mailto όταν το API δεν είναι διαθέσιμο).
+Για τοπικό testing με API: `npx vercel dev` (το `npm run dev` ανοίγει mailto fallback όταν το API δεν είναι διαθέσιμο).
 
 ### SEO automation
 
