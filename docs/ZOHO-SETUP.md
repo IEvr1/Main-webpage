@@ -72,13 +72,38 @@ You can use **one or both**:
 
 ### A2. Generate a refresh token
 
-1. In the API Console, open your client
-2. **Generate Code** with scope:
-   ```
-   ZohoCRM.modules.leads.CREATE,ZohoCRM.modules.leads.READ
-   ```
-3. Approve access and copy the **grant token** (valid ~2 minutes)
-4. Exchange it for a refresh token:
+**Server-based clients do not have a "Generate Code" tab.** That button exists only on **Self Client** apps. For Server-based apps, use the browser flow below (or run `npm run zoho:token`).
+
+#### Option 1 — Helper script (easiest)
+
+1. Put `ZOHO_CLIENT_ID` and `ZOHO_CLIENT_SECRET` in `.env` (lines 6–7)
+2. From the project folder run:
+
+```bash
+npm run zoho:token
+```
+
+3. Browser opens → log in to Zoho → click **Accept**
+4. You are redirected to `https://www.nexaipla.com/?code=...` (404 on the page is OK)
+5. Copy the full URL or just the `code` value into the terminal prompt
+6. Script prints `ZOHO_REFRESH_TOKEN` — paste into `.env` line 8
+
+To write line 8 automatically:
+
+```bash
+node scripts/zoho-get-refresh-token.mjs --write
+```
+
+#### Option 2 — Manual browser URL
+
+1. Open this URL in your browser (replace `YOUR_CLIENT_ID`):
+
+```
+https://accounts.zoho.eu/oauth/v2/auth?scope=ZohoCRM.modules.leads.CREATE,ZohoCRM.modules.leads.READ&client_id=YOUR_CLIENT_ID&response_type=code&access_type=offline&redirect_uri=https://www.nexaipla.com&prompt=consent
+```
+
+2. Approve access → copy `code` from the redirect URL
+3. Exchange it for a refresh token:
 
 ```bash
 curl -X POST "https://accounts.zoho.eu/oauth/v2/token" \
@@ -86,10 +111,14 @@ curl -X POST "https://accounts.zoho.eu/oauth/v2/token" \
   -d "client_id=YOUR_CLIENT_ID" \
   -d "client_secret=YOUR_CLIENT_SECRET" \
   -d "redirect_uri=https://www.nexaipla.com" \
-  -d "code=YOUR_GRANT_TOKEN"
+  -d "code=YOUR_GRANT_CODE"
 ```
 
-5. Save the `refresh_token` from the response (it does not expire unless revoked)
+4. Save the `refresh_token` from the response (it does not expire unless revoked)
+
+#### Option 3 — Self Client (has "Generate Code" in console)
+
+If you prefer the in-console UI: create a **Self Client** instead of Server-based, use **Generate Code** there, then exchange via the script or curl. Update `.env` lines 6–7 with the Self Client ID/secret.
 
 ### A3. Add Vercel environment variables
 
