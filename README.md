@@ -57,6 +57,26 @@ npm run preview
 
 Για τοπικό testing με API: `npx vercel dev` (το `npm run dev` χρησιμοποιεί fallback mailto όταν το API δεν είναι διαθέσιμο).
 
+### SEO automation
+
+- **Internal links:** κάθε σελίδα προϊόντος εμφανίζει `RelatedApps` με συνδέσμους προς άλλες εφαρμογές
+- **Sitemap:** ανανεώνεται αυτόματα στο `npm run build` (`scripts/generate-sitemap.mjs`)
+- **GA4:** προαιρετικά — ορίστε `VITE_GA_MEASUREMENT_ID` στο Vercel (π.χ. `G-XXXXXXXXXX`)
+- **CI:** `npm run seo:check` ελέγχει meta tags και sitemap (GitHub Actions)
+
+### Zoho lead automation (CRM)
+
+Μετά την αποστολή email μέσω Web3Forms, η φόρμα μπορεί να δημιουργεί αυτόματα lead στο **Zoho CRM** (και προαιρετικά να καλεί **Zoho Flow** για επιπλέον ενέργειες).
+
+Οδηγίες ρύθμισης: [`docs/ZOHO-SETUP.md`](docs/ZOHO-SETUP.md)
+
+Σύντομα:
+
+1. Δημιουργήστε OAuth client στο [Zoho API Console](https://api-console.zoho.eu)
+2. Προσθέστε στο Vercel: `ZOHO_CLIENT_ID`, `ZOHO_CLIENT_SECRET`, `ZOHO_REFRESH_TOKEN`
+3. (Προαιρετικά) Ρυθμίστε φίλτρο στο Zoho Mail για φάκελο **Website Leads**
+4. Redeploy
+
 ## Σύνδεση με chat app
 
 Το κουμπί «Δοκιμή demo» δείχνει στο `/chat`. Συνδέστε το chat app στο ίδιο domain ή αλλάξτε το href στο [`src/components/Hero.tsx`](src/components/Hero.tsx).

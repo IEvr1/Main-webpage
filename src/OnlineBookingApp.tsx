@@ -6,6 +6,7 @@ import Screenshots from './components/Screenshots';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
+import RelatedApps from './components/RelatedApps';
 import { BOOKING_FAQ } from './constants/faq';
 import { useLang } from './i18n/useLang';
 
@@ -25,6 +26,7 @@ export default function OnlineBookingApp() {
         <DemoVideo lang={lang} />
         <Benefits lang={lang} />
         <Screenshots lang={lang} />
+        <RelatedApps lang={lang} currentAppId="online-booking" />
         <FaqSection
           lang={lang}
           titleKey="booking.faq.title"

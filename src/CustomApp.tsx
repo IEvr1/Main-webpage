@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
+import RelatedApps from './components/RelatedApps';
 import CustomHero from './components/custom/CustomHero';
 import CustomProcess from './components/custom/CustomProcess';
 import CustomExamples from './components/custom/CustomExamples';
@@ -23,6 +24,7 @@ export default function CustomApp() {
       <main>
         <CustomProcess lang={lang} />
         <CustomExamples lang={lang} />
+        <RelatedApps lang={lang} currentAppId="custom-apps" />
         <FaqSection
           lang={lang}
           titleKey="custom.faq.title"
