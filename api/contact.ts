@@ -159,15 +159,18 @@ async function getZohoMailAccountId(accessToken: string): Promise<string> {
   return mailAccountIdCache;
 }
 
-async function sendContactNotificationEmail(lead: ZohoLead): Promise<boolean> {
+async function sendZohoMailMessage(
+  toAddress: string,
+  subject: string,
+  content: string,
+): Promise<boolean> {
   if (!hasZohoMailConfig()) {
     return false;
   }
 
   const accessToken = await getZohoAccessToken();
   const accountId = await getZohoMailAccountId(accessToken);
-  const notifyEmail = contactNotifyEmail();
-  const fromEmail = process.env.CONTACT_FROM_EMAIL?.trim() || notifyEmail;
+  const fromEmail = process.env.CONTACT_FROM_EMAIL?.trim() || contactNotifyEmail();
 
   const response = await fetch(`${zohoMailApiDomain()}/api/accounts/${accountId}/messages`, {
     method: 'POST',
@@ -177,9 +180,9 @@ async function sendContactNotificationEmail(lead: ZohoLead): Promise<boolean> {
     },
     body: JSON.stringify({
       fromAddress: fromEmail,
-      toAddress: notifyEmail,
-      subject: contactEmailSubject(),
-      content: contactEmailBody(lead),
+      toAddress,
+      subject,
+      content,
       mailFormat: 'plaintext',
       askReceipt: 'no',
     }),
@@ -199,6 +202,49 @@ async function sendContactNotificationEmail(lead: ZohoLead): Promise<boolean> {
   }
 
   return true;
+}
+
+async function sendContactNotificationEmail(lead: ZohoLead): Promise<boolean> {
+  return sendZohoMailMessage(contactNotifyEmail(), contactEmailSubject(), contactEmailBody(lead));
+}
+
+function contactAutoReplySubject(lang: string): string {
+  if (lang === 'en') {
+    return process.env.CONTACT_AUTOREPLY_SUBJECT_EN?.trim() || 'Thanks for contacting NexAIpla';
+  }
+
+  return process.env.CONTACT_AUTOREPLY_SUBJECT_EL?.trim() || 'Ευχαριστούμε που επικοινωνήσατε με την NexAIpla';
+}
+
+function contactAutoReplyBody(lead: ZohoLead): string {
+  const { firstName } = splitName(lead.name);
+  const greetingName = firstName || lead.name.trim().split(/\s+/)[0] || '';
+
+  if (lead.lang === 'en') {
+    const hello = greetingName ? `Hello ${greetingName},` : 'Hello,';
+    return `${hello}
+
+Thank you for contacting NexAIpla. We received your message and will reply within 24 hours.
+
+NexAIpla Team
+info@nexaipla.com`;
+  }
+
+  const hello = greetingName ? `Γεια σας ${greetingName},` : 'Γεια σας,';
+  return `${hello}
+
+Ευχαριστούμε που επικοινωνήσατε με την NexAIpla. Λάβαμε το μήνυμά σας και θα απαντήσουμε εντός 24 ωρών.
+
+Ομάδα NexAIpla
+info@nexaipla.com`;
+}
+
+async function sendContactAutoReplyEmail(lead: ZohoLead): Promise<boolean> {
+  return sendZohoMailMessage(
+    lead.email,
+    contactAutoReplySubject(lead.lang),
+    contactAutoReplyBody(lead),
+  );
 }
 
 async function getZohoAccessToken(): Promise<string> {
@@ -382,12 +428,18 @@ export default async function handler(
     lang: lang?.trim() || 'el',
   };
 
-  const tasks: Promise<{ kind: 'email' | 'zoho'; ok: boolean }>[] = [
+  const tasks: Promise<{ kind: 'notify' | 'autoReply' | 'zoho'; ok: boolean }>[] = [
     sendContactNotificationEmail(lead)
-      .then((ok) => ({ kind: 'email' as const, ok }))
+      .then((ok) => ({ kind: 'notify' as const, ok }))
       .catch((error) => {
-        console.error('Contact email failed:', error);
-        return { kind: 'email' as const, ok: false };
+        console.error('Contact notification email failed:', error);
+        return { kind: 'notify' as const, ok: false };
+      }),
+    sendContactAutoReplyEmail(lead)
+      .then((ok) => ({ kind: 'autoReply' as const, ok }))
+      .catch((error) => {
+        console.error('Contact auto-reply email failed:', error);
+        return { kind: 'autoReply' as const, ok: false };
       }),
   ];
 
@@ -403,11 +455,12 @@ export default async function handler(
   }
 
   const results = await Promise.all(tasks);
-  const emailSent = results.some((result) => result.kind === 'email' && result.ok);
+  const emailSent = results.some((result) => result.kind === 'notify' && result.ok);
+  const autoReplySent = results.some((result) => result.kind === 'autoReply' && result.ok);
   const zohoSynced = results.some((result) => result.kind === 'zoho' && result.ok);
 
-  if (emailSent || zohoSynced) {
-    return res.status(200).json({ success: true, emailSent, zohoSynced });
+  if (emailSent || autoReplySent || zohoSynced) {
+    return res.status(200).json({ success: true, emailSent, autoReplySent, zohoSynced });
   }
 
   console.error('Contact handler error: no delivery channel succeeded');

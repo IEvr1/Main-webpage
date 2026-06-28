@@ -166,11 +166,12 @@ Use this if you want Flow to create tasks, send auto-replies, or notify Cliq.
    - `Phone` ← `phone`
    - `Description` ← `message` + `source_page` + `language`
    - `Lead Source` ← `Website`
-7. Optional extra actions:
-   - Send email from Zoho Mail (thank-you to customer)
+7. Optional extra actions in Flow:
    - Create CRM task: "Follow up within 24h"
    - Send Cliq/email alert to yourself
 8. Turn the flow **ON**
+
+> **Auto-reply:** Thank-you emails to customers are sent by [`api/contact.ts`](../api/contact.ts) via Zoho Mail API (bilingual EL/EN). You do **not** need a "Send email" step in Zoho Flow for this — remove it if it fails with `{{Webhook.email}}`. Keep Flow only for tasks/alerts if you want them.
 
 ### B2. Add webhook URL to Vercel
 

@@ -42,9 +42,12 @@ if (!data.success) {
   process.exit(1);
 }
 
-if (data.emailSent === false && data.zohoSynced === false) {
-  console.error('Neither email nor Zoho sync succeeded.');
+if (data.emailSent === false && data.autoReplySent === false && data.zohoSynced === false) {
+  console.error('Notification, auto-reply, and Zoho sync all failed.');
   process.exit(1);
 }
 
 console.log('Contact API smoke test passed.');
+if (data.autoReplySent === false) {
+  console.warn('Warning: auto-reply was not sent.');
+}
