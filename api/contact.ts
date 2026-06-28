@@ -1,9 +1,13 @@
+import { isZohoConfigured, syncLeadToZoho, type ZohoLead } from './lib/zoho';
+
 type ContactPayload = {
   name?: string;
   email?: string;
   phone?: string;
   message?: string;
   botcheck?: string;
+  sourcePage?: string;
+  lang?: string;
 };
 
 export default async function handler(
@@ -16,7 +20,7 @@ export default async function handler(
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { name, email, phone, message, botcheck } = (req.body ?? {}) as ContactPayload;
+  const { name, email, phone, message, botcheck, sourcePage, lang } = (req.body ?? {}) as ContactPayload;
 
   if (typeof botcheck === 'string' && botcheck.trim()) {
     return res.status(200).json({ success: true });
@@ -56,6 +60,23 @@ export default async function handler(
 
   if (!response.ok || !data.success) {
     return res.status(502).json({ error: 'Failed to send message' });
+  }
+
+  if (isZohoConfigured()) {
+    const lead: ZohoLead = {
+      name: trimmedName,
+      email: trimmedEmail,
+      phone: phone?.trim() ?? '',
+      message: trimmedMessage,
+      sourcePage: sourcePage?.trim() || '/',
+      lang: lang?.trim() || 'el',
+    };
+
+    try {
+      await syncLeadToZoho(lead);
+    } catch (error) {
+      console.error('Zoho lead sync failed:', error);
+    }
   }
 
   return res.status(200).json({ success: true });
