@@ -62,37 +62,68 @@ export default function ContactForm({ lang }: ContactFormProps) {
       const formData = new FormData(e.currentTarget);
       const botcheck = formData.get('botcheck');
 
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ...form,
-          botcheck,
-          sourcePage: window.location.pathname,
-          lang,
-        }),
-      });
-
-      if (response.ok) {
+      if (typeof botcheck === 'string' && botcheck.trim()) {
         setForm(initialForm);
         setStatus('success');
         return;
       }
 
-      const data = (await response.json().catch(() => ({}))) as { error?: string };
+      const payload = {
+        ...form,
+        botcheck,
+        sourcePage: window.location.pathname,
+        lang,
+      };
 
-      if (response.status === 404) {
+      const web3Key = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY?.trim();
+      let emailSent = false;
+
+      if (web3Key) {
+        const web3Response = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            access_key: web3Key,
+            subject: 'Επικοινωνία — NexAI',
+            from_name: form.name.trim(),
+            email: form.email.trim(),
+            phone: form.phone.trim() || '—',
+            message: form.message.trim(),
+            replyto: form.email.trim(),
+          }),
+        });
+
+        const web3Data = (await web3Response.json().catch(() => ({}))) as { success?: boolean };
+        emailSent = web3Response.ok && Boolean(web3Data.success);
+      }
+
+      if (!emailSent && !web3Key) {
         openMailto(form, lang);
         setStatus('idle');
         return;
       }
 
-      setStatus('error');
-      setSubmitError(
-        data.error === 'Email service not configured'
-          ? t('contact.form.errorNotConfigured', lang, { email: CONTACT.email })
-          : t('contact.form.errorGeneric', lang),
-      );
+      if (!emailSent) {
+        setStatus('error');
+        setSubmitError(t('contact.form.errorGeneric', lang));
+        return;
+      }
+
+      try {
+        await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+      } catch {
+        // Zoho sync is best-effort; email already sent via Web3Forms.
+      }
+
+      setForm(initialForm);
+      setStatus('success');
     } catch {
       openMailto(form, lang);
       setStatus('idle');

@@ -48,12 +48,14 @@ npm run preview
 
 ### Αποστολή email από τη φόρμα
 
-Η φόρμα στέλνει μηνύματα στο `info@nexaipla.com` μέσω [Web3Forms](https://web3forms.com) και Vercel serverless function ([`api/contact.ts`](api/contact.ts)).
+Η φόρμα στέλνει μηνύματα στο `info@nexaipla.com` μέσω [Web3Forms](https://web3forms.com) **από τον browser** (client-side) και συγχρονίζει leads στο Zoho CRM μέσω [`api/contact.ts`](api/contact.ts).
 
 1. Δημιουργήστε λογαριασμό στο Web3Forms με το email `info@nexaipla.com`
 2. Αντιγράψτε το access key
-3. Προσθέστε το στο Vercel: **Settings → Environment Variables → `WEB3FORMS_ACCESS_KEY`**
+3. Προσθέστε το στο Vercel: **Settings → Environment Variables → `VITE_WEB3FORMS_ACCESS_KEY`**
 4. Κάντε redeploy
+
+> **Σημείο:** Το Web3Forms free plan δεν επιτρέπει server-side κλήσεις από Vercel. Το email στέλνεται από τον browser· το `/api/contact` χειρίζεται μόνο Zoho CRM/Flow.
 
 Για τοπικό testing με API: `npx vercel dev` (το `npm run dev` χρησιμοποιεί fallback mailto όταν το API δεν είναι διαθέσιμο).
 
