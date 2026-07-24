@@ -13,6 +13,7 @@ export default defineConfig({
         shoptraffic: resolve(__dirname, 'shoptraffic/index.html'),
         foodorder: resolve(__dirname, 'foodorder/index.html'),
         docsapp: resolve(__dirname, 'docsapp/index.html'),
+        schoolmeals: resolve(__dirname, 'schoolmeals/index.html'),
         custom: resolve(__dirname, 'custom/index.html'),
       },
     },

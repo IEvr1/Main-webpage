@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640">
+  <rect width="360" height="640" fill="#eff6ff"/>
+  <rect x="20" y="40" width="320" height="560" rx="16" fill="#fff" stroke="#bfdbfe"/>
+  <rect x="40" y="60" width="160" height="20" rx="4" fill="#dbeafe"/>
+  <rect x="40" y="96" width="120" height="14" rx="4" fill="#93c5fd"/>
+  <rect x="40" y="130" width="280" height="70" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <rect x="56" y="146" width="80" height="14" rx="4" fill="#2563eb" opacity="0.3"/>
+  <rect x="56" y="168" width="200" height="10" rx="4" fill="#bfdbfe"/>
+  <rect x="56" y="184" width="160" height="10" rx="4" fill="#dbeafe"/>
+  <rect x="40" y="220" width="280" height="140" rx="8" fill="#fff" stroke="#93c5fd"/>
+  <rect x="56" y="236" width="100" height="12" rx="4" fill="#2563eb" opacity="0.3"/>
+  <rect x="56" y="258" width="40" height="40" rx="6" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="104" y="258" width="40" height="40" rx="6" fill="#2563eb" opacity="0.2" stroke="#93c5fd"/>
+  <rect x="152" y="258" width="40" height="40" rx="6" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="200" y="258" width="40" height="40" rx="6" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="248" y="258" width="40" height="40" rx="6" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="56" y="310" width="40" height="40" rx="6" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="104" y="310" width="40" height="40" rx="6" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="152" y="310" width="40" height="40" rx="6" fill="#2563eb" opacity="0.2" stroke="#93c5fd"/>
+  <rect x="40" y="380" width="280" height="60" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <rect x="56" y="396" width="120" height="12" rx="4" fill="#2563eb" opacity="0.3"/>
+  <rect x="56" y="416" width="248" height="10" rx="4" fill="#bfdbfe"/>
+  <text x="180" y="580" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#1d4ed8">Parent Portal</text>
+</svg>

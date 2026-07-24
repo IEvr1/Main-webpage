@@ -4,5 +4,6 @@
   { "path": "/foodorder", "priority": 0.9, "appId": "food-order" },
   { "path": "/shoptraffic", "priority": 0.9, "appId": "shop-traffic" },
   { "path": "/custom", "priority": 0.8, "appId": "custom-apps" },
-  { "path": "/docsapp", "priority": 0.9, "appId": "docs-app" }
+  { "path": "/docsapp", "priority": 0.9, "appId": "docs-app" },
+  { "path": "/schoolmeals", "priority": 0.9, "appId": "school-meals" }
 ]

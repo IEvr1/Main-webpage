@@ -43,6 +43,15 @@ function DocsAppIcon() {
   );
 }
 
+function SchoolMealsIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <path d="M4 19h16M4 15h16M8 11h8M12 3v8" />
+      <path d="M8 7h8a2 2 0 012 2v2H6V9a2 2 0 012-2z" />
+    </svg>
+  );
+}
+
 function CustomAppsIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
@@ -57,6 +66,7 @@ const appIcons: Record<string, () => ReactElement> = {
   'shop-traffic': TrafficIcon,
   'food-order': FoodOrderIcon,
   'docs-app': DocsAppIcon,
+  'school-meals': SchoolMealsIcon,
   'custom-apps': CustomAppsIcon,
 };
 

@@ -4,6 +4,7 @@
     { "source": "/onlinebooking", "destination": "/onlinebooking/index.html" },
     { "source": "/foodorder", "destination": "/foodorder/index.html" },
     { "source": "/docsapp", "destination": "/docsapp/index.html" },
+    { "source": "/schoolmeals", "destination": "/schoolmeals/index.html" },
     { "source": "/custom", "destination": "/custom/index.html" }
   ]
 }

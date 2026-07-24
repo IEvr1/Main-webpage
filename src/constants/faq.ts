@@ -21,6 +21,13 @@ export const FOODORDER_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'foodorder.faq.q4', answerKey: 'foodorder.faq.a4' },
 ];
 
+export const SCHOOLMEALS_FAQ: readonly FaqItemDef[] = [
+  { questionKey: 'schoolmeals.faq.q1', answerKey: 'schoolmeals.faq.a1' },
+  { questionKey: 'schoolmeals.faq.q2', answerKey: 'schoolmeals.faq.a2' },
+  { questionKey: 'schoolmeals.faq.q3', answerKey: 'schoolmeals.faq.a3' },
+  { questionKey: 'schoolmeals.faq.q4', answerKey: 'schoolmeals.faq.a4' },
+];
+
 export const SHOPTRAFFIC_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'waitless.faq.q1', answerKey: 'waitless.faq.a1' },
   { questionKey: 'waitless.faq.q2', answerKey: 'waitless.faq.a2' },
