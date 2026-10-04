@@ -368,12 +368,6 @@
   line-height: 1.7;
 }
 
-.ai-consult__email {
-  margin-top: 1rem;
-  font-size: 0.9375rem;
-  color: var(--color-text-muted);
-}
-
 .ai-consult-form {
   padding: 1.75rem;
   border-radius: var(--radius);
