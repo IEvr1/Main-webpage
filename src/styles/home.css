@@ -81,6 +81,15 @@
   border-style: dashed;
 }
 
+.app-card--ai-consulting .app-card__icon {
+  color: #d97706;
+}
+
+.app-card--ai-consulting .app-card__tag {
+  color: #b45309;
+  background: #fffbeb;
+}
+
 .app-card__icon {
   width: 48px;
   height: 48px;
