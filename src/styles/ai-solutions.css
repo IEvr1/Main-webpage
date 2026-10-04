@@ -88,11 +88,12 @@
 }
 
 .ai-hero__subtitle {
-  font-size: clamp(1.0625rem, 2.5vw, 1.1875rem);
-  color: var(--color-text-muted);
+  font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+  font-weight: 600;
+  color: var(--color-text);
   max-width: 32rem;
   margin: 0 auto 1.5rem;
-  line-height: 1.55;
+  line-height: 1.45;
 }
 
 .ai-hero__trust {
