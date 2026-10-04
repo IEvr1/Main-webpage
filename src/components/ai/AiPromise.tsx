@@ -11,6 +11,12 @@ const STEPS = [
   { num: '3', titleKey: 'ai.promise.s3.title', textKey: 'ai.promise.s3.text' },
 ] as const;
 
+const DELIVERABLES = [
+  { labelKey: 'ai.promise.deliverable1.label', textKey: 'ai.promise.deliverable1.text' },
+  { labelKey: 'ai.promise.deliverable2.label', textKey: 'ai.promise.deliverable2.text' },
+  { labelKey: 'ai.promise.deliverable3.label', textKey: 'ai.promise.deliverable3.text' },
+] as const;
+
 export default function AiPromise({ lang }: AiPromiseProps) {
   return (
     <section id="how-it-works" className="ai-promise" aria-labelledby="ai-promise-title">
@@ -34,14 +40,12 @@ export default function AiPromise({ lang }: AiPromiseProps) {
         </div>
 
         <div className="ai-promise__deliverables">
-          <div className="ai-promise__deliverable">
-            <span className="ai-promise__deliverable-label">{t('ai.promise.deliverable1.label', lang)}</span>
-            <p className="ai-promise__deliverable-text">{t('ai.promise.deliverable1.text', lang)}</p>
-          </div>
-          <div className="ai-promise__deliverable">
-            <span className="ai-promise__deliverable-label">{t('ai.promise.deliverable2.label', lang)}</span>
-            <p className="ai-promise__deliverable-text">{t('ai.promise.deliverable2.text', lang)}</p>
-          </div>
+          {DELIVERABLES.map((item) => (
+            <div key={item.labelKey} className="ai-promise__deliverable">
+              <span className="ai-promise__deliverable-label">{t(item.labelKey, lang)}</span>
+              <p className="ai-promise__deliverable-text">{t(item.textKey, lang)}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

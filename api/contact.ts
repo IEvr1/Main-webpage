@@ -261,7 +261,7 @@ function contactAutoReplyBody(lead: ZohoLead): string {
   if (lead.lang === 'en') {
     const hello = greetingName ? `Hello ${greetingName},` : 'Hello,';
     const replyWindow = isAiConsultation
-      ? 'We received your AI consultation request and will reply within 48 hours with feasibility and an indicative implementation cost.'
+      ? 'We received your AI consultation request and will reply within 48 hours with feasibility %, an indicative implementation cost, and an estimated implementation timeline.'
       : 'We received your message and will reply within 24 hours.';
     return `${hello}
 
@@ -273,7 +273,7 @@ info@nexaipla.com`;
 
   const hello = greetingName ? `Γεια σας ${greetingName},` : 'Γεια σας,';
   const replyWindow = isAiConsultation
-    ? 'Λάβαμε το αίτημά σας για AI συμβουλευτική και θα απαντήσουμε εντός 48 ωρών με εφικτότητα και ενδεικτικό κόστος υλοποίησης.'
+    ? 'Λάβαμε το αίτημά σας για AI συμβουλευτική και θα απαντήσουμε εντός 48 ωρών με ποσοστό εφικτότητας, ενδεικτικό κόστος και εκτιμώμενη διάρκεια υλοποίησης.'
     : 'Λάβαμε το μήνυμά σας και θα απαντήσουμε εντός 24 ωρών.';
   return `${hello}
 

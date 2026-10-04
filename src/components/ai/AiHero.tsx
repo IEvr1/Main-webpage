@@ -13,6 +13,13 @@ const QUESTION_KEYS = [
   'ai.hero.q4',
 ] as const;
 
+const BADGE_KEYS = [
+  'ai.hero.badge1',
+  'ai.hero.badge2',
+  'ai.hero.badge3',
+  'ai.hero.badge4',
+] as const;
+
 export default function AiHero({ lang }: AiHeroProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -59,9 +66,9 @@ export default function AiHero({ lang }: AiHeroProps) {
         </div>
 
         <div className="ai-hero__badges" aria-label={t('ai.hero.badgesAria', lang)}>
-          <span className="ai-hero__badge">{t('ai.hero.badge1', lang)}</span>
-          <span className="ai-hero__badge">{t('ai.hero.badge2', lang)}</span>
-          <span className="ai-hero__badge">{t('ai.hero.badge3', lang)}</span>
+          {BADGE_KEYS.map((key) => (
+            <span key={key} className="ai-hero__badge">{t(key, lang)}</span>
+          ))}
         </div>
       </div>
     </section>
