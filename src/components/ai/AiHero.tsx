@@ -10,7 +10,6 @@ const TRUST_KEYS = ['ai.hero.trust1', 'ai.hero.trust2', 'ai.hero.trust3'] as con
 export default function AiHero({ lang }: AiHeroProps) {
   return (
     <section className="ai-hero">
-      <div className="ai-hero__glow" aria-hidden="true" />
       <div className="container ai-hero__content">
         <p className="ai-hero__eyebrow">{t('ai.hero.eyebrow', lang)}</p>
 
