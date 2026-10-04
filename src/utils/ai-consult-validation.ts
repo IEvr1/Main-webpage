@@ -1,3 +1,7 @@
+import type { EuConsultLang } from '../constants/eu-languages';
+import { euLanguageNativeName } from '../constants/eu-languages';
+import type { AiConsultLocaleStrings } from '../i18n/ai-consult-locales';
+import { getAiConsultLocale } from '../i18n/ai-consult-locales';
 import type { Lang } from '../i18n/types';
 import { t } from '../i18n/i18n';
 
@@ -21,8 +25,13 @@ export type AiConsultFormErrors = Partial<
   Record<keyof AiConsultFormData | 'audio', string>
 >;
 
-function goalLabel(goal: AiGoal, lang: Lang): string {
-  return t(`ai.consult.form.goal.${goal}`, lang);
+function goalLabel(goal: AiGoal, consult: AiConsultLocaleStrings): string {
+  const labels: Record<AiGoal, string> = {
+    productivity: consult.goalProductivity,
+    cost: consult.goalCost,
+    sales: consult.goalSales,
+  };
+  return labels[goal];
 }
 
 export function validateAiConsultForm(
@@ -64,14 +73,16 @@ export function validateAiConsultForm(
 
 export function buildAiConsultMessage(
   data: AiConsultFormData,
-  lang: Lang,
+  consultLang: EuConsultLang,
   mode: 'write' | 'record',
   audioDurationSec: number,
 ): string {
+  const consult = getAiConsultLocale(consultLang);
   const lines = [
     '[AI Consultation Request]',
     '',
-    `Goals: ${data.goals.map((g) => goalLabel(g, lang)).join(', ')}`,
+    `Response language: ${euLanguageNativeName(consultLang)} (${consultLang})`,
+    `Goals: ${data.goals.map((g) => goalLabel(g, consult)).join(', ')}`,
   ];
 
   if (data.company.trim()) lines.push(`Company: ${data.company.trim()}`);
