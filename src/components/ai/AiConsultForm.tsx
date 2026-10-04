@@ -285,6 +285,8 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
         </button>
       </div>
 
+      <p className="ai-consult-form__language-note">{t('ai.consult.form.languageNote', lang)}</p>
+
       <div className="form-group">
         <label htmlFor="ai-name">{t('ai.consult.form.name', lang)}</label>
         <input
@@ -407,6 +409,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
         <div className="ai-consult-form__record-panel">
           <div className="ai-consult-form__prompts">
             <h3 className="ai-consult-form__prompts-title">{t('ai.consult.prompts.title', lang)}</h3>
+            <p className="ai-consult-form__prompts-language">{t('ai.consult.prompts.languageNote', lang)}</p>
             <ol className="ai-consult-form__prompts-list">
               {PROMPT_KEYS.map((key) => (
                 <li key={key}>{t(key, lang)}</li>
