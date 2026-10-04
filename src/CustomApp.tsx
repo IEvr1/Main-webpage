@@ -24,7 +24,7 @@ export default function CustomApp() {
       <main>
         <CustomProcess lang={lang} />
         <CustomExamples lang={lang} />
-        <RelatedApps lang={lang} currentAppId="custom-apps" />
+        <RelatedApps lang={lang} currentAppId="custom-page" />
         <FaqSection
           lang={lang}
           titleKey="custom.faq.title"
