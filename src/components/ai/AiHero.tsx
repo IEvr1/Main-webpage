@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import type { Lang } from '../../i18n/types';
 import { t } from '../../i18n/i18n';
 
@@ -6,38 +5,9 @@ type AiHeroProps = {
   lang: Lang;
 };
 
-const QUESTION_KEYS = [
-  'ai.hero.q1',
-  'ai.hero.q2',
-  'ai.hero.q3',
-  'ai.hero.q4',
-] as const;
-
-const BADGE_KEYS = [
-  'ai.hero.badge1',
-  'ai.hero.badge2',
-  'ai.hero.badge3',
-  'ai.hero.badge4',
-] as const;
+const TRUST_KEYS = ['ai.hero.trust1', 'ai.hero.trust2', 'ai.hero.trust3'] as const;
 
 export default function AiHero({ lang }: AiHeroProps) {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [visible, setVisible] = useState(true);
-
-  useEffect(() => {
-    const interval = window.setInterval(() => {
-      setVisible(false);
-      window.setTimeout(() => {
-        setActiveIndex((prev) => (prev + 1) % QUESTION_KEYS.length);
-        setVisible(true);
-      }, 320);
-    }, 4200);
-
-    return () => window.clearInterval(interval);
-  }, []);
-
-  const activeQuestion = t(QUESTION_KEYS[activeIndex], lang);
-
   return (
     <section className="ai-hero">
       <div className="ai-hero__glow" aria-hidden="true" />
@@ -46,29 +16,27 @@ export default function AiHero({ lang }: AiHeroProps) {
 
         <h1 className="ai-hero__title">
           <span className="ai-hero__title-line">{t('ai.hero.title', lang)}</span>
-          <span
-            className={`ai-hero__question${visible ? ' ai-hero__question--visible' : ''}`}
-            aria-live="polite"
-          >
-            {activeQuestion}
-          </span>
+          <span className="ai-hero__title-accent">{t('ai.hero.titleAccent', lang)}</span>
         </h1>
 
         <p className="ai-hero__subtitle">{t('ai.hero.subtitle', lang)}</p>
+
+        <ul className="ai-hero__trust" aria-label={t('ai.hero.trustAria', lang)}>
+          {TRUST_KEYS.map((key) => (
+            <li key={key} className="ai-hero__trust-item">
+              <span className="ai-hero__trust-icon" aria-hidden="true">✓</span>
+              {t(key, lang)}
+            </li>
+          ))}
+        </ul>
 
         <div className="ai-hero__actions">
           <a href="#consult" className="btn btn-primary ai-hero__cta">
             {t('ai.hero.ctaPrimary', lang)}
           </a>
-          <a href="#how-it-works" className="btn btn-secondary ai-hero__cta-secondary">
+          <a href="#how-it-works" className="ai-hero__link">
             {t('ai.hero.ctaSecondary', lang)}
           </a>
-        </div>
-
-        <div className="ai-hero__badges" aria-label={t('ai.hero.badgesAria', lang)}>
-          {BADGE_KEYS.map((key) => (
-            <span key={key} className="ai-hero__badge">{t(key, lang)}</span>
-          ))}
         </div>
       </div>
     </section>
