@@ -11,13 +11,10 @@ export default function HomeHero({ lang }: HomeHeroProps) {
       <div className="container home-hero__content">
         <h1 className="home-hero__title">{t('home.hero.title', lang)}</h1>
         <p className="home-hero__subtitle">{t('home.hero.subtitle', lang)}</p>
-        <a href="/ai/" className="home-hero__ai-link">
-          {t('common.navAi', lang)}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-            <path d="M5 12h14M13 6l6 6-6 6" />
-          </svg>
-        </a>
         <div className="home-hero__actions">
+          <a href="/ai/" className="btn btn-ai">
+            {t('common.navAi', lang)}
+          </a>
           <a href="#apps" className="btn btn-primary">
             {t('home.hero.ctaApps', lang)}
           </a>
