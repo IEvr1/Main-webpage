@@ -34,17 +34,7 @@
   position: relative;
   padding: 2rem 1.25rem 3rem;
   text-align: center;
-  overflow: hidden;
-  background:
-    radial-gradient(ellipse 90% 70% at 50% -10%, rgba(245, 158, 11, 0.2), transparent 55%),
-    var(--color-bg);
-}
-
-.ai-hero__glow {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 50% 20%, rgba(245, 158, 11, 0.1), transparent 50%);
-  pointer-events: none;
+  background: var(--color-bg);
 }
 
 .ai-hero__content {
@@ -62,8 +52,8 @@
   font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--ai-accent);
-  background: var(--ai-accent-light);
-  border: 1px solid rgba(245, 158, 11, 0.25);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
 }
 
 .ai-hero__title {
