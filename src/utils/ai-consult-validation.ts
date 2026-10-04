@@ -85,7 +85,7 @@ export function buildAiConsultMessage(
     lines.push('', 'Business needs:', data.description.trim());
   } else {
     lines.push('', `Voice recording: ${audioDurationSec}s`);
-    lines.push('(Audio attached via inquiry payload)');
+    lines.push('(A listen link will be included in the notification email after upload.)');
   }
 
   return lines.join('\n');

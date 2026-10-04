@@ -1,3 +1,5 @@
+import { hasVoiceStorageConfig, uploadVoiceRecording } from './lib/voice-storage';
+
 type ContactPayload = {
   name?: string;
   email?: string;
@@ -16,6 +18,7 @@ type ContactPayload = {
   audioBase64?: string;
   audioMimeType?: string;
   audioDurationSec?: number;
+  audioUrl?: string;
 };
 
 type ZohoLead = {
@@ -35,6 +38,7 @@ type ZohoLead = {
   audioBase64?: string;
   audioMimeType?: string;
   audioDurationSec?: number;
+  audioUrl?: string;
 };
 
 type ZohoTokenCache = {
@@ -65,13 +69,25 @@ function splitName(fullName: string): { firstName: string; lastName: string } {
   };
 }
 
-function leadDescription(lead: ZohoLead): string {
-  const lines = [lead.message.trim()];
-
-  if (lead.inquiryType) {
-    lines.push(`Inquiry type: ${lead.inquiryType}`);
+function voiceRecordingLine(lead: ZohoLead): string | null {
+  if (lead.audioUrl) {
+    const duration = lead.audioDurationSec ? `${lead.audioDurationSec}s` : 'unknown duration';
+    return `Voice recording (${duration}): ${lead.audioUrl}`;
   }
 
+  if (lead.audioBase64) {
+    const duration = lead.audioDurationSec ? `${lead.audioDurationSec}s` : 'unknown duration';
+    const mime = lead.audioMimeType ?? 'audio/webm';
+    return `Voice recording: ${duration} (${mime}) — storage upload unavailable`;
+  }
+
+  return null;
+}
+
+function leadExtraDetails(lead: ZohoLead): string[] {
+  const lines: string[] = [];
+
+  if (lead.inquiryType) lines.push(`Inquiry type: ${lead.inquiryType}`);
   if (lead.company) lines.push(`Company: ${lead.company}`);
   if (lead.industry) lines.push(`Industry: ${lead.industry}`);
   if (lead.teamSize) lines.push(`Team size: ${lead.teamSize}`);
@@ -79,20 +95,17 @@ function leadDescription(lead: ZohoLead): string {
   if (lead.inputMode) lines.push(`Input mode: ${lead.inputMode}`);
   if (lead.goals?.length) lines.push(`Goals: ${lead.goals.join(', ')}`);
 
-  if (lead.audioBase64) {
-    const duration = lead.audioDurationSec ? `${lead.audioDurationSec}s` : 'unknown duration';
-    const mime = lead.audioMimeType ?? 'audio/webm';
-    lines.push('', `Voice recording: ${duration} (${mime}, ${lead.audioBase64.length} base64 chars)`);
-  }
+  const voiceLine = voiceRecordingLine(lead);
+  if (voiceLine) lines.push(voiceLine);
 
-  if (lead.sourcePage) {
-    lines.push('', `Page: ${lead.sourcePage}`);
-  }
+  if (lead.sourcePage) lines.push(`Page: ${lead.sourcePage}`);
+  if (lead.lang) lines.push(`Language: ${lead.lang}`);
 
-  if (lead.lang) {
-    lines.push(`Language: ${lead.lang}`);
-  }
+  return lines;
+}
 
+function leadDescription(lead: ZohoLead): string {
+  const lines = [lead.message.trim(), ...leadExtraDetails(lead)];
   return lines.join('\n');
 }
 
@@ -144,12 +157,9 @@ function contactEmailBody(lead: ZohoLead): string {
     lead.message.trim(),
   ];
 
-  if (lead.sourcePage) {
-    lines.push('', `Σελίδα: ${lead.sourcePage}`);
-  }
-
-  if (lead.lang) {
-    lines.push(`Γλώσσα: ${lead.lang}`);
+  const extra = leadExtraDetails(lead);
+  if (extra.length > 0) {
+    lines.push('', ...extra);
   }
 
   lines.push('', `Υποβλήθηκε: ${new Date().toISOString()}`);
@@ -407,7 +417,7 @@ async function sendLeadToZohoFlow(lead: ZohoLead): Promise<void> {
     goals: lead.goals,
     timeline: lead.timeline,
     input_mode: lead.inputMode,
-    audio_base64: lead.audioBase64,
+    audio_url: lead.audioUrl,
     audio_mime_type: lead.audioMimeType,
     audio_duration_sec: lead.audioDurationSec,
     submitted_at: new Date().toISOString(),
@@ -501,6 +511,23 @@ export default async function handler(
     return res.status(400).json({ error: 'Audio attachment is too large' });
   }
 
+  let audioUrl: string | undefined;
+  if (trimmedAudioBase64) {
+    if (!hasVoiceStorageConfig()) {
+      console.error('Voice recording received but BLOB_READ_WRITE_TOKEN is not configured');
+    } else {
+      try {
+        audioUrl = await uploadVoiceRecording({
+          audioBase64: trimmedAudioBase64,
+          mimeType: audioMimeType?.trim() || 'audio/webm',
+          submitterEmail: trimmedEmail,
+        });
+      } catch (error) {
+        console.error('Voice recording upload failed:', error);
+      }
+    }
+  }
+
   const lead: ZohoLead = {
     name: trimmedName,
     email: trimmedEmail,
@@ -515,7 +542,8 @@ export default async function handler(
     goals: Array.isArray(goals) ? goals.filter((goal) => typeof goal === 'string') : undefined,
     timeline: timeline?.trim(),
     inputMode: inputMode?.trim(),
-    audioBase64: trimmedAudioBase64 || undefined,
+    audioUrl,
+    audioBase64: audioUrl ? undefined : trimmedAudioBase64 || undefined,
     audioMimeType: audioMimeType?.trim(),
     audioDurationSec:
       typeof audioDurationSec === 'number' && Number.isFinite(audioDurationSec)
