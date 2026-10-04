@@ -15,6 +15,7 @@ export default defineConfig({
         docsapp: resolve(__dirname, 'docsapp/index.html'),
         schoolmeals: resolve(__dirname, 'schoolmeals/index.html'),
         custom: resolve(__dirname, 'custom/index.html'),
+        ai: resolve(__dirname, 'ai/index.html'),
       },
     },
   },

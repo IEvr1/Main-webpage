@@ -7,10 +7,13 @@ type PageMeta = {
   descriptionKey: string;
 };
 
-export function useLang(meta?: PageMeta): [Lang, (lang: Lang) => void] {
+export function useLang(
+  meta?: PageMeta,
+  defaultLang: Lang = 'el',
+): [Lang, (lang: Lang) => void] {
   const initial = useMemo(
-    () => resolveLang(getLangFromUrl(), getLangCookie(), 'el'),
-    [],
+    () => resolveLang(getLangFromUrl(), getLangCookie(), defaultLang),
+    [defaultLang],
   );
   const [lang, setLang] = useState<Lang>(initial);
 

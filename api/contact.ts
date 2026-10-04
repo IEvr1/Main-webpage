@@ -6,6 +6,16 @@ type ContactPayload = {
   botcheck?: string;
   sourcePage?: string;
   lang?: string;
+  inquiryType?: string;
+  company?: string;
+  industry?: string;
+  teamSize?: string;
+  goals?: string[];
+  timeline?: string;
+  inputMode?: string;
+  audioBase64?: string;
+  audioMimeType?: string;
+  audioDurationSec?: number;
 };
 
 type ZohoLead = {
@@ -15,6 +25,16 @@ type ZohoLead = {
   message: string;
   sourcePage: string;
   lang: string;
+  inquiryType?: string;
+  company?: string;
+  industry?: string;
+  teamSize?: string;
+  goals?: string[];
+  timeline?: string;
+  inputMode?: string;
+  audioBase64?: string;
+  audioMimeType?: string;
+  audioDurationSec?: number;
 };
 
 type ZohoTokenCache = {
@@ -47,6 +67,23 @@ function splitName(fullName: string): { firstName: string; lastName: string } {
 
 function leadDescription(lead: ZohoLead): string {
   const lines = [lead.message.trim()];
+
+  if (lead.inquiryType) {
+    lines.push(`Inquiry type: ${lead.inquiryType}`);
+  }
+
+  if (lead.company) lines.push(`Company: ${lead.company}`);
+  if (lead.industry) lines.push(`Industry: ${lead.industry}`);
+  if (lead.teamSize) lines.push(`Team size: ${lead.teamSize}`);
+  if (lead.timeline) lines.push(`Timeline: ${lead.timeline}`);
+  if (lead.inputMode) lines.push(`Input mode: ${lead.inputMode}`);
+  if (lead.goals?.length) lines.push(`Goals: ${lead.goals.join(', ')}`);
+
+  if (lead.audioBase64) {
+    const duration = lead.audioDurationSec ? `${lead.audioDurationSec}s` : 'unknown duration';
+    const mime = lead.audioMimeType ?? 'audio/webm';
+    lines.push('', `Voice recording: ${duration} (${mime}, ${lead.audioBase64.length} base64 chars)`);
+  }
 
   if (lead.sourcePage) {
     lines.push('', `Page: ${lead.sourcePage}`);
@@ -219,21 +256,28 @@ function contactAutoReplySubject(lang: string): string {
 function contactAutoReplyBody(lead: ZohoLead): string {
   const { firstName } = splitName(lead.name);
   const greetingName = firstName || lead.name.trim().split(/\s+/)[0] || '';
+  const isAiConsultation = lead.inquiryType === 'ai-consultation';
 
   if (lead.lang === 'en') {
     const hello = greetingName ? `Hello ${greetingName},` : 'Hello,';
+    const replyWindow = isAiConsultation
+      ? 'We received your AI consultation request and will reply within 48 hours with feasibility %, an indicative implementation cost, and an estimated implementation timeline.'
+      : 'We received your message and will reply within 24 hours.';
     return `${hello}
 
-Thank you for contacting NexAIpla. We received your message and will reply within 24 hours.
+Thank you for contacting NexAIpla. ${replyWindow}
 
 NexAIpla Team
 info@nexaipla.com`;
   }
 
   const hello = greetingName ? `Γεια σας ${greetingName},` : 'Γεια σας,';
+  const replyWindow = isAiConsultation
+    ? 'Λάβαμε το αίτημά σας για AI συμβουλευτική και θα απαντήσουμε εντός 48 ωρών με ποσοστό εφικτότητας, ενδεικτικό κόστος και εκτιμώμενη διάρκεια υλοποίησης.'
+    : 'Λάβαμε το μήνυμά σας και θα απαντήσουμε εντός 24 ωρών.';
   return `${hello}
 
-Ευχαριστούμε που επικοινωνήσατε με την NexAIpla. Λάβαμε το μήνυμά σας και θα απαντήσουμε εντός 24 ωρών.
+Ευχαριστούμε που επικοινωνήσατε με την NexAIpla. ${replyWindow}
 
 Ομάδα NexAIpla
 info@nexaipla.com`;
@@ -315,6 +359,10 @@ async function createZohoCrmLead(lead: ZohoLead): Promise<void> {
     record.Phone = lead.phone.trim();
   }
 
+  if (lead.company?.trim()) {
+    record.Company = lead.company.trim();
+  }
+
   const response = await fetch(`${zohoApiDomain()}/crm/v2/Leads`, {
     method: 'POST',
     headers: {
@@ -352,6 +400,16 @@ async function sendLeadToZohoFlow(lead: ZohoLead): Promise<void> {
     message: lead.message,
     source_page: lead.sourcePage,
     language: lead.lang,
+    inquiry_type: lead.inquiryType,
+    company: lead.company,
+    industry: lead.industry,
+    team_size: lead.teamSize,
+    goals: lead.goals,
+    timeline: lead.timeline,
+    input_mode: lead.inputMode,
+    audio_base64: lead.audioBase64,
+    audio_mime_type: lead.audioMimeType,
+    audio_duration_sec: lead.audioDurationSec,
     submitted_at: new Date().toISOString(),
   });
 
@@ -405,7 +463,25 @@ export default async function handler(
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { name, email, phone, message, botcheck, sourcePage, lang } = (req.body ?? {}) as ContactPayload;
+  const {
+    name,
+    email,
+    phone,
+    message,
+    botcheck,
+    sourcePage,
+    lang,
+    inquiryType,
+    company,
+    industry,
+    teamSize,
+    goals,
+    timeline,
+    inputMode,
+    audioBase64,
+    audioMimeType,
+    audioDurationSec,
+  } = (req.body ?? {}) as ContactPayload;
 
   if (typeof botcheck === 'string' && botcheck.trim()) {
     return res.status(200).json({ success: true });
@@ -419,6 +495,12 @@ export default async function handler(
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
+  const maxAudioBase64Length = 4_000_000;
+  const trimmedAudioBase64 = audioBase64?.trim() ?? '';
+  if (trimmedAudioBase64.length > maxAudioBase64Length) {
+    return res.status(400).json({ error: 'Audio attachment is too large' });
+  }
+
   const lead: ZohoLead = {
     name: trimmedName,
     email: trimmedEmail,
@@ -426,6 +508,19 @@ export default async function handler(
     message: trimmedMessage,
     sourcePage: sourcePage?.trim() || '/',
     lang: lang?.trim() || 'el',
+    inquiryType: inquiryType?.trim(),
+    company: company?.trim(),
+    industry: industry?.trim(),
+    teamSize: teamSize?.trim(),
+    goals: Array.isArray(goals) ? goals.filter((goal) => typeof goal === 'string') : undefined,
+    timeline: timeline?.trim(),
+    inputMode: inputMode?.trim(),
+    audioBase64: trimmedAudioBase64 || undefined,
+    audioMimeType: audioMimeType?.trim(),
+    audioDurationSec:
+      typeof audioDurationSec === 'number' && Number.isFinite(audioDurationSec)
+        ? Math.max(0, Math.round(audioDurationSec))
+        : undefined,
   };
 
   const tasks: Promise<{ kind: 'notify' | 'autoReply' | 'zoho'; ok: boolean }>[] = [
