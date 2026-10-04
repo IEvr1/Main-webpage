@@ -1,6 +1,5 @@
 import type { Lang } from '../../i18n/types';
 import { t } from '../../i18n/i18n';
-import { CONTACT } from '../../constants/contact';
 import AiConsultForm from './AiConsultForm';
 
 type AiConsultSectionProps = {
@@ -27,10 +26,6 @@ export default function AiConsultSection({ lang }: AiConsultSectionProps) {
                 <li>{t('ai.consult.aside.item4', lang)}</li>
               </ul>
             </div>
-            <p className="ai-consult__email">
-              {t('ai.consult.orEmail', lang)}{' '}
-              <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
-            </p>
           </aside>
 
           <AiConsultForm lang={lang} />
