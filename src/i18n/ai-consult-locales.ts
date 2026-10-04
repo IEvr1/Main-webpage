@@ -1,4 +1,4 @@
-import type { EuConsultLang } from '../constants/eu-languages';
+import type { ConsultLang } from '../constants/consult-languages';
 
 export type AiConsultLocaleStrings = {
   description: string;
@@ -14,7 +14,7 @@ export type AiConsultLocaleStrings = {
   prompt4: string;
 };
 
-export const AI_CONSULT_LOCALES: Record<EuConsultLang, AiConsultLocaleStrings> = {
+export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
   bg: {
     description: 'Опишете бизнес нуждата ви *',
     descriptionPlaceholder:
@@ -169,6 +169,20 @@ export const AI_CONSULT_LOCALES: Record<EuConsultLang, AiConsultLocaleStrings> =
     prompt3: 'Τι θα άλλαζε αν αυτό το πρόβλημα εξαφανιζόταν;',
     prompt4: 'Έχετε προϋπολογισμό ή χρονοδιάγραμμα στο μυαλό σας;',
   },
+  he: {
+    description: 'תאר את צורך העסק שלך *',
+    descriptionPlaceholder:
+      'איזו בעיה אתה רוצה לפתור? מה הצוות שלך עושה ידנית היום? באילו כלים אתם משתמשים?',
+    goalsLegend: 'מה אתה רוצה להשיג? *',
+    goalProductivity: 'הגברת פרודוקטיביות',
+    goalCost: 'הפחתת עלויות',
+    goalSales: 'צמיחה במכירות',
+    promptsTitle: 'במהלך ההקלטה, נסה לענות:',
+    prompt1: 'במה העסק שלך עוסק וכמה אנשים בצוות?',
+    prompt2: 'איזו משימה לוקחת הכי הרבה זמן או גורמת לתסכול?',
+    prompt3: 'מה ישתנה אם הבעיה הזו תיעלם?',
+    prompt4: 'יש לך תקציב או לוח זמנים בראש?',
+  },
   hu: {
     description: 'Írja le üzleti igényét *',
     descriptionPlaceholder:
@@ -295,6 +309,20 @@ export const AI_CONSULT_LOCALES: Record<EuConsultLang, AiConsultLocaleStrings> =
     prompt3: 'Ce s-ar schimba dacă acea problemă ar dispărea?',
     prompt4: 'Aveți un buget sau un termen în vedere?',
   },
+  ru: {
+    description: 'Опишите потребность вашего бизнеса *',
+    descriptionPlaceholder:
+      'Какую проблему вы хотите решить? Что ваша команда делает вручную сегодня? Какие инструменты вы используете?',
+    goalsLegend: 'Чего вы хотите достичь? *',
+    goalProductivity: 'Повысить продуктивность',
+    goalCost: 'Снизить затраты',
+    goalSales: 'Увеличить продажи',
+    promptsTitle: 'Во время записи постарайтесь ответить:',
+    prompt1: 'Чем занимается ваш бизнес и насколько велика ваша команда?',
+    prompt2: 'Какая задача занимает больше всего времени или вызывает наибольшее раздражение?',
+    prompt3: 'Что изменится, если эта проблема исчезнет?',
+    prompt4: 'Есть ли у вас бюджет или сроки?',
+  },
   sk: {
     description: 'Opíšte svoju obchodnú potrebu *',
     descriptionPlaceholder:
@@ -353,6 +381,6 @@ export const AI_CONSULT_LOCALES: Record<EuConsultLang, AiConsultLocaleStrings> =
   },
 };
 
-export function getAiConsultLocale(code: EuConsultLang): AiConsultLocaleStrings {
+export function getAiConsultLocale(code: ConsultLang): AiConsultLocaleStrings {
   return AI_CONSULT_LOCALES[code];
 }

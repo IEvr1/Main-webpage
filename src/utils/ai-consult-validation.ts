@@ -1,5 +1,5 @@
-import type { EuConsultLang } from '../constants/eu-languages';
-import { euLanguageNativeName } from '../constants/eu-languages';
+import type { ConsultLang } from '../constants/consult-languages';
+import { consultLanguageNativeName } from '../constants/consult-languages';
 import type { AiConsultLocaleStrings } from '../i18n/ai-consult-locales';
 import { getAiConsultLocale } from '../i18n/ai-consult-locales';
 import type { Lang } from '../i18n/types';
@@ -73,7 +73,7 @@ export function validateAiConsultForm(
 
 export function buildAiConsultMessage(
   data: AiConsultFormData,
-  consultLang: EuConsultLang,
+  consultLang: ConsultLang,
   mode: 'write' | 'record',
   audioDurationSec: number,
 ): string {
@@ -81,7 +81,7 @@ export function buildAiConsultMessage(
   const lines = [
     '[AI Consultation Request]',
     '',
-    `Response language: ${euLanguageNativeName(consultLang)} (${consultLang})`,
+    `Response language: ${consultLanguageNativeName(consultLang)} (${consultLang})`,
     `Goals: ${data.goals.map((g) => goalLabel(g, consult)).join(', ')}`,
   ];
 

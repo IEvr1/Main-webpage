@@ -2,10 +2,10 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import type { Lang } from '../../i18n/types';
 import { t } from '../../i18n/i18n';
 import {
-  EU_CONSULT_LANGUAGES,
-  type EuConsultLang,
-  isEuConsultLang,
-} from '../../constants/eu-languages';
+  CONSULT_LANGUAGES,
+  type ConsultLang,
+  isConsultLang,
+} from '../../constants/consult-languages';
 import { CONTACT } from '../../constants/contact';
 import { getAiConsultLocale } from '../../i18n/ai-consult-locales';
 import {
@@ -20,7 +20,7 @@ const MAX_RECORDING_SEC = 180;
 const GOALS: AiGoal[] = ['productivity', 'cost', 'sales'];
 const PROMPT_FIELDS = ['prompt1', 'prompt2', 'prompt3', 'prompt4'] as const;
 
-function defaultConsultLang(pageLang: Lang): EuConsultLang {
+function defaultConsultLang(pageLang: Lang): ConsultLang {
   return pageLang === 'el' ? 'el' : 'en';
 }
 
@@ -74,7 +74,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
   const [form, setForm] = useState<AiConsultFormData>(initialForm);
   const [errors, setErrors] = useState<AiConsultFormErrors>({});
   const [mode, setMode] = useState<InputMode>('write');
-  const [consultLang, setConsultLang] = useState<EuConsultLang>(() => defaultConsultLang(lang));
+  const [consultLang, setConsultLang] = useState<ConsultLang>(() => defaultConsultLang(lang));
   const [status, setStatus] = useState<SubmitStatus>('idle');
   const [submitError, setSubmitError] = useState('');
 
@@ -310,11 +310,11 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           value={consultLang}
           onChange={(e) => {
             const value = e.target.value;
-            if (isEuConsultLang(value)) setConsultLang(value);
+            if (isConsultLang(value)) setConsultLang(value);
           }}
           disabled={status === 'submitting'}
         >
-          {EU_CONSULT_LANGUAGES.map((option) => (
+          {CONSULT_LANGUAGES.map((option) => (
             <option key={option.code} value={option.code}>
               {option.nativeName}
             </option>
