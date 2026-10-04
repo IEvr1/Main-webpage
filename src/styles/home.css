@@ -33,15 +33,15 @@
 }
 
 .home-hero .btn-ai {
-  background-color: #f0fdfa;
-  color: #0f766e;
-  border-color: #2dd4bf;
+  background-color: #fffbeb;
+  color: #b45309;
+  border-color: #f59e0b;
 }
 
 .home-hero .btn-ai:hover {
-  background-color: #ccfbf1;
-  color: #0d9488;
-  border-color: #14b8a6;
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #d97706;
 }
 
 /* App Cards */
