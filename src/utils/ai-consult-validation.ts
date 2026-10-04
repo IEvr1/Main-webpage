@@ -2,8 +2,6 @@ import type { ConsultLang } from '../constants/consult-languages';
 import { consultLanguageNativeName } from '../constants/consult-languages';
 import type { AiConsultLocaleStrings } from '../i18n/ai-consult-locales';
 import { getAiConsultLocale } from '../i18n/ai-consult-locales';
-import type { Lang } from '../i18n/types';
-import { t } from '../i18n/i18n';
 
 const EMAIL_PATTERN =
   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z]{2,})+$/;
@@ -36,36 +34,37 @@ function goalLabel(goal: AiGoal, consult: AiConsultLocaleStrings): string {
 
 export function validateAiConsultForm(
   data: AiConsultFormData,
-  lang: Lang,
+  consultLang: ConsultLang,
   mode: 'write' | 'record',
   hasAudio: boolean,
 ): AiConsultFormErrors {
+  const consult = getAiConsultLocale(consultLang);
   const errors: AiConsultFormErrors = {};
 
   if (!data.name.trim()) {
-    errors.name = t('ai.consult.validation.nameRequired', lang);
+    errors.name = consult.nameRequired;
   } else if (data.name.trim().length < 2) {
-    errors.name = t('ai.consult.validation.nameMin', lang);
+    errors.name = consult.nameMin;
   }
 
   if (!data.email.trim()) {
-    errors.email = t('ai.consult.validation.emailRequired', lang);
+    errors.email = consult.emailRequired;
   } else if (!EMAIL_PATTERN.test(data.email.trim())) {
-    errors.email = t('ai.consult.validation.emailInvalid', lang);
+    errors.email = consult.emailInvalid;
   }
 
   if (data.goals.length === 0) {
-    errors.goals = t('ai.consult.validation.goalsRequired', lang);
+    errors.goals = consult.goalsRequired;
   }
 
   if (mode === 'write') {
     if (!data.description.trim()) {
-      errors.description = t('ai.consult.validation.descriptionRequired', lang);
+      errors.description = consult.descriptionRequired;
     } else if (data.description.trim().length < 20) {
-      errors.description = t('ai.consult.validation.descriptionMin', lang);
+      errors.description = consult.descriptionMin;
     }
   } else if (!hasAudio) {
-    errors.audio = t('ai.consult.validation.audioRequired', lang);
+    errors.audio = consult.audioRequired;
   }
 
   return errors;
