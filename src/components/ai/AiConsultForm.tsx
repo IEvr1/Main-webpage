@@ -192,7 +192,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    const validationErrors = validateAiConsultForm(form, lang, mode, Boolean(audioBlob));
+    const validationErrors = validateAiConsultForm(form, consultLang, mode, Boolean(audioBlob));
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
@@ -281,7 +281,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
         aria-hidden="true"
       />
 
-      <div className="ai-consult-form__mode" role="tablist" aria-label={t('ai.consult.form.modeAria', lang)}>
+      <div className="ai-consult-form__mode" role="tablist" aria-label={consult.responseLanguage}>
         <button
           type="button"
           role="tab"
@@ -289,7 +289,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           className={`ai-consult-form__mode-btn${mode === 'write' ? ' ai-consult-form__mode-btn--active' : ''}`}
           onClick={() => setMode('write')}
         >
-          {t('ai.consult.form.modeWrite', lang)}
+          {consult.modeWrite}
         </button>
         <button
           type="button"
@@ -298,12 +298,12 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           className={`ai-consult-form__mode-btn${mode === 'record' ? ' ai-consult-form__mode-btn--active' : ''}`}
           onClick={() => setMode('record')}
         >
-          {t('ai.consult.form.modeRecord', lang)}
+          {consult.modeRecord}
         </button>
       </div>
 
       <div className="form-group">
-        <label htmlFor="ai-response-language">{t('ai.consult.form.responseLanguage', lang)}</label>
+        <label htmlFor="ai-response-language">{consult.responseLanguage}</label>
         <select
           id="ai-response-language"
           className="ai-consult-form__language-select"
@@ -323,7 +323,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
       </div>
 
       <div className="form-group">
-        <label htmlFor="ai-name">{t('ai.consult.form.name', lang)}</label>
+        <label htmlFor="ai-name">{consult.name}</label>
         <input
           id="ai-name"
           type="text"
@@ -337,7 +337,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
       </div>
 
       <div className="form-group">
-        <label htmlFor="ai-email">{t('ai.consult.form.email', lang)}</label>
+        <label htmlFor="ai-email">{consult.email}</label>
         <input
           id="ai-email"
           type="email"
@@ -352,7 +352,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
 
       <div className="ai-consult-form__row">
         <div className="form-group">
-          <label htmlFor="ai-company">{t('ai.consult.form.company', lang)}</label>
+          <label htmlFor="ai-company">{consult.company}</label>
           <input
             id="ai-company"
             type="text"
@@ -363,13 +363,13 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="ai-industry">{t('ai.consult.form.industry', lang)}</label>
+          <label htmlFor="ai-industry">{consult.industry}</label>
           <input
             id="ai-industry"
             type="text"
             value={form.industry}
             onChange={(e) => handleChange('industry', e.target.value)}
-            placeholder={t('ai.consult.form.industryPlaceholder', lang)}
+            placeholder={consult.industryPlaceholder}
             disabled={status === 'submitting'}
           />
         </div>
@@ -415,33 +415,33 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           </div>
           <div className="ai-consult-form__row">
             <div className="form-group">
-              <label htmlFor="ai-team-size">{t('ai.consult.form.teamSize', lang)}</label>
+              <label htmlFor="ai-team-size">{consult.teamSize}</label>
               <select
                 id="ai-team-size"
                 value={form.teamSize}
                 onChange={(e) => handleChange('teamSize', e.target.value)}
                 disabled={status === 'submitting'}
               >
-                <option value="">{t('ai.consult.form.teamSizeDefault', lang)}</option>
-                <option value="1-5">{t('ai.consult.form.teamSize1', lang)}</option>
-                <option value="6-20">{t('ai.consult.form.teamSize2', lang)}</option>
-                <option value="21-50">{t('ai.consult.form.teamSize3', lang)}</option>
-                <option value="50+">{t('ai.consult.form.teamSize4', lang)}</option>
+                <option value="">{consult.teamSizeDefault}</option>
+                <option value="1-5">{consult.teamSize1}</option>
+                <option value="6-20">{consult.teamSize2}</option>
+                <option value="21-50">{consult.teamSize3}</option>
+                <option value="50+">{consult.teamSize4}</option>
               </select>
             </div>
             <div className="form-group">
-              <label htmlFor="ai-timeline">{t('ai.consult.form.timeline', lang)}</label>
+              <label htmlFor="ai-timeline">{consult.timeline}</label>
               <select
                 id="ai-timeline"
                 value={form.timeline}
                 onChange={(e) => handleChange('timeline', e.target.value)}
                 disabled={status === 'submitting'}
               >
-                <option value="">{t('ai.consult.form.timelineDefault', lang)}</option>
-                <option value="asap">{t('ai.consult.form.timelineAsap', lang)}</option>
-                <option value="1-3months">{t('ai.consult.form.timeline1', lang)}</option>
-                <option value="3-6months">{t('ai.consult.form.timeline2', lang)}</option>
-                <option value="exploring">{t('ai.consult.form.timeline3', lang)}</option>
+                <option value="">{consult.timelineDefault}</option>
+                <option value="asap">{consult.timelineAsap}</option>
+                <option value="1-3months">{consult.timeline1}</option>
+                <option value="3-6months">{consult.timeline2}</option>
+                <option value="exploring">{consult.timeline3}</option>
               </select>
             </div>
           </div>
@@ -460,7 +460,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           <div className="ai-consult-form__recorder">
             {micDenied && (
               <p className="form-status form-status--error" role="alert">
-                {t('ai.consult.form.micDenied', lang)}
+                {consult.micDenied}
               </p>
             )}
 
@@ -468,10 +468,10 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
               <div className="ai-consult-form__playback">
                 <audio controls src={audioUrl} className="ai-consult-form__audio" />
                 <p className="ai-consult-form__recording-meta">
-                  {t('ai.consult.form.recordingDuration', lang, { duration: formatTime(recordingSec) })}
+                  {consult.recordingDuration.replace('{duration}', formatTime(recordingSec))}
                 </p>
                 <button type="button" className="btn btn-secondary" onClick={clearRecording}>
-                  {t('ai.consult.form.recordAgain', lang)}
+                  {consult.recordAgain}
                 </button>
               </div>
             ) : (
@@ -482,9 +482,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
                   onClick={isRecording ? stopRecording : startRecording}
                   disabled={status === 'submitting'}
                 >
-                  {isRecording
-                    ? t('ai.consult.form.stopRecording', lang)
-                    : t('ai.consult.form.startRecording', lang)}
+                  {isRecording ? consult.stopRecording : consult.startRecording}
                 </button>
                 {isRecording && (
                   <span className="ai-consult-form__recording-live" aria-live="polite">
@@ -498,18 +496,18 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           </div>
 
           <div className="form-group">
-            <label htmlFor="ai-timeline-record">{t('ai.consult.form.timeline', lang)}</label>
+            <label htmlFor="ai-timeline-record">{consult.timeline}</label>
             <select
               id="ai-timeline-record"
               value={form.timeline}
               onChange={(e) => handleChange('timeline', e.target.value)}
               disabled={status === 'submitting'}
             >
-              <option value="">{t('ai.consult.form.timelineDefault', lang)}</option>
-              <option value="asap">{t('ai.consult.form.timelineAsap', lang)}</option>
-              <option value="1-3months">{t('ai.consult.form.timeline1', lang)}</option>
-              <option value="3-6months">{t('ai.consult.form.timeline2', lang)}</option>
-              <option value="exploring">{t('ai.consult.form.timeline3', lang)}</option>
+              <option value="">{consult.timelineDefault}</option>
+              <option value="asap">{consult.timelineAsap}</option>
+              <option value="1-3months">{consult.timeline1}</option>
+              <option value="3-6months">{consult.timeline2}</option>
+              <option value="exploring">{consult.timeline3}</option>
             </select>
           </div>
         </div>
@@ -517,7 +515,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
 
       {status === 'success' && (
         <p className="form-status form-status--success" role="status">
-          {t('ai.consult.form.success', lang)}
+          {consult.success}
         </p>
       )}
 
@@ -529,12 +527,10 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
       )}
 
       <button type="submit" className="btn btn-primary" disabled={status === 'submitting'}>
-        {status === 'submitting'
-          ? t('ai.consult.form.submitting', lang)
-          : t('ai.consult.form.submit', lang)}
+        {status === 'submitting' ? consult.submitting : consult.submit}
       </button>
 
-      <p className="form-note">{t('ai.consult.form.note', lang)}</p>
+      <p className="form-note">{consult.note}</p>
     </form>
   );
 }
