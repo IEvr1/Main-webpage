@@ -19,7 +19,14 @@ export default function Header({ lang, onLangChange }: HeaderProps) {
         >
           <img src={brandLogoUrl} alt={BRAND.name} className="site-header__logo" />
         </a>
-        <LanguageSwitcher lang={lang} onLangChange={onLangChange} />
+        <div className="site-header__actions">
+          <nav className="site-header__nav" aria-label={t('common.navAria', lang)}>
+            <a href="/ai/" className="site-header__nav-link">
+              {t('common.navAi', lang)}
+            </a>
+          </nav>
+          <LanguageSwitcher lang={lang} onLangChange={onLangChange} />
+        </div>
       </div>
     </header>
   );
