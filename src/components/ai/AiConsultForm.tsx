@@ -1,7 +1,13 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react';
 import type { Lang } from '../../i18n/types';
 import { t } from '../../i18n/i18n';
+import {
+  EU_CONSULT_LANGUAGES,
+  type EuConsultLang,
+  isEuConsultLang,
+} from '../../constants/eu-languages';
 import { CONTACT } from '../../constants/contact';
+import { getAiConsultLocale } from '../../i18n/ai-consult-locales';
 import {
   buildAiConsultMessage,
   validateAiConsultForm,
@@ -12,13 +18,11 @@ import {
 
 const MAX_RECORDING_SEC = 180;
 const GOALS: AiGoal[] = ['productivity', 'cost', 'sales'];
+const PROMPT_FIELDS = ['prompt1', 'prompt2', 'prompt3', 'prompt4'] as const;
 
-const PROMPT_KEYS = [
-  'ai.consult.prompts.p1',
-  'ai.consult.prompts.p2',
-  'ai.consult.prompts.p3',
-  'ai.consult.prompts.p4',
-] as const;
+function defaultConsultLang(pageLang: Lang): EuConsultLang {
+  return pageLang === 'el' ? 'el' : 'en';
+}
 
 type InputMode = 'write' | 'record';
 
@@ -70,6 +74,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
   const [form, setForm] = useState<AiConsultFormData>(initialForm);
   const [errors, setErrors] = useState<AiConsultFormErrors>({});
   const [mode, setMode] = useState<InputMode>('write');
+  const [consultLang, setConsultLang] = useState<EuConsultLang>(() => defaultConsultLang(lang));
   const [status, setStatus] = useState<SubmitStatus>('idle');
   const [submitError, setSubmitError] = useState('');
 
@@ -83,6 +88,12 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
   const chunksRef = useRef<BlobPart[]>([]);
   const timerRef = useRef<number | null>(null);
   const audioUrlRef = useRef<string | null>(null);
+
+  const consult = getAiConsultLocale(consultLang);
+
+  useEffect(() => {
+    setConsultLang(defaultConsultLang(lang));
+  }, [lang]);
 
   useEffect(() => {
     return () => {
@@ -200,7 +211,12 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
       return;
     }
 
-    const message = buildAiConsultMessage(form, lang, mode, audioBlob ? recordingSec : 0);
+    const message = buildAiConsultMessage(
+      form,
+      consultLang,
+      mode,
+      audioBlob ? recordingSec : 0,
+    );
 
     let audioBase64: string | undefined;
     let audioMimeType: string | undefined;
@@ -228,6 +244,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           goals: form.goals,
           timeline: form.timeline,
           inputMode: mode,
+          responseLanguage: consultLang,
           audioBase64,
           audioMimeType,
           audioDurationSec: audioBlob ? recordingSec : undefined,
@@ -285,7 +302,25 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
         </button>
       </div>
 
-      <p className="ai-consult-form__language-note">{t('ai.consult.form.languageNote', lang)}</p>
+      <div className="form-group">
+        <label htmlFor="ai-response-language">{t('ai.consult.form.responseLanguage', lang)}</label>
+        <select
+          id="ai-response-language"
+          className="ai-consult-form__language-select"
+          value={consultLang}
+          onChange={(e) => {
+            const value = e.target.value;
+            if (isEuConsultLang(value)) setConsultLang(value);
+          }}
+          disabled={status === 'submitting'}
+        >
+          {EU_CONSULT_LANGUAGES.map((option) => (
+            <option key={option.code} value={option.code}>
+              {option.nativeName}
+            </option>
+          ))}
+        </select>
+      </div>
 
       <div className="form-group">
         <label htmlFor="ai-name">{t('ai.consult.form.name', lang)}</label>
@@ -341,7 +376,7 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
       </div>
 
       <fieldset className="ai-consult-form__goals">
-        <legend>{t('ai.consult.form.goalsLegend', lang)}</legend>
+        <legend>{consult.goalsLegend}</legend>
         <div className="ai-consult-form__goals-grid">
           {GOALS.map((goal) => (
             <label key={goal} className="ai-consult-form__goal">
@@ -351,7 +386,13 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
                 onChange={() => toggleGoal(goal)}
                 disabled={status === 'submitting'}
               />
-              <span>{t(`ai.consult.form.goal.${goal}`, lang)}</span>
+              <span>
+                {{
+                  productivity: consult.goalProductivity,
+                  cost: consult.goalCost,
+                  sales: consult.goalSales,
+                }[goal]}
+              </span>
             </label>
           ))}
         </div>
@@ -361,13 +402,13 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
       {mode === 'write' ? (
         <>
           <div className="form-group">
-            <label htmlFor="ai-description">{t('ai.consult.form.description', lang)}</label>
+            <label htmlFor="ai-description">{consult.description}</label>
             <textarea
               id="ai-description"
               value={form.description}
               onChange={(e) => handleChange('description', e.target.value)}
               className={errors.description ? 'error' : ''}
-              placeholder={t('ai.consult.form.descriptionPlaceholder', lang)}
+              placeholder={consult.descriptionPlaceholder}
               disabled={status === 'submitting'}
             />
             {errors.description && <span className="form-error">{errors.description}</span>}
@@ -408,11 +449,10 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
       ) : (
         <div className="ai-consult-form__record-panel">
           <div className="ai-consult-form__prompts">
-            <h3 className="ai-consult-form__prompts-title">{t('ai.consult.prompts.title', lang)}</h3>
-            <p className="ai-consult-form__prompts-language">{t('ai.consult.prompts.languageNote', lang)}</p>
+            <h3 className="ai-consult-form__prompts-title">{consult.promptsTitle}</h3>
             <ol className="ai-consult-form__prompts-list">
-              {PROMPT_KEYS.map((key) => (
-                <li key={key}>{t(key, lang)}</li>
+              {PROMPT_FIELDS.map((field) => (
+                <li key={field}>{consult[field]}</li>
               ))}
             </ol>
           </div>

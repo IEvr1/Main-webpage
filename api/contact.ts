@@ -15,6 +15,7 @@ type ContactPayload = {
   goals?: string[];
   timeline?: string;
   inputMode?: string;
+  responseLanguage?: string;
   audioBase64?: string;
   audioMimeType?: string;
   audioDurationSec?: number;
@@ -35,6 +36,7 @@ type ZohoLead = {
   goals?: string[];
   timeline?: string;
   inputMode?: string;
+  responseLanguage?: string;
   audioBase64?: string;
   audioMimeType?: string;
   audioDurationSec?: number;
@@ -93,6 +95,7 @@ function leadExtraDetails(lead: ZohoLead): string[] {
   if (lead.teamSize) lines.push(`Team size: ${lead.teamSize}`);
   if (lead.timeline) lines.push(`Timeline: ${lead.timeline}`);
   if (lead.inputMode) lines.push(`Input mode: ${lead.inputMode}`);
+  if (lead.responseLanguage) lines.push(`Response language: ${lead.responseLanguage}`);
   if (lead.goals?.length) lines.push(`Goals: ${lead.goals.join(', ')}`);
 
   const voiceLine = voiceRecordingLine(lead);
@@ -417,6 +420,7 @@ async function sendLeadToZohoFlow(lead: ZohoLead): Promise<void> {
     goals: lead.goals,
     timeline: lead.timeline,
     input_mode: lead.inputMode,
+    response_language: lead.responseLanguage,
     audio_url: lead.audioUrl,
     audio_mime_type: lead.audioMimeType,
     audio_duration_sec: lead.audioDurationSec,
@@ -488,6 +492,7 @@ export default async function handler(
     goals,
     timeline,
     inputMode,
+    responseLanguage,
     audioBase64,
     audioMimeType,
     audioDurationSec,
@@ -542,6 +547,7 @@ export default async function handler(
     goals: Array.isArray(goals) ? goals.filter((goal) => typeof goal === 'string') : undefined,
     timeline: timeline?.trim(),
     inputMode: inputMode?.trim(),
+    responseLanguage: responseLanguage?.trim(),
     audioUrl,
     audioBase64: audioUrl ? undefined : trimmedAudioBase64 || undefined,
     audioMimeType: audioMimeType?.trim(),

@@ -1,0 +1,358 @@
+import type { EuConsultLang } from '../constants/eu-languages';
+
+export type AiConsultLocaleStrings = {
+  description: string;
+  descriptionPlaceholder: string;
+  goalsLegend: string;
+  goalProductivity: string;
+  goalCost: string;
+  goalSales: string;
+  promptsTitle: string;
+  prompt1: string;
+  prompt2: string;
+  prompt3: string;
+  prompt4: string;
+};
+
+export const AI_CONSULT_LOCALES: Record<EuConsultLang, AiConsultLocaleStrings> = {
+  bg: {
+    description: 'Опишете бизнес нуждата ви *',
+    descriptionPlaceholder:
+      'Какъв проблем искате да решите? Какво прави екипът ви ръчно днес? Какви инструменти използвате?',
+    goalsLegend: 'Какво искате да постигнете? *',
+    goalProductivity: 'Повишаване на продуктивността',
+    goalCost: 'Намаляване на разходите',
+    goalSales: 'Увеличаване на продажбите',
+    promptsTitle: 'По време на записа опитайте да отговорите:',
+    prompt1: 'Какво прави вашият бизнес и колко голям е екипът ви?',
+    prompt2: 'Коя задача отнема най-много време или причинява най-много разочарование?',
+    prompt3: 'Какво би се променило, ако този проблем изчезне?',
+    prompt4: 'Имате ли предвид бюджет или срок?',
+  },
+  hr: {
+    description: 'Opišite poslovnu potrebu *',
+    descriptionPlaceholder:
+      'Koji problem želite riješiti? Što vaš tim danas radi ručno? Koje alate koristite?',
+    goalsLegend: 'Što želite postići? *',
+    goalProductivity: 'Povećanje produktivnosti',
+    goalCost: 'Smanjenje troškova',
+    goalSales: 'Povećanje prodaje',
+    promptsTitle: 'Tijekom snimanja pokušajte odgovoriti:',
+    prompt1: 'Čime se bavi vaš posao i koliko je velik vaš tim?',
+    prompt2: 'Koji zadatak troši najviše vremena ili uzrokuje najviše frustracije?',
+    prompt3: 'Što bi se promijenilo ako bi taj problem nestao?',
+    prompt4: 'Imate li na umu proračun ili vremenski okvir?',
+  },
+  cs: {
+    description: 'Popište svou obchodní potřebu *',
+    descriptionPlaceholder:
+      'Jaký problém chcete vyřešit? Co váš tým dnes dělá ručně? Jaké nástroje používáte?',
+    goalsLegend: 'Čeho chcete dosáhnout? *',
+    goalProductivity: 'Zvýšení produktivity',
+    goalCost: 'Snížení nákladů',
+    goalSales: 'Růst prodeje',
+    promptsTitle: 'Při nahrávání se pokuste odpovědět:',
+    prompt1: 'Čím se vaše firma zabývá a jak velký je váš tým?',
+    prompt2: 'Který úkol zabere nejvíce času nebo způsobuje největší frustraci?',
+    prompt3: 'Co by se změnilo, kdyby tento problém zmizel?',
+    prompt4: 'Máte na mysli rozpočet nebo časový harmonogram?',
+  },
+  da: {
+    description: 'Beskriv dit forretningsbehov *',
+    descriptionPlaceholder:
+      'Hvilket problem vil du løse? Hvad gør dit team manuelt i dag? Hvilke værktøjer bruger I?',
+    goalsLegend: 'Hvad vil du opnå? *',
+    goalProductivity: 'Øge produktiviteten',
+    goalCost: 'Reducere omkostningerne',
+    goalSales: 'Øge salget',
+    promptsTitle: 'Mens du optager, prøv at besvare:',
+    prompt1: 'Hvad laver din virksomhed, og hvor stor er dit team?',
+    prompt2: 'Hvilken opgave tager mest tid eller skaber mest frustration?',
+    prompt3: 'Hvad ville ændre sig, hvis det problem forsvandt?',
+    prompt4: 'Har du et budget eller en tidslinje på sinde?',
+  },
+  nl: {
+    description: 'Beschrijf uw bedrijfsbehoefte *',
+    descriptionPlaceholder:
+      'Welk probleem wilt u oplossen? Wat doet uw team vandaag handmatig? Welke tools gebruikt u?',
+    goalsLegend: 'Wat wilt u bereiken? *',
+    goalProductivity: 'Productiviteit verhogen',
+    goalCost: 'Kosten verlagen',
+    goalSales: 'Omzet vergroten',
+    promptsTitle: 'Probeer tijdens de opname te antwoorden:',
+    prompt1: 'Wat doet uw bedrijf en hoe groot is uw team?',
+    prompt2: 'Welke taak kost de meeste tijd of veroorzaakt de meeste frustratie?',
+    prompt3: 'Wat zou veranderen als dat probleem verdween?',
+    prompt4: 'Heeft u een budget of tijdlijn in gedachten?',
+  },
+  en: {
+    description: 'Describe your business need *',
+    descriptionPlaceholder:
+      'What problem do you want to solve? What does your team do manually today? What tools do you use?',
+    goalsLegend: 'What do you want to achieve? *',
+    goalProductivity: 'Increase productivity',
+    goalCost: 'Reduce costs',
+    goalSales: 'Grow sales',
+    promptsTitle: 'While recording, try to answer:',
+    prompt1: 'What does your business do, and how big is your team?',
+    prompt2: 'What task takes the most time or causes the most frustration?',
+    prompt3: 'What would change if that problem disappeared?',
+    prompt4: 'Do you have a budget or timeline in mind?',
+  },
+  et: {
+    description: 'Kirjeldage oma ärivajadust *',
+    descriptionPlaceholder:
+      'Millist probleemi soovite lahendada? Mida teie meeskond täna käsitsi teeb? Milliseid tööriistu kasutate?',
+    goalsLegend: 'Mida soovite saavutada? *',
+    goalProductivity: 'Tootlikkuse suurendamine',
+    goalCost: 'Kulude vähendamine',
+    goalSales: 'Müügi kasvatamine',
+    promptsTitle: 'Salvestamise ajal proovige vastata:',
+    prompt1: 'Millega teie ettevõte tegeleb ja kui suur on teie meeskond?',
+    prompt2: 'Milline ülesanne võtab kõige rohkem aega või tekitab kõige rohkem pettumust?',
+    prompt3: 'Mis muutuks, kui see probleem kaoks?',
+    prompt4: 'Kas teil on eelarve või ajakava meeles?',
+  },
+  fi: {
+    description: 'Kuva liiketoimintatarpeesi *',
+    descriptionPlaceholder:
+      'Minkä ongelman haluatte ratkaista? Mitä tiiminne tekee manuaalisesti tänään? Mitä työkaluja käytätte?',
+    goalsLegend: 'Mitä haluatte saavuttaa? *',
+    goalProductivity: 'Tuottavuuden parantaminen',
+    goalCost: 'Kustannusten vähentäminen',
+    goalSales: 'Myynnin kasvattaminen',
+    promptsTitle: 'Tallennuksen aikana yritä vastata:',
+    prompt1: 'Mitä yrityksenne tekee ja kuinka suuri tiiminne on?',
+    prompt2: 'Mikä tehtävä vie eniten aikaa tai aiheuttaa eniten turhautumista?',
+    prompt3: 'Mitä muuttuisi, jos tuo ongelma poistuisi?',
+    prompt4: 'Onko teillä budjetti tai aikataulu mielessä?',
+  },
+  fr: {
+    description: 'Décrivez votre besoin professionnel *',
+    descriptionPlaceholder:
+      "Quel problème souhaitez-vous résoudre ? Que fait votre équipe manuellement aujourd'hui ? Quels outils utilisez-vous ?",
+    goalsLegend: 'Que souhaitez-vous accomplir ? *',
+    goalProductivity: 'Augmenter la productivité',
+    goalCost: 'Réduire les coûts',
+    goalSales: 'Développer les ventes',
+    promptsTitle: "Pendant l'enregistrement, essayez de répondre :",
+    prompt1: 'Que fait votre entreprise et quelle est la taille de votre équipe ?',
+    prompt2: 'Quelle tâche prend le plus de temps ou cause le plus de frustration ?',
+    prompt3: "Qu'est-ce qui changerait si ce problème disparaissait ?",
+    prompt4: 'Avez-vous un budget ou un calendrier en tête ?',
+  },
+  de: {
+    description: 'Beschreiben Sie Ihren geschäftlichen Bedarf *',
+    descriptionPlaceholder:
+      'Welches Problem möchten Sie lösen? Was macht Ihr Team heute manuell? Welche Tools nutzen Sie?',
+    goalsLegend: 'Was möchten Sie erreichen? *',
+    goalProductivity: 'Produktivität steigern',
+    goalCost: 'Kosten senken',
+    goalSales: 'Umsatz steigern',
+    promptsTitle: 'Versuchen Sie während der Aufnahme zu antworten:',
+    prompt1: 'Was macht Ihr Unternehmen und wie groß ist Ihr Team?',
+    prompt2: 'Welche Aufgabe nimmt die meiste Zeit in Anspruch oder verursacht die größte Frustration?',
+    prompt3: 'Was würde sich ändern, wenn dieses Problem verschwinden würde?',
+    prompt4: 'Haben Sie ein Budget oder einen Zeitrahmen im Sinn?',
+  },
+  el: {
+    description: 'Περιγράψτε την ανάγκη της επιχείρησής σας *',
+    descriptionPlaceholder:
+      'Ποιο πρόβλημα θέλετε να λύσετε; Τι κάνει η ομάδα σας χειροκίνητα σήμερα; Ποια εργαλεία χρησιμοποιείτε;',
+    goalsLegend: 'Τι θέλετε να πετύχετε; *',
+    goalProductivity: 'Αύξηση παραγωγικότητας',
+    goalCost: 'Μείωση κόστους',
+    goalSales: 'Αύξηση πωλήσεων',
+    promptsTitle: 'Κατά την εγγραφή, προσπαθήστε να απαντήσετε:',
+    prompt1: 'Τι κάνει η επιχείρησή σας και πόσο άτομα είστε;',
+    prompt2: 'Ποια εργασία παίρνει τον περισσότερο χρόνο ή προκαλεί τη μεγαλύτερη απογοήτευση;',
+    prompt3: 'Τι θα άλλαζε αν αυτό το πρόβλημα εξαφανιζόταν;',
+    prompt4: 'Έχετε προϋπολογισμό ή χρονοδιάγραμμα στο μυαλό σας;',
+  },
+  hu: {
+    description: 'Írja le üzleti igényét *',
+    descriptionPlaceholder:
+      'Milyen problémát szeretne megoldani? Mit csinál manuálisan a csapata ma? Milyen eszközöket használnak?',
+    goalsLegend: 'Mit szeretne elérni? *',
+    goalProductivity: 'Produktivitás növelése',
+    goalCost: 'Költségek csökkentése',
+    goalSales: 'Értékesítés növelése',
+    promptsTitle: 'Felvétel közben próbáljon válaszolni:',
+    prompt1: 'Mivel foglalkozik a vállalkozása, és mekkora a csapata?',
+    prompt2: 'Mely feladat vesz igénybe legtöbb időt vagy okozza a legnagyobb frustrációt?',
+    prompt3: 'Mi változna, ha ez a probléma megszűnne?',
+    prompt4: 'Van költségvetése vagy időkerete?',
+  },
+  ga: {
+    description: 'Déan cur síos ar do riachtanas gnó *',
+    descriptionPlaceholder:
+      "Cén fadhb ar mhaith leat a réiteach? Cad a dhéanann d'fhoireann de láimh inniu? Cén uirlisí a úsáideann sibh?",
+    goalsLegend: 'Cad ar mhaith leat a bhaint amach? *',
+    goalProductivity: 'Táirgiúlacht a mhéadú',
+    goalCost: 'Costais a laghdú',
+    goalSales: 'Díolacháin a mhéadú',
+    promptsTitle: 'Le linn an taifeadta, déan iarracht freagra a thabhairt:',
+    prompt1: "Cad a dhéanann do ghnó agus cé chomh mór is atá d'fhoireann?",
+    prompt2: 'Cén tasc a thógann an chuid is mó ama nó a chruthaíonn an frustrachas is mó?',
+    prompt3: 'Cad a athródh dá rachadh an fhadhb sin i léig?',
+    prompt4: 'An bhfuil buiséad nó amlíne agat i gcuimhne?',
+  },
+  it: {
+    description: 'Descrivi la tua esigenza aziendale *',
+    descriptionPlaceholder:
+      'Quale problema vuoi risolvere? Cosa fa manualmente il tuo team oggi? Quali strumenti utilizzate?',
+    goalsLegend: 'Cosa vuoi ottenere? *',
+    goalProductivity: 'Aumentare la produttività',
+    goalCost: 'Ridurre i costi',
+    goalSales: 'Aumentare le vendite',
+    promptsTitle: 'Durante la registrazione, prova a rispondere:',
+    prompt1: 'Di cosa si occupa la tua azienda e quanto è grande il tuo team?',
+    prompt2: 'Quale attività richiede più tempo o causa più frustrazione?',
+    prompt3: 'Cosa cambierebbe se quel problema scomparisse?',
+    prompt4: 'Hai un budget o una tempistica in mente?',
+  },
+  lv: {
+    description: 'Aprakstiet savu uzņēmuma vajadzību *',
+    descriptionPlaceholder:
+      'Kādu problēmu vēlaties atrisināt? Ko jūsu komanda šodien dara manuāli? Kādus rīkus izmantojat?',
+    goalsLegend: 'Ko vēlaties sasniegt? *',
+    goalProductivity: 'Produktivitātes palielināšana',
+    goalCost: 'Izmaksu samazināšana',
+    goalSales: 'Pārdošanas pieaugums',
+    promptsTitle: 'Ierakstīšanas laikā mēģiniet atbildēt:',
+    prompt1: 'Ar ko nodarbojas jūsu uzņēmums un cik liela ir jūsu komanda?',
+    prompt2: 'Kāds uzdevums aizņem visvairāk laika vai rada vislielāko neapmierinātību?',
+    prompt3: 'Kas mainītos, ja šī problēma pazustu?',
+    prompt4: 'Vai jums ir prātā budžets vai laika grafiks?',
+  },
+  lt: {
+    description: 'Aprašykite savo verslo poreikį *',
+    descriptionPlaceholder:
+      'Kokią problemą norite išspręsti? Ką jūsų komanda šiandien daro rankiniu būdu? Kokius įrankius naudojate?',
+    goalsLegend: 'Ko norite pasiekti? *',
+    goalProductivity: 'Produktyvumo didinimas',
+    goalCost: 'Išlaidų mažinimas',
+    goalSales: 'Pardavimų didinimas',
+    promptsTitle: 'Įrašymo metu pabandykite atsakyti:',
+    prompt1: 'Kuo užsiima jūsų verslas ir kiek didelė jūsų komanda?',
+    prompt2: 'Kuri užduotis užima daugiausiai laiko arba sukelia didžiausią nusivylimą?',
+    prompt3: 'Kas pasikeistų, jei ta problema išnyktų?',
+    prompt4: 'Ar turite omenyje biudžetą ar laikotarpį?',
+  },
+  mt: {
+    description: 'Ideskrivi l-ħtieġa tan-negozju tiegħek *',
+    descriptionPlaceholder:
+      "Liema problema trid issoċċi? X'jagħmel it-tim tiegħek manwalment illum? Liema għodod tuża?",
+    goalsLegend: "X'trid tinkiseb? *",
+    goalProductivity: 'Żid il-produttività',
+    goalCost: 'Naqqas l-ispejjeż',
+    goalSales: 'Żid il-bejgħ',
+    promptsTitle: 'Waqt ir-rekording, ipprova wieġeb:',
+    prompt1: "X'jagħmel in-negozju tiegħek u kemm huwa kbir it-tim tiegħek?",
+    prompt2: 'Liema kompitu jieħu l-aktar ħin jew jikkawża l-aktar frustrazzjoni?',
+    prompt3: "X'inhi tibdela jekk dik il-problema tisparixxi?",
+    prompt4: "Għandek baġit jew skeda ta' żmien f'moħħok?",
+  },
+  pl: {
+    description: 'Opisz swoją potrzebę biznesową *',
+    descriptionPlaceholder:
+      'Jaki problem chcesz rozwiązać? Co Twój zespół robi dziś ręcznie? Jakich narzędzi używacie?',
+    goalsLegend: 'Co chcesz osiągnąć? *',
+    goalProductivity: 'Zwiększenie produktywności',
+    goalCost: 'Redukcja kosztów',
+    goalSales: 'Wzrost sprzedaży',
+    promptsTitle: 'Podczas nagrywania spróbuj odpowiedzieć:',
+    prompt1: 'Czym zajmuje się Twoja firma i jak duży jest Twój zespół?',
+    prompt2: 'Które zadanie zajmuje najwięcej czasu lub powoduje największą frustrację?',
+    prompt3: 'Co by się zmieniło, gdyby ten problem zniknął?',
+    prompt4: 'Czy masz na myśli budżet lub harmonogram?',
+  },
+  pt: {
+    description: 'Descreva a sua necessidade empresarial *',
+    descriptionPlaceholder:
+      'Que problema pretende resolver? O que a sua equipa faz manualmente hoje? Que ferramentas utilizam?',
+    goalsLegend: 'O que pretende alcançar? *',
+    goalProductivity: 'Aumentar a produtividade',
+    goalCost: 'Reduzir custos',
+    goalSales: 'Aumentar as vendas',
+    promptsTitle: 'Durante a gravação, tente responder:',
+    prompt1: 'O que faz a sua empresa e qual é o tamanho da sua equipa?',
+    prompt2: 'Que tarefa demora mais tempo ou causa mais frustração?',
+    prompt3: 'O que mudaria se esse problema desaparecesse?',
+    prompt4: 'Tem um orçamento ou prazo em mente?',
+  },
+  ro: {
+    description: 'Descrieți nevoia dvs. de afaceri *',
+    descriptionPlaceholder:
+      'Ce problemă doriți să rezolvați? Ce face echipa dvs. manual astăzi? Ce instrumente folosiți?',
+    goalsLegend: 'Ce doriți să realizați? *',
+    goalProductivity: 'Creșterea productivității',
+    goalCost: 'Reducerea costurilor',
+    goalSales: 'Creșterea vânzărilor',
+    promptsTitle: 'În timpul înregistrării, încercați să răspundeți:',
+    prompt1: 'Cu ce se ocupă afacerea dvs. și cât de mare este echipa?',
+    prompt2: 'Ce sarcină consumă cel mai mult timp sau provoacă cea mai mare frustrare?',
+    prompt3: 'Ce s-ar schimba dacă acea problemă ar dispărea?',
+    prompt4: 'Aveți un buget sau un termen în vedere?',
+  },
+  sk: {
+    description: 'Opíšte svoju obchodnú potrebu *',
+    descriptionPlaceholder:
+      'Aký problém chcete vyriešiť? Čo váš tím dnes robí manuálne? Aké nástroje používate?',
+    goalsLegend: 'Čo chcete dosiahnuť? *',
+    goalProductivity: 'Zvýšenie produktivity',
+    goalCost: 'Zníženie nákladov',
+    goalSales: 'Rast predaja',
+    promptsTitle: 'Počas nahrávania sa pokúste odpovedať:',
+    prompt1: 'Čím sa vaša firma zaoberá a aký veľký je váš tím?',
+    prompt2: 'Ktorá úloha zaberá najviac času alebo spôsobuje najväčšiu frustráciu?',
+    prompt3: 'Čo by sa zmenilo, keby tento problém zmizol?',
+    prompt4: 'Máte na mysli rozpočet alebo časový rámec?',
+  },
+  sl: {
+    description: 'Opišite svojo poslovno potrebo *',
+    descriptionPlaceholder:
+      'Kateri problem želite rešiti? Kaj vaša ekipa danes dela ročno? Katera orodja uporabljate?',
+    goalsLegend: 'Kaj želite doseči? *',
+    goalProductivity: 'Povečanje produktivnosti',
+    goalCost: 'Zmanjšanje stroškov',
+    goalSales: 'Povečanje prodaje',
+    promptsTitle: 'Med snemanjem poskušajte odgovoriti:',
+    prompt1: 'S čim se ukvarja vaše podjetje in kako velika je vaša ekipa?',
+    prompt2: 'Katera naloga vzame največ časa ali povzroča največ frustracije?',
+    prompt3: 'Kaj bi se spremenilo, če bi ta problem izginil?',
+    prompt4: 'Imate v mislih proračun ali časovni okvir?',
+  },
+  es: {
+    description: 'Describa su necesidad empresarial *',
+    descriptionPlaceholder:
+      '¿Qué problema quiere resolver? ¿Qué hace manualmente su equipo hoy? ¿Qué herramientas utilizan?',
+    goalsLegend: '¿Qué quiere lograr? *',
+    goalProductivity: 'Aumentar la productividad',
+    goalCost: 'Reducir costes',
+    goalSales: 'Incrementar las ventas',
+    promptsTitle: 'Durante la grabación, intente responder:',
+    prompt1: '¿A qué se dedica su empresa y cuántas personas forman su equipo?',
+    prompt2: '¿Qué tarea consume más tiempo o genera más frustración?',
+    prompt3: '¿Qué cambiaría si ese problema desapareciera?',
+    prompt4: '¿Tiene un presupuesto o plazo en mente?',
+  },
+  sv: {
+    description: 'Beskriv ditt affärsbehov *',
+    descriptionPlaceholder:
+      'Vilket problem vill du lösa? Vad gör ert team manuellt idag? Vilka verktyg använder ni?',
+    goalsLegend: 'Vad vill du uppnå? *',
+    goalProductivity: 'Öka produktiviteten',
+    goalCost: 'Minska kostnaderna',
+    goalSales: 'Öka försäljningen',
+    promptsTitle: 'Under inspelningen, försök besvara:',
+    prompt1: 'Vad gör ert företag och hur stort är ert team?',
+    prompt2: 'Vilken uppgift tar mest tid eller orsakar mest frustration?',
+    prompt3: 'Vad skulle ändras om det problemet försvann?',
+    prompt4: 'Har du en budget eller tidsplan i åtanke?',
+  },
+};
+
+export function getAiConsultLocale(code: EuConsultLang): AiConsultLocaleStrings {
+  return AI_CONSULT_LOCALES[code];
+}
