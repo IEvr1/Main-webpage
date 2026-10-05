@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/generate-articles.mjs && node scripts/generate-sitemap.mjs",
+    "predev": "node scripts/generate-articles.mjs",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "seo:check": "node scripts/seo-check.mjs",
@@ -17,6 +18,8 @@
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.14",
     "tailwindcss": "^4.3.1",
     "typescript": "~6.0.2",
     "vite": "^8.0.12"

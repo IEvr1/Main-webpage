@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import HomeHero from './components/home/HomeHero';
 import AppCards from './components/home/AppCards';
+import ArticlesTeaser from './components/home/ArticlesTeaser';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
@@ -21,6 +22,7 @@ export default function HomeApp() {
       <HomeHero lang={lang} />
       <main>
         <AppCards lang={lang} />
+        <ArticlesTeaser lang={lang} />
         <FaqSection
           lang={lang}
           titleKey="home.faq.title"

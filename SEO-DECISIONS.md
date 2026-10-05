@@ -82,7 +82,7 @@ Rank as high as possible for **specific, realistic keywords** — not generic te
 | # | Step | Status | Action |
 |---|------|--------|--------|
 | 14 | 5–10 quality backlinks | ⬜ Pending | LinkedIn, directories, partners, email signature |
-| 15 | 2–4 blog / guide articles | ⬜ Pending | Cyprus & Greece business pain points; link from home |
+| 15 | 2–4 blog / guide articles | ✅ Done | Markdown at `content/articles/{slug}.{el\|en}.md` → `/articles` & `/en/articles`; 2 sample posts; Home + Footer links |
 | 16 | Optional industry landing pages | ⬜ Later | e.g. `/for-salons`, `/for-restaurants` |
 | 17 | PNG `og-image` (1200×630) | ⬜ Optional | Replace `public/og-image.svg` for better social previews |
 
@@ -133,8 +133,11 @@ ALWAYS
 | `src/i18n/en.json`, `el.json` | Dynamic titles/descriptions + FAQ copy |
 | `src/i18n/useLang.ts` | Updates title, description, OG on language switch |
 | `src/components/FaqSection.tsx` | FAQ UI + FAQPage schema |
-| `src/constants/site-routes.json` | Sitemap URL list (single source of truth) |
-| `scripts/generate-sitemap.mjs` | Regenerates `public/sitemap.xml` on build |
+| `src/constants/site-routes.json` | Sitemap URL list (product pages) |
+| `content/articles/*.md` | Article source (frontmatter = native SEO fields) |
+| `scripts/generate-articles.mjs` | Markdown → static HTML + manifest + vite inputs |
+| `src/articles/generated/manifest.json` | Article metadata for React listing/home |
+| `scripts/generate-sitemap.mjs` | Regenerates `public/sitemap.xml` on build (products + articles) |
 | `scripts/seo-check.mjs` | Validates meta tags + sitemap in CI |
 | `src/components/RelatedApps.tsx` | Internal links between product pages |
 | `src/utils/analytics.ts` | Optional GA4 page-view tracking |
@@ -165,6 +168,7 @@ ALWAYS
 
 | Date | Change |
 |------|--------|
+| 2026-10-05 | Articles system: markdown content, path-based el/en URLs, BlogPosting schema, sitemap + 2 sample guides |
 | 2026-06-27 | SEO automation: related links, build-time sitemap, GA4 hook, CI seo:check |
 | 2026-06-24 | DocsApp landing page added at `/docsapp`; sitemap → 6 URLs |
 | 2026-06-20 | Markets expanded to Cyprus & Greece (equal); locale `el`; JSON-LD areaServed both countries |

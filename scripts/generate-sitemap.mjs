@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -9,24 +9,72 @@ const routes = JSON.parse(
   readFileSync(resolve(root, 'src/constants/site-routes.json'), 'utf8'),
 );
 
+const manifestPath = resolve(root, 'src/articles/generated/manifest.json');
+const articleManifest = existsSync(manifestPath)
+  ? JSON.parse(readFileSync(manifestPath, 'utf8'))
+  : { articles: [], listing: { el: '/articles', en: '/en/articles' } };
+
 const today = new Date().toISOString().slice(0, 10);
 
-const urls = routes
-  .map((route) => {
-    const loc = `${siteUrl}${route.path === '/' ? '/' : route.path}`;
-    const elHref = loc;
-    const enHref = route.path === '/' ? `${siteUrl}/?lang=en` : `${loc}?lang=en`;
+function buildUrlEntry({ loc, lastmod, priority, elHref, enHref, useQueryLang = true }) {
+  const enUrl = useQueryLang
+    ? loc === `${siteUrl}/`
+      ? `${siteUrl}/?lang=en`
+      : `${loc}?lang=en`
+    : enHref;
 
-    return `  <url>
+  return `  <url>
     <loc>${loc}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lastmod}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>${route.priority.toFixed(1)}</priority>
+    <priority>${priority.toFixed(1)}</priority>
     <xhtml:link rel="alternate" hreflang="el" href="${elHref}" />
-    <xhtml:link rel="alternate" hreflang="en" href="${enHref}" />
+    <xhtml:link rel="alternate" hreflang="en" href="${enUrl}" />
   </url>`;
-  })
-  .join('\n');
+}
+
+const productUrls = routes.map((route) => {
+  const loc = `${siteUrl}${route.path === '/' ? '/' : route.path}`;
+  const elHref = loc;
+  return buildUrlEntry({
+    loc,
+    lastmod: today,
+    priority: route.priority,
+    elHref,
+    useQueryLang: true,
+  });
+});
+
+const articleListingUrls = [
+  buildUrlEntry({
+    loc: `${siteUrl}${articleManifest.listing.el}`,
+    lastmod: today,
+    priority: 0.7,
+    elHref: `${siteUrl}${articleManifest.listing.el}`,
+    enHref: `${siteUrl}${articleManifest.listing.en}`,
+    useQueryLang: false,
+  }),
+];
+
+const articleUrls = (articleManifest.articles || []).flatMap((article) => {
+  const elPath = article.paths?.el;
+  const enPath = article.paths?.en;
+  if (!elPath && !enPath) return [];
+
+  const primaryPath = elPath || enPath;
+  return [
+    buildUrlEntry({
+      loc: `${siteUrl}${primaryPath}`,
+      lastmod: article.updated || article.date || today,
+      priority: 0.6,
+      elHref: `${siteUrl}${elPath || primaryPath}`,
+      enHref: `${siteUrl}${enPath || primaryPath}`,
+      useQueryLang: false,
+    }),
+  ];
+});
+
+const urls = [...productUrls, ...articleListingUrls, ...articleUrls].join('\n');
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -37,4 +85,6 @@ ${urls}
 
 const outputPath = resolve(root, 'public/sitemap.xml');
 writeFileSync(outputPath, sitemap, 'utf8');
-console.log(`Generated sitemap with ${routes.length} URLs (${today}) → public/sitemap.xml`);
+
+const totalUrls = routes.length + 1 + (articleManifest.articles?.length || 0);
+console.log(`Generated sitemap with ${totalUrls} URLs (${today}) → public/sitemap.xml`);

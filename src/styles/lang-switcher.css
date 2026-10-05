@@ -41,3 +41,13 @@
   background: var(--color-accent-hover, #0369a1);
   color: #ffffff;
 }
+
+.lang-switcher__btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.lang-switcher__btn:disabled:hover {
+  background: transparent;
+  color: var(--color-text-muted, #475569);
+}

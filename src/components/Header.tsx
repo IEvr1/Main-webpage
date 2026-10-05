@@ -6,9 +6,10 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 type HeaderProps = {
   lang: Lang;
   onLangChange: (lang: Lang) => void;
+  langUrls?: Partial<Record<Lang, string>>;
 };
 
-export default function Header({ lang, onLangChange }: HeaderProps) {
+export default function Header({ lang, onLangChange, langUrls }: HeaderProps) {
   return (
     <header className="site-header">
       <div className="container site-header__inner">
@@ -19,7 +20,7 @@ export default function Header({ lang, onLangChange }: HeaderProps) {
         >
           <img src={brandLogoUrl} alt={BRAND.name} className="site-header__logo" />
         </a>
-        <LanguageSwitcher lang={lang} onLangChange={onLangChange} />
+        <LanguageSwitcher lang={lang} onLangChange={onLangChange} langUrls={langUrls} />
       </div>
     </header>
   );
