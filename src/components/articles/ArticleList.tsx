@@ -22,9 +22,6 @@ export default function ArticleList({ lang }: ArticleListProps) {
               href={article.paths[lang]}
               className="article-card"
             >
-              <p className="article-card__date">
-                <time dateTime={article.date}>{article.date}</time>
-              </p>
               <h3 className="article-card__title">{article.titles[lang]}</h3>
               <p className="article-card__excerpt">{article.descriptions[lang]}</p>
             </a>

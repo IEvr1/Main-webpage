@@ -38,11 +38,9 @@ export default function ArticleApp() {
           <a href={articlesManifest.listing[lang]} className="article-page__back">
             ← {t('articles.backToList', lang)}
           </a>
-          <p className="article-page__meta">
-            <time dateTime={article.date}>{article.date}</time>
-            {' · '}
-            {article.author}
-          </p>
+          {article.author ? (
+            <p className="article-page__meta">{article.author}</p>
+          ) : null}
           <h1 className="article-page__title">{article.title}</h1>
           <article
             className="article-body"
