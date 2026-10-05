@@ -215,6 +215,18 @@ In **Zoho CRM → Setup → Workflow Rules**:
 | Message | Form |
 | Page | URL path (`/onlinebooking`, `/foodorder`, etc.) |
 | Language | `el` or `en` |
+| Voice recording URL | Vercel Blob (AI `/ai` form, record mode) |
+
+### Voice recordings (AI Consulting form)
+
+When a visitor records a voice message on `/ai`, the API uploads the audio to **Vercel Blob** and includes a **listen link** in the notification email to `info@nexaipla.com`.
+
+1. In Vercel → **Storage** → create a **Blob** store and connect it to `main-webpage`
+2. Ensure `BLOB_READ_WRITE_TOKEN` is set for Production (and Preview if you test there)
+3. Submit a test recording on `/ai` — the email should contain a line like:  
+   `Voice recording (45s): https://....public.blob.vercel-storage.com/...`
+
+Without `BLOB_READ_WRITE_TOKEN`, text submissions still work; voice submissions are accepted but the email notes that storage upload was unavailable.
 
 ---
 
@@ -248,4 +260,10 @@ ZOHO_API_DOMAIN=https://www.zohoapis.eu
 
 ```
 ZOHO_FLOW_WEBHOOK_URL=
+```
+
+**Voice recordings (AI Consulting `/ai`):**
+
+```
+BLOB_READ_WRITE_TOKEN=
 ```

@@ -144,7 +144,7 @@ export default function AiScoreResults({
           <button type="button" className="btn btn-primary" onClick={handleRequest}>
             {t('aiscore.results.ctaRequest', lang)}
           </button>
-          <a href="/custom/" className="btn btn-secondary">
+          <a href="/ai/" className="btn btn-secondary">
             {t('aiscore.results.ctaCustom', lang)}
           </a>
           <button type="button" className="btn btn-secondary" onClick={onRetake}>

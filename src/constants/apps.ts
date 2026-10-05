@@ -63,12 +63,12 @@ export function getCompanyApps(lang: Lang): CompanyApp[] {
       tag: t('apps.aiScore.tag', lang),
     },
     {
-      id: 'custom-apps',
-      title: t('apps.customApps.title', lang),
-      description: t('apps.customApps.description', lang),
-      href: '/custom/',
-      status: 'custom',
-      tag: t('apps.customApps.tag', lang),
+      id: 'ai-consulting',
+      title: t('apps.aiConsulting.title', lang),
+      description: t('apps.aiConsulting.description', lang),
+      href: '/ai/',
+      status: 'active',
+      tag: t('apps.aiConsulting.tag', lang),
     },
   ];
 }

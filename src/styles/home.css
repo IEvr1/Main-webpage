@@ -32,6 +32,18 @@
   justify-content: center;
 }
 
+.home-hero .btn-ai {
+  background-color: #fffbeb;
+  color: #b45309;
+  border-color: #f59e0b;
+}
+
+.home-hero .btn-ai:hover {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #d97706;
+}
+
 /* App Cards */
 .apps-section {
   padding: var(--section-padding);
@@ -67,6 +79,15 @@
 
 .app-card--custom {
   border-style: dashed;
+}
+
+.app-card--ai-consulting .app-card__icon {
+  color: #d97706;
+}
+
+.app-card--ai-consulting .app-card__tag {
+  color: #b45309;
+  background: #fffbeb;
 }
 
 .app-card__icon {

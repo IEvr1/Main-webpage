@@ -42,6 +42,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/custom?lang=en" />
   </url>
   <url>
+    <loc>https://www.nexaipla.com/ai</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/ai" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/ai?lang=en" />
+  </url>
+  <url>
     <loc>https://www.nexaipla.com/docsapp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>

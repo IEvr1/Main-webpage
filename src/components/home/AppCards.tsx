@@ -52,11 +52,11 @@ function SchoolMealsIcon() {
   );
 }
 
-function CustomAppsIcon() {
+function AiConsultingIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-      <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
-      <path d="M8 10h.01M12 10h.01M16 10h.01" />
+      <path d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3z" />
+      <path d="M5 19h14M8 19v-2a4 4 0 018 0v2" />
     </svg>
   );
 }
@@ -78,7 +78,7 @@ const appIcons: Record<string, () => ReactElement> = {
   'docs-app': DocsAppIcon,
   'school-meals': SchoolMealsIcon,
   'ai-score': AiScoreIcon,
-  'custom-apps': CustomAppsIcon,
+  'ai-consulting': AiConsultingIcon,
 };
 
 type AppCardsProps = {
@@ -105,7 +105,7 @@ export default function AppCards({ lang }: AppCardsProps) {
             return (
               <article
                 key={app.id}
-                className={`app-card${isActive || isCustom ? '' : ' app-card--soon'}${isCustom ? ' app-card--custom' : ''}`}
+                className={`app-card${isActive || isCustom ? '' : ' app-card--soon'}${isCustom ? ' app-card--custom' : ''}${app.id === 'ai-consulting' ? ' app-card--ai-consulting' : ''}`}
               >
                 <div className="app-card__icon">{Icon ? <Icon /> : null}</div>
 

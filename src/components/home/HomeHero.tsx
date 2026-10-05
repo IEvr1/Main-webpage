@@ -12,6 +12,9 @@ export default function HomeHero({ lang }: HomeHeroProps) {
         <h1 className="home-hero__title">{t('home.hero.title', lang)}</h1>
         <p className="home-hero__subtitle">{t('home.hero.subtitle', lang)}</p>
         <div className="home-hero__actions">
+          <a href="/ai/" className="btn btn-ai">
+            {t('common.navAi', lang)}
+          </a>
           <a href="#apps" className="btn btn-primary">
             {t('home.hero.ctaApps', lang)}
           </a>

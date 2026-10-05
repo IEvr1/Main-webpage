@@ -42,6 +42,13 @@ export const CUSTOM_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'custom.faq.q4', answerKey: 'custom.faq.a4' },
 ];
 
+export const AI_SOLUTIONS_FAQ: readonly FaqItemDef[] = [
+  { questionKey: 'ai.faq.q1', answerKey: 'ai.faq.a1' },
+  { questionKey: 'ai.faq.q2', answerKey: 'ai.faq.a2' },
+  { questionKey: 'ai.faq.q3', answerKey: 'ai.faq.a3' },
+  { questionKey: 'ai.faq.q4', answerKey: 'ai.faq.a4' },
+];
+
 export const DOCSAPP_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'docsapp.faq.q1', answerKey: 'docsapp.faq.a1' },
   { questionKey: 'docsapp.faq.q2', answerKey: 'docsapp.faq.a2' },

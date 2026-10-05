@@ -7,6 +7,7 @@
     { "source": "/schoolmeals", "destination": "/schoolmeals/index.html" },
     { "source": "/custom", "destination": "/custom/index.html" },
     { "source": "/ai-score", "destination": "/ai-score/index.html" },
+    { "source": "/ai", "destination": "/ai/index.html" },
     { "source": "/articles", "destination": "/articles/index.html" },
     { "source": "/articles/:slug", "destination": "/articles/:slug/index.html" },
     { "source": "/en/articles", "destination": "/en/articles/index.html" },
