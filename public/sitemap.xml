@@ -58,6 +58,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/schoolmeals?lang=en" />
   </url>
   <url>
+    <loc>https://www.nexaipla.com/ai-score</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/ai-score" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/ai-score?lang=en" />
+  </url>
+  <url>
     <loc>https://www.nexaipla.com/articles</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>

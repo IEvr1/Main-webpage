@@ -55,6 +55,14 @@ export function getCompanyApps(lang: Lang): CompanyApp[] {
       tag: t('apps.schoolMeals.tag', lang),
     },
     {
+      id: 'ai-score',
+      title: t('apps.aiScore.title', lang),
+      description: t('apps.aiScore.description', lang),
+      href: '/ai-score/',
+      status: 'active',
+      tag: t('apps.aiScore.tag', lang),
+    },
+    {
       id: 'custom-apps',
       title: t('apps.customApps.title', lang),
       description: t('apps.customApps.description', lang),

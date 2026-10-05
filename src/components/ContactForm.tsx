@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react';
+import { useEffect, useState, type FormEvent } from 'react';
 import type { Lang } from '../i18n/types';
 import { t } from '../i18n/i18n';
 import { CONTACT } from '../constants/contact';
@@ -19,6 +19,7 @@ type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error';
 
 type ContactFormProps = {
   lang: Lang;
+  defaultMessage?: string;
 };
 
 function openMailto(form: ContactFormData, lang: Lang) {
@@ -30,11 +31,17 @@ function openMailto(form: ContactFormData, lang: Lang) {
   window.location.href = `mailto:${CONTACT.email}?subject=${subject}&body=${body}`;
 }
 
-export default function ContactForm({ lang }: ContactFormProps) {
+export default function ContactForm({ lang, defaultMessage }: ContactFormProps) {
   const [form, setForm] = useState<ContactFormData>(initialForm);
   const [errors, setErrors] = useState<ContactFormErrors>({});
   const [status, setStatus] = useState<SubmitStatus>('idle');
   const [submitError, setSubmitError] = useState('');
+
+  useEffect(() => {
+    if (defaultMessage === undefined) return;
+    setForm((prev) => ({ ...prev, message: defaultMessage }));
+    setStatus('idle');
+  }, [defaultMessage]);
 
   function handleChange(field: keyof ContactFormData, value: string) {
     setForm((prev) => ({ ...prev, [field]: value }));

@@ -48,3 +48,10 @@ export const DOCSAPP_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'docsapp.faq.q3', answerKey: 'docsapp.faq.a3' },
   { questionKey: 'docsapp.faq.q4', answerKey: 'docsapp.faq.a4' },
 ];
+
+export const AI_SCORE_FAQ: readonly FaqItemDef[] = [
+  { questionKey: 'aiscore.faq.q1', answerKey: 'aiscore.faq.a1' },
+  { questionKey: 'aiscore.faq.q2', answerKey: 'aiscore.faq.a2' },
+  { questionKey: 'aiscore.faq.q3', answerKey: 'aiscore.faq.a3' },
+  { questionKey: 'aiscore.faq.q4', answerKey: 'aiscore.faq.a4' },
+];

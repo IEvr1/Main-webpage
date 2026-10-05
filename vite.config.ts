@@ -33,6 +33,7 @@ export default defineConfig({
         docsapp: resolve(__dirname, 'docsapp/index.html'),
         schoolmeals: resolve(__dirname, 'schoolmeals/index.html'),
         custom: resolve(__dirname, 'custom/index.html'),
+        'ai-score': resolve(__dirname, 'ai-score/index.html'),
         ...getArticleInputs(),
       },
     },

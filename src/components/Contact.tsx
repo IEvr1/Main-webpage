@@ -5,9 +5,10 @@ import ContactForm from './ContactForm';
 
 type ContactProps = {
   lang: Lang;
+  defaultMessage?: string;
 };
 
-export default function Contact({ lang }: ContactProps) {
+export default function Contact({ lang, defaultMessage }: ContactProps) {
   return (
     <section id="contact" className="contact-section" aria-labelledby="contact-title">
       <div className="container">
@@ -25,7 +26,7 @@ export default function Contact({ lang }: ContactProps) {
             <p className="contact-info__phone">{CONTACT.phone}</p>
           </div>
 
-          <ContactForm lang={lang} />
+          <ContactForm lang={lang} defaultMessage={defaultMessage} />
         </div>
       </div>
     </section>
