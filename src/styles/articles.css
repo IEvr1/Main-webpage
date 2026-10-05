@@ -189,7 +189,7 @@
 }
 
 .home-articles {
-  padding: var(--section-padding);
+  padding: 2.5rem 1.25rem;
   background: linear-gradient(180deg, transparent 0%, rgba(224, 242, 254, 0.35) 100%);
 }
 
@@ -199,19 +199,16 @@
   text-align: center;
 }
 
+.home-articles .section-subtitle {
+  margin-bottom: 0;
+}
+
 .home-articles__cta {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  margin-top: 1.25rem;
+  margin-top: 1rem;
   font-weight: 600;
-}
-
-.home-articles__latest {
-  margin-top: 2rem;
-  text-align: left;
-  display: grid;
-  gap: 1rem;
 }
 
 .site-footer__nav {
