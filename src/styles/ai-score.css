@@ -365,13 +365,52 @@
   gap: 0.75rem;
 }
 
+.ai-score-email {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  text-align: left;
+}
+
+.ai-score-email__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.ai-score-email__subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.1rem;
+}
+
+.ai-score-email__honeypot {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.ai-score-email .form-group {
+  margin-bottom: 0.9rem;
+}
+
+.ai-score-email .btn {
+  margin-top: 0.25rem;
+}
+
 @media (max-width: 560px) {
   .ai-score-quiz__nav {
     flex-direction: column-reverse;
   }
 
   .ai-score-quiz__nav .btn,
-  .ai-score-results__actions .btn {
+  .ai-score-results__actions .btn,
+  .ai-score-email .btn {
     width: 100%;
     text-align: center;
   }

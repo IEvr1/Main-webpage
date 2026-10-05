@@ -201,6 +201,18 @@ const en = {
   ctaRequest: 'Request a custom AI solution',
   ctaCustom: 'Learn about custom AI tools',
   ctaRetake: 'Retake assessment',
+  ctaEmailResults: 'Email my results',
+  emailFormTitle: 'Send results to your email',
+  emailFormSubtitle: 'We’ll email you a short summary of your score and focus areas.',
+  emailName: 'Name *',
+  emailAddress: 'Email *',
+  emailSubmit: 'Send results',
+  emailSubmitting: 'Sending…',
+  emailSuccess: 'Sent — check your inbox for your AI Readiness Score summary.',
+  emailError: 'Could not send the email. Please try again or use the contact form.',
+  emailNameRequired: 'Please enter your name.',
+  emailInvalid: 'Please enter a valid email address.',
+  emailRecsIntro: 'Recommendations:',
   band: {
     red: {
       label: 'Not ready yet',
@@ -428,6 +440,18 @@ const locales = {
     ctaRequest: 'Ζητήστε προσαρμοσμένη λύση AI',
     ctaCustom: 'Μάθετε για custom AI εργαλεία',
     ctaRetake: 'Επανάληψη αξιολόγησης',
+    ctaEmailResults: 'Αποστολή αποτελεσμάτων στο email',
+    emailFormTitle: 'Στείλτε τα αποτελέσματα στο email σας',
+    emailFormSubtitle: 'Θα σας στείλουμε σύντομη περίληψη του σκορ και των περιοχών προτεραιότητας.',
+    emailName: 'Όνομα *',
+    emailAddress: 'Email *',
+    emailSubmit: 'Αποστολή αποτελεσμάτων',
+    emailSubmitting: 'Αποστολή…',
+    emailSuccess: 'Στάλθηκε — ελέγξτε το inbox σας για την περίληψη του AI Readiness Score.',
+    emailError: 'Δεν ήταν δυνατή η αποστολή. Δοκιμάστε ξανά ή χρησιμοποιήστε τη φόρμα επικοινωνίας.',
+    emailNameRequired: 'Παρακαλώ εισάγετε το όνομά σας.',
+    emailInvalid: 'Παρακαλώ εισάγετε έγκυρο email.',
+    emailRecsIntro: 'Συστάσεις:',
     band: {
       red: {
         label: 'Όχι ακόμα έτοιμοι',
@@ -526,6 +550,18 @@ export type AiScoreLocaleStrings = {
   ctaRequest: string;
   ctaCustom: string;
   ctaRetake: string;
+  ctaEmailResults: string;
+  emailFormTitle: string;
+  emailFormSubtitle: string;
+  emailName: string;
+  emailAddress: string;
+  emailSubmit: string;
+  emailSubmitting: string;
+  emailSuccess: string;
+  emailError: string;
+  emailNameRequired: string;
+  emailInvalid: string;
+  emailRecsIntro: string;
   band: Record<AiScoreBand, { label: string; desc: string }>;
   rec: Record<AiScoreDimensionId, string>;
   contactIntro: string;

@@ -144,19 +144,27 @@ function hasZohoMailConfig(): boolean {
   return hasZohoCrmConfig();
 }
 
-function contactEmailSubject(): string {
+function contactEmailSubject(inquiryType?: string): string {
+  if (inquiryType === 'ai-score-results') {
+    return 'AI Readiness Score results — nexaipla.com';
+  }
   return process.env.CONTACT_EMAIL_SUBJECT?.trim() || 'Επικοινωνία — NexAI';
 }
 
 function contactEmailBody(lead: ZohoLead): string {
+  const header =
+    lead.inquiryType === 'ai-score-results'
+      ? 'Νέα αποστολή αποτελεσμάτων AI Readiness Score από nexaipla.com'
+      : 'Νέο μήνυμα από τη φόρμα επικοινωνίας του nexaipla.com';
+
   const lines = [
-    'Νέο μήνυμα από τη φόρμα επικοινωνίας του nexaipla.com',
+    header,
     '',
     `Όνομα: ${lead.name}`,
     `Email: ${lead.email}`,
     `Τηλέφωνο: ${lead.phone.trim() || '—'}`,
     '',
-    'Μήνυμα:',
+    lead.inquiryType === 'ai-score-results' ? 'Περίληψη αποτελεσμάτων:' : 'Μήνυμα:',
     lead.message.trim(),
   ];
 
@@ -255,10 +263,21 @@ async function sendZohoMailMessage(
 }
 
 async function sendContactNotificationEmail(lead: ZohoLead): Promise<boolean> {
-  return sendZohoMailMessage(contactNotifyEmail(), contactEmailSubject(), contactEmailBody(lead));
+  return sendZohoMailMessage(
+    contactNotifyEmail(),
+    contactEmailSubject(lead.inquiryType),
+    contactEmailBody(lead),
+  );
 }
 
-function contactAutoReplySubject(lang: string): string {
+function contactAutoReplySubject(lang: string, inquiryType?: string): string {
+  if (inquiryType === 'ai-score-results') {
+    if (lang === 'en') {
+      return 'Your AI Readiness Score results | NexAIpla';
+    }
+    return 'Τα αποτελέσματα του AI Readiness Score σας | NexAIpla';
+  }
+
   if (lang === 'en') {
     return process.env.CONTACT_AUTOREPLY_SUBJECT_EN?.trim() || 'Thanks for contacting NexAIpla';
   }
@@ -270,12 +289,41 @@ function contactAutoReplyBody(lead: ZohoLead): string {
   const { firstName } = splitName(lead.name);
   const greetingName = firstName || lead.name.trim().split(/\s+/)[0] || '';
   const isAiConsultation = lead.inquiryType === 'ai-consultation';
+  const isAiScoreResults = lead.inquiryType === 'ai-score-results';
+
+  if (isAiScoreResults) {
+    if (lead.lang === 'en') {
+      const hello = greetingName ? `Hello ${greetingName},` : 'Hello,';
+      return `${hello}
+
+Thank you for completing the AI Readiness Score. Here is your summary:
+
+${lead.message.trim()}
+
+If you would like a custom AI solution based on these results, visit https://www.nexaipla.com/ai/ or reply to this email.
+
+NexAIpla Team
+info@nexaipla.com`;
+    }
+
+    const hello = greetingName ? `Γεια σας ${greetingName},` : 'Γεια σας,';
+    return `${hello}
+
+Ευχαριστούμε που ολοκληρώσατε το AI Readiness Score. Ακολουθεί η περίληψη των αποτελεσμάτων σας:
+
+${lead.message.trim()}
+
+Αν θέλετε εξατομικευμένη λύση AI με βάση αυτά τα αποτελέσματα, επισκεφτείτε το https://www.nexaipla.com/ai/ ή απαντήστε σε αυτό το email.
+
+Ομάδα NexAIpla
+info@nexaipla.com`;
+  }
 
   if (lead.lang === 'en') {
     const hello = greetingName ? `Hello ${greetingName},` : 'Hello,';
     const replyWindow = isAiConsultation
       ? 'We received your AI consultation request and will reply within 48 hours with feasibility %, an indicative implementation cost, and an estimated implementation timeline.'
-      : 'We received your message and will reply within 24 hours.';
+      : 'We received your message and will reply within 48 hours.';
     return `${hello}
 
 Thank you for contacting NexAIpla. ${replyWindow}
@@ -287,7 +335,7 @@ info@nexaipla.com`;
   const hello = greetingName ? `Γεια σας ${greetingName},` : 'Γεια σας,';
   const replyWindow = isAiConsultation
     ? 'Λάβαμε το αίτημά σας για AI συμβουλευτική και θα απαντήσουμε εντός 48 ωρών με ποσοστό εφικτότητας, ενδεικτικό κόστος και εκτιμώμενη διάρκεια υλοποίησης.'
-    : 'Λάβαμε το μήνυμά σας και θα απαντήσουμε εντός 24 ωρών.';
+    : 'Λάβαμε το μήνυμά σας και θα απαντήσουμε εντός 48 ωρών.';
   return `${hello}
 
 Ευχαριστούμε που επικοινωνήσατε με την NexAIpla. ${replyWindow}
@@ -299,7 +347,7 @@ info@nexaipla.com`;
 async function sendContactAutoReplyEmail(lead: ZohoLead): Promise<boolean> {
   return sendZohoMailMessage(
     lead.email,
-    contactAutoReplySubject(lead.lang),
+    contactAutoReplySubject(lead.lang, lead.inquiryType),
     contactAutoReplyBody(lead),
   );
 }

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type FormEvent } from 'react';
 import type { ConsultLang } from '../../constants/consult-languages';
 import type { AiScoreDimensionId } from '../../constants/ai-score-questions';
 import {
@@ -18,6 +18,11 @@ type AiScoreResultsProps = {
   onRequestSolution: (message: string) => void;
 };
 
+type EmailStatus = 'idle' | 'submitting' | 'success' | 'error';
+
+const EMAIL_PATTERN =
+  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z]{2,})+$/;
+
 function TrafficLight({ band }: { band: AiScoreBand }) {
   return (
     <div className={`ai-score-light ai-score-light--${band}`} aria-hidden="true">
@@ -28,6 +33,35 @@ function TrafficLight({ band }: { band: AiScoreBand }) {
   );
 }
 
+function buildResultsSummary(
+  locale: ReturnType<typeof getAiScoreLocale>,
+  result: AiScoreResult,
+): string {
+  const gapLines = result.weakest.map((id) => {
+    const dim = result.dimensions.find((d) => d.id === id)!;
+    return formatAiScoreLocale(locale.contactGapLine, {
+      name: locale.dim[id],
+      score: dim.score100,
+    });
+  });
+
+  const summary = buildScoreContactMessage({
+    intro: locale.contactIntro,
+    scoreLine: formatAiScoreLocale(locale.contactScoreLine, { score: result.score100 }),
+    bandLine: formatAiScoreLocale(locale.contactBandLine, {
+      band: locale.band[result.band].label,
+    }),
+    gapsIntro: locale.contactGapsIntro,
+    gapLines,
+  });
+
+  const recLines = result.weakest
+    .map((id) => `- ${locale.dim[id]}: ${locale.rec[id]}`)
+    .join('\n');
+
+  return `${summary}\n\n${locale.emailRecsIntro}\n${recLines}`;
+}
+
 export default function AiScoreResults({
   assessmentLang,
   result,
@@ -36,6 +70,12 @@ export default function AiScoreResults({
 }: AiScoreResultsProps) {
   const locale = getAiScoreLocale(assessmentLang);
   const [displayScore, setDisplayScore] = useState(0);
+  const [showEmailForm, setShowEmailForm] = useState(false);
+  const [emailName, setEmailName] = useState('');
+  const [emailAddress, setEmailAddress] = useState('');
+  const [emailStatus, setEmailStatus] = useState<EmailStatus>('idle');
+  const [emailError, setEmailError] = useState('');
+  const [fieldErrors, setFieldErrors] = useState<{ name?: string; email?: string }>({});
 
   useEffect(() => {
     setDisplayScore(0);
@@ -65,25 +105,69 @@ export default function AiScoreResults({
   }, [assessmentLang]);
 
   function handleRequest() {
-    const gapLines = result.weakest.map((id) => {
-      const dim = result.dimensions.find((d) => d.id === id)!;
-      return formatAiScoreLocale(locale.contactGapLine, {
-        name: locale.dim[id],
-        score: dim.score100,
+    onRequestSolution(buildResultsSummary(locale, result));
+  }
+
+  async function handleEmailSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const errors: { name?: string; email?: string } = {};
+    const name = emailName.trim();
+    const email = emailAddress.trim();
+
+    if (!name || name.length < 2) {
+      errors.name = locale.emailNameRequired;
+    }
+    if (!email || !EMAIL_PATTERN.test(email)) {
+      errors.email = locale.emailInvalid;
+    }
+
+    if (Object.keys(errors).length > 0) {
+      setFieldErrors(errors);
+      return;
+    }
+
+    setFieldErrors({});
+    setEmailStatus('submitting');
+    setEmailError('');
+
+    try {
+      const formData = new FormData(e.currentTarget);
+      const botcheck = formData.get('botcheck');
+      if (typeof botcheck === 'string' && botcheck.trim()) {
+        setEmailStatus('success');
+        return;
+      }
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name,
+          email,
+          phone: '',
+          message: buildResultsSummary(locale, result),
+          botcheck,
+          sourcePage: window.location.pathname,
+          lang: assessmentLang === 'el' ? 'el' : 'en',
+          inquiryType: 'ai-score-results',
+        }),
       });
-    });
 
-    const message = buildScoreContactMessage({
-      intro: locale.contactIntro,
-      scoreLine: formatAiScoreLocale(locale.contactScoreLine, { score: result.score100 }),
-      bandLine: formatAiScoreLocale(locale.contactBandLine, {
-        band: locale.band[result.band].label,
-      }),
-      gapsIntro: locale.contactGapsIntro,
-      gapLines,
-    });
+      const data = (await response.json().catch(() => ({}))) as {
+        success?: boolean;
+      };
 
-    onRequestSolution(message);
+      if (response.ok && data.success) {
+        setEmailStatus('success');
+        return;
+      }
+
+      setEmailStatus('error');
+      setEmailError(locale.emailError);
+    } catch {
+      setEmailStatus('error');
+      setEmailError(locale.emailError);
+    }
   }
 
   return (
@@ -154,10 +238,96 @@ export default function AiScoreResults({
           <button type="button" className="btn btn-primary" onClick={handleRequest}>
             {locale.ctaRequest}
           </button>
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => setShowEmailForm((open) => !open)}
+            aria-expanded={showEmailForm}
+            aria-controls="ai-score-email-form"
+          >
+            {locale.ctaEmailResults}
+          </button>
           <button type="button" className="btn btn-secondary" onClick={onRetake}>
             {locale.ctaRetake}
           </button>
         </div>
+
+        {showEmailForm ? (
+          <form
+            id="ai-score-email-form"
+            className="ai-score-email"
+            onSubmit={handleEmailSubmit}
+            noValidate
+          >
+            <h3 className="ai-score-email__title">{locale.emailFormTitle}</h3>
+            <p className="ai-score-email__subtitle">{locale.emailFormSubtitle}</p>
+
+            <input
+              type="text"
+              name="botcheck"
+              className="ai-score-email__honeypot"
+              tabIndex={-1}
+              autoComplete="off"
+              aria-hidden="true"
+            />
+
+            <div className="form-group">
+              <label htmlFor="ai-score-email-name">{locale.emailName}</label>
+              <input
+                id="ai-score-email-name"
+                type="text"
+                value={emailName}
+                onChange={(e) => {
+                  setEmailName(e.target.value);
+                  if (fieldErrors.name) setFieldErrors((prev) => ({ ...prev, name: undefined }));
+                }}
+                className={fieldErrors.name ? 'error' : ''}
+                autoComplete="name"
+                disabled={emailStatus === 'submitting' || emailStatus === 'success'}
+              />
+              {fieldErrors.name ? <span className="form-error">{fieldErrors.name}</span> : null}
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="ai-score-email-address">{locale.emailAddress}</label>
+              <input
+                id="ai-score-email-address"
+                type="email"
+                value={emailAddress}
+                onChange={(e) => {
+                  setEmailAddress(e.target.value);
+                  if (fieldErrors.email) setFieldErrors((prev) => ({ ...prev, email: undefined }));
+                }}
+                className={fieldErrors.email ? 'error' : ''}
+                autoComplete="email"
+                disabled={emailStatus === 'submitting' || emailStatus === 'success'}
+              />
+              {fieldErrors.email ? <span className="form-error">{fieldErrors.email}</span> : null}
+            </div>
+
+            {emailStatus === 'success' ? (
+              <p className="form-status form-status--success" role="status">
+                {locale.emailSuccess}
+              </p>
+            ) : null}
+
+            {emailStatus === 'error' && emailError ? (
+              <p className="form-status form-status--error" role="alert">
+                {emailError}
+              </p>
+            ) : null}
+
+            {emailStatus !== 'success' ? (
+              <button
+                type="submit"
+                className="btn btn-primary"
+                disabled={emailStatus === 'submitting'}
+              >
+                {emailStatus === 'submitting' ? locale.emailSubmitting : locale.emailSubmit}
+              </button>
+            ) : null}
+          </form>
+        ) : null}
       </div>
     </section>
   );
