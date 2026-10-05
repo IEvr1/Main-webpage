@@ -11,7 +11,6 @@ import {
 const initialForm: ContactFormData = {
   name: '',
   email: '',
-  phone: '',
   message: '',
 };
 
@@ -25,7 +24,7 @@ type ContactFormProps = {
 function openMailto(form: ContactFormData, lang: Lang) {
   const subject = encodeURIComponent(t('contact.form.mailtoSubject', lang));
   const body = encodeURIComponent(
-    `${t('contact.form.mailtoName', lang)}: ${form.name.trim()}\nEmail: ${form.email.trim()}\n${t('contact.form.mailtoPhone', lang)}: ${form.phone.trim() || '—'}\n\n${form.message.trim()}`,
+    `${t('contact.form.mailtoName', lang)}: ${form.name.trim()}\nEmail: ${form.email.trim()}\n\n${form.message.trim()}`,
   );
 
   window.location.href = `mailto:${CONTACT.email}?subject=${subject}&body=${body}`;
@@ -77,6 +76,7 @@ export default function ContactForm({ lang, defaultMessage }: ContactFormProps) 
 
       const payload = {
         ...form,
+        phone: '',
         botcheck,
         sourcePage: window.location.pathname,
         lang,
@@ -144,21 +144,6 @@ export default function ContactForm({ lang, defaultMessage }: ContactFormProps) 
           disabled={status === 'submitting'}
         />
         {errors.email && <span className="form-error">{errors.email}</span>}
-      </div>
-
-      <div className="form-group">
-        <label htmlFor="phone">{t('contact.form.phone', lang)}</label>
-        <input
-          id="phone"
-          type="tel"
-          value={form.phone}
-          onChange={(e) => handleChange('phone', e.target.value)}
-          className={errors.phone ? 'error' : ''}
-          autoComplete="tel"
-          inputMode="tel"
-          disabled={status === 'submitting'}
-        />
-        {errors.phone && <span className="form-error">{errors.phone}</span>}
       </div>
 
       <div className="form-group">

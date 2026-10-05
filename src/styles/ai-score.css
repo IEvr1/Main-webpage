@@ -19,13 +19,12 @@
     var(--color-bg);
 }
 
-.ai-score-hero__brand {
-  font-size: 0.875rem;
+.ai-score-hero__cta {
+  padding: 1.15rem 2.5rem;
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
   font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--color-accent);
-  margin-bottom: 0.75rem;
+  border-radius: 10px;
+  min-width: min(100%, 20rem);
 }
 
 .ai-score-quiz,

@@ -23,7 +23,6 @@ export default function Contact({ lang, defaultMessage }: ContactProps) {
             <a href={`mailto:${CONTACT.email}`} className="contact-info__email">
               {CONTACT.email}
             </a>
-            <p className="contact-info__phone">{CONTACT.phone}</p>
           </div>
 
           <ContactForm lang={lang} defaultMessage={defaultMessage} />

@@ -12,14 +12,11 @@ export default function HomeHero({ lang }: HomeHeroProps) {
         <h1 className="home-hero__title">{t('home.hero.title', lang)}</h1>
         <p className="home-hero__subtitle">{t('home.hero.subtitle', lang)}</p>
         <div className="home-hero__actions">
+          <a href="/ai-score/" className="btn btn-secondary">
+            {t('home.hero.ctaAiScore', lang)}
+          </a>
           <a href="/ai/" className="btn btn-ai">
             {t('common.navAi', lang)}
-          </a>
-          <a href="#apps" className="btn btn-primary">
-            {t('home.hero.ctaApps', lang)}
-          </a>
-          <a href="#contact" className="btn btn-secondary">
-            {t('home.hero.ctaContact', lang)}
           </a>
         </div>
       </div>
