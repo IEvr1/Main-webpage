@@ -1,4 +1,4 @@
-import { hasVoiceStorageConfig, uploadVoiceRecording } from './lib/voice-storage';
+import { hasVoiceStorageConfig, uploadVoiceRecording } from './lib/voice-storage.js';
 
 type ContactPayload = {
   name?: string;
