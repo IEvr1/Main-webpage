@@ -408,14 +408,14 @@
 
 
   "apps.aiScore.title": "AI Readiness Score",
-  "apps.aiScore.description": "Free 12-question assessment — get a 0–100 score, traffic-light readiness band, and the gaps to fix first before investing in AI.",
+  "apps.aiScore.description": "Free 18-question assessment — get a 0–100 score, traffic-light readiness band, and the gaps to fix first before investing in AI.",
   "apps.aiScore.tag": "Free tool",
 
   "aiscore.metaTitle": "AI Readiness Score — Free Assessment | NexAIpla",
-  "aiscore.metaDescription": "Free AI readiness assessment for businesses in Cyprus and Greece. 12 questions, score 0–100 with a traffic-light scale, and clear gaps to improve.",
+  "aiscore.metaDescription": "Free AI readiness assessment for businesses in Cyprus and Greece. 18 questions, score 0–100 with a traffic-light scale, and clear gaps to improve.",
   "aiscore.hero.brand": "NexAIpla",
   "aiscore.hero.title": "AI Readiness Score",
-  "aiscore.hero.subtitle": "Twelve quick questions. A clear 0–100 score, a traffic-light band, and the inefficiencies holding AI back in your business.",
+  "aiscore.hero.subtitle": "Eighteen structured questions. A clear 0–100 score, a traffic-light band, and the inefficiencies holding AI back in your business.",
   "aiscore.hero.ctaStart": "Start a free Assessment",
 
   "aiscore.quiz.title": "Assessment",
@@ -536,9 +536,9 @@
   "aiscore.faq.title": "Frequently asked questions",
   "aiscore.faq.subtitle": "How the free AI Readiness Score works.",
   "aiscore.faq.q1": "Is this assessment free?",
-  "aiscore.faq.a1": "Yes. The 12-question assessment is free, runs in your browser, and shows your score instantly — no signup required. You can take it in any of the supported languages from the dropdown.",
+  "aiscore.faq.a1": "Yes. The 18-question assessment is free, runs in your browser, and shows your score instantly — no signup required. You can take it in any of the supported languages from the dropdown.",
   "aiscore.faq.q2": "How is the score calculated?",
-  "aiscore.faq.a2": "Each answer scores 0–3 points across six dimensions. Your total is converted to a 0–100 score and mapped to a traffic-light band: red (0–39), amber (40–69), green (70–100).",
+  "aiscore.faq.a2": "Each of the 18 answers scores 0–3 points across six dimensions (max 54). Your total is converted to a 0–100 score and mapped to a traffic-light band: red (0–39), amber (40–69), green (70–100).",
   "aiscore.faq.q3": "What happens after I see my score?",
   "aiscore.faq.a3": "You can request a custom AI solution. We prefill the contact form with your score and weakest areas so we can discuss a tailored next step.",
   "aiscore.faq.q4": "Is my data sent anywhere?",

@@ -48,6 +48,15 @@ const en = {
         'We track ROI with clear KPIs and a stop/continue rule.',
       ],
     },
+    strategy_pilot: {
+      q: 'Have you run any AI pilot or proof-of-concept?',
+      a: [
+        'No pilots yet — only informal experiments at most.',
+        'We tried a tool casually, without a defined pilot scope.',
+        'We ran at least one scoped pilot with clear success criteria.',
+        'We have completed pilots and moved at least one into production use.',
+      ],
+    },
     data_location: {
       q: 'Where does your critical business data live today?',
       a: [
@@ -64,6 +73,15 @@ const en = {
         'Usable for humans, but messy for automation.',
         'Mostly clean for our main workflows; some cleanup needed.',
         'Documented, validated, and trusted for decisions.',
+      ],
+    },
+    data_access: {
+      q: 'How easy is it for the right people to access the data they need?',
+      a: [
+        'Access is slow, manual, or depends on one person.',
+        'Access works, but requests and permissions are often delayed.',
+        'Most decision-makers can get the data they need within days.',
+        'Authorized staff get timely, controlled access to the data they need.',
       ],
     },
     people_ownership: {
@@ -84,6 +102,15 @@ const en = {
         'We can evaluate, configure, and improve AI tools ourselves.',
       ],
     },
+    people_capacity: {
+      q: 'Does your team have capacity to adopt a new AI tool without disrupting daily work?',
+      a: [
+        'Everyone is overloaded — no bandwidth for change.',
+        'Someone could try, but only after hours or on the side.',
+        'We can free limited time for a focused adoption period.',
+        'We plan capacity for training, rollout, and ongoing ownership.',
+      ],
+    },
     process_visibility: {
       q: 'Are your key workflows documented and measurable?',
       a: [
@@ -100,6 +127,15 @@ const en = {
         'We know a few pain points from complaints or overtime.',
         'We have identified high-volume, repetitive bottlenecks.',
         'We measure exception rates and cost of delays by process.',
+      ],
+    },
+    process_exceptions: {
+      q: 'How often do key processes rely on manual judgment or one-off exceptions?',
+      a: [
+        'Most work is judgment-heavy or handled case by case.',
+        'Many steps are routine, but exceptions are frequent and undocumented.',
+        'Core path is clear; exceptions are known and handled in a defined way.',
+        'Exceptions are measured, categorized, and continuously reduced.',
       ],
     },
     tech_integration: {
@@ -120,6 +156,15 @@ const en = {
         'Modern, cloud-based stack with automation already running.',
       ],
     },
+    tech_security: {
+      q: 'How do you handle access and security for business systems and tools?',
+      a: [
+        'Shared logins or informal access are common.',
+        'Basic passwords exist, but policies are loose or inconsistent.',
+        'Role-based access and basic security practices are in place.',
+        'Access, audit, and vendor/security requirements are actively managed.',
+      ],
+    },
     governance_leadership: {
       q: 'How does leadership approach AI adoption?',
       a: [
@@ -136,6 +181,15 @@ const en = {
         'Informal awareness — no written rules.',
         'Basic guidelines for who can use AI and what data is allowed.',
         'Written policies covering privacy, access, and vendor use.',
+      ],
+    },
+    governance_change: {
+      q: 'How does your organization handle process change when new tools arrive?',
+      a: [
+        'Changes happen ad hoc; people resist or invent workarounds.',
+        'We announce tools, but with little training or follow-up.',
+        'We plan rollout with training and a clear owner for adoption.',
+        'Change is managed with communication, training, feedback, and iteration.',
       ],
     },
   },
@@ -221,6 +275,15 @@ const locales = {
           'Παρακολουθούμε ROI με KPIs και κανόνα συνέχισης/διακοπής.',
         ],
       },
+      strategy_pilot: {
+        q: 'Έχετε τρέξει κάποιο πιλοτικό AI ή proof-of-concept;',
+        a: [
+          'Όχι ακόμα — το πολύ άτυπα πειράματα.',
+          'Δοκιμάσαμε ένα εργαλείο άτυπα, χωρίς ορισμένο scope.',
+          'Τρέξαμε τουλάχιστον ένα πιλοτικό με ξεκάθαρα κριτήρια επιτυχίας.',
+          'Έχουμε ολοκληρώσει πιλοτικά και μεταφέραμε τουλάχιστον ένα σε παραγωγική χρήση.',
+        ],
+      },
       data_location: {
         q: 'Πού βρίσκονται σήμερα τα κρίσιμα επιχειρηματικά σας δεδομένα;',
         a: [
@@ -237,6 +300,15 @@ const locales = {
           'Χρήσιμα για ανθρώπους, αλλά ακατάστατα για αυτοματισμό.',
           'Σχετικά καθαρά για τις κύριες ροές· χρειάζεται κάποιος καθαρισμός.',
           'Τεκμηριωμένα, επικυρωμένα και αξιόπιστα για αποφάσεις.',
+        ],
+      },
+      data_access: {
+        q: 'Πόσο εύκολο είναι για τους σωστούς ανθρώπους να έχουν πρόσβαση στα δεδομένα που χρειάζονται;',
+        a: [
+          'Η πρόσβαση είναι αργή, χειροκίνητη ή εξαρτάται από ένα άτομο.',
+          'Η πρόσβαση υπάρχει, αλλά αιτήματα και δικαιώματα καθυστερούν συχνά.',
+          'Οι περισσότεροι decision-makers παίρνουν τα δεδομένα εντός ημερών.',
+          'Το εξουσιοδοτημένο προσωπικό έχει έγκαιρη, ελεγχόμενη πρόσβαση στα δεδομένα που χρειάζεται.',
         ],
       },
       people_ownership: {
@@ -257,6 +329,15 @@ const locales = {
           'Μπορούμε να αξιολογήσουμε, ρυθμίσουμε και βελτιώσουμε εργαλεία AI μόνοι μας.',
         ],
       },
+      people_capacity: {
+        q: 'Έχει η ομάδα σας χωρητικότητα να υιοθετήσει νέο εργαλείο AI χωρίς να διαταραχθεί η καθημερινή εργασία;',
+        a: [
+          'Όλοι είναι υπερφορτωμένοι — δεν υπάρχει χρόνος για αλλαγή.',
+          'Κάποιος θα μπορούσε να δοκιμάσει, μόνο εκτός ωραρίου ή στο περιθώριο.',
+          'Μπορούμε να ελευθερώσουμε περιορισμένο χρόνο για εστιασμένη υιοθέτηση.',
+          'Προγραμματίζουμε χρόνο για εκπαίδευση, rollout και συνεχή ιδιοκτησία.',
+        ],
+      },
       process_visibility: {
         q: 'Είναι οι βασικές ροές εργασίας σας τεκμηριωμένες και μετρήσιμες;',
         a: [
@@ -273,6 +354,15 @@ const locales = {
           'Ξέρουμε μερικά σημεία πόνου από παράπονα ή υπερωρίες.',
           'Έχουμε εντοπίσει bottlenecks υψηλού όγκου και επανάληψης.',
           'Μετράμε ποσοστά εξαιρέσεων και κόστος καθυστερήσεων ανά διαδικασία.',
+        ],
+      },
+      process_exceptions: {
+        q: 'Πόσο συχνά βασίζονται οι βασικές διαδικασίες σε χειροκίνητη κρίση ή μεμονωμένες εξαιρέσεις;',
+        a: [
+          'Το περισσότερο έργο είναι κρίση ή ανά περίπτωση.',
+          'Πολλά βήματα είναι ρουτίνα, αλλά οι εξαιρέσεις είναι συχνές και ατεκμηρίωτες.',
+          'Η κύρια διαδρομή είναι ξεκάθαρη· οι εξαιρέσεις είναι γνωστές και αντιμετωπίζονται με ορισμένο τρόπο.',
+          'Οι εξαιρέσεις μετράνται, κατηγοριοποιούνται και μειώνονται συνεχώς.',
         ],
       },
       tech_integration: {
@@ -293,6 +383,15 @@ const locales = {
           'Σύγχρονη, cloud-based στοίβα με αυτοματισμούς ήδη σε λειτουργία.',
         ],
       },
+      tech_security: {
+        q: 'Πώς χειρίζεστε την πρόσβαση και την ασφάλεια για επιχειρηματικά συστήματα και εργαλεία;',
+        a: [
+          'Κοινά login ή άτυπη πρόσβαση είναι συνηθισμένα.',
+          'Υπάρχουν βασικοί κωδικοί, αλλά οι πολιτικές είναι χαλαρές ή ασυνεπείς.',
+          'Υπάρχει role-based πρόσβαση και βασικές πρακτικές ασφάλειας.',
+          'Πρόσβαση, audit και απαιτήσεις ασφάλειας/προμηθευτών διαχειρίζονται ενεργά.',
+        ],
+      },
       governance_leadership: {
         q: 'Πώς προσεγγίζει η ηγεσία την υιοθέτηση AI;',
         a: [
@@ -309,6 +408,15 @@ const locales = {
           'Άτυπη ενημέρωση — χωρίς γραπτούς κανόνες.',
           'Βασικές οδηγίες για ποιος χρησιμοποιεί AI και ποια δεδομένα επιτρέπονται.',
           'Γραπτές πολιτικές για ιδιωτικότητα, πρόσβαση και χρήση προμηθευτών.',
+        ],
+      },
+      governance_change: {
+        q: 'Πώς χειρίζεται ο οργανισμός σας την αλλαγή διαδικασιών όταν έρχονται νέα εργαλεία;',
+        a: [
+          'Οι αλλαγές γίνονται άτυπα· οι άνθρωποι αντιστέκονται ή εφευρίσκουν workarounds.',
+          'Ανακοινώνουμε εργαλεία, αλλά με λίγη εκπαίδευση ή follow-up.',
+          'Σχεδιάζουμε rollout με εκπαίδευση και ξεκάθαρο υπεύθυνο υιοθέτησης.',
+          'Η αλλαγή διαχειρίζεται με επικοινωνία, εκπαίδευση, feedback και επανάληψη.',
         ],
       },
     },

@@ -12,7 +12,7 @@ export default function HomeHero({ lang }: HomeHeroProps) {
         <h1 className="home-hero__title">{t('home.hero.title', lang)}</h1>
         <p className="home-hero__subtitle">{t('home.hero.subtitle', lang)}</p>
         <div className="home-hero__actions">
-          <a href="/ai-score/" className="btn btn-secondary">
+          <a href="/ai-score/" className="btn btn-ai">
             {t('home.hero.ctaAiScore', lang)}
           </a>
           <a href="/ai/" className="btn btn-ai">
