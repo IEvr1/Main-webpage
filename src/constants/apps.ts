@@ -62,5 +62,13 @@ export function getCompanyApps(lang: Lang): CompanyApp[] {
       status: 'active',
       tag: t('apps.aiConsulting.tag', lang),
     },
+    {
+      id: 'ai-score',
+      title: t('apps.aiScore.title', lang),
+      description: t('apps.aiScore.description', lang),
+      href: '/ai-score/',
+      status: 'active',
+      tag: t('apps.aiScore.tag', lang),
+    },
   ];
 }

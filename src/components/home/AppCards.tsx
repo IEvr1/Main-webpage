@@ -61,6 +61,15 @@ function AiConsultingIcon() {
   );
 }
 
+function AiScoreIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <path d="M12 20a8 8 0 100-16 8 8 0 000 16z" />
+      <path d="M12 8v4l3 2" />
+    </svg>
+  );
+}
+
 const appIcons: Record<string, () => ReactElement> = {
   'online-booking': BookingIcon,
   'shop-traffic': TrafficIcon,
@@ -68,6 +77,7 @@ const appIcons: Record<string, () => ReactElement> = {
   'docs-app': DocsAppIcon,
   'school-meals': SchoolMealsIcon,
   'ai-consulting': AiConsultingIcon,
+  'ai-score': AiScoreIcon,
 };
 
 type AppCardsProps = {
