@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
-import type { Lang } from '../../i18n/types';
-import { t } from '../../i18n/i18n';
+import type { ConsultLang } from '../../constants/consult-languages';
 import type { AiScoreDimensionId } from '../../constants/ai-score-questions';
+import {
+  formatAiScoreLocale,
+  getAiScoreLocale,
+} from '../../i18n/ai-score-locales';
 import {
   buildScoreContactMessage,
   type AiScoreBand,
@@ -9,7 +12,7 @@ import {
 } from '../../utils/ai-score';
 
 type AiScoreResultsProps = {
-  lang: Lang;
+  assessmentLang: ConsultLang;
   result: AiScoreResult;
   onRetake: () => void;
   onRequestSolution: (message: string) => void;
@@ -26,11 +29,12 @@ function TrafficLight({ band }: { band: AiScoreBand }) {
 }
 
 export default function AiScoreResults({
-  lang,
+  assessmentLang,
   result,
   onRetake,
   onRequestSolution,
 }: AiScoreResultsProps) {
+  const locale = getAiScoreLocale(assessmentLang);
   const [displayScore, setDisplayScore] = useState(0);
 
   useEffect(() => {
@@ -54,22 +58,28 @@ export default function AiScoreResults({
     return () => cancelAnimationFrame(frame);
   }, [result.score100]);
 
+  useEffect(() => {
+    const el = document.getElementById('ai-score-results');
+    if (!el) return;
+    el.dir = assessmentLang === 'he' ? 'rtl' : 'ltr';
+  }, [assessmentLang]);
+
   function handleRequest() {
     const gapLines = result.weakest.map((id) => {
       const dim = result.dimensions.find((d) => d.id === id)!;
-      return t('aiscore.contact.gapLine', lang, {
-        name: t(`aiscore.dim.${id}`, lang),
+      return formatAiScoreLocale(locale.contactGapLine, {
+        name: locale.dim[id],
         score: dim.score100,
       });
     });
 
     const message = buildScoreContactMessage({
-      intro: t('aiscore.contact.intro', lang),
-      scoreLine: t('aiscore.contact.scoreLine', lang, { score: result.score100 }),
-      bandLine: t('aiscore.contact.bandLine', lang, {
-        band: t(`aiscore.band.${result.band}.label`, lang),
+      intro: locale.contactIntro,
+      scoreLine: formatAiScoreLocale(locale.contactScoreLine, { score: result.score100 }),
+      bandLine: formatAiScoreLocale(locale.contactBandLine, {
+        band: locale.band[result.band].label,
       }),
-      gapsIntro: t('aiscore.contact.gapsIntro', lang),
+      gapsIntro: locale.contactGapsIntro,
       gapLines,
     });
 
@@ -84,9 +94,9 @@ export default function AiScoreResults({
     >
       <div className="container ai-score-results__inner">
         <h2 id="ai-score-results-title" className="section-title">
-          {t('aiscore.results.title', lang)}
+          {locale.resultsTitle}
         </h2>
-        <p className="section-subtitle">{t('aiscore.results.subtitle', lang)}</p>
+        <p className="section-subtitle">{locale.resultsSubtitle}</p>
 
         <div className={`ai-score-summary ai-score-summary--${result.band}`}>
           <TrafficLight band={result.band} />
@@ -95,18 +105,18 @@ export default function AiScoreResults({
               <span className="ai-score-summary__number">{displayScore}</span>
               <span className="ai-score-summary__max">/100</span>
             </p>
-            <p className="ai-score-summary__band">{t(`aiscore.band.${result.band}.label`, lang)}</p>
-            <p className="ai-score-summary__desc">{t(`aiscore.band.${result.band}.desc`, lang)}</p>
+            <p className="ai-score-summary__band">{locale.band[result.band].label}</p>
+            <p className="ai-score-summary__desc">{locale.band[result.band].desc}</p>
           </div>
         </div>
 
         <div className="ai-score-dims">
-          <h3 className="ai-score-dims__title">{t('aiscore.results.dimensionsTitle', lang)}</h3>
+          <h3 className="ai-score-dims__title">{locale.dimensionsTitle}</h3>
           <ul className="ai-score-dims__list">
             {result.dimensions.map((dim) => (
               <li key={dim.id} className="ai-score-dim">
                 <div className="ai-score-dim__header">
-                  <span className="ai-score-dim__name">{t(`aiscore.dim.${dim.id}`, lang)}</span>
+                  <span className="ai-score-dim__name">{locale.dim[dim.id]}</span>
                   <span className="ai-score-dim__value">{dim.score100}</span>
                 </div>
                 <div
@@ -115,7 +125,7 @@ export default function AiScoreResults({
                   aria-valuemin={0}
                   aria-valuemax={100}
                   aria-valuenow={dim.score100}
-                  aria-label={t(`aiscore.dim.${dim.id}`, lang)}
+                  aria-label={locale.dim[dim.id]}
                 >
                   <div
                     className="ai-score-dim__fill"
@@ -129,12 +139,12 @@ export default function AiScoreResults({
         </div>
 
         <div className="ai-score-gaps">
-          <h3 className="ai-score-gaps__title">{t('aiscore.results.gapsTitle', lang)}</h3>
+          <h3 className="ai-score-gaps__title">{locale.gapsTitle}</h3>
           <ul className="ai-score-gaps__list">
             {result.weakest.map((id: AiScoreDimensionId) => (
               <li key={id} className="ai-score-gap">
-                <strong className="ai-score-gap__name">{t(`aiscore.dim.${id}`, lang)}</strong>
-                <p className="ai-score-gap__text">{t(`aiscore.rec.${id}`, lang)}</p>
+                <strong className="ai-score-gap__name">{locale.dim[id]}</strong>
+                <p className="ai-score-gap__text">{locale.rec[id]}</p>
               </li>
             ))}
           </ul>
@@ -142,13 +152,13 @@ export default function AiScoreResults({
 
         <div className="ai-score-results__actions">
           <button type="button" className="btn btn-primary" onClick={handleRequest}>
-            {t('aiscore.results.ctaRequest', lang)}
+            {locale.ctaRequest}
           </button>
           <a href="/ai/" className="btn btn-secondary">
-            {t('aiscore.results.ctaCustom', lang)}
+            {locale.ctaCustom}
           </a>
           <button type="button" className="btn btn-secondary" onClick={onRetake}>
-            {t('aiscore.results.ctaRetake', lang)}
+            {locale.ctaRetake}
           </button>
         </div>
       </div>

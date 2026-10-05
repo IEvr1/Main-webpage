@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -8,8 +8,10 @@ import AiScoreHero from './components/aiscore/AiScoreHero';
 import AiScoreQuiz from './components/aiscore/AiScoreQuiz';
 import AiScoreResults from './components/aiscore/AiScoreResults';
 import { AI_SCORE_FAQ } from './constants/faq';
+import type { ConsultLang } from './constants/consult-languages';
 import { useLang } from './i18n/useLang';
 import { computeAiScore, type AiScoreAnswers } from './utils/ai-score';
+import type { Lang } from './i18n/types';
 
 const AI_SCORE_META = {
   titleKey: 'aiscore.metaTitle',
@@ -18,13 +20,24 @@ const AI_SCORE_META = {
 
 type Phase = 'intro' | 'quiz' | 'results';
 
+function defaultAssessmentLang(pageLang: Lang): ConsultLang {
+  return pageLang === 'el' ? 'el' : 'en';
+}
+
 export default function AiScoreApp() {
   const [lang, setLang] = useLang(AI_SCORE_META);
+  const [assessmentLang, setAssessmentLang] = useState<ConsultLang>(() =>
+    defaultAssessmentLang(lang),
+  );
   const [phase, setPhase] = useState<Phase>('intro');
   const [answers, setAnswers] = useState<AiScoreAnswers>({});
   const [contactMessage, setContactMessage] = useState('');
 
   const result = computeAiScore(answers);
+
+  useEffect(() => {
+    setAssessmentLang(defaultAssessmentLang(lang));
+  }, [lang]);
 
   function handleStart() {
     setPhase('quiz');
@@ -67,7 +80,8 @@ export default function AiScoreApp() {
       <main>
         {phase === 'quiz' ? (
           <AiScoreQuiz
-            lang={lang}
+            assessmentLang={assessmentLang}
+            onAssessmentLangChange={setAssessmentLang}
             answers={answers}
             onAnswersChange={setAnswers}
             onComplete={handleComplete}
@@ -76,7 +90,7 @@ export default function AiScoreApp() {
 
         {phase === 'results' && result ? (
           <AiScoreResults
-            lang={lang}
+            assessmentLang={assessmentLang}
             result={result}
             onRetake={handleRetake}
             onRequestSolution={handleRequestSolution}

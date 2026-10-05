@@ -535,7 +535,7 @@
   "aiscore.faq.title": "Frequently asked questions",
   "aiscore.faq.subtitle": "How the free AI Readiness Score works.",
   "aiscore.faq.q1": "Is this assessment free?",
-  "aiscore.faq.a1": "Yes. The 12-question assessment is free, runs in your browser, and shows your score instantly — no signup required.",
+  "aiscore.faq.a1": "Yes. The 12-question assessment is free, runs in your browser, and shows your score instantly — no signup required. You can take it in any of the supported languages from the dropdown.",
   "aiscore.faq.q2": "How is the score calculated?",
   "aiscore.faq.a2": "Each answer scores 0–3 points across six dimensions. Your total is converted to a 0–100 score and mapped to a traffic-light band: red (0–39), amber (40–69), green (70–100).",
   "aiscore.faq.q3": "What happens after I see my score?",

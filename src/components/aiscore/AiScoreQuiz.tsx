@@ -1,31 +1,49 @@
-import { useState } from 'react';
-import type { Lang } from '../../i18n/types';
-import { t } from '../../i18n/i18n';
+import { useEffect, useState } from 'react';
+import {
+  CONSULT_LANGUAGES,
+  type ConsultLang,
+  isConsultLang,
+} from '../../constants/consult-languages';
 import {
   AI_SCORE_ANSWER_COUNT,
   AI_SCORE_QUESTIONS,
   type AiScoreQuestionId,
 } from '../../constants/ai-score-questions';
+import {
+  formatAiScoreLocale,
+  getAiScoreLocale,
+} from '../../i18n/ai-score-locales';
 import { isQuizComplete, type AiScoreAnswers } from '../../utils/ai-score';
 
 type AiScoreQuizProps = {
-  lang: Lang;
+  assessmentLang: ConsultLang;
+  onAssessmentLangChange: (lang: ConsultLang) => void;
   answers: AiScoreAnswers;
   onAnswersChange: (answers: AiScoreAnswers) => void;
   onComplete: (answers: AiScoreAnswers) => void;
 };
 
 export default function AiScoreQuiz({
-  lang,
+  assessmentLang,
+  onAssessmentLangChange,
   answers,
   onAnswersChange,
   onComplete,
 }: AiScoreQuizProps) {
   const [index, setIndex] = useState(0);
+  const locale = getAiScoreLocale(assessmentLang);
   const question = AI_SCORE_QUESTIONS[index];
   const total = AI_SCORE_QUESTIONS.length;
   const selected = answers[question.id];
   const progress = ((index + (typeof selected === 'number' ? 1 : 0)) / total) * 100;
+  const questionLocale = locale.questions[question.id];
+
+  useEffect(() => {
+    // Keep document direction friendly for Hebrew when assessment lang changes
+    const quiz = document.getElementById('ai-score-quiz');
+    if (!quiz) return;
+    quiz.dir = assessmentLang === 'he' ? 'rtl' : 'ltr';
+  }, [assessmentLang]);
 
   function selectAnswer(answerIndex: number) {
     const next: AiScoreAnswers = { ...answers, [question.id]: answerIndex };
@@ -50,16 +68,32 @@ export default function AiScoreQuiz({
     if (index > 0) setIndex((i) => i - 1);
   }
 
-  const dimensionLabel = t(`aiscore.dim.${question.dimension}`, lang);
-  const questionText = t(`aiscore.q.${question.id}`, lang);
-
   return (
     <section id="ai-score-quiz" className="ai-score-quiz" aria-labelledby="ai-score-quiz-title">
       <div className="container ai-score-quiz__inner">
         <h2 id="ai-score-quiz-title" className="section-title">
-          {t('aiscore.quiz.title', lang)}
+          {locale.quizTitle}
         </h2>
-        <p className="section-subtitle">{t('aiscore.quiz.subtitle', lang)}</p>
+        <p className="section-subtitle">{locale.quizSubtitle}</p>
+
+        <div className="ai-score-quiz__lang form-group">
+          <label htmlFor="ai-score-assessment-language">{locale.assessmentLanguage}</label>
+          <select
+            id="ai-score-assessment-language"
+            className="ai-score-quiz__language-select"
+            value={assessmentLang}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (isConsultLang(value)) onAssessmentLangChange(value);
+            }}
+          >
+            {CONSULT_LANGUAGES.map((option) => (
+              <option key={option.code} value={option.code}>
+                {option.nativeName}
+              </option>
+            ))}
+          </select>
+        </div>
 
         <div
           className="ai-score-progress"
@@ -67,19 +101,22 @@ export default function AiScoreQuiz({
           aria-valuemin={0}
           aria-valuemax={total}
           aria-valuenow={index + 1}
-          aria-label={t('aiscore.quiz.progressAria', lang, { current: index + 1, total })}
+          aria-label={formatAiScoreLocale(locale.progressAria, {
+            current: index + 1,
+            total,
+          })}
         >
           <div className="ai-score-progress__bar" style={{ width: `${Math.min(progress, 100)}%` }} />
         </div>
         <p className="ai-score-quiz__step">
-          {t('aiscore.quiz.step', lang, { current: index + 1, total })}
+          {formatAiScoreLocale(locale.step, { current: index + 1, total })}
         </p>
 
-        <p className="ai-score-quiz__dimension">{dimensionLabel}</p>
-        <h3 className="ai-score-quiz__question">{questionText}</h3>
+        <p className="ai-score-quiz__dimension">{locale.dim[question.dimension]}</p>
+        <h3 className="ai-score-quiz__question">{questionLocale.q}</h3>
 
         <fieldset className="ai-score-quiz__options">
-          <legend className="visually-hidden">{questionText}</legend>
+          <legend className="visually-hidden">{questionLocale.q}</legend>
           {Array.from({ length: AI_SCORE_ANSWER_COUNT }, (_, answerIndex) => {
             const optionId = `aiscore-opt-${question.id}-${answerIndex}`;
             const checked = selected === answerIndex;
@@ -97,9 +134,7 @@ export default function AiScoreQuiz({
                   checked={checked}
                   onChange={() => selectAnswer(answerIndex)}
                 />
-                <span className="ai-score-option__text">
-                  {t(`aiscore.q.${question.id}.a${answerIndex}`, lang)}
-                </span>
+                <span className="ai-score-option__text">{questionLocale.a[answerIndex]}</span>
               </label>
             );
           })}
@@ -112,7 +147,7 @@ export default function AiScoreQuiz({
             onClick={goBack}
             disabled={index === 0}
           >
-            {t('aiscore.quiz.back', lang)}
+            {locale.back}
           </button>
           <button
             type="button"
@@ -120,9 +155,7 @@ export default function AiScoreQuiz({
             onClick={goNext}
             disabled={typeof selected !== 'number'}
           >
-            {index === total - 1
-              ? t('aiscore.quiz.seeResults', lang)
-              : t('aiscore.quiz.next', lang)}
+            {index === total - 1 ? locale.seeResults : locale.next}
           </button>
         </div>
       </div>

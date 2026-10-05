@@ -38,6 +38,28 @@
   max-width: 720px;
 }
 
+.ai-score-quiz__lang {
+  margin: 1.25rem 0 0.5rem;
+}
+
+.ai-score-quiz__language-select {
+  width: 100%;
+  max-width: 28rem;
+  margin-top: 0.35rem;
+  padding: 0.7rem 0.85rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.ai-score-quiz__language-select:focus {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 1px;
+  border-color: var(--color-accent);
+}
+
 .ai-score-progress {
   height: 6px;
   background: var(--color-border);
