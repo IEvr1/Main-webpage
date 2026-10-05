@@ -30,7 +30,6 @@ export default function AiScoreApp() {
   );
   const [phase, setPhase] = useState<Phase>('intro');
   const [answers, setAnswers] = useState<AiScoreAnswers>({});
-  const [contactMessage, setContactMessage] = useState('');
 
   const result = computeAiScore(answers);
 
@@ -55,20 +54,9 @@ export default function AiScoreApp() {
 
   function handleRetake() {
     setAnswers({});
-    setContactMessage('');
     setPhase('quiz');
     requestAnimationFrame(() => {
       document.getElementById('ai-score-quiz')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  }
-
-  function handleRequestSolution(message: string) {
-    setContactMessage(message);
-    requestAnimationFrame(() => {
-      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      window.setTimeout(() => {
-        document.getElementById('message')?.focus();
-      }, 400);
     });
   }
 
@@ -92,7 +80,6 @@ export default function AiScoreApp() {
             assessmentLang={assessmentLang}
             result={result}
             onRetake={handleRetake}
-            onRequestSolution={handleRequestSolution}
           />
         ) : null}
 
@@ -102,7 +89,7 @@ export default function AiScoreApp() {
           subtitleKey="aiscore.faq.subtitle"
           items={AI_SCORE_FAQ}
         />
-        <Contact lang={lang} defaultMessage={contactMessage} />
+        <Contact lang={lang} />
       </main>
       <Footer lang={lang} />
     </>

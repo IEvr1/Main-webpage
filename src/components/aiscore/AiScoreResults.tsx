@@ -15,7 +15,6 @@ type AiScoreResultsProps = {
   assessmentLang: ConsultLang;
   result: AiScoreResult;
   onRetake: () => void;
-  onRequestSolution: (message: string) => void;
 };
 
 type EmailStatus = 'idle' | 'submitting' | 'success' | 'error';
@@ -66,7 +65,6 @@ export default function AiScoreResults({
   assessmentLang,
   result,
   onRetake,
-  onRequestSolution,
 }: AiScoreResultsProps) {
   const locale = getAiScoreLocale(assessmentLang);
   const [displayScore, setDisplayScore] = useState(0);
@@ -103,10 +101,6 @@ export default function AiScoreResults({
     if (!el) return;
     el.dir = assessmentLang === 'he' ? 'rtl' : 'ltr';
   }, [assessmentLang]);
-
-  function handleRequest() {
-    onRequestSolution(buildResultsSummary(locale, result));
-  }
 
   async function handleEmailSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -235,9 +229,9 @@ export default function AiScoreResults({
         </div>
 
         <div className="ai-score-results__actions">
-          <button type="button" className="btn btn-primary" onClick={handleRequest}>
+          <a href="/ai/" className="btn btn-primary">
             {locale.ctaRequest}
-          </button>
+          </a>
           <button
             type="button"
             className="btn btn-secondary"
