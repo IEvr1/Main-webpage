@@ -16,19 +16,34 @@ const articleManifest = existsSync(manifestPath)
 
 const today = new Date().toISOString().slice(0, 10);
 
-function buildUrlEntry({ loc, lastmod, priority, elHref, enHref, useQueryLang = true }) {
-  const enUrl = useQueryLang
-    ? loc === `${siteUrl}/`
-      ? `${siteUrl}/?lang=en`
-      : `${loc}?lang=en`
-    : enHref;
+function buildUrlEntry({
+  loc,
+  lastmod,
+  priority,
+  elHref,
+  enHref,
+  useQueryLang = true,
+  defaultLang = 'el',
+}) {
+  let elUrl = elHref;
+  let enUrl = enHref;
+
+  if (useQueryLang) {
+    if (defaultLang === 'en') {
+      enUrl = loc;
+      elUrl = loc === `${siteUrl}/` ? `${siteUrl}/?lang=el` : `${loc}?lang=el`;
+    } else {
+      elUrl = elHref;
+      enUrl = loc === `${siteUrl}/` ? `${siteUrl}/?lang=en` : `${loc}?lang=en`;
+    }
+  }
 
   return `  <url>
     <loc>${loc}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>${priority.toFixed(1)}</priority>
-    <xhtml:link rel="alternate" hreflang="el" href="${elHref}" />
+    <xhtml:link rel="alternate" hreflang="el" href="${elUrl}" />
     <xhtml:link rel="alternate" hreflang="en" href="${enUrl}" />
   </url>`;
 }
@@ -42,6 +57,7 @@ const productUrls = routes.map((route) => {
     priority: route.priority,
     elHref,
     useQueryLang: true,
+    defaultLang: route.path === '/' ? 'en' : 'el',
   });
 });
 

@@ -14,7 +14,7 @@ const HOME_META = {
 } as const;
 
 export default function HomeApp() {
-  const [lang, setLang] = useLang(HOME_META);
+  const [lang, setLang] = useLang(HOME_META, 'en');
 
   return (
     <>
