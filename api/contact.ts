@@ -587,7 +587,7 @@ export default async function handler(
     phone: phone?.trim() ?? '',
     message: trimmedMessage,
     sourcePage: sourcePage?.trim() || '/',
-    lang: lang?.trim() || 'el',
+    lang: lang?.trim() || 'en',
     inquiryType: inquiryType?.trim(),
     company: company?.trim(),
     industry: industry?.trim(),

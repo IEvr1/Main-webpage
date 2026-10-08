@@ -9,7 +9,7 @@ type PageMeta = {
 
 export function useLang(
   meta?: PageMeta,
-  defaultLang: Lang = 'el',
+  defaultLang: Lang = 'en',
 ): [Lang, (lang: Lang) => void] {
   const initial = useMemo(
     () => resolveLang(getLangFromUrl(), getLangCookie(), defaultLang),

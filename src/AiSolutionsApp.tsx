@@ -15,7 +15,7 @@ const AI_META = {
 } as const;
 
 export default function AiSolutionsApp() {
-  const [lang, setLang] = useLang(AI_META, 'en');
+  const [lang, setLang] = useLang(AI_META);
 
   return (
     <div className="ai-page">
