@@ -80,15 +80,19 @@ for (const route of routes) {
   assert(sitemap.includes(`<loc>${loc}</loc>`), `sitemap.xml missing ${loc}`);
 }
 
-assert(sitemap.includes('<loc>https://www.nexaipla.com/articles</loc>'), 'sitemap.xml missing /articles listing');
+assert(
+  sitemap.includes('<loc>https://www.nexaipla.com/en/articles</loc>'),
+  'sitemap.xml missing /en/articles listing',
+);
 
 if (existsSync(manifestPath)) {
   const manifest = JSON.parse(read('src/articles/generated/manifest.json'));
   for (const article of manifest.articles || []) {
-    if (article.paths?.el) {
+    const primaryPath = article.paths?.en || article.paths?.el;
+    if (primaryPath) {
       assert(
-        sitemap.includes(`<loc>https://www.nexaipla.com${article.paths.el}</loc>`),
-        `sitemap.xml missing ${article.paths.el}`,
+        sitemap.includes(`<loc>https://www.nexaipla.com${primaryPath}</loc>`),
+        `sitemap.xml missing ${primaryPath}`,
       );
     }
   }

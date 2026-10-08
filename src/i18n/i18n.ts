@@ -22,8 +22,8 @@ export function t(
   lang: Lang,
   vars?: Record<string, string | number | undefined>,
 ): string {
-  const table = dict[lang] ?? dict.el;
-  let s = table[key] ?? dict.en[key] ?? key;
+  const table = dict[lang] ?? dict.en;
+  let s = table[key] ?? dict.el[key] ?? key;
   if (vars) {
     for (const [k, v] of Object.entries(vars)) {
       if (v === undefined) continue;
