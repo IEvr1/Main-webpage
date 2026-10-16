@@ -1,5 +1,6 @@
 import { brandLogoUrl } from './constants/contact';
 import { WaitlessLanding } from './components/shoptraffic/WaitlessLanding';
+import ShopTrafficScreenshots from './components/shoptraffic/ShopTrafficScreenshots';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
@@ -45,6 +46,7 @@ export default function ShopTrafficApp() {
           <WaitlessLanding lang={lang} />
         </main>
       </div>
+      <ShopTrafficScreenshots lang={lang} />
       <RelatedApps lang={lang} currentAppId="shop-traffic" />
       <FaqSection
         lang={lang}
