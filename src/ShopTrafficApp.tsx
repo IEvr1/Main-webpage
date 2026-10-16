@@ -6,7 +6,6 @@ import FaqSection from './components/FaqSection';
 import RelatedApps from './components/RelatedApps';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 import { SHOPTRAFFIC_FAQ } from './constants/faq';
-import { getDemoShopUrl } from './shoptraffic/demo-shop-url';
 import { t } from './i18n/i18n';
 import { useLang } from './i18n/useLang';
 
@@ -17,7 +16,6 @@ const SHOP_TRAFFIC_META = {
 
 export default function ShopTrafficApp() {
   const [lang, setLang] = useLang(SHOP_TRAFFIC_META);
-  const demoShopUrl = getDemoShopUrl();
 
   return (
     <>
@@ -44,7 +42,7 @@ export default function ShopTrafficApp() {
           </nav>
         </header>
         <main className="mt-8 sm:mt-10">
-          <WaitlessLanding lang={lang} demoShopUrl={demoShopUrl} />
+          <WaitlessLanding lang={lang} />
         </main>
       </div>
       <RelatedApps lang={lang} currentAppId="shop-traffic" />

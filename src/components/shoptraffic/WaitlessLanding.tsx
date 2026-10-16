@@ -55,21 +55,10 @@ const heroCtaClass =
 
 const heroCtaWideClass = `${heroCtaClass} w-full sm:w-auto px-8 py-3.5`;
 
-const heroSecondaryCtaClass =
-  'inline-flex items-center justify-center rounded-lg border-2 border-primary bg-transparent px-7 py-3.5 text-center text-sm font-semibold text-primary transition hover:border-primary-hover hover:bg-accent hover:text-primary-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background';
-
-const heroSecondaryCtaWideClass = `${heroSecondaryCtaClass} w-full sm:w-auto px-8 py-3.5`;
-
 const ctaBandClass =
   'mt-16 rounded-2xl border border-border bg-accent/60 px-6 py-12 text-center shadow-sm sm:px-10 sm:py-14';
 
-export function WaitlessLanding({
-  lang,
-  demoShopUrl,
-}: {
-  lang: Lang;
-  demoShopUrl: string;
-}) {
+export function WaitlessLanding({ lang }: { lang: Lang }) {
   const customerKeys = [
     'waitless.customer.b1',
     'waitless.customer.b2',
@@ -124,18 +113,7 @@ export function WaitlessLanding({
               data-hero-reveal
               className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center"
             >
-              <a
-                href={demoShopUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={heroCtaClass}
-              >
-                {t('waitless.ctaDemo', lang)}
-              </a>
-              <a
-                href="#pelatis"
-                className={heroSecondaryCtaClass}
-              >
+              <a href="#pelatis" className={heroCtaClass}>
                 {t('waitless.ctaExplore', lang)}
               </a>
             </div>
@@ -274,18 +252,7 @@ export function WaitlessLanding({
             {t('waitless.heroSub', lang)}
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <a
-              href={demoShopUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={heroCtaWideClass}
-            >
-              {t('waitless.ctaDemo', lang)}
-            </a>
-            <a
-              href="#pelatis"
-              className={heroSecondaryCtaWideClass}
-            >
+            <a href="#pelatis" className={heroCtaWideClass}>
               {t('waitless.ctaExplore', lang)}
             </a>
           </div>

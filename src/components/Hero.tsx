@@ -12,10 +12,7 @@ export default function Hero({ lang }: HeroProps) {
         <h1 className="hero__title">{t('booking.hero.title', lang)}</h1>
         <p className="hero__subtitle">{t('booking.hero.subtitle', lang)}</p>
         <div className="hero__actions">
-          <a href="/chat" className="btn btn-primary">
-            {t('booking.hero.ctaDemo', lang)}
-          </a>
-          <a href="#contact" className="btn btn-secondary">
+          <a href="#contact" className="btn btn-primary">
             {t('booking.hero.ctaContact', lang)}
           </a>
         </div>
