@@ -16,7 +16,7 @@ export default function ArticleApp() {
   if (!article) {
     return (
       <main className="article-page container">
-        <p>{t('articles.error.notFound', 'el')}</p>
+        <p>{t('articles.error.notFound', 'en')}</p>
       </main>
     );
   }

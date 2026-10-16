@@ -23,7 +23,7 @@ function buildUrlEntry({
   elHref,
   enHref,
   useQueryLang = true,
-  defaultLang = 'el',
+  defaultLang = 'en',
 }) {
   let elUrl = elHref;
   let enUrl = enHref;
@@ -57,13 +57,13 @@ const productUrls = routes.map((route) => {
     priority: route.priority,
     elHref,
     useQueryLang: true,
-    defaultLang: route.path === '/' ? 'en' : 'el',
+    defaultLang: 'en',
   });
 });
 
 const articleListingUrls = [
   buildUrlEntry({
-    loc: `${siteUrl}${articleManifest.listing.el}`,
+    loc: `${siteUrl}${articleManifest.listing.en}`,
     lastmod: today,
     priority: 0.7,
     elHref: `${siteUrl}${articleManifest.listing.el}`,
@@ -77,7 +77,7 @@ const articleUrls = (articleManifest.articles || []).flatMap((article) => {
   const enPath = article.paths?.en;
   if (!elPath && !enPath) return [];
 
-  const primaryPath = elPath || enPath;
+  const primaryPath = enPath || elPath;
   return [
     buildUrlEntry({
       loc: `${siteUrl}${primaryPath}`,
