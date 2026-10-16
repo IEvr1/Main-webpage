@@ -10,17 +10,17 @@ type DocsAppScreenshotsProps = {
 export default function DocsAppScreenshots({ lang }: DocsAppScreenshotsProps) {
   const screenshots = [
     {
-      src: `${base}landing/docsapp-screenshot-inbox.svg`,
+      src: `${base}landing/docsapp-screenshot-inbox-${lang}.png`,
       caption: t('docsapp.screenshots.inbox.caption', lang),
       alt: t('docsapp.screenshots.inbox.alt', lang),
     },
     {
-      src: `${base}landing/docsapp-screenshot-chat.svg`,
+      src: `${base}landing/docsapp-screenshot-chat-${lang}.png`,
       caption: t('docsapp.screenshots.chat.caption', lang),
       alt: t('docsapp.screenshots.chat.alt', lang),
     },
     {
-      src: `${base}landing/docsapp-screenshot-folders.svg`,
+      src: `${base}landing/docsapp-screenshot-folders-${lang}.png`,
       caption: t('docsapp.screenshots.folders.caption', lang),
       alt: t('docsapp.screenshots.folders.alt', lang),
     },
@@ -38,7 +38,7 @@ export default function DocsAppScreenshots({ lang }: DocsAppScreenshotsProps) {
           {screenshots.map((shot) => (
             <figure key={shot.src} className="screenshot-item">
               <div className="screenshot-item__frame">
-                <img src={shot.src} alt={shot.alt} loading="lazy" width={360} height={640} />
+                <img src={shot.src} alt={shot.alt} loading="lazy" />
               </div>
               <figcaption className="screenshot-item__caption">{shot.caption}</figcaption>
             </figure>

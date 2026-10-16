@@ -10,17 +10,17 @@ type FoodOrderScreenshotsProps = {
 export default function FoodOrderScreenshots({ lang }: FoodOrderScreenshotsProps) {
   const screenshots = [
     {
-      src: `${base}landing/foodorder-screenshot-menu.svg`,
+      src: `${base}landing/foodorder-screenshot-menu-${lang}.png`,
       caption: t('foodorder.screenshots.menu.caption', lang),
       alt: t('foodorder.screenshots.menu.alt', lang),
     },
     {
-      src: `${base}landing/foodorder-screenshot-dashboard.svg`,
+      src: `${base}landing/foodorder-screenshot-dashboard-${lang}.png`,
       caption: t('foodorder.screenshots.dashboard.caption', lang),
       alt: t('foodorder.screenshots.dashboard.alt', lang),
     },
     {
-      src: `${base}landing/foodorder-screenshot-sms.svg`,
+      src: `${base}landing/foodorder-screenshot-sms-${lang}.png`,
       caption: t('foodorder.screenshots.sms.caption', lang),
       alt: t('foodorder.screenshots.sms.alt', lang),
     },
@@ -38,7 +38,7 @@ export default function FoodOrderScreenshots({ lang }: FoodOrderScreenshotsProps
           {screenshots.map((shot) => (
             <figure key={shot.src} className="screenshot-item">
               <div className="screenshot-item__frame">
-                <img src={shot.src} alt={shot.alt} loading="lazy" width={360} height={640} />
+                <img src={shot.src} alt={shot.alt} loading="lazy" />
               </div>
               <figcaption className="screenshot-item__caption">{shot.caption}</figcaption>
             </figure>

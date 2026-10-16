@@ -10,17 +10,17 @@ type BookingScreenshotsProps = {
 export default function BookingScreenshots({ lang }: BookingScreenshotsProps) {
   const screenshots = [
     {
-      src: `${base}landing/booking-screenshot-chat.png`,
+      src: `${base}landing/booking-screenshot-chat-${lang}.png`,
       caption: t('booking.screenshots.chat.caption', lang),
       alt: t('booking.screenshots.chat.alt', lang),
     },
     {
-      src: `${base}landing/booking-screenshot-dashboard.png`,
+      src: `${base}landing/booking-screenshot-dashboard-${lang}.png`,
       caption: t('booking.screenshots.dashboard.caption', lang),
       alt: t('booking.screenshots.dashboard.alt', lang),
     },
     {
-      src: `${base}landing/booking-screenshot-sms.png`,
+      src: `${base}landing/booking-screenshot-sms-${lang}.png`,
       caption: t('booking.screenshots.sms.caption', lang),
       alt: t('booking.screenshots.sms.alt', lang),
     },
