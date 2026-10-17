@@ -119,6 +119,27 @@ async function waitReady(page, readyText) {
   await page.waitForTimeout(900);
 }
 
+/** Strip student names from kitchen allergy comments (keep class + note). */
+async function redactKitchenNames(page) {
+  await page.evaluate(() => {
+    const rows = document.querySelectorAll('tbody tr');
+    rows.forEach((row, rowIndex) => {
+      if (rowIndex === 0) return;
+      const cells = row.querySelectorAll('td');
+      const comments = cells[cells.length - 1];
+      if (!comments) return;
+      comments.querySelectorAll('li').forEach((li) => {
+        const text = (li.textContent || '').trim();
+        const m = text.match(/^(.+?)\s*(\([^)]+\))?\s*:\s*(.+)$/);
+        if (m) {
+          const cls = m[2] ? `${m[2]} ` : '';
+          li.textContent = `${cls}${m[3]}`.trim();
+        }
+      });
+    });
+  });
+}
+
 async function captureLang(browser, { base, cookToken, parentToken, lang }) {
   const hideNoise =
     'nextjs-portal,[data-nextjs-toast],[data-nextjs-dialog-overlay],#vercel-live-feedback{display:none!important}';
@@ -165,6 +186,8 @@ async function captureLang(browser, { base, cookToken, parentToken, lang }) {
   await kitchen.reload({ waitUntil: 'networkidle' }).catch(() => {});
   await kitchen.addStyleTag({ content: hideNoise });
   await waitReady(kitchen, lang === 'en' ? 'Kitchen' : 'Κουζίνα');
+  await redactKitchenNames(kitchen);
+  await kitchen.waitForTimeout(300);
   await shot(kitchen, join(outDir, `schoolmeals-screenshot-kitchen-${lang}.png`));
   await kitchenCtx.close();
 
