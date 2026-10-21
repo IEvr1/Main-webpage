@@ -1,8 +1,6 @@
 import type { ConsultLang } from '../constants/consult-languages';
 
 export type AiConsultLocaleStrings = {
-  modeWrite: string;
-  modeRecord: string;
   responseLanguage: string;
   name: string;
   email: string;
@@ -27,16 +25,6 @@ export type AiConsultLocaleStrings = {
   timeline1: string;
   timeline2: string;
   timeline3: string;
-  promptsTitle: string;
-  prompt1: string;
-  prompt2: string;
-  prompt3: string;
-  prompt4: string;
-  startRecording: string;
-  stopRecording: string;
-  recordAgain: string;
-  recordingDuration: string;
-  micDenied: string;
   submit: string;
   submitting: string;
   success: string;
@@ -48,13 +36,9 @@ export type AiConsultLocaleStrings = {
   goalsRequired: string;
   descriptionRequired: string;
   descriptionMin: string;
-  audioRequired: string;
 };
-
 export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
   bg: {
-    modeWrite: "Напишете",
-    modeRecord: "Запишете",
     responseLanguage: "Език на отговорите",
     name: "Вашето име *",
     email: "Имейл *",
@@ -80,17 +64,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "В рамките на 1–3 месеца",
     timeline2: "В рамките на 3–6 месеца",
     timeline3: "Само проучвам",
-    promptsTitle: "По време на записа опитайте да отговорите:",
-    prompt1: "Какво прави вашият бизнес и колко голям е екипът ви?",
-    prompt2: "Коя задача отнема най-много време или причинява най-много разочарование?",
-    prompt3: "Какво би се променило, ако този проблем изчезне?",
-    prompt4: "Имате ли предвид бюджет или срок?",
-    startRecording: "Започнете запис",
-    stopRecording: "Спиране на записа",
-    recordAgain: "Запишете отново",
-    recordingDuration: "Запис: {duration}",
-    micDenied:
-      "Достъпът до микрофона беше отказан. Разрешете достъпа или преминете към режим на писане.",
     submit: "Заявете персонализирано AI решение",
     submitting: "Изпращане…",
     success:
@@ -104,11 +77,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Моля, изберете поне една цел.",
     descriptionRequired: "Моля, опишете бизнес нуждата си.",
     descriptionMin: "Моля, добавете малко повече подробности (поне 20 символа).",
-    audioRequired: "Моля, запишете гласово съобщение или преминете към режим на писане.",
   },
   hr: {
-    modeWrite: "Napišite",
-    modeRecord: "Snimite",
     responseLanguage: "Jezik vaših odgovora",
     name: "Vaše ime *",
     email: "Email *",
@@ -134,17 +104,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "U roku od 1–3 mjeseca",
     timeline2: "U roku od 3–6 mjeseci",
     timeline3: "Samo istražujem",
-    promptsTitle: "Tijekom snimanja pokušajte odgovoriti:",
-    prompt1: "Čime se bavi vaš posao i koliko je velik vaš tim?",
-    prompt2: "Koji zadatak troši najviše vremena ili uzrokuje najviše frustracije?",
-    prompt3: "Što bi se promijenilo ako bi taj problem nestao?",
-    prompt4: "Imate li na umu proračun ili vremenski okvir?",
-    startRecording: "Započni snimanje",
-    stopRecording: "Zaustavi snimanje",
-    recordAgain: "Snimi ponovno",
-    recordingDuration: "Snimanje: {duration}",
-    micDenied:
-      "Pristup mikrofonu je odbijen. Dozvolite pristup mikrofonu ili prebacite se na način pisanja.",
     submit: "Zatražite prilagođeno AI rješenje",
     submitting: "Slanje…",
     success:
@@ -158,11 +117,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Odaberite barem jedan cilj.",
     descriptionRequired: "Opišite svoju poslovnu potrebu.",
     descriptionMin: "Dodajte malo više detalja (najmanje 20 znakova).",
-    audioRequired: "Snimite glasovnu poruku ili prebacite se na način pisanja.",
   },
   cs: {
-    modeWrite: "Napsat",
-    modeRecord: "Nahrát",
     responseLanguage: "Jazyk vašich odpovědí",
     name: "Vaše jméno *",
     email: "E-mail *",
@@ -188,17 +144,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Do 1–3 měsíců",
     timeline2: "Do 3–6 měsíců",
     timeline3: "Jen zkoumám možnosti",
-    promptsTitle: "Při nahrávání se pokuste odpovědět:",
-    prompt1: "Čím se vaše firma zabývá a jak velký je váš tým?",
-    prompt2: "Který úkol zabere nejvíce času nebo způsobuje největší frustraci?",
-    prompt3: "Co by se změnilo, kdyby tento problém zmizel?",
-    prompt4: "Máte na mysli rozpočet nebo časový harmonogram?",
-    startRecording: "Spustit nahrávání",
-    stopRecording: "Zastavit nahrávání",
-    recordAgain: "Nahrát znovu",
-    recordingDuration: "Nahrávání: {duration}",
-    micDenied:
-      "Přístup k mikrofonu byl odepřen. Povolte přístup k mikrofonu nebo přepněte do režimu psaní.",
     submit: "Požádat o AI řešení na míru",
     submitting: "Odesílání…",
     success:
@@ -212,11 +157,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Vyberte prosím alespoň jeden cíl.",
     descriptionRequired: "Popište prosím svou obchodní potřebu.",
     descriptionMin: "Uveďte prosím více detailů (alespoň 20 znaků).",
-    audioRequired: "Nahrajte prosím hlasovou zprávu nebo přepněte do režimu psaní.",
   },
   da: {
-    modeWrite: "Skriv det",
-    modeRecord: "Optag det",
     responseLanguage: "Sprog til dine svar",
     name: "Dit navn *",
     email: "E-mail *",
@@ -242,17 +184,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Inden for 1–3 måneder",
     timeline2: "Inden for 3–6 måneder",
     timeline3: "Kigger bare",
-    promptsTitle: "Mens du optager, prøv at besvare:",
-    prompt1: "Hvad laver din virksomhed, og hvor stort er dit team?",
-    prompt2: "Hvilken opgave tager mest tid eller skaber mest frustration?",
-    prompt3: "Hvad ville ændre sig, hvis det problem forsvandt?",
-    prompt4: "Har du et budget eller en tidslinje på sinde?",
-    startRecording: "Start optagelse",
-    stopRecording: "Stop optagelse",
-    recordAgain: "Optag igen",
-    recordingDuration: "Optagelse: {duration}",
-    micDenied:
-      "Adgang til mikrofon blev nægtet. Tillad mikrofonadgang eller skift til skrivetilstand.",
     submit: "Anmod om en skræddersyet AI-løsning",
     submitting: "Sender…",
     success:
@@ -266,11 +197,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Vælg venligst mindst ét mål.",
     descriptionRequired: "Beskriv venligst dit forretningsbehov.",
     descriptionMin: "Giv venligst lidt flere detaljer (mindst 20 tegn).",
-    audioRequired: "Optag venligst en talebesked eller skift til skrivetilstand.",
   },
   nl: {
-    modeWrite: "Schrijf het",
-    modeRecord: "Neem het op",
     responseLanguage: "Taal voor uw antwoorden",
     name: "Uw naam *",
     email: "E-mail *",
@@ -296,17 +224,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Binnen 1–3 maanden",
     timeline2: "Binnen 3–6 maanden",
     timeline3: "Alleen verkennen",
-    promptsTitle: "Probeer tijdens de opname te antwoorden:",
-    prompt1: "Wat doet uw bedrijf en hoe groot is uw team?",
-    prompt2: "Welke taak kost de meeste tijd of veroorzaakt de meeste frustratie?",
-    prompt3: "Wat zou veranderen als dat probleem verdween?",
-    prompt4: "Heeft u een budget of tijdlijn in gedachten?",
-    startRecording: "Opname starten",
-    stopRecording: "Opname stoppen",
-    recordAgain: "Opnieuw opnemen",
-    recordingDuration: "Opname: {duration}",
-    micDenied:
-      "Microfoontoegang is geweigerd. Sta microfoontoegang toe of schakel over naar schrijfmodus.",
     submit: "Vraag een AI-oplossing op maat aan",
     submitting: "Verzenden…",
     success:
@@ -320,11 +237,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Selecteer minimaal één doel.",
     descriptionRequired: "Beschrijf uw bedrijfsbehoefte.",
     descriptionMin: "Geef iets meer detail (minimaal 20 tekens).",
-    audioRequired: "Neem een spraakbericht op of schakel over naar schrijfmodus.",
   },
   en: {
-    modeWrite: "Write it",
-    modeRecord: "Record it",
     responseLanguage: "Language for your answers",
     name: "Your name *",
     email: "Email *",
@@ -350,17 +264,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Within 1–3 months",
     timeline2: "Within 3–6 months",
     timeline3: "Just exploring",
-    promptsTitle: "While recording, try to answer:",
-    prompt1: "What does your business do, and how big is your team?",
-    prompt2: "What task takes the most time or causes the most frustration?",
-    prompt3: "What would change if that problem disappeared?",
-    prompt4: "Do you have a budget or timeline in mind?",
-    startRecording: "Start recording",
-    stopRecording: "Stop recording",
-    recordAgain: "Record again",
-    recordingDuration: "Recording: {duration}",
-    micDenied:
-      "Microphone access was denied. Please allow microphone access or switch to the write mode.",
     submit: "Request a custom AI solution",
     submitting: "Sending…",
     success:
@@ -374,11 +277,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Please select at least one goal.",
     descriptionRequired: "Please describe your business need.",
     descriptionMin: "Please provide a bit more detail (at least 20 characters).",
-    audioRequired: "Please record a voice message or switch to write mode.",
   },
   et: {
-    modeWrite: "Kirjutage",
-    modeRecord: "Salvestage",
     responseLanguage: "Vastuste keel",
     name: "Teie nimi *",
     email: "E-post *",
@@ -404,18 +304,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "1–3 kuu jooksul",
     timeline2: "3–6 kuu jooksul",
     timeline3: "Lihtsalt uurin",
-    promptsTitle: "Salvestamise ajal proovige vastata:",
-    prompt1: "Millega teie ettevõte tegeleb ja kui suur on teie meeskond?",
-    prompt2:
-      "Milline ülesanne võtab kõige rohkem aega või tekitab kõige rohkem pettumust?",
-    prompt3: "Mis muutuks, kui see probleem kaoks?",
-    prompt4: "Kas teil on eelarve või ajakava meeles?",
-    startRecording: "Alusta salvestamist",
-    stopRecording: "Peata salvestamine",
-    recordAgain: "Salvesta uuesti",
-    recordingDuration: "Salvestus: {duration}",
-    micDenied:
-      "Mikrofoni juurdepääs keelati. Lubage mikrofoni juurdepääs või lülitage kirjutamisrežiimile.",
     submit: "Taotlege kohandatud AI-lahendust",
     submitting: "Saatmine…",
     success:
@@ -429,11 +317,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Palun valige vähemalt üks eesmärk.",
     descriptionRequired: "Palun kirjeldage oma ärivajadust.",
     descriptionMin: "Palun lisage veidi rohkem üksikasju (vähemalt 20 tähemärki).",
-    audioRequired: "Palun salvestage häälsõnum või lülitage kirjutamisrežiimile.",
   },
   fi: {
-    modeWrite: "Kirjoita",
-    modeRecord: "Nauhoita",
     responseLanguage: "Vastausten kieli",
     name: "Nimesi *",
     email: "Sähköposti *",
@@ -459,17 +344,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "1–3 kuukauden kuluessa",
     timeline2: "3–6 kuukauden kuluessa",
     timeline3: "Tutustun vain vaihtoehtoihin",
-    promptsTitle: "Tallennuksen aikana yritä vastata:",
-    prompt1: "Mitä yrityksenne tekee ja kuinka suuri tiiminne on?",
-    prompt2: "Mikä tehtävä vie eniten aikaa tai aiheuttaa eniten turhautumista?",
-    prompt3: "Mitä muuttuisi, jos tuo ongelma poistuisi?",
-    prompt4: "Onko teillä budjetti tai aikataulu mielessä?",
-    startRecording: "Aloita tallennus",
-    stopRecording: "Lopeta tallennus",
-    recordAgain: "Tallenna uudelleen",
-    recordingDuration: "Tallennus: {duration}",
-    micDenied:
-      "Mikrofonin käyttö estettiin. Salli mikrofonin käyttö tai vaihda kirjoitustilaan.",
     submit: "Pyydä räätälöity AI-ratkaisu",
     submitting: "Lähetetään…",
     success:
@@ -483,11 +357,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Valitse vähintään yksi tavoite.",
     descriptionRequired: "Kuva liiketoimintatarpeesi.",
     descriptionMin: "Anna hieman enemmän yksityiskohtia (vähintään 20 merkkiä).",
-    audioRequired: "Nauhoita ääniviesti tai vaihda kirjoitustilaan.",
   },
   fr: {
-    modeWrite: "Écrire",
-    modeRecord: "Enregistrer",
     responseLanguage: "Langue de vos réponses",
     name: "Votre nom *",
     email: "E-mail *",
@@ -513,17 +384,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Dans 1 à 3 mois",
     timeline2: "Dans 3 à 6 mois",
     timeline3: "Je me renseigne seulement",
-    promptsTitle: "Pendant l'enregistrement, essayez de répondre :",
-    prompt1: "Que fait votre entreprise et quelle est la taille de votre équipe ?",
-    prompt2: "Quelle tâche prend le plus de temps ou cause le plus de frustration ?",
-    prompt3: "Qu'est-ce qui changerait si ce problème disparaissait ?",
-    prompt4: "Avez-vous un budget ou un calendrier en tête ?",
-    startRecording: "Commencer l'enregistrement",
-    stopRecording: "Arrêter l'enregistrement",
-    recordAgain: "Enregistrer à nouveau",
-    recordingDuration: "Enregistrement : {duration}",
-    micDenied:
-      "L'accès au microphone a été refusé. Autorisez le microphone ou passez en mode écriture.",
     submit: "Demander une solution IA sur mesure",
     submitting: "Envoi…",
     success:
@@ -537,11 +397,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Veuillez sélectionner au moins un objectif.",
     descriptionRequired: "Veuillez décrire votre besoin professionnel.",
     descriptionMin: "Veuillez fournir un peu plus de détails (au moins 20 caractères).",
-    audioRequired: "Veuillez enregistrer un message vocal ou passer en mode écriture.",
   },
   de: {
-    modeWrite: "Schreiben",
-    modeRecord: "Aufnehmen",
     responseLanguage: "Sprache Ihrer Antworten",
     name: "Ihr Name *",
     email: "E-Mail *",
@@ -567,18 +424,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Innerhalb von 1–3 Monaten",
     timeline2: "Innerhalb von 3–6 Monaten",
     timeline3: "Nur informieren",
-    promptsTitle: "Versuchen Sie während der Aufnahme zu antworten:",
-    prompt1: "Was macht Ihr Unternehmen und wie groß ist Ihr Team?",
-    prompt2:
-      "Welche Aufgabe nimmt die meiste Zeit in Anspruch oder verursacht die größte Frustration?",
-    prompt3: "Was würde sich ändern, wenn dieses Problem verschwinden würde?",
-    prompt4: "Haben Sie ein Budget oder einen Zeitrahmen im Sinn?",
-    startRecording: "Aufnahme starten",
-    stopRecording: "Aufnahme stoppen",
-    recordAgain: "Erneut aufnehmen",
-    recordingDuration: "Aufnahme: {duration}",
-    micDenied:
-      "Der Mikrofonzugriff wurde verweigert. Erlauben Sie den Mikrofonzugriff oder wechseln Sie in den Schreibmodus.",
     submit: "Individuelle KI-Lösung anfragen",
     submitting: "Wird gesendet…",
     success:
@@ -592,12 +437,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Bitte wählen Sie mindestens ein Ziel.",
     descriptionRequired: "Bitte beschreiben Sie Ihren geschäftlichen Bedarf.",
     descriptionMin: "Bitte geben Sie etwas mehr Details an (mindestens 20 Zeichen).",
-    audioRequired:
-      "Bitte nehmen Sie eine Sprachnachricht auf oder wechseln Sie in den Schreibmodus.",
   },
   el: {
-    modeWrite: "Γράψτε το",
-    modeRecord: "Καταγράψτε το",
     responseLanguage: "Γλώσσα απαντήσεων",
     name: "Το όνομά σας *",
     email: "Email *",
@@ -623,18 +464,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Εντός 1–3 μηνών",
     timeline2: "Εντός 3–6 μηνών",
     timeline3: "Απλά εξερευνώ",
-    promptsTitle: "Κατά την εγγραφή, προσπαθήστε να απαντήσετε:",
-    prompt1: "Τι κάνει η επιχείρησή σας και πόσο άτομα είστε;",
-    prompt2:
-      "Ποια εργασία παίρνει τον περισσότερο χρόνο ή προκαλεί τη μεγαλύτερη απογοήτευση;",
-    prompt3: "Τι θα άλλαζε αν αυτό το πρόβλημα εξαφανιζόταν;",
-    prompt4: "Έχετε προϋπολογισμό ή χρονοδιάγραμμα στο μυαλό σας;",
-    startRecording: "Έναρξη εγγραφής",
-    stopRecording: "Διακοπή εγγραφής",
-    recordAgain: "Νέα εγγραφή",
-    recordingDuration: "Εγγραφή: {duration}",
-    micDenied:
-      "Δεν δόθηκε πρόσβαση στο μικρόφωνο. Επιτρέψτε την πρόσβαση ή αλλάξτε σε λειτουργία γραφής.",
     submit: "Ζητήστε εξατομικευμένη λύση AI",
     submitting: "Αποστολή…",
     success:
@@ -648,11 +477,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Επιλέξτε τουλάχιστον έναν στόχο.",
     descriptionRequired: "Περιγράψτε την ανάγκη της επιχείρησής σας.",
     descriptionMin: "Δώστε λίγο περισσότερες λεπτομέρειες (τουλάχιστον 20 χαρακτήρες).",
-    audioRequired: "Καταγράψτε φωνητικό μήνυμα ή αλλάξτε σε λειτουργία γραφής.",
   },
   he: {
-    modeWrite: "כתוב",
-    modeRecord: "הקלט",
     responseLanguage: "שפת התשובות שלך",
     name: "השם שלך *",
     email: "אימייל *",
@@ -678,16 +504,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "תוך 1–3 חודשים",
     timeline2: "תוך 3–6 חודשים",
     timeline3: "רק בודק אפשרויות",
-    promptsTitle: "במהלך ההקלטה, נסה לענות:",
-    prompt1: "במה העסק שלך עוסק וכמה אנשים בצוות?",
-    prompt2: "איזו משימה לוקחת הכי הרבה זמן או גורמת לתסכול?",
-    prompt3: "מה ישתנה אם הבעיה הזו תיעלם?",
-    prompt4: "יש לך תקציב או לוח זמנים בראש?",
-    startRecording: "התחל הקלטה",
-    stopRecording: "עצור הקלטה",
-    recordAgain: "הקלט שוב",
-    recordingDuration: "הקלטה: {duration}",
-    micDenied: "הגישה למיקרופון נדחתה. אפשר גישה למיקרופון או עבור למצב כתיבה.",
     submit: "בקש פתרון AI מותאם אישית",
     submitting: "שולח…",
     success:
@@ -701,11 +517,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "בחר לפחות מטרה אחת.",
     descriptionRequired: "תאר את צורך העסק שלך.",
     descriptionMin: "ספק קצת יותר פרטים (לפחות 20 תווים).",
-    audioRequired: "הקלט הודעה קולית או עבור למצב כתיבה.",
   },
   hu: {
-    modeWrite: "Írja le",
-    modeRecord: "Rögzítse",
     responseLanguage: "Válaszainak nyelve",
     name: "Az Ön neve *",
     email: "E-mail *",
@@ -731,18 +544,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "1–3 hónapon belül",
     timeline2: "3–6 hónapon belül",
     timeline3: "Csak tájékozódom",
-    promptsTitle: "Felvétel közben próbáljon válaszolni:",
-    prompt1: "Mivel foglalkozik a vállalkozása, és mekkora a csapata?",
-    prompt2:
-      "Mely feladat vesz igénybe legtöbb időt vagy okozza a legnagyobb frustrációt?",
-    prompt3: "Mi változna, ha ez a probléma megszűnne?",
-    prompt4: "Van költségvetése vagy időkerete?",
-    startRecording: "Felvétel indítása",
-    stopRecording: "Felvétel leállítása",
-    recordAgain: "Újra felvétel",
-    recordingDuration: "Felvétel: {duration}",
-    micDenied:
-      "A mikrofonhoz való hozzáférés megtagadva. Engedélyezze a mikrofont, vagy váltson írási módra.",
     submit: "Egyedi AI-megoldás kérése",
     submitting: "Küldés…",
     success:
@@ -756,11 +557,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Kérjük, válasszon legalább egy célt.",
     descriptionRequired: "Kérjük, írja le üzleti igényét.",
     descriptionMin: "Kérjük, adjon meg egy kicsit több részletet (legalább 20 karakter).",
-    audioRequired: "Kérjük, rögzítsen hangüzenetet, vagy váltson írási módra.",
   },
   ga: {
-    modeWrite: "Scríobh é",
-    modeRecord: "Taifead é",
     responseLanguage: "Teanga do chuid freagraí",
     name: "D'ainm *",
     email: "Ríomhphost *",
@@ -786,18 +584,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Laistigh de 1–3 mhí",
     timeline2: "Laistigh de 3–6 mhí",
     timeline3: "Ag fiosrú amháin",
-    promptsTitle: "Le linn an taifeadta, déan iarracht freagra a thabhairt:",
-    prompt1: "Cad a dhéanann do ghnó agus cé chomh mór is atá d'fhoireann?",
-    prompt2:
-      "Cén tasc a thógann an chuid is mó ama nó a chruthaíonn an frustrachas is mó?",
-    prompt3: "Cad a athródh dá rachadh an fhadhb sin i léig?",
-    prompt4: "An bhfuil buiséad nó amlíne agat i gcuimhne?",
-    startRecording: "Tosaigh taifeadadh",
-    stopRecording: "Stop taifeadadh",
-    recordAgain: "Taifead arís",
-    recordingDuration: "Taifeadadh: {duration}",
-    micDenied:
-      "Diúltaíodh rochtain ar an micreafón. Ceadaigh rochtain ar an micreafón nó athraigh go mód scríbhneoireachta.",
     submit: "Iarr réiteach AI saincheaptha",
     submitting: "Ag seoladh…",
     success:
@@ -811,12 +597,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Roghnaigh sprioc amháin ar a laghad le do thoil.",
     descriptionRequired: "Déan cur síos ar do riachtanas gnó le do thoil.",
     descriptionMin: "Tabhair beagán níos mó sonraí le do thoil (20 carachtar ar a laghad).",
-    audioRequired:
-      "Taifead teachtaireacht ghutha nó athraigh go mód scríbhneoireachta le do thoil.",
   },
   it: {
-    modeWrite: "Scrivi",
-    modeRecord: "Registra",
     responseLanguage: "Lingua delle tue risposte",
     name: "Il tuo nome *",
     email: "Email *",
@@ -842,17 +624,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Entro 1–3 mesi",
     timeline2: "Entro 3–6 mesi",
     timeline3: "Sto solo esplorando",
-    promptsTitle: "Durante la registrazione, prova a rispondere:",
-    prompt1: "Di cosa si occupa la tua azienda e quanto è grande il tuo team?",
-    prompt2: "Quale attività richiede più tempo o causa più frustrazione?",
-    prompt3: "Cosa cambierebbe se quel problema scomparisse?",
-    prompt4: "Hai un budget o una tempistica in mente?",
-    startRecording: "Avvia registrazione",
-    stopRecording: "Interrompi registrazione",
-    recordAgain: "Registra di nuovo",
-    recordingDuration: "Registrazione: {duration}",
-    micDenied:
-      "Accesso al microfono negato. Consenti l'accesso al microfono o passa alla modalità scrittura.",
     submit: "Richiedi una soluzione AI su misura",
     submitting: "Invio…",
     success:
@@ -866,11 +637,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Seleziona almeno un obiettivo.",
     descriptionRequired: "Descrivi la tua esigenza aziendale.",
     descriptionMin: "Fornisci qualche dettaglio in più (almeno 20 caratteri).",
-    audioRequired: "Registra un messaggio vocale o passa alla modalità scrittura.",
   },
   lv: {
-    modeWrite: "Rakstīt",
-    modeRecord: "Ierakstīt",
     responseLanguage: "Atbilžu valoda",
     name: "Jūsu vārds *",
     email: "E-pasts *",
@@ -896,18 +664,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "1–3 mēnešu laikā",
     timeline2: "3–6 mēnešu laikā",
     timeline3: "Tikai izpētu iespējas",
-    promptsTitle: "Ierakstīšanas laikā mēģiniet atbildēt:",
-    prompt1: "Ar ko nodarbojas jūsu uzņēmums un cik liela ir jūsu komanda?",
-    prompt2:
-      "Kāds uzdevums aizņem visvairāk laika vai rada vislielāko neapmierinātību?",
-    prompt3: "Kas mainītos, ja šī problēma pazustu?",
-    prompt4: "Vai jums ir prātā budžets vai laika grafiks?",
-    startRecording: "Sākt ierakstu",
-    stopRecording: "Apturēt ierakstu",
-    recordAgain: "Ierakstīt vēlreiz",
-    recordingDuration: "Ieraksts: {duration}",
-    micDenied:
-      "Piekļuve mikrofonam tika liegta. Atļaujiet piekļuvi mikrofonam vai pārslēdzieties uz rakstīšanas režīmu.",
     submit: "Pieprasīt pielāgotu AI risinājumu",
     submitting: "Sūta…",
     success:
@@ -921,11 +677,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Lūdzu, izvēlieties vismaz vienu mērķi.",
     descriptionRequired: "Lūdzu, aprakstiet savu uzņēmuma vajadzību.",
     descriptionMin: "Lūdzu, sniedziet nedaudz vairāk informācijas (vismaz 20 rakstzīmes).",
-    audioRequired: "Lūdzu, ierakstiet balss ziņu vai pārslēdzieties uz rakstīšanas režīmu.",
   },
   lt: {
-    modeWrite: "Rašyti",
-    modeRecord: "Įrašyti",
     responseLanguage: "Atsakymų kalba",
     name: "Jūsų vardas *",
     email: "El. paštas *",
@@ -951,18 +704,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Per 1–3 mėnesius",
     timeline2: "Per 3–6 mėnesius",
     timeline3: "Tik tyrinėju",
-    promptsTitle: "Įrašymo metu pabandykite atsakyti:",
-    prompt1: "Kuo užsiima jūsų verslas ir kiek didelė jūsų komanda?",
-    prompt2:
-      "Kuri užduotis užima daugiausiai laiko arba sukelia didžiausią nusivylimą?",
-    prompt3: "Kas pasikeistų, jei ta problema išnyktų?",
-    prompt4: "Ar turite omenyje biudžetą ar laikotarpį?",
-    startRecording: "Pradėti įrašymą",
-    stopRecording: "Stabdyti įrašymą",
-    recordAgain: "Įrašyti iš naujo",
-    recordingDuration: "Įrašymas: {duration}",
-    micDenied:
-      "Prieiga prie mikrofono atmesta. Leiskite prieigą prie mikrofono arba perjunkite į rašymo režimą.",
     submit: "Užsakyti individualų AI sprendimą",
     submitting: "Siunčiama…",
     success:
@@ -976,11 +717,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Pasirinkite bent vieną tikslą.",
     descriptionRequired: "Aprašykite savo verslo poreikį.",
     descriptionMin: "Pateikite šiek tiek daugiau informacijos (bent 20 simbolių).",
-    audioRequired: "Įrašykite balso žinutę arba perjunkite į rašymo režimą.",
   },
   mt: {
-    modeWrite: "Ikteb",
-    modeRecord: "Irrekordja",
     responseLanguage: "Lingwa tar-risposti tiegħek",
     name: "Ismek *",
     email: "Email *",
@@ -1006,17 +744,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Fi żmien 1–3 xhur",
     timeline2: "Fi żmien 3–6 xhur",
     timeline3: "Qed nesplora biss",
-    promptsTitle: "Waqt ir-rekording, ipprova wieġeb:",
-    prompt1: "X'jagħmel in-negozju tiegħek u kemm huwa kbir it-tim tiegħek?",
-    prompt2: "Liema kompitu jieħu l-aktar ħin jew jikkawża l-aktar frustrazzjoni?",
-    prompt3: "X'inhi tibdela jekk dik il-problema tisparixxi?",
-    prompt4: "Għandek baġit jew skeda ta' żmien f'moħħok?",
-    startRecording: "Ibda r-rekording",
-    stopRecording: "Waqqaf ir-rekording",
-    recordAgain: "Erġa' irrekordja",
-    recordingDuration: "Rekording: {duration}",
-    micDenied:
-      "Aċċess għall-mikrofonu ġie rrifjutat. Ħalli aċċess għall-mikrofonu jew aqleb għal mod ta' kitba.",
     submit: "Itlob soluzzjoni AI personalizzata",
     submitting: "Qed jintbagħat…",
     success:
@@ -1030,11 +757,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Agħżel mill-inqas għan wieħed.",
     descriptionRequired: "Ideskrivi l-ħtieġa tan-negozju tiegħek.",
     descriptionMin: "Agħti ftit aktar dettall (mill-inqas 20 karattru).",
-    audioRequired: "Irrekordja messaġġ bil-vuċi jew aqleb għal mod ta' kitba.",
   },
   pl: {
-    modeWrite: "Napisz",
-    modeRecord: "Nagraj",
     responseLanguage: "Język Twoich odpowiedzi",
     name: "Twoje imię *",
     email: "E-mail *",
@@ -1060,18 +784,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "W ciągu 1–3 miesięcy",
     timeline2: "W ciągu 3–6 miesięcy",
     timeline3: "Tylko się orientuję",
-    promptsTitle: "Podczas nagrywania spróbuj odpowiedzieć:",
-    prompt1: "Czym zajmuje się Twoja firma i jak duży jest Twój zespół?",
-    prompt2:
-      "Które zadanie zajmuje najwięcej czasu lub powoduje największą frustrację?",
-    prompt3: "Co by się zmieniło, gdyby ten problem zniknął?",
-    prompt4: "Czy masz na myśli budżet lub harmonogram?",
-    startRecording: "Rozpocznij nagrywanie",
-    stopRecording: "Zatrzymaj nagrywanie",
-    recordAgain: "Nagraj ponownie",
-    recordingDuration: "Nagrywanie: {duration}",
-    micDenied:
-      "Odmówiono dostępu do mikrofonu. Zezwól na dostęp do mikrofonu lub przełącz się na tryb pisania.",
     submit: "Poproś o spersonalizowane rozwiązanie AI",
     submitting: "Wysyłanie…",
     success:
@@ -1085,11 +797,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Wybierz co najmniej jeden cel.",
     descriptionRequired: "Opisz swoją potrzebę biznesową.",
     descriptionMin: "Podaj trochę więcej szczegółów (co najmniej 20 znaków).",
-    audioRequired: "Nagraj wiadomość głosową lub przełącz się na tryb pisania.",
   },
   pt: {
-    modeWrite: "Escrever",
-    modeRecord: "Gravar",
     responseLanguage: "Idioma das suas respostas",
     name: "O seu nome *",
     email: "E-mail *",
@@ -1115,17 +824,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Dentro de 1–3 meses",
     timeline2: "Dentro de 3–6 meses",
     timeline3: "Apenas a explorar",
-    promptsTitle: "Durante a gravação, tente responder:",
-    prompt1: "O que faz a sua empresa e qual é o tamanho da sua equipa?",
-    prompt2: "Que tarefa demora mais tempo ou causa mais frustração?",
-    prompt3: "O que mudaria se esse problema desaparecesse?",
-    prompt4: "Tem um orçamento ou prazo em mente?",
-    startRecording: "Iniciar gravação",
-    stopRecording: "Parar gravação",
-    recordAgain: "Gravar novamente",
-    recordingDuration: "Gravação: {duration}",
-    micDenied:
-      "O acesso ao microfone foi negado. Permita o acesso ao microfone ou mude para o modo de escrita.",
     submit: "Solicitar uma solução de IA personalizada",
     submitting: "A enviar…",
     success:
@@ -1139,11 +837,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Selecione pelo menos um objetivo.",
     descriptionRequired: "Descreva a sua necessidade empresarial.",
     descriptionMin: "Forneça um pouco mais de detalhe (pelo menos 20 caracteres).",
-    audioRequired: "Grave uma mensagem de voz ou mude para o modo de escrita.",
   },
   ro: {
-    modeWrite: "Scrieți",
-    modeRecord: "Înregistrați",
     responseLanguage: "Limba răspunsurilor dvs.",
     name: "Numele dvs. *",
     email: "E-mail *",
@@ -1169,18 +864,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "În 1–3 luni",
     timeline2: "În 3–6 luni",
     timeline3: "Doar explorez opțiuni",
-    promptsTitle: "În timpul înregistrării, încercați să răspundeți:",
-    prompt1: "Cu ce se ocupă afacerea dvs. și cât de mare este echipa?",
-    prompt2:
-      "Ce sarcină consumă cel mai mult timp sau provoacă cea mai mare frustrare?",
-    prompt3: "Ce s-ar schimba dacă acea problemă ar dispărea?",
-    prompt4: "Aveți un buget sau un termen în vedere?",
-    startRecording: "Pornește înregistrarea",
-    stopRecording: "Oprește înregistrarea",
-    recordAgain: "Înregistrează din nou",
-    recordingDuration: "Înregistrare: {duration}",
-    micDenied:
-      "Accesul la microfon a fost refuzat. Permiteți accesul la microfon sau treceți la modul de scriere.",
     submit: "Solicitați o soluție AI personalizată",
     submitting: "Se trimite…",
     success:
@@ -1194,11 +877,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Selectați cel puțin un obiectiv.",
     descriptionRequired: "Descrieți nevoia dvs. de afaceri.",
     descriptionMin: "Oferiți puțin mai multe detalii (cel puțin 20 de caractere).",
-    audioRequired: "Înregistrați un mesaj vocal sau treceți la modul de scriere.",
   },
   ru: {
-    modeWrite: "Написать",
-    modeRecord: "Записать",
     responseLanguage: "Язык ваших ответов",
     name: "Ваше имя *",
     email: "Email *",
@@ -1224,18 +904,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "В течение 1–3 месяцев",
     timeline2: "В течение 3–6 месяцев",
     timeline3: "Пока только изучаю",
-    promptsTitle: "Во время записи постарайтесь ответить:",
-    prompt1: "Чем занимается ваш бизнес и насколько велика ваша команда?",
-    prompt2:
-      "Какая задача занимает больше всего времени или вызывает наибольшее раздражение?",
-    prompt3: "Что изменится, если эта проблема исчезнет?",
-    prompt4: "Есть ли у вас бюджет или сроки?",
-    startRecording: "Начать запись",
-    stopRecording: "Остановить запись",
-    recordAgain: "Записать снова",
-    recordingDuration: "Запись: {duration}",
-    micDenied:
-      "Доступ к микрофону был запрещён. Разрешите доступ к микрофону или переключитесь в режим письма.",
     submit: "Запросить индивидуальное AI-решение",
     submitting: "Отправка…",
     success:
@@ -1249,12 +917,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Пожалуйста, выберите хотя бы одну цель.",
     descriptionRequired: "Пожалуйста, опишите потребность вашего бизнеса.",
     descriptionMin: "Пожалуйста, добавьте немного больше деталей (не менее 20 символов).",
-    audioRequired:
-      "Пожалуйста, запишите голосовое сообщение или переключитесь в режим письма.",
   },
   sk: {
-    modeWrite: "Napísať",
-    modeRecord: "Nahrať",
     responseLanguage: "Jazyk vašich odpovedí",
     name: "Vaše meno *",
     email: "E-mail *",
@@ -1280,17 +944,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Do 1–3 mesiacov",
     timeline2: "Do 3–6 mesiacov",
     timeline3: "Len zisťujem možnosti",
-    promptsTitle: "Počas nahrávania sa pokúste odpovedať:",
-    prompt1: "Čím sa vaša firma zaoberá a aký veľký je váš tím?",
-    prompt2: "Ktorá úloha zaberá najviac času alebo spôsobuje najväčšiu frustráciu?",
-    prompt3: "Čo by sa zmenilo, keby tento problém zmizol?",
-    prompt4: "Máte na mysli rozpočet alebo časový rámec?",
-    startRecording: "Spustiť nahrávanie",
-    stopRecording: "Zastaviť nahrávanie",
-    recordAgain: "Nahrať znova",
-    recordingDuration: "Nahrávanie: {duration}",
-    micDenied:
-      "Prístup k mikrofónu bol zamietnutý. Povoľte prístup k mikrofónu alebo prepnite do režimu písania.",
     submit: "Požiadať o AI riešenie na mieru",
     submitting: "Odosielanie…",
     success:
@@ -1304,11 +957,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Vyberte prosím aspoň jeden cieľ.",
     descriptionRequired: "Opíšte prosím svoju obchodnú potrebu.",
     descriptionMin: "Uveďte prosím viac detailov (aspoň 20 znakov).",
-    audioRequired: "Nahrajte prosím hlasovú správu alebo prepnite do režimu písania.",
   },
   sl: {
-    modeWrite: "Napišite",
-    modeRecord: "Posnemite",
     responseLanguage: "Jezik vaših odgovorov",
     name: "Vaše ime *",
     email: "E-pošta *",
@@ -1334,17 +984,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "V 1–3 mesecih",
     timeline2: "V 3–6 mesecih",
     timeline3: "Samo raziskujem",
-    promptsTitle: "Med snemanjem poskušajte odgovoriti:",
-    prompt1: "S čim se ukvarja vaše podjetje in kako velika je vaša ekipa?",
-    prompt2: "Katera naloga vzame največ časa ali povzroča največ frustracije?",
-    prompt3: "Kaj bi se spremenilo, če bi ta problem izginil?",
-    prompt4: "Imate v mislih proračun ali časovni okvir?",
-    startRecording: "Začni snemanje",
-    stopRecording: "Ustavi snemanje",
-    recordAgain: "Posnemi znova",
-    recordingDuration: "Snemanje: {duration}",
-    micDenied:
-      "Dostop do mikrofona je bil zavrnjen. Dovolite dostop do mikrofona ali preklopite v način pisanja.",
     submit: "Zahtevajte prilagojeno AI rešitev",
     submitting: "Pošiljanje…",
     success:
@@ -1358,11 +997,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Izberite vsaj en cilj.",
     descriptionRequired: "Opišite svojo poslovno potrebo.",
     descriptionMin: "Navedite malo več podrobnosti (vsaj 20 znakov).",
-    audioRequired: "Posnemite glasovno sporočilo ali preklopite v način pisanja.",
   },
   es: {
-    modeWrite: "Escríbalo",
-    modeRecord: "Grábelo",
     responseLanguage: "Idioma de sus respuestas",
     name: "Su nombre *",
     email: "Correo electrónico *",
@@ -1388,17 +1024,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "En 1–3 meses",
     timeline2: "En 3–6 meses",
     timeline3: "Solo estoy explorando",
-    promptsTitle: "Durante la grabación, intente responder:",
-    prompt1: "¿A qué se dedica su empresa y cuántas personas forman su equipo?",
-    prompt2: "¿Qué tarea consume más tiempo o genera más frustración?",
-    prompt3: "¿Qué cambiaría si ese problema desapareciera?",
-    prompt4: "¿Tiene un presupuesto o plazo en mente?",
-    startRecording: "Iniciar grabación",
-    stopRecording: "Detener grabación",
-    recordAgain: "Grabar de nuevo",
-    recordingDuration: "Grabación: {duration}",
-    micDenied:
-      "Se denegó el acceso al micrófono. Permita el acceso al micrófono o cambie al modo de escritura.",
     submit: "Solicitar una solución de IA personalizada",
     submitting: "Enviando…",
     success:
@@ -1412,11 +1037,8 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Seleccione al menos un objetivo.",
     descriptionRequired: "Describa su necesidad empresarial.",
     descriptionMin: "Proporcione un poco más de detalle (al menos 20 caracteres).",
-    audioRequired: "Grabe un mensaje de voz o cambie al modo de escritura.",
   },
   sv: {
-    modeWrite: "Skriv",
-    modeRecord: "Spela in",
     responseLanguage: "Språk för dina svar",
     name: "Ditt namn *",
     email: "E-post *",
@@ -1442,17 +1064,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     timeline1: "Inom 1–3 månader",
     timeline2: "Inom 3–6 månader",
     timeline3: "Utforskar bara",
-    promptsTitle: "Under inspelningen, försök besvara:",
-    prompt1: "Vad gör ert företag och hur stort är ert team?",
-    prompt2: "Vilken uppgift tar mest tid eller orsakar mest frustration?",
-    prompt3: "Vad skulle ändras om det problemet försvann?",
-    prompt4: "Har du en budget eller tidsplan i åtanke?",
-    startRecording: "Starta inspelning",
-    stopRecording: "Stoppa inspelning",
-    recordAgain: "Spela in igen",
-    recordingDuration: "Inspelning: {duration}",
-    micDenied:
-      "Mikrofonåtkomst nekades. Tillåt mikrofonåtkomst eller byt till skrivläge.",
     submit: "Begär en skräddarsydd AI-lösning",
     submitting: "Skickar…",
     success:
@@ -1466,7 +1077,6 @@ export const AI_CONSULT_LOCALES: Record<ConsultLang, AiConsultLocaleStrings> = {
     goalsRequired: "Välj minst ett mål.",
     descriptionRequired: "Beskriv ditt affärsbehov.",
     descriptionMin: "Ge lite mer detaljer (minst 20 tecken).",
-    audioRequired: "Spela in ett röstmeddelande eller byt till skrivläge.",
   },
 };
 
