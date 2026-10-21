@@ -262,8 +262,3 @@ ZOHO_API_DOMAIN=https://www.zohoapis.eu
 ZOHO_FLOW_WEBHOOK_URL=
 ```
 
-**Voice recordings (AI Consulting `/ai`):**
-
-```
-BLOB_READ_WRITE_TOKEN=
-```

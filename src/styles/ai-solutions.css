@@ -367,34 +367,8 @@
   box-shadow: var(--shadow-soft);
 }
 
-.ai-consult-form__mode {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .ai-consult-form__language-select {
   width: 100%;
-}
-
-.ai-consult-form__mode-btn {
-  padding: 0.75rem 1rem;
-  font-family: inherit;
-  font-size: 0.9375rem;
-  font-weight: 500;
-  border-radius: 8px;
-  border: 1px solid var(--color-border);
-  background: var(--color-surface);
-  color: var(--color-text-muted);
-  cursor: pointer;
-  transition: border-color 0.2s, color 0.2s, background 0.2s;
-}
-
-.ai-consult-form__mode-btn--active {
-  border-color: var(--ai-accent);
-  color: var(--ai-accent);
-  background: var(--ai-accent-light);
 }
 
 .ai-consult-form__row {
@@ -444,94 +418,6 @@
   background: var(--color-bg);
   color: var(--color-text);
   width: 100%;
-}
-
-.ai-consult-form__record-panel {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-.ai-consult-form__prompts {
-  padding: 1.25rem;
-  border-radius: var(--radius);
-  background: var(--ai-accent-light);
-  border: 1px solid rgba(245, 158, 11, 0.25);
-}
-
-.ai-consult-form__prompts-title {
-  font-size: 0.9375rem;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-}
-
-.ai-consult-form__prompts-list {
-  margin: 0;
-  padding-left: 1.2rem;
-  font-size: 0.9375rem;
-  color: var(--color-text-muted);
-  line-height: 1.7;
-}
-
-.ai-consult-form__recorder {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.ai-consult-form__record-controls {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-}
-
-.ai-consult-form__record-btn {
-  min-width: 180px;
-}
-
-.ai-consult-form__recording-live {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9375rem;
-  font-weight: 500;
-  color: #dc2626;
-}
-
-.ai-consult-form__recording-dot {
-  width: 0.6rem;
-  height: 0.6rem;
-  border-radius: 50%;
-  background: #dc2626;
-  animation: ai-pulse 1.2s ease-in-out infinite;
-}
-
-@keyframes ai-pulse {
-  0%,
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.5;
-    transform: scale(0.85);
-  }
-}
-
-.ai-consult-form__playback {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.ai-consult-form__audio {
-  width: 100%;
-}
-
-.ai-consult-form__recording-meta {
-  font-size: 0.875rem;
-  color: var(--color-text-muted);
 }
 
 .ai-page .faq-section {
