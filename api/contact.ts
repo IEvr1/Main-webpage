@@ -1,5 +1,7 @@
 import { hasVoiceStorageConfig, uploadVoiceRecording } from './lib/voice-storage.js';
 
+const DEFAULT_SUPPORT_EMAIL = 'support@nexaipla.com';
+
 type ContactPayload = {
   name?: string;
   email?: string;
@@ -22,7 +24,7 @@ type ContactPayload = {
   audioUrl?: string;
 };
 
-type ZohoLead = {
+type ContactLead = {
   name: string;
   email: string;
   phone: string;
@@ -43,20 +45,6 @@ type ZohoLead = {
   audioUrl?: string;
 };
 
-type ZohoTokenCache = {
-  accessToken: string;
-  expiresAt: number;
-};
-
-type ZohoMailAccount = {
-  accountId?: string | number;
-  primaryEmailAddress?: string;
-  type?: string;
-};
-
-let tokenCache: ZohoTokenCache | null = null;
-let mailAccountIdCache: string | null = null;
-
 function splitName(fullName: string): { firstName: string; lastName: string } {
   const trimmed = fullName.trim();
   const spaceIndex = trimmed.indexOf(' ');
@@ -71,7 +59,7 @@ function splitName(fullName: string): { firstName: string; lastName: string } {
   };
 }
 
-function voiceRecordingLine(lead: ZohoLead): string | null {
+function voiceRecordingLine(lead: ContactLead): string | null {
   if (lead.audioUrl) {
     const duration = lead.audioDurationSec ? `${lead.audioDurationSec}s` : 'unknown duration';
     return `Voice recording (${duration}): ${lead.audioUrl}`;
@@ -86,7 +74,7 @@ function voiceRecordingLine(lead: ZohoLead): string | null {
   return null;
 }
 
-function leadExtraDetails(lead: ZohoLead): string[] {
+function leadExtraDetails(lead: ContactLead): string[] {
   const lines: string[] = [];
 
   if (lead.inquiryType) lines.push(`Inquiry type: ${lead.inquiryType}`);
@@ -107,41 +95,23 @@ function leadExtraDetails(lead: ZohoLead): string[] {
   return lines;
 }
 
-function leadDescription(lead: ZohoLead): string {
-  const lines = [lead.message.trim(), ...leadExtraDetails(lead)];
-  return lines.join('\n');
-}
-
-function zohoAccountsUrl(): string {
-  return process.env.ZOHO_ACCOUNTS_URL?.replace(/\/$/, '') ?? 'https://accounts.zoho.eu';
-}
-
-function zohoApiDomain(): string {
-  return process.env.ZOHO_API_DOMAIN?.replace(/\/$/, '') ?? 'https://www.zohoapis.eu';
-}
-
-function zohoMailApiDomain(): string {
-  return process.env.ZOHO_MAIL_API_DOMAIN?.replace(/\/$/, '') ?? 'https://mail.zoho.eu';
-}
-
 function contactNotifyEmail(): string {
-  return process.env.CONTACT_NOTIFY_EMAIL?.trim() || 'info@nexaipla.com';
+  return process.env.CONTACT_NOTIFY_EMAIL?.trim() || DEFAULT_SUPPORT_EMAIL;
 }
 
-function hasZohoCrmConfig(): boolean {
-  return Boolean(
-    process.env.ZOHO_CLIENT_ID &&
-      process.env.ZOHO_CLIENT_SECRET &&
-      process.env.ZOHO_REFRESH_TOKEN,
-  );
+function contactFromEmail(): string {
+  return process.env.CONTACT_FROM_EMAIL?.trim() || contactNotifyEmail();
 }
 
-function isZohoConfigured(): boolean {
-  return hasZohoCrmConfig() || Boolean(process.env.ZOHO_FLOW_WEBHOOK_URL?.trim());
+function contactFromAddress(): string {
+  const from = contactFromEmail();
+  if (from.includes('<')) return from;
+  const name = process.env.CONTACT_FROM_NAME?.trim() || 'NexAIpla';
+  return `${name} <${from}>`;
 }
 
-function hasZohoMailConfig(): boolean {
-  return hasZohoCrmConfig();
+function hasResendConfig(): boolean {
+  return Boolean(process.env.RESEND_API_KEY?.trim());
 }
 
 function contactEmailSubject(inquiryType?: string): string {
@@ -151,7 +121,7 @@ function contactEmailSubject(inquiryType?: string): string {
   return process.env.CONTACT_EMAIL_SUBJECT?.trim() || 'Επικοινωνία — NexAI';
 }
 
-function contactEmailBody(lead: ZohoLead): string {
+function contactEmailBody(lead: ContactLead): string {
   const header =
     lead.inquiryType === 'ai-score-results'
       ? 'Νέα αποστολή αποτελεσμάτων AI Readiness Score από nexaipla.com'
@@ -178,98 +148,6 @@ function contactEmailBody(lead: ZohoLead): string {
   return lines.join('\n');
 }
 
-async function getZohoMailAccountId(accessToken: string): Promise<string> {
-  const configuredId = process.env.ZOHO_MAIL_ACCOUNT_ID?.trim();
-  if (configuredId) {
-    return configuredId;
-  }
-
-  if (mailAccountIdCache) {
-    return mailAccountIdCache;
-  }
-
-  const notifyEmail = contactNotifyEmail().toLowerCase();
-  const response = await fetch(`${zohoMailApiDomain()}/api/accounts`, {
-    headers: { Authorization: `Zoho-oauthtoken ${accessToken}` },
-  });
-
-  const data = (await response.json()) as {
-    data?: ZohoMailAccount[];
-    status?: { code?: number; description?: string };
-  };
-
-  if (!response.ok) {
-    const detail = data.status?.description ?? 'Failed to list Zoho Mail accounts';
-    throw new Error(detail);
-  }
-
-  const accounts = data.data ?? [];
-  const preferred =
-    accounts.find((account) => account.primaryEmailAddress?.toLowerCase() === notifyEmail) ??
-    accounts.find((account) => account.type === 'ZOHO_ACCOUNT') ??
-    accounts[0];
-
-  if (!preferred?.accountId) {
-    throw new Error('Zoho Mail account not found for contact notifications');
-  }
-
-  mailAccountIdCache = String(preferred.accountId);
-  return mailAccountIdCache;
-}
-
-async function sendZohoMailMessage(
-  toAddress: string,
-  subject: string,
-  content: string,
-): Promise<boolean> {
-  if (!hasZohoMailConfig()) {
-    return false;
-  }
-
-  const accessToken = await getZohoAccessToken();
-  const accountId = await getZohoMailAccountId(accessToken);
-  const fromEmail = process.env.CONTACT_FROM_EMAIL?.trim() || contactNotifyEmail();
-
-  const response = await fetch(`${zohoMailApiDomain()}/api/accounts/${accountId}/messages`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Zoho-oauthtoken ${accessToken}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      fromAddress: fromEmail,
-      toAddress,
-      subject,
-      content,
-      mailFormat: 'plaintext',
-      askReceipt: 'no',
-    }),
-  });
-
-  const data = (await response.json()) as {
-    status?: { code?: number; description?: string };
-    data?: { errorCode?: string; message?: string };
-  };
-
-  if (!response.ok || data.status?.code !== 200) {
-    const detail =
-      data.data?.message ??
-      data.status?.description ??
-      `Zoho Mail send failed (${response.status})`;
-    throw new Error(detail);
-  }
-
-  return true;
-}
-
-async function sendContactNotificationEmail(lead: ZohoLead): Promise<boolean> {
-  return sendZohoMailMessage(
-    contactNotifyEmail(),
-    contactEmailSubject(lead.inquiryType),
-    contactEmailBody(lead),
-  );
-}
-
 function contactAutoReplySubject(lang: string, inquiryType?: string): string {
   if (inquiryType === 'ai-score-results') {
     if (lang === 'en') {
@@ -285,11 +163,12 @@ function contactAutoReplySubject(lang: string, inquiryType?: string): string {
   return process.env.CONTACT_AUTOREPLY_SUBJECT_EL?.trim() || 'Ευχαριστούμε που επικοινωνήσατε με την NexAIpla';
 }
 
-function contactAutoReplyBody(lead: ZohoLead): string {
+function contactAutoReplyBody(lead: ContactLead): string {
   const { firstName } = splitName(lead.name);
   const greetingName = firstName || lead.name.trim().split(/\s+/)[0] || '';
   const isAiConsultation = lead.inquiryType === 'ai-consultation';
   const isAiScoreResults = lead.inquiryType === 'ai-score-results';
+  const supportEmail = contactNotifyEmail();
 
   if (isAiScoreResults) {
     if (lead.lang === 'en') {
@@ -303,7 +182,7 @@ ${lead.message.trim()}
 If you would like a custom AI solution based on these results, visit https://www.nexaipla.com/ai/ or reply to this email.
 
 NexAIpla Team
-info@nexaipla.com`;
+${supportEmail}`;
     }
 
     const hello = greetingName ? `Γεια σας ${greetingName},` : 'Γεια σας,';
@@ -316,7 +195,7 @@ ${lead.message.trim()}
 Αν θέλετε εξατομικευμένη λύση AI με βάση αυτά τα αποτελέσματα, επισκεφτείτε το https://www.nexaipla.com/ai/ ή απαντήστε σε αυτό το email.
 
 Ομάδα NexAIpla
-info@nexaipla.com`;
+${supportEmail}`;
   }
 
   if (lead.lang === 'en') {
@@ -329,7 +208,7 @@ info@nexaipla.com`;
 Thank you for contacting NexAIpla. ${replyWindow}
 
 NexAIpla Team
-info@nexaipla.com`;
+${supportEmail}`;
   }
 
   const hello = greetingName ? `Γεια σας ${greetingName},` : 'Γεια σας,';
@@ -341,178 +220,59 @@ info@nexaipla.com`;
 Ευχαριστούμε που επικοινωνήσατε με την NexAIpla. ${replyWindow}
 
 Ομάδα NexAIpla
-info@nexaipla.com`;
+${supportEmail}`;
 }
 
-async function sendContactAutoReplyEmail(lead: ZohoLead): Promise<boolean> {
-  return sendZohoMailMessage(
-    lead.email,
-    contactAutoReplySubject(lead.lang, lead.inquiryType),
-    contactAutoReplyBody(lead),
-  );
-}
-
-async function getZohoAccessToken(): Promise<string> {
-  if (tokenCache && tokenCache.expiresAt > Date.now() + 60_000) {
-    return tokenCache.accessToken;
-  }
-
-  const clientId = process.env.ZOHO_CLIENT_ID;
-  const clientSecret = process.env.ZOHO_CLIENT_SECRET;
-  const refreshToken = process.env.ZOHO_REFRESH_TOKEN;
-
-  if (!clientId || !clientSecret || !refreshToken) {
-    throw new Error('Zoho CRM credentials are not configured');
-  }
-
-  const params = new URLSearchParams({
-    refresh_token: refreshToken,
-    client_id: clientId,
-    client_secret: clientSecret,
-    grant_type: 'refresh_token',
-  });
-
-  const response = await fetch(`${zohoAccountsUrl()}/oauth/v2/token`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: params.toString(),
-  });
-
-  const data = (await response.json()) as {
-    access_token?: string;
-    expires_in?: number;
-    error?: string;
-  };
-
-  if (!response.ok || !data.access_token) {
-    throw new Error(data.error ?? 'Failed to refresh Zoho access token');
-  }
-
-  tokenCache = {
-    accessToken: data.access_token,
-    expiresAt: Date.now() + (data.expires_in ?? 3600) * 1000,
-  };
-
-  return data.access_token;
-}
-
-async function createZohoCrmLead(lead: ZohoLead): Promise<void> {
-  if (!hasZohoCrmConfig()) {
-    return;
-  }
-
-  const accessToken = await getZohoAccessToken();
-  const { firstName, lastName } = splitName(lead.name);
-  const leadSource = process.env.ZOHO_CRM_LEAD_SOURCE?.trim() || 'Website';
-
-  const record: Record<string, string> = {
-    Last_Name: lastName,
-    Email: lead.email,
-    Description: leadDescription(lead),
-    Lead_Source: leadSource,
-  };
-
-  if (firstName) {
-    record.First_Name = firstName;
-  }
-
-  if (lead.phone.trim()) {
-    record.Phone = lead.phone.trim();
-  }
-
-  if (lead.company?.trim()) {
-    record.Company = lead.company.trim();
-  }
-
-  const response = await fetch(`${zohoApiDomain()}/crm/v2/Leads`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Zoho-oauthtoken ${accessToken}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ data: [record] }),
-  });
-
-  const data = (await response.json()) as {
-    data?: Array<{ code?: string; message?: string; status?: string }>;
-  };
-
-  if (!response.ok) {
-    const message = data.data?.[0]?.message ?? 'Failed to create Zoho CRM lead';
-    throw new Error(message);
-  }
-
-  const result = data.data?.[0];
-  if (result?.status === 'error') {
-    throw new Error(result.message ?? 'Failed to create Zoho CRM lead');
-  }
-}
-
-async function sendLeadToZohoFlow(lead: ZohoLead): Promise<void> {
-  const webhookUrl = process.env.ZOHO_FLOW_WEBHOOK_URL?.trim();
-  if (!webhookUrl) {
-    return;
-  }
-
-  const payload = JSON.stringify({
-    name: lead.name,
-    email: lead.email,
-    phone: lead.phone,
-    message: lead.message,
-    source_page: lead.sourcePage,
-    language: lead.lang,
-    inquiry_type: lead.inquiryType,
-    company: lead.company,
-    industry: lead.industry,
-    team_size: lead.teamSize,
-    goals: lead.goals,
-    timeline: lead.timeline,
-    input_mode: lead.inputMode,
-    response_language: lead.responseLanguage,
-    audio_url: lead.audioUrl,
-    audio_mime_type: lead.audioMimeType,
-    audio_duration_sec: lead.audioDurationSec,
-    submitted_at: new Date().toISOString(),
-  });
-
-  const headers = { 'Content-Type': 'application/json' };
-
-  let response = await fetch(webhookUrl, { method: 'POST', headers, body: payload });
-
-  if (!response.ok && (response.status === 405 || response.status === 404)) {
-    response = await fetch(webhookUrl, { method: 'PUT', headers, body: payload });
-  }
-
-  if (!response.ok) {
-    const detail = await response.text().catch(() => '');
-    throw new Error(`Zoho Flow webhook returned ${response.status}${detail ? `: ${detail}` : ''}`);
-  }
-}
-
-async function syncLeadToZoho(lead: ZohoLead): Promise<boolean> {
-  const tasks: Promise<void>[] = [];
-
-  if (hasZohoCrmConfig()) {
-    tasks.push(createZohoCrmLead(lead));
-  }
-
-  if (process.env.ZOHO_FLOW_WEBHOOK_URL?.trim()) {
-    tasks.push(sendLeadToZohoFlow(lead));
-  }
-
-  if (tasks.length === 0) {
+async function sendResendEmail(options: {
+  to: string;
+  subject: string;
+  text: string;
+  replyTo?: string;
+}): Promise<boolean> {
+  const apiKey = process.env.RESEND_API_KEY?.trim();
+  if (!apiKey) {
     return false;
   }
 
-  const results = await Promise.allSettled(tasks);
+  const response = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: contactFromAddress(),
+      to: [options.to],
+      subject: options.subject,
+      text: options.text,
+      reply_to: options.replyTo,
+    }),
+  });
 
-  for (const result of results) {
-    if (result.status === 'rejected') {
-      console.error('Zoho sync step failed:', result.reason);
-    }
+  if (!response.ok) {
+    const detail = await response.text().catch(() => '');
+    throw new Error(`Resend send failed (${response.status})${detail ? `: ${detail}` : ''}`);
   }
 
-  return results.some((result) => result.status === 'fulfilled');
+  return true;
+}
+
+async function sendContactNotificationEmail(lead: ContactLead): Promise<boolean> {
+  return sendResendEmail({
+    to: contactNotifyEmail(),
+    subject: contactEmailSubject(lead.inquiryType),
+    text: contactEmailBody(lead),
+    replyTo: lead.email,
+  });
+}
+
+async function sendContactAutoReplyEmail(lead: ContactLead): Promise<boolean> {
+  return sendResendEmail({
+    to: lead.email,
+    subject: contactAutoReplySubject(lead.lang, lead.inquiryType),
+    text: contactAutoReplyBody(lead),
+    replyTo: contactNotifyEmail(),
+  });
 }
 
 export default async function handler(
@@ -558,6 +318,11 @@ export default async function handler(
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
+  if (!hasResendConfig()) {
+    console.error('Contact handler error: RESEND_API_KEY is not configured');
+    return res.status(500).json({ error: 'Failed to deliver contact message' });
+  }
+
   const maxAudioBase64Length = 4_000_000;
   const trimmedAudioBase64 = audioBase64?.trim() ?? '';
   if (trimmedAudioBase64.length > maxAudioBase64Length) {
@@ -581,7 +346,7 @@ export default async function handler(
     }
   }
 
-  const lead: ZohoLead = {
+  const lead: ContactLead = {
     name: trimmedName,
     email: trimmedEmail,
     phone: phone?.trim() ?? '',
@@ -605,7 +370,7 @@ export default async function handler(
         : undefined,
   };
 
-  const tasks: Promise<{ kind: 'notify' | 'autoReply' | 'zoho'; ok: boolean }>[] = [
+  const results = await Promise.all([
     sendContactNotificationEmail(lead)
       .then((ok) => ({ kind: 'notify' as const, ok }))
       .catch((error) => {
@@ -618,28 +383,15 @@ export default async function handler(
         console.error('Contact auto-reply email failed:', error);
         return { kind: 'autoReply' as const, ok: false };
       }),
-  ];
+  ]);
 
-  if (isZohoConfigured()) {
-    tasks.push(
-      syncLeadToZoho(lead)
-        .then((ok) => ({ kind: 'zoho' as const, ok }))
-        .catch((error) => {
-          console.error('Zoho sync failed:', error);
-          return { kind: 'zoho' as const, ok: false };
-        }),
-    );
-  }
-
-  const results = await Promise.all(tasks);
   const emailSent = results.some((result) => result.kind === 'notify' && result.ok);
   const autoReplySent = results.some((result) => result.kind === 'autoReply' && result.ok);
-  const zohoSynced = results.some((result) => result.kind === 'zoho' && result.ok);
 
-  if (emailSent || autoReplySent || zohoSynced) {
-    return res.status(200).json({ success: true, emailSent, autoReplySent, zohoSynced });
+  if (emailSent) {
+    return res.status(200).json({ success: true, emailSent, autoReplySent });
   }
 
-  console.error('Contact handler error: no delivery channel succeeded');
+  console.error('Contact handler error: notification email was not sent');
   return res.status(500).json({ error: 'Failed to deliver contact message' });
 }

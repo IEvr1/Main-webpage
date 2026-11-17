@@ -26,7 +26,7 @@ npm run preview
 2. **Demo video** — responsive 16:9 player ή placeholder
 3. **Οφέλη** — 3 κάρτες με icons
 4. **Screenshots** — gallery με lazy loading
-5. **Επικοινωνία** — φόρμα με validation + αποστολή email στο info@nexaipla.com
+5. **Επικοινωνία** — φόρμα με validation + αποστολή email στο support@nexaipla.com
 
 ## Αντικατάσταση assets
 
@@ -48,20 +48,14 @@ npm run preview
 
 ### Αποστολή email από τη φόρμα
 
-Η φόρμα στέλνει μηνύματα στο `info@nexaipla.com` μέσω **Zoho Mail API** στο [`api/contact.ts`](api/contact.ts) (server-side). Παράλληλα δημιουργεί lead στο Zoho CRM και καλεί προαιρετικά Zoho Flow.
+Η φόρμα στέλνει μηνύματα στο `support@nexaipla.com` μέσω **Resend** στο [`api/contact.ts`](api/contact.ts) (server-side). Στέλνει ειδοποίηση στην ομάδα και αυτόματη απάντηση στον επισκέπτη.
 
-1. Ρυθμίστε Zoho CRM + Mail — [`docs/ZOHO-SETUP.md`](docs/ZOHO-SETUP.md)
-2. Δημιουργήστε refresh token με scopes CRM **και** Mail:
-   ```bash
-   npm run zoho:token -- --write
-   ```
-3. Προσθέστε στο Vercel (Production + Preview):
-   - `ZOHO_*` credentials
-   - `CONTACT_NOTIFY_EMAIL=info@nexaipla.com`
-   - `ZOHO_MAIL_API_DOMAIN=https://mail.zoho.eu`
-4. Κάντε redeploy
-
-> **Σημείο:** Το Web3Forms αντικαταστάθηκε — τα emails από `notify@web3forms.com` συχνά δεν φτάνουν στο Zoho Mail (spam/bounce). Η αποστολή γίνεται πλέον απευθείας από το Zoho Mail σας.
+1. Επαληθεύστε το domain `nexaipla.com` στο [Resend](https://resend.com) ώστε η αποστολή να γίνεται από `support@nexaipla.com`.
+2. Προσθέστε στο `.env` και στο Vercel (Production + Preview + Development):
+   - `RESEND_API_KEY`
+   - `CONTACT_NOTIFY_EMAIL=support@nexaipla.com`
+   - `CONTACT_FROM_EMAIL=support@nexaipla.com`
+3. Κάντε redeploy
 
 Για τοπικό testing με API: `npx vercel dev` (το `npm run dev` ανοίγει mailto fallback όταν το API δεν είναι διαθέσιμο).
 
@@ -71,19 +65,6 @@ npm run preview
 - **Sitemap:** ανανεώνεται αυτόματα στο `npm run build` (`scripts/generate-sitemap.mjs`)
 - **GA4:** προαιρετικά — ορίστε `VITE_GA_MEASUREMENT_ID` στο Vercel (π.χ. `G-XXXXXXXXXX`)
 - **CI:** `npm run seo:check` ελέγχει meta tags και sitemap (GitHub Actions)
-
-### Zoho lead automation (CRM)
-
-Μετά την αποστολή email μέσω Web3Forms, η φόρμα μπορεί να δημιουργεί αυτόματα lead στο **Zoho CRM** (και προαιρετικά να καλεί **Zoho Flow** για επιπλέον ενέργειες).
-
-Οδηγίες ρύθμισης: [`docs/ZOHO-SETUP.md`](docs/ZOHO-SETUP.md)
-
-Σύντομα:
-
-1. Δημιουργήστε OAuth client στο [Zoho API Console](https://api-console.zoho.eu) (Server-based)
-2. Προσθέστε στο `.env`: `ZOHO_CLIENT_ID`, `ZOHO_CLIENT_SECRET`
-3. Τρέξτε `npm run zoho:token` για να πάρετε το `ZOHO_REFRESH_TOKEN` (browser + paste code)
-4. Προσθέστε τις ίδιες μεταβλητές στο Vercel και κάντε redeploy
 
 ## Σύνδεση με chat app
 

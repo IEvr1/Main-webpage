@@ -38,4 +38,4 @@ draft: false
 
 ## Επόμενο βήμα
 
-Η [Online Food Orders](/foodorder/) της NexAIpla καλύπτει takeaway, delivery, SMS, κουζίνα και οδηγό — για εστιατόρια στην **Κύπρο και Ελλάδα**. [Ζητήστε demo](mailto:info@nexaipla.com) και δείτε πώς λειτουργεί στην πράξη.
+Η [Online Food Orders](/foodorder/) της NexAIpla καλύπτει takeaway, delivery, SMS, κουζίνα και οδηγό — για εστιατόρια στην **Κύπρο και Ελλάδα**. [Ζητήστε demo](mailto:support@nexaipla.com) και δείτε πώς λειτουργεί στην πράξη.
