@@ -1,6 +1,7 @@
 import { hasVoiceStorageConfig, uploadVoiceRecording } from './lib/voice-storage.js';
 
 const DEFAULT_CONTACT_EMAIL = 'contact@nexaipla.com';
+const CAREBOX_CONTACT_EMAIL = 'care-box@nexaipla.com';
 const LEGACY_CONTACT_EMAILS = new Set(['support@nexaipla.com', 'info@nexaipla.com']);
 
 function addressOf(value: string): string {
@@ -236,8 +237,14 @@ ${supportEmail}`;
 ${supportEmail}`;
 }
 
+function notificationRecipients(): string[] {
+  const primary = contactNotifyEmail();
+  if (addressOf(primary) === CAREBOX_CONTACT_EMAIL) return [primary];
+  return [primary, CAREBOX_CONTACT_EMAIL];
+}
+
 async function sendResendEmail(options: {
-  to: string;
+  to: string | string[];
   subject: string;
   text: string;
   replyTo?: string;
@@ -255,7 +262,7 @@ async function sendResendEmail(options: {
     },
     body: JSON.stringify({
       from: contactFromAddress(),
-      to: [options.to],
+      to: Array.isArray(options.to) ? options.to : [options.to],
       subject: options.subject,
       text: options.text,
       reply_to: options.replyTo,
@@ -272,7 +279,7 @@ async function sendResendEmail(options: {
 
 async function sendContactNotificationEmail(lead: ContactLead): Promise<boolean> {
   return sendResendEmail({
-    to: contactNotifyEmail(),
+    to: notificationRecipients(),
     subject: contactEmailSubject(lead.inquiryType),
     text: contactEmailBody(lead),
     replyTo: lead.email,
