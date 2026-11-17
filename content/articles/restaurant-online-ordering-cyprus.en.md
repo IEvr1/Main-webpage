@@ -38,4 +38,4 @@ Restaurants, grill houses, and delivery-only kitchens in Cyprus compete with pla
 
 ## Next step
 
-NexAIpla's [Online Food Orders](/foodorder/) covers takeaway, delivery, SMS, kitchen, and driver — for restaurants in **Cyprus and Greece**. [Request a demo](mailto:support@nexaipla.com) and see it in action.
+NexAIpla's [Online Food Orders](/foodorder/) covers takeaway, delivery, SMS, kitchen, and driver — for restaurants in **Cyprus and Greece**. [Request a demo](mailto:contact@nexaipla.com) and see it in action.

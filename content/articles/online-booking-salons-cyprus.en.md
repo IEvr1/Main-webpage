@@ -35,4 +35,4 @@ Online booking works especially well for hair salons, barbers, aesthetic clinics
 
 ## Next step
 
-NexAIpla's [Online Booking 24/7](/onlinebooking/) offers chat booking, QR codes, SMS, and a staff dashboard — built for businesses in **Cyprus and Greece**. [Contact us](mailto:support@nexaipla.com) for a no-obligation demo.
+NexAIpla's [Online Booking 24/7](/onlinebooking/) offers chat booking, QR codes, SMS, and a staff dashboard — built for businesses in **Cyprus and Greece**. [Contact us](mailto:contact@nexaipla.com) for a no-obligation demo.
