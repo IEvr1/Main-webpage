@@ -1,6 +1,19 @@
 import { hasVoiceStorageConfig, uploadVoiceRecording } from './lib/voice-storage.js';
 
 const DEFAULT_CONTACT_EMAIL = 'contact@nexaipla.com';
+const LEGACY_CONTACT_EMAILS = new Set(['support@nexaipla.com', 'info@nexaipla.com']);
+
+function addressOf(value: string): string {
+  const match = value.match(/<([^>]+)>/);
+  return (match?.[1] ?? value).trim().toLowerCase();
+}
+
+/** Old Vercel values may still be support@ or info@. Mail goes to the contact inbox. */
+function currentContactAddress(raw: string | undefined): string {
+  const value = raw?.trim() ?? '';
+  if (!value || LEGACY_CONTACT_EMAILS.has(addressOf(value))) return DEFAULT_CONTACT_EMAIL;
+  return value;
+}
 
 type ContactPayload = {
   name?: string;
@@ -96,11 +109,11 @@ function leadExtraDetails(lead: ContactLead): string[] {
 }
 
 function contactNotifyEmail(): string {
-  return process.env.CONTACT_NOTIFY_EMAIL?.trim() || DEFAULT_CONTACT_EMAIL;
+  return currentContactAddress(process.env.CONTACT_NOTIFY_EMAIL);
 }
 
 function contactFromEmail(): string {
-  return process.env.CONTACT_FROM_EMAIL?.trim() || contactNotifyEmail();
+  return currentContactAddress(process.env.CONTACT_FROM_EMAIL || contactNotifyEmail());
 }
 
 function contactFromAddress(): string {
