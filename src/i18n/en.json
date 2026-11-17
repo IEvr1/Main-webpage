@@ -562,7 +562,7 @@
   "ai.promise.deliverable3.label": "Estimated timeline",
   "ai.promise.deliverable3.text": "An indicative implementation duration — from quick wins to full rollout, so you can plan ahead.",
   "ai.consult.title": "Tell us what you need",
-  "ai.consult.subtitle": "Write your requirements or record a voice message — we'll reply within 48 hours with feasibility %, indicative cost, and estimated implementation timeline.",
+  "ai.consult.subtitle": "Write your requirements — we'll reply within 48 hours with feasibility %, indicative cost, and estimated implementation timeline.",
   "ai.consult.aside.title": "What to include",
   "ai.consult.aside.item1": "Your business type and size",
   "ai.consult.aside.item2": "The problem you want to solve",

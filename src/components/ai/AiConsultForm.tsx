@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type FormEvent } from 'react';
+import { useEffect, useState, type FormEvent } from 'react';
 import type { Lang } from '../../i18n/types';
 import { t } from '../../i18n/i18n';
 import {
@@ -16,15 +16,11 @@ import {
   type AiGoal,
 } from '../../utils/ai-consult-validation';
 
-const MAX_RECORDING_SEC = 180;
 const GOALS: AiGoal[] = ['productivity', 'cost', 'sales'];
-const PROMPT_FIELDS = ['prompt1', 'prompt2', 'prompt3', 'prompt4'] as const;
 
 function defaultConsultLang(pageLang: Lang): ConsultLang {
   return pageLang === 'el' ? 'el' : 'en';
 }
-
-type InputMode = 'write' | 'record';
 
 type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -39,33 +35,6 @@ const initialForm: AiConsultFormData = {
   timeline: '',
 };
 
-function formatTime(seconds: number): string {
-  const m = Math.floor(seconds / 60);
-  const s = seconds % 60;
-  return `${m}:${s.toString().padStart(2, '0')}`;
-}
-
-function blobToBase64(blob: Blob): Promise<string> {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onloadend = () => {
-      const result = reader.result;
-      if (typeof result !== 'string') {
-        reject(new Error('Failed to encode audio'));
-        return;
-      }
-      const base64 = result.split(',')[1];
-      if (!base64) {
-        reject(new Error('Failed to encode audio'));
-        return;
-      }
-      resolve(base64);
-    };
-    reader.onerror = () => reject(reader.error ?? new Error('Failed to encode audio'));
-    reader.readAsDataURL(blob);
-  });
-}
-
 type AiConsultFormProps = {
   lang: Lang;
 };
@@ -73,35 +42,15 @@ type AiConsultFormProps = {
 export default function AiConsultForm({ lang }: AiConsultFormProps) {
   const [form, setForm] = useState<AiConsultFormData>(initialForm);
   const [errors, setErrors] = useState<AiConsultFormErrors>({});
-  const [mode, setMode] = useState<InputMode>('write');
   const [consultLang, setConsultLang] = useState<ConsultLang>(() => defaultConsultLang(lang));
   const [status, setStatus] = useState<SubmitStatus>('idle');
   const [submitError, setSubmitError] = useState('');
-
-  const [isRecording, setIsRecording] = useState(false);
-  const [recordingSec, setRecordingSec] = useState(0);
-  const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
-  const [audioUrl, setAudioUrl] = useState<string | null>(null);
-  const [micDenied, setMicDenied] = useState(false);
-
-  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
-  const chunksRef = useRef<BlobPart[]>([]);
-  const timerRef = useRef<number | null>(null);
-  const audioUrlRef = useRef<string | null>(null);
 
   const consult = getAiConsultLocale(consultLang);
 
   useEffect(() => {
     setConsultLang(defaultConsultLang(lang));
   }, [lang]);
-
-  useEffect(() => {
-    return () => {
-      if (timerRef.current) window.clearInterval(timerRef.current);
-      if (audioUrlRef.current) URL.revokeObjectURL(audioUrlRef.current);
-      mediaRecorderRef.current?.stream.getTracks().forEach((track) => track.stop());
-    };
-  }, []);
 
   function handleChange<K extends keyof AiConsultFormData>(field: K, value: AiConsultFormData[K]) {
     setForm((prev) => ({ ...prev, [field]: value }));
@@ -121,78 +70,10 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
     if (errors.goals) setErrors((prev) => ({ ...prev, goals: undefined }));
   }
 
-  function clearRecording() {
-    if (audioUrlRef.current) {
-      URL.revokeObjectURL(audioUrlRef.current);
-      audioUrlRef.current = null;
-    }
-    setAudioBlob(null);
-    setAudioUrl(null);
-    setRecordingSec(0);
-    setMicDenied(false);
-  }
-
-  function stopRecording() {
-    if (timerRef.current) {
-      window.clearInterval(timerRef.current);
-      timerRef.current = null;
-    }
-    if (mediaRecorderRef.current?.state === 'recording') {
-      mediaRecorderRef.current.stop();
-    }
-    setIsRecording(false);
-  }
-
-  async function startRecording() {
-    setMicDenied(false);
-    clearRecording();
-
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
-        ? 'audio/webm;codecs=opus'
-        : 'audio/webm';
-
-      const recorder = new MediaRecorder(stream, { mimeType });
-      chunksRef.current = [];
-
-      recorder.ondataavailable = (event) => {
-        if (event.data.size > 0) chunksRef.current.push(event.data);
-      };
-
-      recorder.onstop = () => {
-        stream.getTracks().forEach((track) => track.stop());
-        const blob = new Blob(chunksRef.current, { type: mimeType });
-        const url = URL.createObjectURL(blob);
-        audioUrlRef.current = url;
-        setAudioBlob(blob);
-        setAudioUrl(url);
-        mediaRecorderRef.current = null;
-      };
-
-      mediaRecorderRef.current = recorder;
-      recorder.start(250);
-      setIsRecording(true);
-      setRecordingSec(0);
-
-      timerRef.current = window.setInterval(() => {
-        setRecordingSec((prev) => {
-          if (prev + 1 >= MAX_RECORDING_SEC) {
-            stopRecording();
-            return MAX_RECORDING_SEC;
-          }
-          return prev + 1;
-        });
-      }, 1000);
-    } catch {
-      setMicDenied(true);
-    }
-  }
-
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    const validationErrors = validateAiConsultForm(form, consultLang, mode, Boolean(audioBlob));
+    const validationErrors = validateAiConsultForm(form, consultLang);
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
@@ -206,24 +87,11 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
     const botcheck = formData.get('botcheck');
     if (typeof botcheck === 'string' && botcheck.trim()) {
       setForm(initialForm);
-      clearRecording();
       setStatus('success');
       return;
     }
 
-    const message = buildAiConsultMessage(
-      form,
-      consultLang,
-      mode,
-      audioBlob ? recordingSec : 0,
-    );
-
-    let audioBase64: string | undefined;
-    let audioMimeType: string | undefined;
-    if (audioBlob) {
-      audioBase64 = await blobToBase64(audioBlob);
-      audioMimeType = audioBlob.type;
-    }
+    const message = buildAiConsultMessage(form, consultLang);
 
     try {
       const response = await fetch('/api/contact', {
@@ -243,11 +111,8 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
           teamSize: form.teamSize,
           goals: form.goals,
           timeline: form.timeline,
-          inputMode: mode,
+          inputMode: 'write',
           responseLanguage: consultLang,
-          audioBase64,
-          audioMimeType,
-          audioDurationSec: audioBlob ? recordingSec : undefined,
         }),
       });
 
@@ -257,7 +122,6 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
 
       if (response.ok && data.success) {
         setForm(initialForm);
-        clearRecording();
         setStatus('success');
         return;
       }
@@ -280,27 +144,6 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
         autoComplete="off"
         aria-hidden="true"
       />
-
-      <div className="ai-consult-form__mode" role="tablist" aria-label={consult.responseLanguage}>
-        <button
-          type="button"
-          role="tab"
-          aria-selected={mode === 'write'}
-          className={`ai-consult-form__mode-btn${mode === 'write' ? ' ai-consult-form__mode-btn--active' : ''}`}
-          onClick={() => setMode('write')}
-        >
-          {consult.modeWrite}
-        </button>
-        <button
-          type="button"
-          role="tab"
-          aria-selected={mode === 'record'}
-          className={`ai-consult-form__mode-btn${mode === 'record' ? ' ai-consult-form__mode-btn--active' : ''}`}
-          onClick={() => setMode('record')}
-        >
-          {consult.modeRecord}
-        </button>
-      </div>
 
       <div className="form-group">
         <label htmlFor="ai-response-language">{consult.responseLanguage}</label>
@@ -399,119 +242,51 @@ export default function AiConsultForm({ lang }: AiConsultFormProps) {
         {errors.goals && <span className="form-error">{errors.goals}</span>}
       </fieldset>
 
-      {mode === 'write' ? (
-        <>
-          <div className="form-group">
-            <label htmlFor="ai-description">{consult.description}</label>
-            <textarea
-              id="ai-description"
-              value={form.description}
-              onChange={(e) => handleChange('description', e.target.value)}
-              className={errors.description ? 'error' : ''}
-              placeholder={consult.descriptionPlaceholder}
-              disabled={status === 'submitting'}
-            />
-            {errors.description && <span className="form-error">{errors.description}</span>}
-          </div>
-          <div className="ai-consult-form__row">
-            <div className="form-group">
-              <label htmlFor="ai-team-size">{consult.teamSize}</label>
-              <select
-                id="ai-team-size"
-                value={form.teamSize}
-                onChange={(e) => handleChange('teamSize', e.target.value)}
-                disabled={status === 'submitting'}
-              >
-                <option value="">{consult.teamSizeDefault}</option>
-                <option value="1-5">{consult.teamSize1}</option>
-                <option value="6-20">{consult.teamSize2}</option>
-                <option value="21-50">{consult.teamSize3}</option>
-                <option value="50+">{consult.teamSize4}</option>
-              </select>
-            </div>
-            <div className="form-group">
-              <label htmlFor="ai-timeline">{consult.timeline}</label>
-              <select
-                id="ai-timeline"
-                value={form.timeline}
-                onChange={(e) => handleChange('timeline', e.target.value)}
-                disabled={status === 'submitting'}
-              >
-                <option value="">{consult.timelineDefault}</option>
-                <option value="asap">{consult.timelineAsap}</option>
-                <option value="1-3months">{consult.timeline1}</option>
-                <option value="3-6months">{consult.timeline2}</option>
-                <option value="exploring">{consult.timeline3}</option>
-              </select>
-            </div>
-          </div>
-        </>
-      ) : (
-        <div className="ai-consult-form__record-panel">
-          <div className="ai-consult-form__prompts">
-            <h3 className="ai-consult-form__prompts-title">{consult.promptsTitle}</h3>
-            <ol className="ai-consult-form__prompts-list">
-              {PROMPT_FIELDS.map((field) => (
-                <li key={field}>{consult[field]}</li>
-              ))}
-            </ol>
-          </div>
+      <div className="form-group">
+        <label htmlFor="ai-description">{consult.description}</label>
+        <textarea
+          id="ai-description"
+          value={form.description}
+          onChange={(e) => handleChange('description', e.target.value)}
+          className={errors.description ? 'error' : ''}
+          placeholder={consult.descriptionPlaceholder}
+          disabled={status === 'submitting'}
+        />
+        {errors.description && <span className="form-error">{errors.description}</span>}
+      </div>
 
-          <div className="ai-consult-form__recorder">
-            {micDenied && (
-              <p className="form-status form-status--error" role="alert">
-                {consult.micDenied}
-              </p>
-            )}
-
-            {audioUrl ? (
-              <div className="ai-consult-form__playback">
-                <audio controls src={audioUrl} className="ai-consult-form__audio" />
-                <p className="ai-consult-form__recording-meta">
-                  {consult.recordingDuration.replace('{duration}', formatTime(recordingSec))}
-                </p>
-                <button type="button" className="btn btn-secondary" onClick={clearRecording}>
-                  {consult.recordAgain}
-                </button>
-              </div>
-            ) : (
-              <div className="ai-consult-form__record-controls">
-                <button
-                  type="button"
-                  className={`btn ${isRecording ? 'btn-secondary' : 'btn-primary'} ai-consult-form__record-btn`}
-                  onClick={isRecording ? stopRecording : startRecording}
-                  disabled={status === 'submitting'}
-                >
-                  {isRecording ? consult.stopRecording : consult.startRecording}
-                </button>
-                {isRecording && (
-                  <span className="ai-consult-form__recording-live" aria-live="polite">
-                    <span className="ai-consult-form__recording-dot" aria-hidden="true" />
-                    {formatTime(recordingSec)} / {formatTime(MAX_RECORDING_SEC)}
-                  </span>
-                )}
-              </div>
-            )}
-            {errors.audio && <span className="form-error">{errors.audio}</span>}
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="ai-timeline-record">{consult.timeline}</label>
-            <select
-              id="ai-timeline-record"
-              value={form.timeline}
-              onChange={(e) => handleChange('timeline', e.target.value)}
-              disabled={status === 'submitting'}
-            >
-              <option value="">{consult.timelineDefault}</option>
-              <option value="asap">{consult.timelineAsap}</option>
-              <option value="1-3months">{consult.timeline1}</option>
-              <option value="3-6months">{consult.timeline2}</option>
-              <option value="exploring">{consult.timeline3}</option>
-            </select>
-          </div>
+      <div className="ai-consult-form__row">
+        <div className="form-group">
+          <label htmlFor="ai-team-size">{consult.teamSize}</label>
+          <select
+            id="ai-team-size"
+            value={form.teamSize}
+            onChange={(e) => handleChange('teamSize', e.target.value)}
+            disabled={status === 'submitting'}
+          >
+            <option value="">{consult.teamSizeDefault}</option>
+            <option value="1-5">{consult.teamSize1}</option>
+            <option value="6-20">{consult.teamSize2}</option>
+            <option value="21-50">{consult.teamSize3}</option>
+            <option value="50+">{consult.teamSize4}</option>
+          </select>
         </div>
-      )}
+        <div className="form-group">
+          <label htmlFor="ai-timeline">{consult.timeline}</label>
+          <select
+            id="ai-timeline"
+            value={form.timeline}
+            onChange={(e) => handleChange('timeline', e.target.value)}
+            disabled={status === 'submitting'}
+          >
+            <option value="">{consult.timelineDefault}</option>
+            <option value="asap">{consult.timelineAsap}</option>
+            <option value="1-3months">{consult.timeline1}</option>
+            <option value="3-6months">{consult.timeline2}</option>
+            <option value="exploring">{consult.timeline3}</option>
+          </select>
+        </div>
+      </div>
 
       {status === 'success' && (
         <p className="form-status form-status--success" role="status">
