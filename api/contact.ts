@@ -1,7 +1,6 @@
 import { hasVoiceStorageConfig, uploadVoiceRecording } from './lib/voice-storage.js';
 
 const DEFAULT_CONTACT_EMAIL = 'contact@nexaipla.com';
-const CAREBOX_CONTACT_EMAIL = 'care-box@nexaipla.com';
 const LEGACY_CONTACT_EMAILS = new Set(['support@nexaipla.com', 'info@nexaipla.com']);
 
 function addressOf(value: string): string {
@@ -182,7 +181,7 @@ function contactAutoReplyBody(lead: ContactLead): string {
   const greetingName = firstName || lead.name.trim().split(/\s+/)[0] || '';
   const isAiConsultation = lead.inquiryType === 'ai-consultation';
   const isAiScoreResults = lead.inquiryType === 'ai-score-results';
-  const supportEmail = CAREBOX_CONTACT_EMAIL;
+  const supportEmail = contactNotifyEmail();
 
   if (isAiScoreResults) {
     if (lead.lang === 'en') {
@@ -237,12 +236,8 @@ ${supportEmail}`;
 ${supportEmail}`;
 }
 
-function notificationRecipients(): string[] {
-  return [CAREBOX_CONTACT_EMAIL];
-}
-
 async function sendResendEmail(options: {
-  to: string | string[];
+  to: string;
   subject: string;
   text: string;
   replyTo?: string;
@@ -260,7 +255,7 @@ async function sendResendEmail(options: {
     },
     body: JSON.stringify({
       from: contactFromAddress(),
-      to: Array.isArray(options.to) ? options.to : [options.to],
+      to: [options.to],
       subject: options.subject,
       text: options.text,
       reply_to: options.replyTo,
@@ -277,7 +272,7 @@ async function sendResendEmail(options: {
 
 async function sendContactNotificationEmail(lead: ContactLead): Promise<boolean> {
   return sendResendEmail({
-    to: notificationRecipients(),
+    to: contactNotifyEmail(),
     subject: contactEmailSubject(lead.inquiryType),
     text: contactEmailBody(lead),
     replyTo: lead.email,
@@ -289,7 +284,7 @@ async function sendContactAutoReplyEmail(lead: ContactLead): Promise<boolean> {
     to: lead.email,
     subject: contactAutoReplySubject(lead.lang, lead.inquiryType),
     text: contactAutoReplyBody(lead),
-    replyTo: CAREBOX_CONTACT_EMAIL,
+    replyTo: contactNotifyEmail(),
   });
 }
 
