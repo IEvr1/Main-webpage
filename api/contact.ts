@@ -1,6 +1,6 @@
 import { hasVoiceStorageConfig, uploadVoiceRecording } from './lib/voice-storage.js';
 
-const DEFAULT_SUPPORT_EMAIL = 'support@nexaipla.com';
+const DEFAULT_CONTACT_EMAIL = 'contact@nexaipla.com';
 
 type ContactPayload = {
   name?: string;
@@ -96,7 +96,7 @@ function leadExtraDetails(lead: ContactLead): string[] {
 }
 
 function contactNotifyEmail(): string {
-  return process.env.CONTACT_NOTIFY_EMAIL?.trim() || DEFAULT_SUPPORT_EMAIL;
+  return process.env.CONTACT_NOTIFY_EMAIL?.trim() || DEFAULT_CONTACT_EMAIL;
 }
 
 function contactFromEmail(): string {

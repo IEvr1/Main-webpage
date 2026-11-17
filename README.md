@@ -26,7 +26,7 @@ npm run preview
 2. **Demo video** — responsive 16:9 player ή placeholder
 3. **Οφέλη** — 3 κάρτες με icons
 4. **Screenshots** — gallery με lazy loading
-5. **Επικοινωνία** — φόρμα με validation + αποστολή email στο support@nexaipla.com
+5. **Επικοινωνία** — φόρμα με validation + αποστολή email στο contact@nexaipla.com
 
 ## Αντικατάσταση assets
 
@@ -48,13 +48,13 @@ npm run preview
 
 ### Αποστολή email από τη φόρμα
 
-Η φόρμα στέλνει μηνύματα στο `support@nexaipla.com` μέσω **Resend** στο [`api/contact.ts`](api/contact.ts) (server-side). Στέλνει ειδοποίηση στην ομάδα και αυτόματη απάντηση στον επισκέπτη.
+Η φόρμα στέλνει μηνύματα στο `contact@nexaipla.com` μέσω **Resend** στο [`api/contact.ts`](api/contact.ts) (server-side). Στέλνει ειδοποίηση στην ομάδα και αυτόματη απάντηση στον επισκέπτη.
 
-1. Επαληθεύστε το domain `nexaipla.com` στο [Resend](https://resend.com) ώστε η αποστολή να γίνεται από `support@nexaipla.com`.
+1. Επαληθεύστε το domain `nexaipla.com` στο [Resend](https://resend.com) ώστε η αποστολή να γίνεται από `contact@nexaipla.com`.
 2. Προσθέστε στο `.env` και στο Vercel (Production + Preview + Development):
    - `RESEND_API_KEY`
-   - `CONTACT_NOTIFY_EMAIL=support@nexaipla.com`
-   - `CONTACT_FROM_EMAIL=support@nexaipla.com`
+   - `CONTACT_NOTIFY_EMAIL=contact@nexaipla.com`
+   - `CONTACT_FROM_EMAIL=contact@nexaipla.com`
 3. Κάντε redeploy
 
 Για τοπικό testing με API: `npx vercel dev` (το `npm run dev` ανοίγει mailto fallback όταν το API δεν είναι διαθέσιμο).

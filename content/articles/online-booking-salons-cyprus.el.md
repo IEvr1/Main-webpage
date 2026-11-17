@@ -35,4 +35,4 @@ Online κρατήσεις λειτουργούν εξαιρετικά για κ�
 
 ## Επόμενο βήμα
 
-Η [Online Γραφέας 24/7](/onlinebooking/) της NexAIpla προσφέρει chat κράτησης, QR, SMS και dashboard — σχεδιασμένη για επιχειρήσεις στην **Κύπρο και Ελλάδα**. [Επικοινωνήστε μαζί μας](mailto:support@nexaipla.com) για demo χωρίς δέσμευση.
+Η [Online Γραφέας 24/7](/onlinebooking/) της NexAIpla προσφέρει chat κράτησης, QR, SMS και dashboard — σχεδιασμένη για επιχειρήσεις στην **Κύπρο και Ελλάδα**. [Επικοινωνήστε μαζί μας](mailto:contact@nexaipla.com) για demo χωρίς δέσμευση.
