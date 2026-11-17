@@ -182,7 +182,7 @@ function contactAutoReplyBody(lead: ContactLead): string {
   const greetingName = firstName || lead.name.trim().split(/\s+/)[0] || '';
   const isAiConsultation = lead.inquiryType === 'ai-consultation';
   const isAiScoreResults = lead.inquiryType === 'ai-score-results';
-  const supportEmail = contactNotifyEmail();
+  const supportEmail = CAREBOX_CONTACT_EMAIL;
 
   if (isAiScoreResults) {
     if (lead.lang === 'en') {
@@ -238,9 +238,7 @@ ${supportEmail}`;
 }
 
 function notificationRecipients(): string[] {
-  const primary = contactNotifyEmail();
-  if (addressOf(primary) === CAREBOX_CONTACT_EMAIL) return [primary];
-  return [primary, CAREBOX_CONTACT_EMAIL];
+  return [CAREBOX_CONTACT_EMAIL];
 }
 
 async function sendResendEmail(options: {
@@ -291,7 +289,7 @@ async function sendContactAutoReplyEmail(lead: ContactLead): Promise<boolean> {
     to: lead.email,
     subject: contactAutoReplySubject(lead.lang, lead.inquiryType),
     text: contactAutoReplyBody(lead),
-    replyTo: contactNotifyEmail(),
+    replyTo: CAREBOX_CONTACT_EMAIL,
   });
 }
 
