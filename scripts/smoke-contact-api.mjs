@@ -42,8 +42,8 @@ if (!data.success) {
   process.exit(1);
 }
 
-if (data.emailSent === false && data.autoReplySent === false && data.zohoSynced === false) {
-  console.error('Notification, auto-reply, and Zoho sync all failed.');
+if (data.emailSent === false) {
+  console.error('Notification email was not sent.');
   process.exit(1);
 }
 
