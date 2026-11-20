@@ -1,7 +1,7 @@
 ---
 title: "Online food ordering for restaurants in Cyprus — what you need"
 seoTitle: "Restaurant online ordering Cyprus & Greece | NexAIpla"
-description: "Takeaway, delivery, and kitchen dashboard — what a restaurant online ordering platform needs for Cyprus and Greece."
+description: "Takeaway, delivery, and kitchen dashboard — what a restaurant online ordering platform needs for European countries."
 slug: restaurant-online-ordering-cyprus
 date: 2026-10-05
 updated: 2026-10-05
@@ -38,4 +38,4 @@ Restaurants, grill houses, and delivery-only kitchens in Cyprus compete with pla
 
 ## Next step
 
-NexAIpla's [Online Food Orders](/foodorder/) covers takeaway, delivery, SMS, kitchen, and driver — for restaurants in **Cyprus and Greece**. [Request a demo](mailto:contact@nexaipla.com) and see it in action.
+NexAIpla's [Online Food Orders](/foodorder/) covers takeaway, delivery, SMS, kitchen, and driver — for restaurants in **European countries**. [Request a demo](mailto:contact@nexaipla.com) and see it in action.

@@ -1,7 +1,7 @@
 ---
 title: "How do I show customers how busy my shop is in Cyprus?"
 seoTitle: "Live shop traffic for walk-in businesses in Cyprus | NexAIpla"
-description: "A live busy-or-quiet sign for barbers, pharmacies, and cafés in Cyprus and Greece — without appointments."
+description: "A live busy-or-quiet sign for barbers, pharmacies, and cafés in European countries — without appointments."
 slug: live-shop-traffic-cyprus
 date: 2026-11-20
 updated: 2026-11-20
@@ -12,7 +12,7 @@ relatedApps:
 draft: false
 ---
 
-Walk-in shops in Cyprus and Greece lose visits when people cannot tell whether the queue is long. A live traffic view answers that before the customer leaves home: busy, quiet, and whether you are open.
+Walk-in shops in European countries lose visits when people cannot tell whether the queue is long. A live traffic view answers that before the customer leaves home: busy, quiet, and whether you are open.
 
 ## What to put on the screen
 
@@ -22,4 +22,4 @@ Walk-in shops in Cyprus and Greece lose visits when people cannot tell whether t
 
 ## Who it fits
 
-Barbershops, salons, pharmacies, and cafés that take people as they arrive. NexAIpla's [Live Business Traffic](/shoptraffic/) is that screen, for businesses in Cyprus and Greece. [Contact us](mailto:contact@nexaipla.com) for a demo.
+Barbershops, salons, pharmacies, and cafés that take people as they arrive. NexAIpla's [Live Business Traffic](/shoptraffic/) is that screen, for businesses in European countries. [Contact us](mailto:contact@nexaipla.com) for a demo.

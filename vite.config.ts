@@ -21,8 +21,31 @@ function getArticleInputs(): Record<string, string> {
   return inputs;
 }
 
+function redirectRemovedPages() {
+  const redirect = (req: { url?: string }, res: { statusCode: number; setHeader: (name: string, value: string) => void; end: () => void }, next: () => void) => {
+    const path = req.url?.split('?')[0] ?? '';
+    if (path === '/custom' || path === '/custom/') {
+      res.statusCode = 308;
+      res.setHeader('Location', '/ai/');
+      res.end();
+      return;
+    }
+    next();
+  };
+
+  return {
+    name: 'redirect-removed-pages',
+    configureServer(server: { middlewares: { use: (fn: typeof redirect) => void } }) {
+      server.middlewares.use(redirect);
+    },
+    configurePreviewServer(server: { middlewares: { use: (fn: typeof redirect) => void } }) {
+      server.middlewares.use(redirect);
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(), redirectRemovedPages()],
   build: {
     rollupOptions: {
       input: {
@@ -32,7 +55,6 @@ export default defineConfig({
         foodorder: resolve(__dirname, 'foodorder/index.html'),
         docsapp: resolve(__dirname, 'docsapp/index.html'),
         schoolmeals: resolve(__dirname, 'schoolmeals/index.html'),
-        custom: resolve(__dirname, 'custom/index.html'),
         'ai-score': resolve(__dirname, 'ai-score/index.html'),
         ai: resolve(__dirname, 'ai/index.html'),
         ...getArticleInputs(),

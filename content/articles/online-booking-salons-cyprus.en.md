@@ -1,7 +1,7 @@
 ---
 title: "How online appointments help salons and clinics in Cyprus"
 seoTitle: "Online appointment booking for salons & clinics in Cyprus | NexAIpla"
-description: "Reduce no-shows, fill your calendar, and serve clients 24/7 with online booking — a guide for appointment-based businesses in Cyprus and Greece."
+description: "Reduce no-shows, fill your calendar, and serve clients 24/7 with online booking — a guide for appointment-based businesses in European countries."
 slug: online-booking-salons-cyprus
 date: 2026-10-05
 updated: 2026-10-05
@@ -35,4 +35,4 @@ Online booking works especially well for hair salons, barbers, aesthetic clinics
 
 ## Next step
 
-NexAIpla's [Online Booking 24/7](/onlinebooking/) offers chat booking, QR codes, SMS, and a staff dashboard — built for businesses in **Cyprus and Greece**. [Contact us](mailto:contact@nexaipla.com) for a no-obligation demo.
+NexAIpla's [Online Booking 24/7](/onlinebooking/) offers chat booking, QR codes, SMS, and a staff dashboard — built for businesses in **European countries**. [Contact us](mailto:contact@nexaipla.com) for a no-obligation demo.

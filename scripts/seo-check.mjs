@@ -25,7 +25,6 @@ const htmlPages = [
   'foodorder/index.html',
   'shoptraffic/index.html',
   'docsapp/index.html',
-  'custom/index.html',
   'schoolmeals/index.html',
   'ai/index.html',
   'ai-score/index.html',
@@ -45,7 +44,7 @@ for (const page of htmlPages) {
   assert(/<link\s+rel="canonical"\s+href="https:\/\/www\.nexaipla\.com/i.test(html), `${page}: missing canonical URL`);
   assert(/<meta\s+name="robots"\s+content="index,\s*follow"/i.test(html), `${page}: missing indexable robots meta`);
   assert(/id="crawler-prerender"/.test(html), `${page}: missing crawler body`);
-  assert(/Cyprus|Κύπρ/.test(html), `${page}: missing Cyprus / Κύπρος in the static body`);
+  assert(/European countr|Ευρώπ|χώρες της Ευρώπης/i.test(html), `${page}: missing Europe scope in the static body`);
   if (servicePages.includes(page)) {
     assert(/"@type":"FAQPage"/.test(html), `${page}: missing FAQPage JSON-LD`);
     assert(/lang="en"/.test(html) && /lang="el"/.test(html), `${page}: missing both languages in the static body`);

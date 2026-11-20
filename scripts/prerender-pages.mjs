@@ -6,8 +6,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 
 const WHERE = {
-  en: 'For businesses in Cyprus and Greece.',
-  el: 'Για επιχειρήσεις στην Κύπρο και την Ελλάδα.',
+  en: 'For businesses in European countries.',
+  el: 'Για επιχειρήσεις σε χώρες της Ευρώπης.',
 };
 
 const PAGES = [
@@ -68,13 +68,6 @@ const PAGES = [
     groups: ['ai.goals.g'],
   },
   {
-    file: 'custom/index.html',
-    h1: 'custom.hero.title',
-    lead: 'custom.hero.subtitle',
-    faq: 'custom.faq',
-    groups: ['custom.process.s', 'custom.examples.e'],
-  },
-  {
     file: 'ai-score/index.html',
     h1: 'aiscore.hero.title',
     lead: 'aiscore.hero.subtitle',
@@ -126,7 +119,14 @@ function faqItems(dict, prefix) {
 function leadParagraph(dict, lang, leadKey) {
   const lead = t(dict, leadKey);
   const where = WHERE[lang];
-  if (lead.includes('Cyprus') || lead.includes('Κύπρ')) return lead;
+  if (
+    lead.includes('European') ||
+    lead.includes('Ευρώπ') ||
+    lead.includes('Cyprus') ||
+    lead.includes('Κύπρ')
+  ) {
+    return lead;
+  }
   return `${lead} ${where}`;
 }
 

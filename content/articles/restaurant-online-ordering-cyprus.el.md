@@ -1,7 +1,7 @@
 ---
 title: "Online παραγγελίες φαγητού για εστιατόρια στην Κύπρο — τι χρειάζεστε"
 seoTitle: "Online παραγγελίες εστιατόριο Κύπρος & Ελλάδα | NexAIpla"
-description: "Takeaway, delivery και dashboard κουζίνας — τι πρέπει να έχει μια πλατφόρμα online παραγγελιών για εστιατόρια και ψησταριά στην Κύπρο και Ελλάδα."
+description: "Takeaway, delivery και dashboard κουζίνας — τι πρέπει να έχει μια πλατφόρμα online παραγγελιών για εστιατόρια και ψησταριά στην χώρες της Ευρώπης."
 slug: restaurant-online-ordering-cyprus
 date: 2026-10-05
 updated: 2026-10-05
@@ -38,4 +38,4 @@ draft: false
 
 ## Επόμενο βήμα
 
-Η [Online Food Orders](/foodorder/) της NexAIpla καλύπτει takeaway, delivery, SMS, κουζίνα και οδηγό — για εστιατόρια στην **Κύπρο και Ελλάδα**. [Ζητήστε demo](mailto:contact@nexaipla.com) και δείτε πώς λειτουργεί στην πράξη.
+Η [Online Food Orders](/foodorder/) της NexAIpla καλύπτει takeaway, delivery, SMS, κουζίνα και οδηγό — για εστιατόρια στην **χώρες της Ευρώπης**. [Ζητήστε demo](mailto:contact@nexaipla.com) και δείτε πώς λειτουργεί στην πράξη.

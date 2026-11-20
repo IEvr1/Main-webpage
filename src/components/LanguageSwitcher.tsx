@@ -33,21 +33,21 @@ export function LanguageSwitcher({
     <div className="lang-switcher" role="group" aria-label={lang === 'el' ? 'Γλώσσα' : 'Language'}>
       <button
         type="button"
-        onClick={() => setLang('el')}
-        className={`lang-switcher__btn${lang === 'el' ? ' lang-switcher__btn--active' : ''}`}
-        aria-pressed={lang === 'el'}
-        disabled={langUrls !== undefined && !langUrls.el}
-      >
-        {t('lang.el', lang)}
-      </button>
-      <button
-        type="button"
         onClick={() => setLang('en')}
         className={`lang-switcher__btn${lang === 'en' ? ' lang-switcher__btn--active' : ''}`}
         aria-pressed={lang === 'en'}
         disabled={langUrls !== undefined && !langUrls.en}
       >
         {t('lang.en', lang)}
+      </button>
+      <button
+        type="button"
+        onClick={() => setLang('el')}
+        className={`lang-switcher__btn${lang === 'el' ? ' lang-switcher__btn--active' : ''}`}
+        aria-pressed={lang === 'el'}
+        disabled={langUrls !== undefined && !langUrls.el}
+      >
+        {t('lang.el', lang)}
       </button>
     </div>
   );

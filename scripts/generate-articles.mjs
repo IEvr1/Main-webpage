@@ -16,7 +16,7 @@ const APP_HREFS = {
   'shop-traffic': '/shoptraffic/',
   'docs-app': '/docsapp/',
   'school-meals': '/schoolmeals/',
-  'custom-apps': '/custom/',
+  'custom-apps': '/ai/',
 };
 
 marked.setOptions({ gfm: true, breaks: false });
@@ -170,7 +170,7 @@ function buildArticleHead({ locale, siblingLocale, slug }) {
     <link rel="canonical" href="${canonical}" />
     <link rel="alternate" hreflang="el" href="${elUrl}" />
     <link rel="alternate" hreflang="en" href="${enUrl}" />
-    <link rel="alternate" hreflang="x-default" href="${elUrl}" />
+    <link rel="alternate" hreflang="x-default" href="${enUrl}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="${canonical}" />
     <meta property="og:site_name" content="NexAIpla" />
@@ -270,7 +270,7 @@ function buildListingHead(lang, meta, articles) {
     <link rel="canonical" href="${canonical}" />
     <link rel="alternate" hreflang="el" href="${elUrl}" />
     <link rel="alternate" hreflang="en" href="${enUrl}" />
-    <link rel="alternate" hreflang="x-default" href="${elUrl}" />
+    <link rel="alternate" hreflang="x-default" href="${enUrl}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="${canonical}" />
     <meta property="og:site_name" content="NexAIpla" />
@@ -356,12 +356,12 @@ const listingMeta = {
   el: {
     title: 'Άρθρα & οδηγοί | NexAIpla',
     description:
-      'Οδηγοί και άρθρα για online κρατήσεις, παραγγελίες φαγητού και εφαρμογές επιχειρήσεων στην Κύπρο και Ελλάδα — από την NexAIpla.',
+      'Οδηγοί και άρθρα για online κρατήσεις, παραγγελίες φαγητού και εφαρμογές επιχειρήσεων σε χώρες της Ευρώπης — από την NexAIpla.',
   },
   en: {
     title: 'Articles & guides | NexAIpla',
     description:
-      'Guides and articles on online booking, food ordering, and business apps for Cyprus and Greece — from NexAIpla.',
+      'Guides and articles on online booking, food ordering, and business apps for businesses in European countries — from NexAIpla.',
   },
 };
 

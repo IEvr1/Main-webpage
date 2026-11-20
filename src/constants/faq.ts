@@ -35,13 +35,6 @@ export const SHOPTRAFFIC_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'waitless.faq.q4', answerKey: 'waitless.faq.a4' },
 ];
 
-export const CUSTOM_FAQ: readonly FaqItemDef[] = [
-  { questionKey: 'custom.faq.q1', answerKey: 'custom.faq.a1' },
-  { questionKey: 'custom.faq.q2', answerKey: 'custom.faq.a2' },
-  { questionKey: 'custom.faq.q3', answerKey: 'custom.faq.a3' },
-  { questionKey: 'custom.faq.q4', answerKey: 'custom.faq.a4' },
-];
-
 export const AI_SOLUTIONS_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'ai.faq.q1', answerKey: 'ai.faq.a1' },
   { questionKey: 'ai.faq.q2', answerKey: 'ai.faq.a2' },
