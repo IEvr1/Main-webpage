@@ -27,9 +27,13 @@ const htmlPages = [
   'docsapp/index.html',
   'custom/index.html',
   'schoolmeals/index.html',
+  'ai/index.html',
+  'ai-score/index.html',
   'articles/index.html',
   'en/articles/index.html',
 ];
+
+const servicePages = htmlPages.filter((page) => !page.includes('articles'));
 
 for (const page of htmlPages) {
   const path = resolve(root, page);
@@ -40,6 +44,12 @@ for (const page of htmlPages) {
   assert(/<meta\s+name="description"\s+content="[^"]+"/i.test(html), `${page}: missing meta description`);
   assert(/<link\s+rel="canonical"\s+href="https:\/\/www\.nexaipla\.com/i.test(html), `${page}: missing canonical URL`);
   assert(/<meta\s+name="robots"\s+content="index,\s*follow"/i.test(html), `${page}: missing indexable robots meta`);
+  assert(/id="crawler-prerender"/.test(html), `${page}: missing crawler body`);
+  assert(/Cyprus|Κύπρ/.test(html), `${page}: missing Cyprus / Κύπρος in the static body`);
+  if (servicePages.includes(page)) {
+    assert(/"@type":"FAQPage"/.test(html), `${page}: missing FAQPage JSON-LD`);
+    assert(/lang="en"/.test(html) && /lang="el"/.test(html), `${page}: missing both languages in the static body`);
+  }
 }
 
 const manifestPath = resolve(root, 'src/articles/generated/manifest.json');

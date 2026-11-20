@@ -223,7 +223,23 @@ function buildArticleHead({ locale, siblingLocale, slug }) {
 </html>`;
 }
 
-function buildListingHead(lang, meta) {
+function listingBody(lang, meta, articles) {
+  const heading = lang === 'el' ? 'Άρθρα και οδηγοί' : 'Articles and guides';
+  const items = articles
+    .map((article) => {
+      const title = article.titles?.[lang];
+      const description = article.descriptions?.[lang];
+      const href = article.paths?.[lang];
+      if (!title || !href) return '';
+      return `<li><a href="${escapeHtml(href)}">${escapeHtml(title)}</a><p>${escapeHtml(description || '')}</p></li>`;
+    })
+    .filter(Boolean)
+    .join('');
+
+  return `<main id="crawler-prerender" lang="${lang}"><h1>${heading}</h1><p>${escapeHtml(meta.description)}</p><ul>${items}</ul></main>`;
+}
+
+function buildListingHead(lang, meta, articles) {
   const canonical = `${siteUrl}${listingPath(lang)}`;
   const elUrl = `${siteUrl}/articles`;
   const enUrl = `${siteUrl}/en/articles`;
@@ -276,7 +292,7 @@ function buildListingHead(lang, meta) {
     <title>${escapeHtml(title)}</title>
   </head>
   <body>
-    <div id="root" data-page="articles-listing" data-lang="${lang}"></div>
+    <div id="root" data-page="articles-listing" data-lang="${lang}">${listingBody(lang, meta, articles)}</div>
     <script type="module" src="/src/main-articles.tsx"></script>
   </body>
 </html>`;
@@ -349,8 +365,14 @@ const listingMeta = {
   },
 };
 
-writeFileEnsuringDir(resolve(root, 'articles/index.html'), buildListingHead('el', listingMeta.el));
-writeFileEnsuringDir(resolve(root, 'en/articles/index.html'), buildListingHead('en', listingMeta.en));
+writeFileEnsuringDir(
+  resolve(root, 'articles/index.html'),
+  buildListingHead('el', listingMeta.el, manifestArticles),
+);
+writeFileEnsuringDir(
+  resolve(root, 'en/articles/index.html'),
+  buildListingHead('en', listingMeta.en, manifestArticles),
+);
 
 const manifest = {
   generatedAt: new Date().toISOString(),
