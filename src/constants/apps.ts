@@ -72,3 +72,12 @@ export function getCompanyApps(lang: Lang): CompanyApp[] {
     },
   ];
 }
+
+/** Article frontmatter uses `custom-apps`; product cards use `ai-consulting`. */
+const ARTICLE_RELATED_APP_ID_ALIAS: Record<string, string> = {
+  'custom-apps': 'ai-consulting',
+};
+
+export function resolveArticleRelatedAppIds(ids: string[]): string[] {
+  return ids.map((id) => ARTICLE_RELATED_APP_ID_ALIAS[id] ?? id);
+}

@@ -1,6 +1,6 @@
 import type { Lang } from '../../i18n/types';
 import { t } from '../../i18n/i18n';
-import { getCompanyApps } from '../../constants/apps';
+import { getCompanyApps, resolveArticleRelatedAppIds } from '../../constants/apps';
 
 type ArticleRelatedAppsProps = {
   lang: Lang;
@@ -10,7 +10,8 @@ type ArticleRelatedAppsProps = {
 export default function ArticleRelatedApps({ lang, relatedAppIds }: ArticleRelatedAppsProps) {
   if (relatedAppIds.length === 0) return null;
 
-  const apps = getCompanyApps(lang).filter((app) => relatedAppIds.includes(app.id));
+  const resolvedIds = resolveArticleRelatedAppIds(relatedAppIds);
+  const apps = getCompanyApps(lang).filter((app) => resolvedIds.includes(app.id));
 
   if (apps.length === 0) return null;
 
