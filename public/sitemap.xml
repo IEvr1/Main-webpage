@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.nexaipla.com/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/?lang=el" />
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://www.nexaipla.com/onlinebooking</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/onlinebooking?lang=el" />
@@ -19,7 +19,7 @@
   </url>
   <url>
     <loc>https://www.nexaipla.com/foodorder</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/foodorder?lang=el" />
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.nexaipla.com/shoptraffic</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/shoptraffic?lang=el" />
@@ -35,7 +35,7 @@
   </url>
   <url>
     <loc>https://www.nexaipla.com/ai</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/ai?lang=el" />
@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://www.nexaipla.com/docsapp</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/docsapp?lang=el" />
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.nexaipla.com/schoolmeals</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/schoolmeals?lang=el" />
@@ -59,7 +59,7 @@
   </url>
   <url>
     <loc>https://www.nexaipla.com/ai-score</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/ai-score?lang=el" />
@@ -67,11 +67,667 @@
   </url>
   <url>
     <loc>https://www.nexaipla.com/en/articles</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/why-businesses-miss-leads-after-office-hours</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/why-businesses-miss-leads-after-office-hours" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/why-businesses-miss-leads-after-office-hours" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/what-is-included-in-48-hour-ai-reply</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/what-is-included-in-48-hour-ai-reply" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/what-is-included-in-48-hour-ai-reply" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/what-is-ai-readiness</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/what-is-ai-readiness" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/what-is-ai-readiness" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/what-happens-after-ai-feasibility-reply</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/what-happens-after-ai-feasibility-reply" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/what-happens-after-ai-feasibility-reply" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/walk-in-customers-check-wait-without-calling</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/walk-in-customers-check-wait-without-calling" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/walk-in-customers-check-wait-without-calling" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/track-food-order-sms-link</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/track-food-order-sms-link" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/track-food-order-sms-link" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/takeaway-orders-when-kitchen-busy</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/takeaway-orders-when-kitchen-busy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/takeaway-orders-when-kitchen-busy" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/sms-appointment-confirm-remind-cancel</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/sms-appointment-confirm-remind-cancel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/sms-appointment-confirm-remind-cancel" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/shop-traffic-not-appointment-booking</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/shop-traffic-not-appointment-booking" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/shop-traffic-not-appointment-booking" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/shop-hours-closures-public-page</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/shop-hours-closures-public-page" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/shop-hours-closures-public-page" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/service-duration-per-staff-booking</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/service-duration-per-staff-booking" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/service-duration-per-staff-booking" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/sensitive-documents-no-third-party-ai</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/sensitive-documents-no-third-party-ai" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/sensitive-documents-no-third-party-ai" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/secretariat-school-meal-absences</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/secretariat-school-meal-absences" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/secretariat-school-meal-absences" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/school-meals-gdpr-annual-deletion</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/school-meals-gdpr-annual-deletion" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/school-meals-gdpr-annual-deletion" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/school-kitchen-allergen-portions-today</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/school-kitchen-allergen-portions-today" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/school-kitchen-allergen-portions-today" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/scheduled-food-orders-restaurant</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/scheduled-food-orders-restaurant" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/scheduled-food-orders-restaurant" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/restaurant-kitchen-order-dashboard</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/restaurant-kitchen-order-dashboard" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/restaurant-kitchen-order-dashboard" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/replace-whatsapp-school-meal-absences</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/replace-whatsapp-school-meal-absences" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/replace-whatsapp-school-meal-absences" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/reduce-wrong-orders-structured-menu</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/reduce-wrong-orders-structured-menu" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/reduce-wrong-orders-structured-menu" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/reduce-no-shows-sms-reminders</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/reduce-no-shows-sms-reminders" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/reduce-no-shows-sms-reminders" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/red-amber-green-readiness-bands</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/red-amber-green-readiness-bands" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/red-amber-green-readiness-bands" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/readiness-score-data-stays-in-browser</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/readiness-score-data-stays-in-browser" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/readiness-score-data-stays-in-browser" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/qr-code-appointment-booking</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/qr-code-appointment-booking" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/qr-code-appointment-booking" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/private-contract-review-offline-ai</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/private-contract-review-offline-ai" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/private-contract-review-offline-ai" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/prevent-double-booking-same-slot</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/prevent-double-booking-same-slot" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/prevent-double-booking-same-slot" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/pin-protected-parent-school-portal</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/pin-protected-parent-school-portal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/pin-protected-parent-school-portal" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/pickup-vs-delivery-online-ordering</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/pickup-vs-delivery-online-ordering" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/pickup-vs-delivery-online-ordering" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/pickup-and-delivery-same-food-app</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/pickup-and-delivery-same-food-app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/pickup-and-delivery-same-food-app" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/pharmacy-busy-status-walk-in</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/pharmacy-busy-status-walk-in" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/pharmacy-busy-status-walk-in" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/parents-no-app-school-meals-sms</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/parents-no-app-school-meals-sms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/parents-no-app-school-meals-sms" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/parent-meal-absence-before-morning-deadline</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/parent-meal-absence-before-morning-deadline" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/parent-meal-absence-before-morning-deadline" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/parent-declare-meal-absence-online</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/parent-declare-meal-absence-online" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/parent-declare-meal-absence-online" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/owner-update-busy-level-one-tap</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/owner-update-busy-level-one-tap" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/owner-update-busy-level-one-tap" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/online-booking-not-voice-calls</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/online-booking-not-voice-calls" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/online-booking-not-voice-calls" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/online-booking-for-clinic</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/online-booking-for-clinic" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/online-booking-for-clinic" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/on-premise-offline-ai-small-business</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/on-premise-offline-ai-small-business" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/on-premise-offline-ai-small-business" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/offline-document-ai-windows-requirements</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/offline-document-ai-windows-requirements" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/offline-document-ai-windows-requirements" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/ocr-scanned-pdfs-greek-english</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/ocr-scanned-pdfs-greek-english" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/ocr-scanned-pdfs-greek-english" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/no-internet-document-assistant</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/no-internet-document-assistant" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/no-internet-document-assistant" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/monthly-school-meal-menu-online</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/monthly-school-meal-menu-online" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/monthly-school-meal-menu-online" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/live-traffic-vs-online-booking</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/live-traffic-vs-online-booking" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/live-traffic-vs-online-booking" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/live-busy-page-barbershop-salon</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/live-busy-page-barbershop-salon" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/live-busy-page-barbershop-salon" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/law-office-offline-pdf-search</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/law-office-offline-pdf-search" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/law-office-offline-pdf-search" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/kitchen-live-portions-all-day-school</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/kitchen-live-portions-all-day-school" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/kitchen-live-portions-all-day-school" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/is-my-business-ready-for-ai</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/is-my-business-ready-for-ai" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/is-my-business-ready-for-ai" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/how-busy-is-shop-right-now</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/how-busy-is-shop-right-now" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/how-busy-is-shop-right-now" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/google-calendar-sync-online-receptionist</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/google-calendar-sync-online-receptionist" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/google-calendar-sync-online-receptionist" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/friday-night-rush-online-food-orders</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/friday-night-rush-online-food-orders" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/friday-night-rush-online-food-orders" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/free-18-question-ai-readiness-score</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/free-18-question-ai-readiness-score" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/free-18-question-ai-readiness-score" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/food-orders-without-phone-calls</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/food-orders-without-phone-calls" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/food-orders-without-phone-calls" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/food-order-signed-link-owner-dashboard</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/food-order-signed-link-owner-dashboard" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/food-order-signed-link-owner-dashboard" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/food-order-no-customer-account</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/food-order-no-customer-account" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/food-order-no-customer-account" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/folders-project-document-qa</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/folders-project-document-qa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/folders-project-document-qa" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/excel-charts-offline-documents</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/excel-charts-offline-documents" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/excel-charts-offline-documents" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/driver-board-food-delivery-sms</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/driver-board-food-delivery-sms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/driver-board-food-delivery-sms" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/documents-stay-on-my-windows-pc</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/documents-stay-on-my-windows-pc" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/documents-stay-on-my-windows-pc" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/document-answers-with-citations-rag</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/document-answers-with-citations-rag" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/document-answers-with-citations-rag" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/docsapp-not-customer-email-inbox</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/docsapp-not-customer-email-inbox" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/docsapp-not-customer-email-inbox" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/delivery-zone-google-maps-restaurant</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/delivery-zone-google-maps-restaurant" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/delivery-zone-google-maps-restaurant" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/customer-checks-busy-before-leaving-home</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/customer-checks-busy-before-leaving-home" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/customer-checks-busy-before-leaving-home" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/custom-ai-vs-ready-made-nexaipla-apps</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/custom-ai-vs-ready-made-nexaipla-apps" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/custom-ai-vs-ready-made-nexaipla-apps" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/csv-import-students-school-meals</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/csv-import-students-school-meals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/csv-import-students-school-meals" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/company-that-automates-business-tasks-with-ai</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/company-that-automates-business-tasks-with-ai" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/company-that-automates-business-tasks-with-ai" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/chat-with-pdfs-offline-no-cloud</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/chat-with-pdfs-offline-no-cloud" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/chat-with-pdfs-offline-no-cloud" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/cannot-keep-up-with-emails</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/cannot-keep-up-with-emails" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/cannot-keep-up-with-emails" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/calculate-automation-roi</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/calculate-automation-roi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/calculate-automation-roi" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/business-data-stays-mine-ai-project</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/business-data-stays-mine-ai-project" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/business-data-stays-mine-ai-project" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/booking-without-customer-account</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/booking-without-customer-account" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/booking-without-customer-account" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/booking-after-hours-without-receptionist</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/booking-after-hours-without-receptionist" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/booking-after-hours-without-receptionist" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/bilingual-shop-busy-page</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/bilingual-shop-busy-page" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/bilingual-shop-busy-page" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/bilingual-school-meals-parent-portal</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/bilingual-school-meals-parent-portal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/bilingual-school-meals-parent-portal" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/bilingual-menu-online-food-orders</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/bilingual-menu-online-food-orders" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/bilingual-menu-online-food-orders" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/ask-questions-word-excel-without-internet</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/ask-questions-word-excel-without-internet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/ask-questions-word-excel-without-internet" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/appointment-dashboard-without-shared-password</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/appointment-dashboard-without-shared-password" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/appointment-dashboard-without-shared-password" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/allergies-visible-school-kitchen</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/allergies-visible-school-kitchen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/allergies-visible-school-kitchen" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/all-day-school-meals-cyprus-system</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/all-day-school-meals-cyprus-system" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/all-day-school-meals-cyprus-system" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/ai-readiness-score-0-100-meaning</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/ai-readiness-score-0-100-meaning" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/ai-readiness-score-0-100-meaning" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/ai-for-beauty-salons</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/ai-for-beauty-salons" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/ai-for-beauty-salons" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/ai-business-readiness-assessment</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/ai-business-readiness-assessment" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/ai-business-readiness-assessment" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/ai-automation-without-technical-knowledge</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/ai-automation-without-technical-knowledge" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/ai-automation-without-technical-knowledge" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/ai-appointment-booking-assistant</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/ai-appointment-booking-assistant" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/ai-appointment-booking-assistant" />
+  </url>
+  <url>
+    <loc>https://www.nexaipla.com/en/articles/accountant-search-local-files</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/articles/accountant-search-local-files" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/en/articles/accountant-search-local-files" />
   </url>
   <url>
     <loc>https://www.nexaipla.com/en/articles/school-meals-all-day-cyprus</loc>
