@@ -57,6 +57,7 @@ export default defineConfig({
         schoolmeals: resolve(__dirname, 'schoolmeals/index.html'),
         'ai-score': resolve(__dirname, 'ai-score/index.html'),
         ai: resolve(__dirname, 'ai/index.html'),
+        faq: resolve(__dirname, 'faq/index.html'),
         ...getArticleInputs(),
       },
     },

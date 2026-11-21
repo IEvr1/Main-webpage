@@ -66,6 +66,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/ai-score" />
   </url>
   <url>
+    <loc>https://www.nexaipla.com/faq</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.nexaipla.com/faq?lang=el" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nexaipla.com/faq" />
+  </url>
+  <url>
     <loc>https://www.nexaipla.com/en/articles</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>

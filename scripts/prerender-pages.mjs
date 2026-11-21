@@ -74,6 +74,13 @@ const PAGES = [
     faq: 'aiscore.faq',
     groups: [],
   },
+  {
+    file: 'faq/index.html',
+    h1: 'sitefaq.hero.title',
+    lead: 'sitefaq.hero.subtitle',
+    faq: 'sitefaq.faq',
+    groups: [],
+  },
 ];
 
 function escapeHtml(value) {
@@ -106,7 +113,7 @@ function numbered(dict, prefix) {
 
 function faqItems(dict, prefix) {
   const items = [];
-  for (let i = 1; i <= 8; i += 1) {
+  for (let i = 1; i <= 16; i += 1) {
     const question = dict[`${prefix}.q${i}`];
     const answer = dict[`${prefix}.a${i}`];
     if (!question || !answer) break;

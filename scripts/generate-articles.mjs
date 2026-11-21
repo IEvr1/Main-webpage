@@ -196,7 +196,7 @@ function buildArticleHead({ locale, siblingLocale, slug }) {
   <body>
     <article id="article-static" class="article-prerender container" data-slug="${slug}" data-lang="${locale.lang}">
       <header class="article-prerender__header">
-        <p class="article-prerender__meta">${escapeHtml(locale.author || 'NexAIpla')}</p>
+        <p class="article-prerender__meta">${escapeHtml(locale.author || 'NexAIpla')}${locale.date ? ` · ${locale.lang === 'el' ? 'Δημοσίευση' : 'Published'} ${escapeHtml(locale.date)}` : ''}${locale.updated ? ` · ${locale.lang === 'el' ? 'Τελευταία αναθεώρηση' : 'Last reviewed'} ${escapeHtml(locale.updated)}` : ''}</p>
         <h1 class="article-prerender__title">${escapeHtml(locale.title)}</h1>
       </header>
       <div class="article-body">${locale.bodyHtml}</div>

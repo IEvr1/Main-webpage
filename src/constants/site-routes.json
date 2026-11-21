@@ -6,5 +6,6 @@
   { "path": "/ai", "priority": 0.85, "appId": "ai-consulting" },
   { "path": "/docsapp", "priority": 0.9, "appId": "docs-app" },
   { "path": "/schoolmeals", "priority": 0.9, "appId": "school-meals" },
-  { "path": "/ai-score", "priority": 0.85, "appId": "ai-score" }
+  { "path": "/ai-score", "priority": 0.85, "appId": "ai-score" },
+  { "path": "/faq", "priority": 0.85 }
 ]

@@ -55,3 +55,52 @@ export const AI_SCORE_FAQ: readonly FaqItemDef[] = [
   { questionKey: 'aiscore.faq.q3', answerKey: 'aiscore.faq.a3' },
   { questionKey: 'aiscore.faq.q4', answerKey: 'aiscore.faq.a4' },
 ];
+
+/** Dedicated /faq page — expanded site FAQ for SEO + AI citation. */
+export const SITE_FAQ: readonly FaqItemDef[] = [
+  { questionKey: 'sitefaq.faq.q1', answerKey: 'sitefaq.faq.a1' },
+  { questionKey: 'sitefaq.faq.q2', answerKey: 'sitefaq.faq.a2' },
+  { questionKey: 'sitefaq.faq.q3', answerKey: 'sitefaq.faq.a3' },
+  { questionKey: 'sitefaq.faq.q4', answerKey: 'sitefaq.faq.a4' },
+  { questionKey: 'sitefaq.faq.q5', answerKey: 'sitefaq.faq.a5' },
+  { questionKey: 'sitefaq.faq.q6', answerKey: 'sitefaq.faq.a6' },
+  { questionKey: 'sitefaq.faq.q7', answerKey: 'sitefaq.faq.a7' },
+  { questionKey: 'sitefaq.faq.q8', answerKey: 'sitefaq.faq.a8' },
+  { questionKey: 'sitefaq.faq.q9', answerKey: 'sitefaq.faq.a9' },
+  { questionKey: 'sitefaq.faq.q10', answerKey: 'sitefaq.faq.a10' },
+  { questionKey: 'sitefaq.faq.q11', answerKey: 'sitefaq.faq.a11' },
+  { questionKey: 'sitefaq.faq.q12', answerKey: 'sitefaq.faq.a12' },
+];
+
+export const SITE_FAQ_PRODUCTS = [
+  {
+    href: '/onlinebooking',
+    titleKey: 'apps.onlineBooking.title',
+    descriptionKey: 'apps.onlineBooking.description',
+  },
+  {
+    href: '/foodorder',
+    titleKey: 'apps.foodOrder.title',
+    descriptionKey: 'apps.foodOrder.description',
+  },
+  {
+    href: '/shoptraffic',
+    titleKey: 'apps.shopTraffic.title',
+    descriptionKey: 'apps.shopTraffic.description',
+  },
+  {
+    href: '/docsapp',
+    titleKey: 'apps.docsApp.title',
+    descriptionKey: 'apps.docsApp.description',
+  },
+  {
+    href: '/schoolmeals',
+    titleKey: 'apps.schoolMeals.title',
+    descriptionKey: 'apps.schoolMeals.description',
+  },
+  {
+    href: '/ai',
+    titleKey: 'apps.aiConsulting.title',
+    descriptionKey: 'apps.aiConsulting.description',
+  },
+] as const;

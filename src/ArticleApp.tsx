@@ -38,9 +38,26 @@ export default function ArticleApp() {
           <a href={articlesManifest.listing[lang]} className="article-page__back">
             ← {t('articles.backToList', lang)}
           </a>
-          {article.author ? (
-            <p className="article-page__meta">{article.author}</p>
-          ) : null}
+          <p className="article-page__meta">
+            <span>{article.author || 'NexAIpla'}</span>
+            {article.date ? (
+              <>
+                <span aria-hidden="true"> · </span>
+                <time dateTime={article.date}>
+                  {lang === 'el' ? 'Δημοσίευση' : 'Published'} {article.date}
+                </time>
+              </>
+            ) : null}
+            {article.updated ? (
+              <>
+                <span aria-hidden="true"> · </span>
+                <time dateTime={article.updated}>
+                  {lang === 'el' ? 'Τελευταία αναθεώρηση' : 'Last reviewed'}{' '}
+                  {article.updated}
+                </time>
+              </>
+            ) : null}
+          </p>
           <h1 className="article-page__title">{article.title}</h1>
           <article
             className="article-body"

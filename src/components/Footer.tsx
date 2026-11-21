@@ -19,7 +19,9 @@ export default function Footer({ lang }: FooterProps) {
           <img src={brandLogoUrl} alt={BRAND.name} className="site-footer__logo" />
         </a>
         <nav className="site-footer__nav" aria-label={t('articles.nav', lang)}>
+          <a href="/faq">{t('sitefaq.nav', lang)}</a>
           <a href={articlesManifest.listing[lang]}>{t('articles.nav', lang)}</a>
+          <a href="/ai-score">AI Readiness</a>
         </nav>
         <p>
           &copy; {new Date().getFullYear()} {BRAND.name}. {t('common.copyright', lang)}

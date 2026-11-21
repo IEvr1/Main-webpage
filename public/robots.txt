@@ -1,4 +1,11 @@
+# NexAIpla crawler policy — see docs/seo-crawler-policy.md
+# Discovery crawlers (Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User,
+# PerplexityBot, ClaudeBot) may fetch public pages. GPTBot (training) is blocked.
+
 User-agent: *
 Allow: /
+
+User-agent: GPTBot
+Disallow: /
 
 Sitemap: https://www.nexaipla.com/sitemap.xml
