@@ -477,3 +477,81 @@
 .related-apps__home a:hover {
   text-decoration: underline;
 }
+
+/* Product pages — curated knowledge-base links */
+.product-guides {
+  padding: var(--section-padding);
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-border);
+}
+
+.product-guides__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .product-guides__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-guides__list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.product-guides__link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
+  padding: 1.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-guides__link:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-soft);
+}
+
+.product-guides__link-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--color-text);
+}
+
+.product-guides__link-text {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--color-text-muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-guides__all {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.product-guides__all a {
+  color: var(--color-accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.product-guides__all a:hover {
+  text-decoration: underline;
+}

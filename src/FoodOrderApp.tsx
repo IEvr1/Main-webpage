@@ -3,6 +3,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
 import RelatedApps from './components/RelatedApps';
+import ProductRelatedGuides from './components/ProductRelatedGuides';
 import FoodOrderHero from './components/foodorder/FoodOrderHero';
 import FoodOrderProblems from './components/foodorder/FoodOrderProblems';
 import FoodOrderBenefits from './components/foodorder/FoodOrderBenefits';
@@ -28,6 +29,7 @@ export default function FoodOrderApp() {
         <FoodOrderBenefits lang={lang} />
         <FoodOrderFeatures lang={lang} />
         <FoodOrderScreenshots lang={lang} />
+        <ProductRelatedGuides lang={lang} productAppId="food-order" />
         <RelatedApps lang={lang} currentAppId="food-order" />
         <FaqSection
           lang={lang}

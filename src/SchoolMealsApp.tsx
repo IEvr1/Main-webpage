@@ -3,6 +3,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
 import RelatedApps from './components/RelatedApps';
+import ProductRelatedGuides from './components/ProductRelatedGuides';
 import SchoolMealsHero from './components/schoolmeals/SchoolMealsHero';
 import SchoolMealsProblems from './components/schoolmeals/SchoolMealsProblems';
 import SchoolMealsBenefits from './components/schoolmeals/SchoolMealsBenefits';
@@ -28,6 +29,7 @@ export default function SchoolMealsApp() {
         <SchoolMealsBenefits lang={lang} />
         <SchoolMealsFeatures lang={lang} />
         <SchoolMealsScreenshots lang={lang} />
+        <ProductRelatedGuides lang={lang} productAppId="school-meals" />
         <RelatedApps lang={lang} currentAppId="school-meals" />
         <FaqSection
           lang={lang}

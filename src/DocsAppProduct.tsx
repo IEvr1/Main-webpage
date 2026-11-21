@@ -3,6 +3,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
 import RelatedApps from './components/RelatedApps';
+import ProductRelatedGuides from './components/ProductRelatedGuides';
 import DocsAppHero from './components/docsapp/DocsAppHero';
 import DocsAppProblems from './components/docsapp/DocsAppProblems';
 import DocsAppFeatures from './components/docsapp/DocsAppFeatures';
@@ -28,6 +29,7 @@ export default function DocsAppProduct() {
         <DocsAppFeatures lang={lang} />
         <DocsAppRequirements lang={lang} />
         <DocsAppScreenshots lang={lang} />
+        <ProductRelatedGuides lang={lang} productAppId="docs-app" />
         <RelatedApps lang={lang} currentAppId="docs-app" />
         <FaqSection
           lang={lang}

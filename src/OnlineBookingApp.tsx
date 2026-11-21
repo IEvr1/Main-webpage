@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
 import RelatedApps from './components/RelatedApps';
+import ProductRelatedGuides from './components/ProductRelatedGuides';
 import BookingProblems from './components/onlinebooking/BookingProblems';
 import BookingOfferings from './components/onlinebooking/BookingOfferings';
 import BookingFeatures from './components/onlinebooking/BookingFeatures';
@@ -28,6 +29,7 @@ export default function OnlineBookingApp() {
         <BookingOfferings lang={lang} />
         <BookingFeatures lang={lang} />
         <BookingScreenshots lang={lang} />
+        <ProductRelatedGuides lang={lang} productAppId="online-booking" />
         <RelatedApps lang={lang} currentAppId="online-booking" />
         <FaqSection
           lang={lang}

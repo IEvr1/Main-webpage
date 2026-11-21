@@ -6,6 +6,7 @@ import AiGoals from './components/ai/AiGoals';
 import AiUseCases from './components/ai/AiUseCases';
 import AiPromise from './components/ai/AiPromise';
 import AiConsultSection from './components/ai/AiConsultSection';
+import ProductRelatedGuides from './components/ProductRelatedGuides';
 import { AI_SOLUTIONS_FAQ } from './constants/faq';
 import { useLang } from './i18n/useLang';
 
@@ -26,6 +27,7 @@ export default function AiSolutionsApp() {
         <AiUseCases lang={lang} />
         <AiPromise lang={lang} />
         <AiConsultSection lang={lang} />
+        <ProductRelatedGuides lang={lang} productAppId="ai-consulting" />
         <FaqSection
           lang={lang}
           titleKey="ai.faq.title"

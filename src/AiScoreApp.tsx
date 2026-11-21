@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
+import ProductRelatedGuides from './components/ProductRelatedGuides';
 import AiScoreHero from './components/aiscore/AiScoreHero';
 import AiScoreQuiz from './components/aiscore/AiScoreQuiz';
 import AiScoreResults from './components/aiscore/AiScoreResults';
@@ -83,6 +84,7 @@ export default function AiScoreApp() {
           />
         ) : null}
 
+        <ProductRelatedGuides lang={lang} productAppId="ai-score" />
         <FaqSection
           lang={lang}
           titleKey="aiscore.faq.title"

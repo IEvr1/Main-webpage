@@ -3,6 +3,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FaqSection from './components/FaqSection';
 import RelatedApps from './components/RelatedApps';
+import ProductRelatedGuides from './components/ProductRelatedGuides';
 import ShopTrafficHero from './components/shoptraffic/ShopTrafficHero';
 import ShopTrafficProblems from './components/shoptraffic/ShopTrafficProblems';
 import ShopTrafficBenefits from './components/shoptraffic/ShopTrafficBenefits';
@@ -28,6 +29,7 @@ export default function ShopTrafficApp() {
         <ShopTrafficBenefits lang={lang} />
         <ShopTrafficFeatures lang={lang} />
         <ShopTrafficScreenshots lang={lang} />
+        <ProductRelatedGuides lang={lang} productAppId="shop-traffic" />
         <RelatedApps lang={lang} currentAppId="shop-traffic" />
         <FaqSection
           lang={lang}
