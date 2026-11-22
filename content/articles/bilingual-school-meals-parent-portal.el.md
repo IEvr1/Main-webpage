@@ -3,8 +3,8 @@ title: Μπορούν οι γονείς που δεν διαβάζουν ελλ�
 seoTitle: "Μπορούν οι γονείς που δεν διαβάζουν ελληνικά να χρησιμοποιήσουν το σύστημα σίτισης του σχολείου; | NexAIpla"
 description: "Το «Ολοήμερο Σχολείο — Σίτηση» έχει διακόπτη ελληνικά/αγγλικά στη σελίδα των γονέων, ώστε κάθε οικογένεια να δηλώνει απουσία μόνη της. Με ένα πάτημα."
 slug: bilingual-school-meals-parent-portal
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι. Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) έχει διακόπτη γλώσσας ελληνικά/αγγλικά στη σελίδα των γονέων. Κουμπιά, φόρμες και οδηγίες εμφανίζονται στη γλώσσα που διαλέγει ο γονέας, ώστε να δηλώνει απουσία, να προγραμματίζει μέρες και να γράφει αλλεργίες χωρίς μεταφραστή. Το μηνιαίο πρόγραμμα, οι ανακοινώσεις και το κείμενο των αλλεργιών εμφανίζονται όπως τα έγραψε εκείνος που τα ανέβασε. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι. Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) έχει διακόπτη γλώσσας ελληνικά/αγγλικά στη σελίδα των γονέων. Κουμπιά, φόρμες και οδηγίες εμφανίζονται στη γλώσσα που διαλέγει ο γονέας, ώστε να δηλώνει απουσία, να προγραμματίζει μέρες και να γράφει αλλεργίες χωρίς μεταφραστή. Το μηνιαίο πρόγραμμα, οι ανακοινώσεις και το κείμενο των αλλεργιών εμφανίζονται όπως τα έγραψε εκείνος που τα ανέβασε. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Σε πολλά δημοτικά της Κύπρου μια τάξη έχει παιδιά από πέντε ή έξι χώρες. Οι γονείς τους δουλεύουν, πληρώνουν φόρους και στέλνουν τα παιδιά στο ολοήμερο, αλλά το χαρτί που έρχεται στην τσάντα είναι στα ελληνικά. Κάποιοι το φωτογραφίζουν και το περνούν από μεταφραστή. Κάποιοι ρωτούν το παιδί. Κάποιοι το αφήνουν.
 
@@ -218,22 +218,46 @@ draft: false
 
 ### Μπορούν να το χρησιμοποιήσουν γονείς που δεν διαβάζουν ελληνικά;
 
-Ναι. Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) έχει διακόπτη ελληνικά/αγγλικά, και όλες οι ενέργειες του γονέα γίνονται και στις δύο γλώσσες. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) έχει διακόπτη ελληνικά/αγγλικά, και όλες οι ενέργειες του γονέα γίνονται και στις δύο γλώσσες. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μεταφράζεται αυτόματα το μηνιαίο πρόγραμμα;
 
-Όχι. Το πρόγραμμα είναι φωτογραφία ή σάρωση και εμφανίζεται όπως ανέβηκε. Το σχολείο μπορεί να το ετοιμάσει δίγλωσσο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Το πρόγραμμα είναι φωτογραφία ή σάρωση και εμφανίζεται όπως ανέβηκε. Το σχολείο μπορεί να το ετοιμάσει δίγλωσσο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Σε ποια γλώσσα βλέπει η κουζίνα τις αλλεργίες;
 
-Στη γλώσσα που τις έγραψε ο γονέας. Γι' αυτό βοηθούν οι σύντομες λέξεις και ένας δίγλωσσος κατάλογος στην κουζίνα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στη γλώσσα που τις έγραψε ο γονέας. Γι' αυτό βοηθούν οι σύντομες λέξεις και ένας δίγλωσσος κατάλογος στην κουζίνα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται με οικογένειες που δεν διαβάζουν ούτε αγγλικά;
 
-Μπορούν να χρησιμοποιήσουν τη μετάφραση του browser τους ή να τηλεφωνήσουν στη γραμματεία, που καταχωρεί την απουσία για λογαριασμό τους. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Μπορούν να χρησιμοποιήσουν τη μετάφραση του browser τους ή να τηλεφωνήσουν στη γραμματεία, που καταχωρεί την απουσία για λογαριασμό τους. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ποιες γλώσσες μιλούν οι οικογένειες του σχολείου σας. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
