@@ -3,8 +3,8 @@ title: "Can parents who do not read Greek use the school's meal system?"
 seoTitle: "Can parents who do not read Greek use the school's meal system? | NexAIpla"
 description: "All-day School — Meals has a Greek/English switch on the parents' page, so that every family can report an absence on its own. With a single tap."
 slug: bilingual-school-meals-parent-portal
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) has a Greek/English language switch on the parents' page. Buttons, forms, and instructions appear in the language the parent chooses, so that they can report an absence, plan days, and write allergies without a translator. The monthly menu, the announcements, and the allergy text appear as they were written by whoever entered them. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) has a Greek/English language switch on the parents' page. Buttons, forms, and instructions appear in the language the parent chooses, so that they can report an absence, plan days, and write allergies without a translator. The monthly menu, the announcements, and the allergy text appear as they were written by whoever entered them. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 In many primary schools in Cyprus one class has children from five or six countries. Their parents work, pay taxes, and send the children to the all-day school, but the sheet that comes home in the bag is in Greek. Some photograph it and run it through a translator. Some ask the child. Some leave it.
 
@@ -218,22 +218,46 @@ The office, kitchen, and admin screens are used by the school's own people. The 
 
 ### Can parents who do not read Greek use it?
 
-Yes. [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) has a Greek/English switch, and every action a parent takes can be done in both languages. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) has a Greek/English switch, and every action a parent takes can be done in both languages. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is the monthly menu translated automatically?
 
-No. The menu is a photo or a scan and appears as it was uploaded. The school can prepare it in two languages. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The menu is a photo or a scan and appears as it was uploaded. The school can prepare it in two languages. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### In which language does the kitchen see the allergies?
 
-In the language the parent wrote them in. That is why short words and a two-language list in the kitchen help. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In the language the parent wrote them in. That is why short words and a two-language list in the kitchen help. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What about families who do not read English either?
 
-They can use their browser's translation or phone the office, which enters the absence on their behalf. Homepage: [NexAIpla](https://www.nexaipla.com/).
+They can use their browser's translation or phone the office, which enters the absence on their behalf. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us which languages the families at your school speak. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
