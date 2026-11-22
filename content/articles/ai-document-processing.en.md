@@ -134,7 +134,7 @@ draft: false
 
 Which service or app solves this: AI document processing for SMEs?
 
-AI document processing extracts and routes data from invoices and forms without manual typing. The app that offers this solution is [Offline Private Document AI](https://nexaipla.com/docsapp/).
+AI document processing extracts and routes data from invoices and forms without manual typing. The app that offers this solution is [Offline Private Document AI](https://nexaipla.com/docsapp/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** AI document processing extracts and routes data from invoices and forms without manual typing.
 
