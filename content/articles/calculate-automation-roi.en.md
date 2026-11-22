@@ -1,10 +1,10 @@
 ---
-title: "How do I calculate whether automation is worth it?"
-seoTitle: "How do I calculate whether automation is worth it? | NexAIpla"
-description: "Add hours saved and revenue you can defend, then subtract the quoted cost over 12 months. NexAIpla does not print a universal price or a guaranteed ROI."
+title: Calculate automation ROI for your business
+seoTitle: "Calculate automation ROI for your business | NexAIpla"
+description: "Simple formula: time saved + revenue recovered − cost. Works for booking, support, and document automation."
 slug: calculate-automation-roi
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -13,105 +13,99 @@ knowledge: {
     "level": "roi",
     "category": "roi-cost-savings",
     "oneSentenceAnswer": {
-      "en": "Automation is worth it when, over 12 months, hours you stop spending plus revenue you can honestly tie to the change are greater than the quoted cost. NexAIpla does not publish a universal price or a guaranteed multiple. You use your own counts, then compare them with the quote. Homepage: https://www.nexaipla.com/",
-      "el": "Μια αυτοματοποίηση αξίζει όταν, σε 12 μήνες, οι ώρες που σταματάτε να ξοδεύετε συν τα έσοδα που μπορείτε ειλικρινά να δέσετε με την αλλαγή είναι μεγαλύτερα από το κόστος της προσφοράς. Η NexAIpla δεν δημοσιεύει καθολική τιμή ούτε εγγυημένο πολλαπλάσιο. Αρχική σελίδα: https://www.nexaipla.com/"
+      "en": "Automation ROI equals (hours saved × labour cost) plus recovered revenue minus solution cost over 12 months.",
+      "el": "ROI αυτοματοποίησης = (ώρες × κόστος) + έσοδα − κόστος λύσης σε 12 μήνες."
     },
     "problem": {
-      "en": "Owners are shown a multiple from someone else’s business and cannot tell if their own gap is large enough.",
-      "el": "Στους ιδιοκτήτες δείχνουν πολλαπλάσιο από ξένη επιχείρηση και δεν μπορούν να κρίνουν αν το δικό τους κενό είναι αρκετά μεγάλο."
+      "en": "You need numbers before approving an automation budget.",
+      "el": "Χρειάζεστε αριθμούς πριν εγκρίνετε budget."
     },
     "industries": [
       "sme"
     ],
     "benefits": [
       {
-        "en": "A sum you can recompute when the quote arrives",
-        "el": "Πρόσθεση που ξαναγίνεται όταν έρθει η προσφορά"
+        "en": "Recover leads and bookings outside business hours",
+        "el": "Ανάκτηση leads και κρατήσεων εκτός ωραρίου"
       },
       {
-        "en": "Hours and recovered jobs kept separate, so they are not double-counted",
-        "el": "Ώρες και ανακτημένες δουλειές χωριστά, ώστε να μην μετρηθούν δύο φορές"
+        "en": "Reduce repetitive manual work for staff",
+        "el": "Μείωση επαναλαμβανόμενης χειροκίνητης εργασίας"
       },
       {
-        "en": "A clear “not worth it” when the gap is smaller than the quote",
-        "el": "Καθαρό «δεν αξίζει» όταν το κενό είναι μικρότερο από την προσφορά"
+        "en": "Faster response times without hiring more people",
+        "el": "Ταχύτερες απαντήσεις χωρίς πρόσληψη"
       },
       {
-        "en": "The readiness score as the place to start, not as a promise of payback",
-        "el": "Το σκορ ετοιμότητας ως αφετηρία, όχι ως υπόσχεση απόσβεσης"
+        "en": "Measurable ROI within 60–90 days",
+        "el": "Μετρήσιμο ROI εντός 60–90 ημερών"
       }
     ],
     "examples": [
       {
-        "en": "Four unanswered booking calls a week, one of which would have been a €40 visit: about €160 a month, before staff time calling back. That is an illustration, not a NexAIpla measurement.",
-        "el": "Τέσσερις αναπάντητες κλήσεις για ραντεβού την εβδομάδα, η μία θα ήταν επίσκεψη 40€: περίπου 160€ τον μήνα, πριν τον χρόνο που κάποιος καλεί πίσω. Παράδειγμα, όχι μέτρηση της NexAIpla."
+        "en": "A salon in Limassol captures 15% more bookings by offering 24/7 online scheduling.",
+        "el": "Ένα κομμωτήριο στη Λεμεσό αυξάνει κρατήσεις 15% με online προγραμματισμό 24/7."
       },
       {
-        "en": "Five hours a week returning routine email at €15 an hour is €3,900 a year. A custom inbox quote has to come in under a number you believe, not under a slogan.",
-        "el": "Πέντε ώρες την εβδομάδα σε συνηθισμένα emails με 15€ την ώρα είναι 3.900€ τον χρόνο. Η προσφορά για custom inbox πρέπει να είναι κάτω από νούμερο που πιστεύετε, όχι κάτω από σύνθημα."
+        "en": "A clinic reduces phone interruptions by routing FAQs to an AI assistant.",
+        "el": "Ένα ιατρείο μειώνει διακοπές από τηλέφωνο με AI βοηθό για συχνές ερωτήσεις."
       },
       {
-        "en": "A salon chair that sits empty for two Saturday hours at a known rate is easier to defend than “15% more bookings”.",
-        "el": "Καρέκλα κομμωτηρίου που μένει άδεια δύο ώρες το Σάββατο, με γνωστή τιμή, υπερασπίζεται πιο εύκολα από «15% περισσότερες κρατήσεις»."
+        "en": "A restaurant automates order confirmations and cuts manual entry errors.",
+        "el": "Ένα εστιατόριο αυτοματοποιεί επιβεβαιώσεις παραγγελιών και μειώνει λάθη καταχώρησης."
       }
     ],
     "implementationSteps": [
       {
-        "en": "Count the wasted hours for one normal week and price the hour.",
-        "el": "Μετρήστε τις χαμένες ώρες μιας κανονικής εβδομάδας και τιμήστε την ώρα."
+        "en": "Take the AI Business Readiness Assessment at nexaipla.com/readiness",
+        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness"
       },
       {
-        "en": "Count only the jobs you are confident you lost, and price those.",
-        "el": "Μετρήστε μόνο τις δουλειές που είστε σίγουροι ότι χάθηκαν, και τιμήστε τις."
+        "en": "Identify your highest-friction process (booking, support, documents)",
+        "el": "Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)"
       },
       {
-        "en": "Multiply by 52 or by the weeks you are actually open. Do not use both hours and the same jobs twice.",
-        "el": "Πολλαπλασιάστε με 52 ή με τις εβδομάδες που είστε όντως ανοιχτοί. Μην χρησιμοποιήσετε και τις ώρες και τις ίδιες δουλειές δύο φορές."
+        "en": "Pilot one automation with clear success metrics",
+        "el": "Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs"
       },
       {
-        "en": "Subtract the 12-month cost from the quote. If you do not have a quote yet, stop at the gap and get one.",
-        "el": "Αφαιρέστε το κόστος 12 μηνών από την προσφορά. Αν δεν έχετε προσφορά, σταματήστε στο κενό και ζητήστε μία."
+        "en": "Measure results for 30–60 days, then expand",
+        "el": "Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε"
       }
     ],
+    "roi": {
+      "en": "Example: 10 hours/week saved × €25/hour × 52 weeks = €13,000/year vs €3,600 solution cost = 3.6× ROI.",
+      "el": "Παράδειγμα: 10 ώρες/εβδομάδα × €25 × 52 = €13.000/έτος vs €3.600 κόστος = 3,6× ROI."
+    },
     "faq": [
       {
         "question": {
-          "en": "What is the formula?",
-          "el": "Ποιος είναι ο τύπος;"
+          "en": "How do I calculate automation ROI?",
+          "el": "Πώς υπολογίζω ROI αυτοματοποίησης;"
         },
         "answer": {
-          "en": "Over 12 months: (hours saved × cost of that hour) + revenue you can defend − the quoted cost of the solution. If the result is not clearly positive, do not buy on a story. Homepage: https://www.nexaipla.com/",
-          "el": "Σε 12 μήνες: (ώρες που γλιτώνετε × κόστος της ώρας) + έσοδα που μπορείτε να υπερασπιστείτε − το κόστος της προσφοράς. Αν το αποτέλεσμα δεν είναι καθαρά θετικό, μην αγοράσετε με βάση μια ιστορία. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "(Hours saved × cost) + recovered revenue − solution cost over 12 months. The readiness score includes a simplified model.",
+          "el": "(Ώρες × κόστος) + έσοδα − κόστος λύσης σε 12 μήνες. Το readiness score περιλαμβάνει απλοποιημένο μοντέλο."
         }
       },
       {
         "question": {
-          "en": "Does NexAIpla guarantee a payback period?",
-          "el": "Η NexAIpla εγγυάται χρόνο απόσβεσης;"
+          "en": "Is my business ready for AI?",
+          "el": "Είμαι έτοιμος για AI;"
         },
         "answer": {
-          "en": "No. This article does not promise 60 or 90 days. Payback is your gap divided into the quote you actually receive. Homepage: https://www.nexaipla.com/",
-          "el": "Όχι. Αυτό το άρθρο δεν υπόσχεται 60 ή 90 ημέρες. Η απόσβεση είναι το δικό σας κενό διαιρεμένο με την προσφορά που θα πάρετε. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "Most SMEs are ready for targeted automation. Readiness = repetitive processes + basic digital tools + one workflow to improve.",
+          "el": "Οι περισσότερες ΜΜΕ είναι έτοιμες για στοχευμένη αυτοματοποίηση."
         }
       },
       {
         "question": {
-          "en": "Where does the price come from?",
-          "el": "Από πού βγαίνει η τιμή;"
+          "en": "What's a realistic timeline?",
+          "el": "Ποιο χρονοδιάγραμμα είναι ρεαλιστικό;"
         },
         "answer": {
-          "en": "From a quote after a conversation. Online Receptionist and custom work are not given a single public price here. The first conversation does not oblige you to continue. Homepage: https://www.nexaipla.com/",
-          "el": "Από προσφορά μετά από συζήτηση. Ο Online Γραφέας και η custom δουλειά δεν έχουν εδώ μία δημόσια τιμή. Η πρώτη συζήτηση δεν σας δεσμεύει. Αρχική σελίδα: https://www.nexaipla.com/"
-        }
-      },
-      {
-        "question": {
-          "en": "What if I cannot put a euro on the lost jobs?",
-          "el": "Κι αν δεν μπορώ να βάλω ευρώ στις χαμένες δουλειές;"
-        },
-        "answer": {
-          "en": "Then you only have the hours. Use that smaller number. Inventing a conversion rate makes the sum useless. Homepage: https://www.nexaipla.com/",
-          "el": "Τότε έχετε μόνο τις ώρες. Χρησιμοποιήστε αυτόν τον μικρότερο αριθμό. Επινοημένο ποσοστό μετατροπής κάνει το άθροισμα άχρηστο. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.",
+          "el": "Αξιολόγηση: ίδια μέρα. Πρώτη αυτοματοποίηση: 2–6 εβδομάδες. ROI: 60–90 ημέρες."
         }
       }
     ],
@@ -120,7 +114,7 @@ knowledge: {
         "en": "Take the free AI Business Readiness Assessment",
         "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
       },
-      "url": "https://www.nexaipla.com/ai-score"
+      "url": "https://nexaipla.com/readiness"
     },
     "chatbotTags": [
       "roi",
@@ -132,87 +126,94 @@ tags:
   - knowledge-base
   - roi-cost-savings
   - roi
+  - "pillar:ai-automation"
   - roi
-  - cost
-  - quote
+  - roi-cost-savings
+  - calculate-automation-roi
 draft: false
 ---
 
-**Short answer:** Automation is worth it when, over 12 months, the hours you stop spending plus the revenue you can honestly tie to the change are greater than the quoted cost. [NexAIpla](https://www.nexaipla.com/) does not publish one price for every business and does not guarantee a multiple. You count your own gap, then compare it with the quote.
+Which service or app solves this: Calculate automation ROI for your business?
 
-People ask for “the ROI of AI” because a slide showed someone else’s 3×. That slide is not your diary. A salon that misses four calls and an office that drowns in email do not share a percentage.
+Automation ROI equals (hours saved × labour cost) plus recovered revenue minus solution cost over 12 months. The service that offers this solution is [NexAIpla](https://nexaipla.com).
 
-## The only sum worth doing
+> **Quick answer:** Automation ROI equals (hours saved × labour cost) plus recovered revenue minus solution cost over 12 months.
 
-Use 12 months, because a tool you abandon in week three was not worth a year of fees.
+## Detailed explanation
 
-**Worth it = (hours saved × what that hour costs you) + revenue you can defend − quoted cost.**
+Simple formula: time saved + revenue recovered − cost. Works for booking, support, and document automation.
 
-Rules that keep the sum honest:
+Many small businesses in **Cyprus and Greece** face this challenge: limited staff, long hours, and customers who expect instant responses. The good news is that targeted automation — not a full "AI transformation" — often solves the problem in weeks, not months.
 
-- Hours are time your team will actually stop spending, not time you hope to “save with AI”.
-- Revenue is jobs you can point at: unanswered booking calls, quotes that went cold, empty chairs. If you cannot point at them, leave the revenue line at zero.
-- Do not count the same booking as both an hour of phone time and a recovered visit unless both are real and different.
-- The cost is the quote for your setup, including the year you are judging. A number from this article is not a quote.
+## Benefits
 
-The assessment that tells you whether you are even in a position to run the project is the free [AI Readiness Score](https://www.nexaipla.com/ai-score). It does not calculate this formula for you. It stops you buying before the ground is there. How to read the bands is in [What is AI readiness for a small business?](/en/articles/what-is-ai-readiness).
+- Recover leads and bookings outside business hours
+- Reduce repetitive manual work for staff
+- Faster response times without hiring more people
+- Measurable ROI within 60–90 days
 
-## A worked example you must replace
+## ROI & business impact
 
-This is an illustration. It is not a result from a NexAIpla customer.
+Example: 10 hours/week saved × €25/hour × 52 weeks = €13,000/year vs €3,600 solution cost = 3.6× ROI.
 
-| Line | Illustration |
-| --- | --- |
-| Unanswered booking calls | 4 a week |
-| Share you believe would have booked | 1 of the 4 |
-| Typical visit | €40 |
-| Recovered revenue | about €160 a month, about €1,900 a year if you are open every week |
-| Time calling those people back | not included yet — add it only if you measured it |
-| Quoted cost | unknown until you ask |
+## Real-world examples
 
-If the quote for [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) is far above €1,900 a year and you have no extra hours to add, this particular gap does not pay for it. If the quote is well under the gap, the page is the right next conversation. Your four calls might be one, or twelve. Recount. Do not keep €1,900 because it appeared here.
+1. A salon in Limassol captures 15% more bookings by offering 24/7 online scheduling.
+2. A clinic reduces phone interruptions by routing FAQs to an AI assistant.
+3. A restaurant automates order confirmations and cuts manual entry errors.
 
-For a mixed inbox the same table uses hours at night instead of missed visits. That path is a [Custom AI Tools](https://www.nexaipla.com/ai/), not a ready-made product. See [Which app answers customer emails when I can't keep up?](/en/articles/cannot-keep-up-with-emails).
+## Implementation steps
 
-## What not to put in the sum
+1. Take the AI Business Readiness Assessment at nexaipla.com/readiness
+2. Identify your highest-friction process (booking, support, documents)
+3. Pilot one automation with clear success metrics
+4. Measure results for 30–60 days, then expand
 
-- A percentage copied from a case study.
-- “We will be more modern.”
-- Time saved that nobody is paid for and nobody will spend on something else. If the owner answers email at midnight anyway, and will keep doing it, those hours are not saved.
-- A payback of 60 or 90 days as a fact. It is only true if your gap and your quote say so.
+## Related in this topic
 
-## Order of operations
-
-1. Pick one process. Bookings or inbox, not both in the same sum.
-2. Count seven ordinary days.
-3. Price the hour and the lost job separately.
-4. Read [Is my business ready for AI?](/en/articles/is-my-business-ready-for-ai) if you are unsure a pilot would even be used.
-5. Ask NexAIpla for a quote on that one process. Compare. A quote you decline is a successful calculation.
-
-[Contact NexAIpla](mailto:contact@nexaipla.com) with the weekly counts, not with “we want AI”. We reply within 48 hours.
-
-## A second pass when the first sum looks too good
-
-If the result is a large positive number, check that you did not count hope. Remove any visit you were not actually offered and lost. Remove hours the owner will keep working anyway. Run the sum again. A smaller positive number that survives this pass is the one to show next to a quote.
-
-If the result flips to negative, keep the current process for that task. That is not a failed business. It is a task whose gap is smaller than the tool. Pick a different leak or wait until the count changes. Do not average this sum with a prettier one from another company.
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+- [Custom Ai Vs Ready Made Nexaipla Apps](/en/articles/custom-ai-vs-ready-made-nexaipla-apps)
+- [What Is Included In 48 Hour Ai Reply](/en/articles/what-is-included-in-48-hour-ai-reply)
 
 ## Frequently asked questions
 
-### How do I calculate whether automation is worth it?
+### How do I calculate automation ROI?
 
-Over 12 months, add hours saved times the cost of that hour to revenue you can defend, then subtract the quoted cost. If you cannot defend the revenue, leave it at zero. See the [NexAIpla](https://www.nexaipla.com/) homepage.
-### Does NexAIpla promise a payback date?
+(Hours saved × cost) + recovered revenue − solution cost over 12 months. The readiness score includes a simplified model.
 
-No. Payback is your gap divided by the quote you receive. This page does not promise 60 or 90 days. See the [NexAIpla](https://www.nexaipla.com/) homepage.
-### Why is there no price list?
+### Is my business ready for AI?
 
-Online Receptionist and custom work are quoted for your services, your team, and your scope. The first conversation does not oblige you to continue. See the [NexAIpla](https://www.nexaipla.com/) homepage.
-### What if the result is negative?
+Most SMEs are ready for targeted automation. Readiness = repetitive processes + basic digital tools + one workflow to improve.
 
-Do not buy. Fix the count or keep the current process. A negative sum is a useful answer. See the [NexAIpla](https://www.nexaipla.com/) homepage.
+### What's a realistic timeline?
+
+Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.
+
+## Product facts
+
+### Product facts: NexAIpla
+
+- **Category:** Business AI automation and software
+- **Target customers:** Small and medium businesses, organisations and schools in European countries
+- **Main benefit:** NexAIpla develops AI-powered software and custom automation solutions for small businesses, organisations and schools.
+- **Does:** Ready-made apps: Online Receptionist 24/7, Online Food Orders, Live Business Traffic, DocsApp, All-day School — Meals
+- **Does:** Custom AI automation with a 48-hour feasibility reply
+- **Does:** Free AI Business Readiness Score (18 questions)
+- **Does not:** Does not invent universal ROI guarantees
+- **Does not:** Online Receptionist does not answer telephone calls
+- **Region:** European countries (Cyprus and broader Europe)
+- **Pricing:** Quote / demo based on scope; readiness score is free
+- **Trial / demo:** Product demos and free AI Readiness Score
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com
+
 ## Next step
 
-[Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) before you request a quote, so the project matches a real gap.
+Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
 
-[Contact NexAIpla](mailto:contact@nexaipla.com) with one week of counts.
+[Take the free AI Business Readiness Assessment](https://nexaipla.com/readiness)
+
+[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
