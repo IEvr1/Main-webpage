@@ -3,8 +3,8 @@ title: Υπάρχει σύστημα για την οργάνωση της σί�
 seoTitle: "Υπάρχει σύστημα για την οργάνωση της σίτισης στα ολοήμερα σχολεία της Κύπρου; | NexAIpla"
 description: "Ναι. Το «Ολοήμερο Σχολείο — Σίτηση» της NexAIpla ενώνει γονείς, γραμματεία και κουζίνα: απουσίες με SMS, ζωντανές μερίδες, αλλεργίες. Για κυπριακά δημοτικά."
 slug: all-day-school-meals-cyprus-system
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι. Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) της NexAIpla είναι φτιαγμένο για ολοήμερα δημοτικά σχολεία και Συνδέσμους Γονέων στην Κύπρο. Οι γονείς δηλώνουν απουσίες σίτισης από link που παίρνουν με SMS, η γραμματεία περνά όσες έρχονται τηλεφωνικά, και η κουζίνα βλέπει ζωντανές μερίδες ανά τάξη με αλλεργίες. Ελέγχει οκταψήφια κυπριακά κινητά, δουλεύει σε ώρα Λευκωσίας, στα ελληνικά και στα αγγλικά, και διαγράφει τα προσωπικά δεδομένα στις 31 Ιουλίου. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι. Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) της NexAIpla είναι φτιαγμένο για ολοήμερα δημοτικά σχολεία και Συνδέσμους Γονέων στην Κύπρο. Οι γονείς δηλώνουν απουσίες σίτισης από link που παίρνουν με SMS, η γραμματεία περνά όσες έρχονται τηλεφωνικά, και η κουζίνα βλέπει ζωντανές μερίδες ανά τάξη με αλλεργίες. Ελέγχει οκταψήφια κυπριακά κινητά, δουλεύει σε ώρα Λευκωσίας, στα ελληνικά και στα αγγλικά, και διαγράφει τα προσωπικά δεδομένα στις 31 Ιουλίου. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Σε πολλά ολοήμερα δημοτικά η σίτιση είναι υπόθεση του Συνδέσμου Γονέων. Γονείς που έχουν δική τους δουλειά βρίσκουν μάγειρα, συμφωνούν πρόγραμμα, κρατούν λίστες. Το σχολείο βοηθά με τη γραμματεία του. Η κουζίνα μαγειρεύει για όσους νομίζει ότι θα έρθουν. Κάθε πρωί οι τρεις πλευρές πρέπει να συμφωνήσουν σε έναν αριθμό, και το κάνουν με ό,τι εργαλείο τύχει: τηλέφωνο, μπλοκ, ομάδα στο κινητό.
 
@@ -212,22 +212,46 @@ draft: false
 
 ### Υπάρχει σύστημα για τη σίτιση των ολοήμερων σχολείων στην Κύπρο;
 
-Ναι, το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) της NexAIpla. Οι γονείς δηλώνουν απουσίες με link από SMS, η γραμματεία περνά τις τηλεφωνικές, και η κουζίνα βλέπει ζωντανές μερίδες και αλλεργίες. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι, το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) της NexAIpla. Οι γονείς δηλώνουν απουσίες με link από SMS, η γραμματεία περνά τις τηλεφωνικές, και η κουζίνα βλέπει ζωντανές μερίδες και αλλεργίες. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Ποιος το διαχειρίζεται μέσα στο σχολείο;
 
-Συνήθως ο Σύνδεσμος Γονέων έχει τον ρόλο της διαχείρισης. Η γραμματεία και η κουζίνα έχουν δικούς τους, πιο περιορισμένους ρόλους, ο καθένας με δικό του link και PIN. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Συνήθως ο Σύνδεσμος Γονέων έχει τον ρόλο της διαχείρισης. Η γραμματεία και η κουζίνα έχουν δικούς τους, πιο περιορισμένους ρόλους, ο καθένας με δικό του link και PIN. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μοιράζονται τα σχολεία την ίδια βάση δεδομένων;
 
-Όχι. Κάθε σχολείο έχει δική του εγκατάσταση με πλήρη απομόνωση δεδομένων. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Κάθε σχολείο έχει δική του εγκατάσταση με πλήρη απομόνωση δεδομένων. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορούν οι γονείς να παραγγείλουν φαγητό από το σύστημα;
 
-Όχι. Το σύστημα οργανώνει απουσίες, μερίδες, αλλεργίες και το μηνιαίο πρόγραμμα. Δεν δέχεται παραγγελίες και δεν πουλά γεύματα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Το σύστημα οργανώνει απουσίες, μερίδες, αλλεργίες και το μηνιαίο πρόγραμμα. Δεν δέχεται παραγγελίες και δεν πουλά γεύματα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε το όνομα του σχολείου και πόσα παιδιά σιτίζονται στο ολοήμερο, για να δούμε το στήσιμο. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+- [Kitchen Live Portions All Day School](/el/articles/kitchen-live-portions-all-day-school)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
