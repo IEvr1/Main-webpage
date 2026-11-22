@@ -3,8 +3,8 @@ title: "Do online appointments appear in each team member's Google Calendar?"
 seoTitle: "Do online appointments appear in each team member's Google Calendar? | NexAIpla"
 description: "Online Receptionist 24/7 syncs appointments with each person's Google Calendar, so that everyone sees their own schedule on their phone. Per person."
 slug: google-calendar-sync-online-receptionist
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) syncs with Google Calendar per team member. When a customer books with a particular person, the appointment appears in that person's calendar, and when it is cancelled or its time is changed, the calendar is updated. Everyone sees their schedule on their own phone, and the shared board shows the whole shop. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) syncs with Google Calendar per team member. When a customer books with a particular person, the appointment appears in that person's calendar, and when it is cancelled or its time is changed, the calendar is updated. Everyone sees their schedule on their own phone, and the shared board shows the whole shop. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 In a salon of four people, the question "what do I have tomorrow?" is heard ten times a day. The answer is in one place: the notebook or the reception computer. Whoever has a day off, whoever starts later, whoever is already at home, has to ask somebody.
 
@@ -238,22 +238,47 @@ Three tests per person, five minutes each. After that you know you can put the n
 
 ### Do appointments appear in each person's Google Calendar?
 
-Yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) syncs appointments with the calendar of the team member the customer booked with. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) syncs appointments with the calendar of the team member the customer booked with. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is the calendar updated when the customer cancels?
 
-Yes. Cancellations and time changes the customer makes from the SMS pass into the calendar as well. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. Cancellations and time changes the customer makes from the SMS pass into the calendar as well. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the owner see the staff's personal calendars?
 
-No. The owner sees the shared appointment board. Personal calendars stay with each person. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The owner sees the shared appointment board. Personal calendars stay with each person. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Where do I declare that someone will be away?
 
-As a closure on the board, so that availability shown to customers is correct. Homepage: [NexAIpla](https://www.nexaipla.com/).
+As a closure on the board, so that availability shown to customers is correct. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many people your team has and how each one sees their schedule today. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
