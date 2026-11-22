@@ -3,8 +3,8 @@ title: AI readiness and business transformation
 seoTitle: "AI readiness and business transformation | NexAIpla"
 description: "What AI readiness means for SMEs: the free 18-question score, red/amber/green bands, and how to choose the first automation."
 slug: ai-readiness-and-business-transformation
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -126,6 +126,7 @@ tags:
   - knowledge-base
   - ai-readiness
   - solution
+  - "pillar:ai-readiness"
   - solution
   - ai-readiness
   - ai-readiness-and-business-transformation
@@ -134,7 +135,7 @@ draft: false
 
 Which service or app solves this: AI readiness and business transformation?
 
-AI readiness asks whether one painful process can be automated with the people and data you already have — scored 0–100 in the free NexAIpla assessment. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/).
+AI readiness asks whether one painful process can be automated with the people and data you already have — scored 0–100 in the free NexAIpla assessment. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** AI readiness asks whether one painful process can be automated with the people and data you already have — scored 0–100 in the free NexAIpla assessment.
 
