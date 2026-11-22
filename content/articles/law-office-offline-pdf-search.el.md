@@ -3,8 +3,8 @@ title: Πώς ψάχνει ένα δικηγορικό γραφείο μέσα �
 seoTitle: "Πώς ψάχνει ένα δικηγορικό γραφείο μέσα σε δικογραφίες χωρίς να ανεβάσει τίποτα στο διαδίκτυο; | NexAIpla"
 description: "Με το DocsApp ο δικηγόρος ρωτά τη δικογραφία σε απλή γλώσσα και παίρνει απάντηση με παραπομπή, ενώ όλα τρέχουν offline στο γραφείο. Και με OCR."
 slug: law-office-offline-pdf-search
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Με ένα εργαλείο που τρέχει ολόκληρο στον υπολογιστή του γραφείου. Το [DocsApp](https://www.nexaipla.com/docsapp/) ευρετηριάζει τοπικά δικόγραφα, αποφάσεις, συμβάσεις και σαρωμένα έγγραφα, και ο δικηγόρος ρωτά σε απλή γλώσσα: «πότε επιδόθηκε η αγωγή;». Η απάντηση παραπέμπει στο έγγραφο. Τα μοντέλα τρέχουν μέσω Ollama χωρίς σύνδεση, οπότε το απόρρητο του εντολέα δεν εκτίθεται σε κανέναν τρίτο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Με ένα εργαλείο που τρέχει ολόκληρο στον υπολογιστή του γραφείου. Το [DocsApp](https://www.nexaipla.com/docsapp/) ευρετηριάζει τοπικά δικόγραφα, αποφάσεις, συμβάσεις και σαρωμένα έγγραφα, και ο δικηγόρος ρωτά σε απλή γλώσσα: «πότε επιδόθηκε η αγωγή;». Η απάντηση παραπέμπει στο έγγραφο. Τα μοντέλα τρέχουν μέσω Ollama χωρίς σύνδεση, οπότε το απόρρητο του εντολέα δεν εκτίθεται σε κανέναν τρίτο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Η δουλειά του δικηγόρου είναι σε μεγάλο βαθμό ανάγνωση. Και η ανάγνωση έχει ένα γνωστό πρόβλημα: το σημείο που χρειάζεστε δεν είναι ποτέ εκεί που το θυμάστε. Ήταν στην τρίτη προσθήκη ή στην απάντηση; Η ημερομηνία ήταν στην επιστολή ή στο εξώδικο;
 
@@ -249,22 +249,46 @@ draft: false
 
 ### Πώς ψάχνει ένα δικηγορικό γραφείο σε δικογραφίες χωρίς διαδίκτυο;
 
-Με το [DocsApp](https://www.nexaipla.com/docsapp/), που ευρετηριάζει τα έγγραφα και τρέχει τα μοντέλα στον υπολογιστή του γραφείου, χωρίς σύνδεση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με το [DocsApp](https://www.nexaipla.com/docsapp/), που ευρετηριάζει τα έγγραφα και τρέχει τα μοντέλα στον υπολογιστή του γραφείου, χωρίς σύνδεση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Εκτίθεται το επαγγελματικό απόρρητο;
 
-Τα έγγραφα δεν αποστέλλονται σε εξωτερική υπηρεσία. Η προστασία του ίδιου του υπολογιστή παραμένει ευθύνη του γραφείου. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Τα έγγραφα δεν αποστέλλονται σε εξωτερική υπηρεσία. Η προστασία του ίδιου του υπολογιστή παραμένει ευθύνη του γραφείου. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Βρίσκει νομολογία για το ζήτημά μου;
 
-Όχι. Ρωτά μόνο τα έγγραφα που έχετε φορτώσει. Δεν είναι βάση νομικών δεδομένων. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Ρωτά μόνο τα έγγραφα που έχετε φορτώσει. Δεν είναι βάση νομικών δεδομένων. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορώ να στηριχτώ στην απάντηση για το δικόγραφό μου;
 
-Ως δείκτη για το πού να κοιτάξετε. Το χωρίο το διαβάζετε και το παραθέτετε πάντα από το πρωτότυπο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ως δείκτη για το πού να κοιτάξετε. Το χωρίο το διαβάζετε και το παραθέτετε πάντα από το πρωτότυπο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πόσες ενεργές υποθέσεις έχει το γραφείο και πόσο μεγάλες είναι οι δικογραφίες σας. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
