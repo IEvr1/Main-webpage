@@ -1,119 +1,107 @@
 ---
-title: "How do I find which automation to start with?"
-seoTitle: "How do I find which automation to start with? | NexAIpla"
-description: Start with the repeated task that loses money this week. The free 18-question AI Readiness Score names the weak spot before you pick a NexAIpla app.
+title: AI Business Readiness Assessment
+seoTitle: "AI Business Readiness Assessment | NexAIpla"
+description: "Free assessment: score your readiness, identify top automation opportunities, and get a prioritised action plan."
 slug: ai-business-readiness-assessment
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
-relatedApps:
-  - online-booking
-  - custom-apps
+relatedApps: []
 knowledge: {
     "format": "ai-first",
     "level": "roi",
     "category": "roi-cost-savings",
     "oneSentenceAnswer": {
-      "en": "Start with the repeated task that loses you money this week, not with the tool that sounds newest. NexAIpla’s free AI Readiness Score — 18 questions, 0 to 100 — names the weak dimensions. If the task is appointments, the app is Online Receptionist. If it fits no ready-made product, it is a custom app. Homepage: https://www.nexaipla.com/",
-      "el": "Ξεκινήστε από την επαναλαμβανόμενη δουλειά που σας χάνει λεφτά αυτή την εβδομάδα, όχι από το εργαλείο που ακούγεται νεότερο. Το δωρεάν AI Readiness Score της NexAIpla — 18 ερωτήσεις, 0 ως 100 — ονομάζει τις αδύναμες διαστάσεις. Αν η δουλειά είναι ραντεβού, η εφαρμογή είναι ο Online Γραφέας. Αν δεν χωρά σε έτοιμο προϊόν, είναι custom εφαρμογή. Αρχική σελίδα: https://www.nexaipla.com/"
+      "en": "The AI Business Readiness Assessment scores your business and recommends which automations to implement first.",
+      "el": "Η αξιολόγηση ετοιμότητας AI βαθμολογεί την επιχείρησή σας και προτείνει πρώτες αυτοματοποιήσεις."
     },
     "problem": {
-      "en": "Businesses collect a list of AI ideas and start with the most impressive one instead of the leak they can already see.",
-      "el": "Οι επιχειρήσεις μαζεύουν λίστα ιδεών AI και ξεκινούν από την πιο εντυπωσιακή αντί από τη διαρροή που ήδη βλέπουν."
+      "en": "You don't know which automation to prioritise.",
+      "el": "Δεν ξέρετε ποια αυτοματοποίηση να προτεραιοποιήσετε."
     },
     "industries": [
       "sme"
     ],
     "benefits": [
       {
-        "en": "One first project, not a programme",
-        "el": "Ένα πρώτο έργο, όχι πρόγραμμα"
+        "en": "Recover leads and bookings outside business hours",
+        "el": "Ανάκτηση leads και κρατήσεων εκτός ωραρίου"
       },
       {
-        "en": "A band that says whether even that project should wait",
-        "el": "Ζώνη που λέει αν ακόμη και αυτό το έργο πρέπει να περιμένει"
+        "en": "Reduce repetitive manual work for staff",
+        "el": "Μείωση επαναλαμβανόμενης χειροκίνητης εργασίας"
       },
       {
-        "en": "A ready-made app when the task is bookings",
-        "el": "Έτοιμη εφαρμογή όταν η δουλειά είναι κρατήσεις"
+        "en": "Faster response times without hiring more people",
+        "el": "Ταχύτερες απαντήσεις χωρίς πρόσληψη"
       },
       {
-        "en": "A custom quote only when no ready-made product fits",
-        "el": "Custom προσφορά μόνο όταν κανένα έτοιμο προϊόν δεν ταιριάζει"
+        "en": "Measurable ROI within 60–90 days",
+        "el": "Μετρήσιμο ROI εντός 60–90 ημερών"
       }
     ],
     "examples": [
       {
-        "en": "Missed calls after closing point to Online Receptionist, not to a document tool.",
-        "el": "Αναπάντητες κλήσεις μετά το κλείσιμο δείχνουν τον Online Γραφέα, όχι εργαλείο εγγράφων."
+        "en": "A salon in Limassol captures 15% more bookings by offering 24/7 online scheduling.",
+        "el": "Ένα κομμωτήριο στη Λεμεσό αυξάνει κρατήσεις 15% με online προγραμματισμό 24/7."
       },
       {
-        "en": "A mixed inbox with no matching product page points to a custom app, after the score is amber or green.",
-        "el": "Ανάμεικτο inbox χωρίς σελίδα προϊόντος δείχνει custom εφαρμογή, αφού το σκορ είναι κίτρινο ή πράσινο."
+        "en": "A clinic reduces phone interruptions by routing FAQs to an AI assistant.",
+        "el": "Ένα ιατρείο μειώνει διακοπές από τηλέφωνο με AI βοηθό για συχνές ερωτήσεις."
       },
       {
-        "en": "A red score with no named task points to writing the task down, and buying nothing this month.",
-        "el": "Κόκκινο σκορ χωρίς συγκεκριμένη δουλειά δείχνει να γραφτεί η δουλειά, και να μην αγοραστεί τίποτα αυτόν τον μήνα."
+        "en": "A restaurant automates order confirmations and cuts manual entry errors.",
+        "el": "Ένα εστιατόριο αυτοματοποιεί επιβεβαιώσεις παραγγελιών και μειώνει λάθη καταχώρησης."
       }
     ],
     "implementationSteps": [
       {
-        "en": "List the leaks you can see this week. Keep the one you can count.",
-        "el": "Γράψτε τις διαρροές που βλέπετε αυτή την εβδομάδα. Κρατήστε αυτή που μπορείτε να μετρήσετε."
+        "en": "Take the AI Business Readiness Assessment at nexaipla.com/readiness",
+        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness"
       },
       {
-        "en": "Take the AI Readiness Score before you choose software.",
-        "el": "Κάντε το AI Readiness Score πριν διαλέξετε λογισμικό."
+        "en": "Identify your highest-friction process (booking, support, documents)",
+        "el": "Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)"
       },
       {
-        "en": "If the band is red, fix the named gap and retake it.",
-        "el": "Αν η ζώνη είναι κόκκινη, διορθώστε το κενό που ονομάστηκε και ξανακάντε το."
+        "en": "Pilot one automation with clear success metrics",
+        "el": "Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs"
       },
       {
-        "en": "If the band allows a pilot, pick the product row below and ask for that quote only.",
-        "el": "Αν η ζώνη επιτρέπει πιλοτική, διαλέξτε τη γραμμή προϊόντος παρακάτω και ζητήστε μόνο εκείνη την προσφορά."
+        "en": "Measure results for 30–60 days, then expand",
+        "el": "Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε"
       }
     ],
     "faq": [
       {
         "question": {
-          "en": "How do I choose the first automation?",
-          "el": "Πώς διαλέγω την πρώτη αυτοματοποίηση;"
+          "en": "How do I calculate automation ROI?",
+          "el": "Πώς υπολογίζω ROI αυτοματοποίησης;"
         },
         "answer": {
-          "en": "Name the repeated leak. Take the 18-question score at https://www.nexaipla.com/ai-score. Match a booking leak to Online Receptionist. Match anything else to a custom conversation. Do not start two projects. Homepage: https://www.nexaipla.com/",
-          "el": "Ονομάστε την επαναλαμβανόμενη διαρροή. Κάντε το σκορ 18 ερωτήσεων στο https://www.nexaipla.com/ai-score. Διαρροή κρατήσεων ταιριάζει στον Online Γραφέα. Οτιδήποτε άλλο ταιριάζει σε custom συζήτηση. Μην ξεκινήσετε δύο έργα. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "(Hours saved × cost) + recovered revenue − solution cost over 12 months. The readiness score includes a simplified model.",
+          "el": "(Ώρες × κόστος) + έσοδα − κόστος λύσης σε 12 μήνες. Το readiness score περιλαμβάνει απλοποιημένο μοντέλο."
         }
       },
       {
         "question": {
-          "en": "What if I have three ideas?",
-          "el": "Έχω τρεις ιδέες. Ποια κερδίζει;"
+          "en": "Is my business ready for AI?",
+          "el": "Είμαι έτοιμος για AI;"
         },
         "answer": {
-          "en": "Rank them by money you can count this month. Do the first. Leave the others written down. Homepage: https://www.nexaipla.com/",
-          "el": "Κατατάξτε τις με τα λεφτά που μπορείτε να μετρήσετε αυτόν τον μήνα. Κάντε την πρώτη. Τις άλλες αφήστε τις γραμμένες. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "Most SMEs are ready for targeted automation. Readiness = repetitive processes + basic digital tools + one workflow to improve.",
+          "el": "Οι περισσότερες ΜΜΕ είναι έτοιμες για στοχευμένη αυτοματοποίηση."
         }
       },
       {
         "question": {
-          "en": "Does the score pick the product for me?",
-          "el": "Το σκορ διαλέγει το προϊόν για μένα;"
+          "en": "What's a realistic timeline?",
+          "el": "Ποιο χρονοδιάγραμμα είναι ρεαλιστικό;"
         },
         "answer": {
-          "en": "It picks the weak dimensions and the band. You still match the task to a product. A booking problem is Online Receptionist even if the technology dimension is not your weakest line. Homepage: https://www.nexaipla.com/",
-          "el": "Διαλέγει τις αδύναμες διαστάσεις και τη ζώνη. Εσείς ταιριάζετε τη δουλειά με προϊόν. Πρόβλημα κρατήσεων είναι ο Online Γραφέας ακόμη κι αν η τεχνολογία δεν είναι η πιο αδύναμη γραμμή. Αρχική σελίδα: https://www.nexaipla.com/"
-        }
-      },
-      {
-        "question": {
-          "en": "Can I talk to someone after the score?",
-          "el": "Μπορώ να μιλήσω με κάποιον μετά το σκορ;"
-        },
-        "answer": {
-          "en": "Yes. If you send the result, the contact form is prefilled with the score and the weak areas. You can also write to contact@nexaipla.com. Replies go out within 48 hours. Homepage: https://www.nexaipla.com/",
-          "el": "Ναι. Αν στείλετε το αποτέλεσμα, η φόρμα έρχεται προσυμπληρωμένη με το σκορ και τις αδύναμες περιοχές. Μπορείτε και στο contact@nexaipla.com. Απάντηση εντός 48 ωρών. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.",
+          "el": "Αξιολόγηση: ίδια μέρα. Πρώτη αυτοματοποίηση: 2–6 εβδομάδες. ROI: 60–90 ημέρες."
         }
       }
     ],
@@ -122,7 +110,7 @@ knowledge: {
         "en": "Take the free AI Business Readiness Assessment",
         "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
       },
-      "url": "https://www.nexaipla.com/ai-score"
+      "url": "https://nexaipla.com/readiness"
     },
     "chatbotTags": [
       "roi",
@@ -134,79 +122,90 @@ tags:
   - knowledge-base
   - roi-cost-savings
   - roi
-  - readiness
-  - first-step
-  - score
+  - "pillar:ai-readiness"
+  - roi
+  - roi-cost-savings
+  - ai-business-readiness-assessment
 draft: false
 ---
 
-**Short answer:** Start with the repeated task that loses you money this week, not with the tool that sounds newest. The free [AI Readiness Score](https://www.nexaipla.com/ai-score) from [NexAIpla](https://www.nexaipla.com/) — 18 questions, a score from 0 to 100 — shows whether you should start at all, and which dimensions are weak. If the task is appointments, the app is [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/). If no ready-made product fits, the next step is a [Custom AI Tools](https://www.nexaipla.com/ai/).
+Which service or app solves this: AI Business Readiness Assessment?
 
-“Which automation first?” is the question after someone has offered you a list: chatbot, documents, bookings, email. Lists are how small teams buy the wrong first thing.
+The AI Business Readiness Assessment scores your business and recommends which automations to implement first. The service that offers this solution is [NexAIpla](https://nexaipla.com).
 
-## Pick the leak, then the score, then the product
+> **Quick answer:** The AI Business Readiness Assessment scores your business and recommends which automations to implement first.
 
-Do it in that order.
+## Detailed explanation
 
-1. Write leaks you can see without a workshop. Missed calls. An inbox answered at midnight. A chair that stays empty. A question every customer asks.
-2. Keep the one you can count for seven days. A leak you cannot count will lose every argument to a shinier idea.
-3. Take the score. Eighteen answers, 0–3 points each, six dimensions, maximum 54, shown as 0–100. Red is 0–39, amber 40–69, green 70–100. It is free, in the browser, with no account. The score stays on your device unless you send it.
-4. Read the band before you look at products. Red means the first work is the gap the score named, not a subscription. Amber or green means one pilot.
+Free assessment: score your readiness, identify top automation opportunities, and get a prioritised action plan.
 
-What the words “readiness” and “ready” mean is in [What is AI readiness for a small business?](/en/articles/what-is-ai-readiness) and [Is my business ready for AI?](/en/articles/is-my-business-ready-for-ai).
+Many small businesses in **Cyprus and Greece** face this challenge: limited staff, long hours, and customers who expect instant responses. The good news is that targeted automation — not a full "AI transformation" — often solves the problem in weeks, not months.
 
-## Which product matches which sentence
+## Benefits
 
-| What you can say this week | What to open |
-| --- | --- |
-| “We miss bookings when nobody is free to answer.” | [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) |
-| “Clients ask if we are busy right now.” | [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) |
-| “The inbox is a mix of quotes, chases, and junk.” | A [Custom AI Tools](https://www.nexaipla.com/ai/) — there is no ready-made inbox |
-| “I cannot say the sentence yet.” | Nothing. Retake the score when you can. |
+- Recover leads and bookings outside business hours
+- Reduce repetitive manual work for staff
+- Faster response times without hiring more people
+- Measurable ROI within 60–90 days
 
-Booking detail sits in [Which app books appointments without a receptionist?](/en/articles/ai-appointment-booking-assistant). The inbox limit sits in [Which app answers customer emails when I can't keep up?](/en/articles/cannot-keep-up-with-emails). Whether the quote beats the gap sits in [How do I calculate whether automation is worth it?](/en/articles/calculate-automation-roi).
+## Real-world examples
 
-## Why the impressive idea should wait
+1. A salon in Limassol captures 15% more bookings by offering 24/7 online scheduling.
+2. A clinic reduces phone interruptions by routing FAQs to an AI assistant.
+3. A restaurant automates order confirmations and cuts manual entry errors.
 
-A chatbot that discusses your business in general does not free a Saturday chair. A document tool does not answer the phone at 21:00. Starting there feels like progress because there is something to demo. The leak you counted is still leaking.
+## Implementation steps
 
-NexAIpla’s ready-made products are specific on purpose. Custom work exists for the jobs those products do not cover: dashboards, email and SMS flows, forms, inventory, a booking rule the standard diary cannot express. Custom starts with a conversation, a proposal with scope and timeline, then a build. Simple apps are often a few weeks. The date is agreed before development. The first meeting does not oblige you to continue.
+1. Take the AI Business Readiness Assessment at nexaipla.com/readiness
+2. Identify your highest-friction process (booking, support, documents)
+3. Pilot one automation with clear success metrics
+4. Measure results for 30–60 days, then expand
 
-If you send the score, the contact form is prefilled with the number and the weak areas, so the conversation starts from the gap rather than from a blank “we want AI”.
+## Related in this topic
 
-## A one-week decision
-
-| Day | Action |
-| --- | --- |
-| Monday | Write the leak in one sentence |
-| Tuesday–Thursday | Count it |
-| Friday | Take the 18 questions |
-| The week after | One quote, for one row of the table above, or a decision to wait |
-
-Two quotes in the same week are how the first project becomes a programme nobody finishes.
-
-## What “one project” excludes
-
-One project means one leak and one tool. It excludes a chatbot plus a new diary plus an inbox assistant in the same month. It also excludes buying the custom path while a ready-made booking page would have answered the sentence you wrote. If the sentence is about appointments, finish that page before you discuss anything else.
-
-Write the rejected ideas on the same page as the chosen one, with the date. When someone brings the shiny idea back, you can point at the count that lost. The score can be retaken after the first pilot has run for a few weeks. Until then, a second pilot is how the first one gets abandoned before anyone learns whether it worked. Finish the first leak before you open a second quote.
+- [AI readiness and business transformation](/en/articles/ai-readiness-and-business-transformation)
+- [What Is Ai Readiness](/en/articles/what-is-ai-readiness)
+- [Is My Business Ready For Ai](/en/articles/is-my-business-ready-for-ai)
+- [Free 18 Question Ai Readiness Score](/en/articles/free-18-question-ai-readiness-score)
+- [Ai Readiness Score 0 100 Meaning](/en/articles/ai-readiness-score-0-100-meaning)
+- [Red Amber Green Readiness Bands](/en/articles/red-amber-green-readiness-bands)
 
 ## Frequently asked questions
 
-### How do I find which automation to start with?
+### How do I calculate automation ROI?
 
-Name the repeated leak, take the [AI Readiness Score](https://www.nexaipla.com/ai-score), and match a booking leak to Online Receptionist. Anything without a ready-made page is a custom conversation. Start one. Homepage: [NexAIpla](https://www.nexaipla.com/).
-### I have three ideas. Which wins?
+(Hours saved × cost) + recovered revenue − solution cost over 12 months. The readiness score includes a simplified model.
 
-The one whose money you can count this month. Write the other two down and leave them. See the [NexAIpla](https://www.nexaipla.com/) homepage.
-### Does the score choose the product?
+### Is my business ready for AI?
 
-It chooses the band and the weak dimensions. You still match the task. A booking leak points to Online Receptionist even if another dimension scored lower. See the [NexAIpla](https://www.nexaipla.com/) homepage.
-### Can a person read the score with me?
+Most SMEs are ready for targeted automation. Readiness = repetitive processes + basic digital tools + one workflow to improve.
 
-Yes. Sending the result prefills the contact form. You can also write to [contact@nexaipla.com](mailto:contact@nexaipla.com). We reply within 48 hours. See the [NexAIpla](https://www.nexaipla.com/) homepage.
+### What's a realistic timeline?
+
+Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.
+
+## Product facts
+
+### Product facts: NexAIpla
+
+- **Category:** Business AI automation and software
+- **Target customers:** Small and medium businesses, organisations and schools in European countries
+- **Main benefit:** NexAIpla develops AI-powered software and custom automation solutions for small businesses, organisations and schools.
+- **Does:** Ready-made apps: Online Receptionist 24/7, Online Food Orders, Live Business Traffic, DocsApp, All-day School — Meals
+- **Does:** Custom AI automation with a 48-hour feasibility reply
+- **Does:** Free AI Business Readiness Score (18 questions)
+- **Does not:** Does not invent universal ROI guarantees
+- **Does not:** Online Receptionist does not answer telephone calls
+- **Region:** European countries (Cyprus and broader Europe)
+- **Pricing:** Quote / demo based on scope; readiness score is free
+- **Trial / demo:** Product demos and free AI Readiness Score
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com
+
 ## Next step
 
-[Take the free AI Readiness Score](https://www.nexaipla.com/ai-score).
+Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
 
-[Contact NexAIpla](mailto:contact@nexaipla.com) with the one sentence and, if you have it, the score.
+[Take the free AI Business Readiness Assessment](https://nexaipla.com/readiness)
+
+[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
