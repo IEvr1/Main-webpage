@@ -3,8 +3,8 @@ title: "Πώς επιβεβαιώνονται, υπενθυμίζονται κα
 seoTitle: "Πώς επιβεβαιώνονται, υπενθυμίζονται και ακυρώνονται τα ραντεβού με SMS χωρίς τηλεφωνήματα; | NexAIpla"
 description: Ο Online Γραφέας 24/7 στέλνει SMS επιβεβαίωσης και αυτόματη υπενθύμιση με σύνδεσμο για ακύρωση ή αλλαγή ώρας από τον ίδιο τον πελάτη. Χωρίς κλήσεις.
 slug: sms-appointment-confirm-remind-cancel
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Με τρία μηνύματα που φεύγουν μόνα τους. Στον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πελάτης παίρνει SMS επιβεβαίωσης μόλις κλείσει, και αυτόματη υπενθύμιση πριν από το ραντεβού. Και τα δύο περιέχουν τον ίδιο σύνδεσμο, από τον οποίο ακυρώνει ή αλλάζει ώρα μόνος του. Η ώρα που ελευθερώνεται εμφανίζεται αμέσως διαθέσιμη, και ο πίνακάς σας ενημερώνεται χωρίς κανένα τηλεφώνημα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Με τρία μηνύματα που φεύγουν μόνα τους. Στον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πελάτης παίρνει SMS επιβεβαίωσης μόλις κλείσει, και αυτόματη υπενθύμιση πριν από το ραντεβού. Και τα δύο περιέχουν τον ίδιο σύνδεσμο, από τον οποίο ακυρώνει ή αλλάζει ώρα μόνος του. Η ώρα που ελευθερώνεται εμφανίζεται αμέσως διαθέσιμη, και ο πίνακάς σας ενημερώνεται χωρίς κανένα τηλεφώνημα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Ένα ραντεβού δεν είναι μία στιγμή. Είναι μια μικρή ιστορία που κρατά μέρες. Ο πελάτης κλείνει. Περνά μια εβδομάδα. Το ξεχνά ή το θυμάται. Κάτι του τυχαίνει ή δεν του τυχαίνει. Έρχεται ή δεν έρχεται. Σε κάθε σημείο αυτής της ιστορίας, κάποιος πρέπει να μιλήσει με κάποιον.
 
@@ -240,22 +240,47 @@ draft: false
 
 ### Πώς επιβεβαιώνονται και υπενθυμίζονται τα ραντεβού;
 
-Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) στέλνει SMS επιβεβαίωσης στην κράτηση και αυτόματη υπενθύμιση πριν από το ραντεβού. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) στέλνει SMS επιβεβαίωσης στην κράτηση και αυτόματη υπενθύμιση πριν από το ραντεβού. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορεί ο πελάτης να ακυρώσει χωρίς να τηλεφωνήσει;
 
-Ναι. Ο σύνδεσμος στα μηνύματα του επιτρέπει να ακυρώσει ή να αλλάξει ώρα μόνος του. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Ο σύνδεσμος στα μηνύματα του επιτρέπει να ακυρώσει ή να αλλάξει ώρα μόνος του. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται με την ώρα που ακυρώθηκε;
 
-Επιστρέφει αμέσως στη διαθεσιμότητα και μπορεί να κλειστεί από άλλον πελάτη. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Επιστρέφει αμέσως στη διαθεσιμότητα και μπορεί να κλειστεί από άλλον πελάτη. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Κάνει το σύστημα τηλεφωνικές υπενθυμίσεις;
 
-Όχι. Δεν κάνει ούτε δέχεται κλήσεις. Οι υπενθυμίσεις είναι γραπτά μηνύματα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Δεν κάνει ούτε δέχεται κλήσεις. Οι υπενθυμίσεις είναι γραπτά μηνύματα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ακόμη αποφασίζετε αν οι κρατήσεις είναι η πρώτη δουλειά που αξίζει να αυτοματοποιηθεί. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πόσα ραντεβού έχετε την εβδομάδα και πόσοι πελάτες δεν εμφανίζονται. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό online κρατήσεων για μικρές επιχειρήσεις](/el/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/el/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/el/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/el/articles/booking-after-hours-without-receptionist)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
