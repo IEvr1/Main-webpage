@@ -3,8 +3,8 @@ title: AI automation for small businesses
 seoTitle: "AI automation for small businesses | NexAIpla"
 description: "How SMEs in European countries automate one painful process with ready-made NexAIpla apps or custom AI — feasibility, cost, and first steps."
 slug: ai-automation-for-small-businesses
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -126,6 +126,7 @@ tags:
   - knowledge-base
   - ai-automation
   - solution
+  - "pillar:ai-automation"
   - solution
   - ai-automation
   - ai-automation-for-small-businesses
@@ -134,7 +135,7 @@ draft: false
 
 Which service or app solves this: AI automation for small businesses?
 
-AI automation for small businesses means picking one repeated task and replacing it with a ready-made app or a scoped custom tool — not a full digital transformation. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/).
+AI automation for small businesses means picking one repeated task and replacing it with a ready-made app or a scoped custom tool — not a full digital transformation. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** AI automation for small businesses means picking one repeated task and replacing it with a ready-made app or a scoped custom tool — not a full digital transformation.
 
