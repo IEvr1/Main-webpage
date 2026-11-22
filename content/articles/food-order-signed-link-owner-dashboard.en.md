@@ -3,8 +3,8 @@ title: "How does the owner get into the order dashboard without a username and p
 seoTitle: "How does the owner get into the order dashboard without a username and password? | NexAIpla"
 description: "The Online Food Orders dashboard opens with a signed link instead of a password, and drivers have a separate link of their own. No shared password."
 slug: food-order-signed-link-owner-dashboard
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** With a signed link. In [Online Food Orders](https://www.nexaipla.com/foodorder/) the owner receives a secure link that opens the dashboard directly: live queue, key figures, closures, bulk cancel, and settings. There is no username and no password to be forgotten or shared. Drivers have a different link, which opens only the delivery board. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** With a signed link. In [Online Food Orders](https://www.nexaipla.com/foodorder/) the owner receives a secure link that opens the dashboard directly: live queue, key figures, closures, bulk cancel, and settings. There is no username and no password to be forgotten or shared. Drivers have a different link, which opens only the delivery board. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 In a restaurant the password is never secret. The shift changes, the tablet logs out, somebody has to get in now, and the password is called out across the counter. In six months twelve people know it, five of whom no longer work there.
 
@@ -225,22 +225,47 @@ Each restaurant runs on its own deployment. Your link opens only your shop, and 
 
 ### How does the owner get in without a password?
 
-With a signed link from [Online Food Orders](https://www.nexaipla.com/foodorder/), which opens the dashboard directly with queue, figures, closures, and settings. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With a signed link from [Online Food Orders](https://www.nexaipla.com/foodorder/), which opens the dashboard directly with queue, figures, closures, and settings. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is a link without a password secure?
 
-The link carries a digital signature that can be neither guessed nor forged. Its security depends on its not being shared. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The link carries a digital signature that can be neither guessed nor forged. Its security depends on its not being shared. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do drivers have the same link?
 
-No. They have a separate link that opens only the delivery board, without figures and settings. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. They have a separate link that opens only the delivery board, without figures and settings. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What do I do if the link falls into the wrong hands?
 
-You ask at once for a new link to be issued, so that the previous one stops working. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You ask at once for a new link to be issued, so that the previous one stops working. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are weighing online orders against other changes in the restaurant. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many people need access to the dashboard and how many drivers work with you. We reply within 48 hours.
+
+## Related in this topic
+
+- [Restaurant online ordering systems](/en/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/en/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/en/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/en/articles/pickup-and-delivery-same-food-app)
+
+## Product facts
+
+### Product facts: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
