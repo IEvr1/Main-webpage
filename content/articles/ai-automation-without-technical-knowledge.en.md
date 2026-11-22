@@ -3,8 +3,8 @@ title: "Do I need technical knowledge to ask for AI automation?"
 seoTitle: "Do I need technical knowledge to ask for AI automation? | NexAIpla"
 description: "No. With Custom AI Tools you describe the job in your own words, in writing or by voice message, and within 48 hours learn if and how it can be automated."
 slug: ai-automation-without-technical-knowledge
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** No. With [Custom AI Tools](https://www.nexaipla.com/ai/) you describe your need the way you would explain it to a new employee: what arrives, what you do with it, where it ends up. You do it in a form or by voice message. Translating it into a technical solution is our job, and the 48-hour reply is written in plain language. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** No. With [Custom AI Tools](https://www.nexaipla.com/ai/) you describe your need the way you would explain it to a new employee: what arrives, what you do with it, where it ends up. You do it in a form or by voice message. Translating it into a technical solution is our job, and the 48-hour reply is written in plain language. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Many owners of small businesses never ask. Not because they have no problem, but because they think they must first learn the language. They read two articles full of acronyms, feel that this is not for them, and go back to the notebook.
 
@@ -253,22 +253,45 @@ That is why it helps to tell us who will use it. You? The employee at the till? 
 
 ### Do I need technical knowledge to ask for automation?
 
-No. With [Custom AI Tools](https://www.nexaipla.com/ai/) you describe the need in your own words, and the technical analysis is done by us. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. With [Custom AI Tools](https://www.nexaipla.com/ai/) you describe the need in your own words, and the technical analysis is done by us. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I send a voice message instead of text?
 
-Yes. The need is described either in the form or by voice message. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The need is described either in the form or by voice message. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What should I mention in the description?
 
-The type and size of the business, the problem, what success looks like, and the tools you already have. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The type and size of the business, the problem, what success looks like, and the tools you already have. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Shall I understand the reply?
 
-It is written in plain language, with a feasibility percentage, a cost range, a time estimate, and next steps. Homepage: [NexAIpla](https://www.nexaipla.com/).
+It is written in plain language, with a feasibility percentage, a cost range, a time estimate, and next steps. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want a number for your starting point before you describe the task. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us in your own words which job you would like not to have to do yourself. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Custom AI Tools
+
+- **Category:** Custom AI automation
+- **Target customers:** SMBs with a repeated process to automate
+- **Main benefit:** Custom AI Tools is NexAIpla’s path for automating one repeated business task when a ready-made app is not enough.
+- **Does:** 48-hour feasibility reply with cost range and timeline
+- **Does:** On-premise / offline options when required
+- **Does not:** Does not start a build before a feasibility discussion
+- **Region:** European countries
+- **Pricing:** Scoped quote after feasibility reply
+- **Trial / demo:** Feasibility reply — no obligation
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/ai/
