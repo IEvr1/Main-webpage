@@ -3,8 +3,8 @@ title: "Do parents need an app or an account for the school meals system?"
 seoTitle: "Do parents need an app or an account for the school meals system? | NexAIpla"
 description: No. In All-day School — Meals each parent receives a personal link by SMS and opens it in the phone's browser. No password. Nothing to install.
 slug: parents-no-app-school-meals-sms
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** No. In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) parents install nothing and create no account. Each family receives by SMS one personal link per child and opens it in the phone's browser. From there they report absences, plan later ones, and update allergies. Anyone who loses the link gets it again by SMS by typing their mobile number. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** No. In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) parents install nothing and create no account. Each family receives by SMS one personal link per child and opens it in the phone's browser. From there they report absences, plan later ones, and update allergies. Anyone who loses the link gets it again by SMS by typing their mobile number. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A school does not choose its users. It has three hundred families with every kind of phone, parents who work shifts, grandparents who take over on Wednesdays, families who arrived in the country last year. Anything that asks for a download, a sign-up by email, and a password with a capital and a symbol will be completed by half of them. The other half will keep phoning, and the system will show half a picture.
 
@@ -201,22 +201,46 @@ The staff screens are a different matter. The office, the kitchen, and the admin
 
 ### Do parents need an app or an account?
 
-No. In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) the parent opens a personal link from an SMS in the phone's browser, with no sign-up and no password. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) the parent opens a personal link from an SMS in the phone's browser, with no sign-up and no password. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What does a parent do after losing the link?
 
-On the school page they press "I lost my personal link", type their mobile number, and receive it again by SMS. Homepage: [NexAIpla](https://www.nexaipla.com/).
+On the school page they press "I lost my personal link", type their mobile number, and receive it again by SMS. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does each child have a separate link?
 
-Yes. The link is per child. A parent with several children can alternatively report an absence with their mobile number and select the child. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The link is per child. A parent with several children can alternatively report an absence with their mobile number and select the child. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is it safe without a password?
 
-The link is random, is renewed when it is sent again, and expires on 31 July. The public forms limit attempts and do not disclose whether a number is on the list. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The link is random, is renewed when it is sent again, and expires on 31 July. The public forms limit attempts and do not disclose whether a number is on the list. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want a school meals system in which parents need neither an app nor a password. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Kitchen Live Portions All Day School](/en/articles/kitchen-live-portions-all-day-school)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
