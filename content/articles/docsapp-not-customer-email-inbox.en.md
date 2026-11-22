@@ -3,8 +3,8 @@ title: "Does DocsApp read my email and reply to customers?"
 seoTitle: "Does DocsApp read my email and reply to customers? | NexAIpla"
 description: "No. DocsApp questions documents that sit on your disk. Its \"inbox\" is a folder of files, not your email inbox, and it sends nothing. It works offline."
 slug: docsapp-not-customer-email-inbox
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** No. [DocsApp](https://www.nexaipla.com/docsapp/) is a document assistant that runs offline on Windows. It does not connect to an email account, does not read incoming mail, and does not send replies to customers. The word "inbox" in the application means a folder on your disk where you drop files for indexing. For email overload there are other solutions, through [Custom AI Tools](https://www.nexaipla.com/ai/). Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** No. [DocsApp](https://www.nexaipla.com/docsapp/) is a document assistant that runs offline on Windows. It does not connect to an email account, does not read incoming mail, and does not send replies to customers. The word "inbox" in the application means a folder on your disk where you drop files for indexing. For email overload there are other solutions, through [Custom AI Tools](https://www.nexaipla.com/ai/). Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The misunderstanding is understandable. The application has a folder called inbox, and in English the word also means incoming mail. Add that half the internet advertises "AI that answers your email", and the conclusion draws itself. It is wrong, though, and better cleared up before you install anything.
 
@@ -239,22 +239,46 @@ Yes. An accounting office can use the document assistant for client files and, s
 
 ### Does DocsApp read my email?
 
-No. [DocsApp](https://www.nexaipla.com/docsapp/) does not connect to an email account. It questions only files that you put in the intake folder. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. [DocsApp](https://www.nexaipla.com/docsapp/) does not connect to an email account. It questions only files that you put in the intake folder. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What does "inbox" mean in the application, then?
 
-It is a folder on your disk, where you drop documents for indexing. It has nothing to do with mail. Homepage: [NexAIpla](https://www.nexaipla.com/).
+It is a folder on your disk, where you drop documents for indexing. It has nothing to do with mail. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I question an email I saved as a PDF?
 
-Yes. Once it becomes a file and goes into the intake folder, it is treated like any other document. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. Once it becomes a file and goes into the intake folder, it is treated like any other document. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What should I use if I am drowning in email?
 
-A communication solution, not a document assistant. Describe your case through Custom AI Tools for a reply within 48 hours. Homepage: [NexAIpla](https://www.nexaipla.com/).
+A communication solution, not a document assistant. Describe your case through Custom AI Tools for a reply within 48 hours. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us whether your problem is incoming messages or searching inside documents. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
