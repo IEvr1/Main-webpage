@@ -3,8 +3,8 @@ title: "Πού δημοσιεύει ένα κατάστημα το ωράριο,
 seoTitle: "Πού δημοσιεύει ένα κατάστημα το ωράριο, τις αργίες και τα έκτακτα κλεισίματα; | NexAIpla"
 description: "Η σελίδα Live Business Traffic δείχνει εβδομαδιαίο ωράριο, ειδικές αργίες και «προσωρινά κλειστά» με ένα πάτημα, δίπλα στο επίπεδο κίνησης. Από το κινητό."
 slug: shop-hours-closures-public-page
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ένα κατάστημα δημοσιεύει ωράριο, αργίες και έκτακτα κλεισίματα στη δημόσια σελίδα του στο [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). Η σελίδα δείχνει το εβδομαδιαίο ωράριο, τις ειδικές αργίες, καθαρή ένδειξη «ανοιχτά» ή «προσωρινά κλειστά» και μια ανακοίνωση, δίπλα στο ζωντανό επίπεδο κίνησης. Ο ιδιοκτήτης τα αλλάζει από ιδιωτικό πίνακα, όπου υπάρχει και έκτακτο κλείσιμο με ένα πάτημα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ένα κατάστημα δημοσιεύει ωράριο, αργίες και έκτακτα κλεισίματα στη δημόσια σελίδα του στο [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). Η σελίδα δείχνει το εβδομαδιαίο ωράριο, τις ειδικές αργίες, καθαρή ένδειξη «ανοιχτά» ή «προσωρινά κλειστά» και μια ανακοίνωση, δίπλα στο ζωντανό επίπεδο κίνησης. Ο ιδιοκτήτης τα αλλάζει από ιδιωτικό πίνακα, όπου υπάρχει και έκτακτο κλείσιμο με ένα πάτημα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Το «είστε ανοιχτά;» είναι η παλαιότερη ερώτηση που δέχεται ένα μαγαζί και θα έπρεπε να είναι η πιο εύκολη. Στην πράξη η απάντηση ζει σε τέσσερα σημεία που διαφωνούν μεταξύ τους: σε ένα αυτοκόλλητο στην πόρτα, σε ένα προφίλ Google που διορθώθηκε τελευταία φορά πριν από δύο καλοκαίρια, σε μια καρφιτσωμένη ανάρτηση και στο κεφάλι του ιδιοκτήτη. Η διαφωνία φαίνεται ακριβώς τις μέρες που ο πελάτης έχει τη μεγαλύτερη ανάγκη να ξέρει: στις γιορτές, στο θερινό ωράριο, το απόγευμα που έρχεται ο υδραυλικός.
 
@@ -202,22 +202,45 @@ draft: false
 
 ### Πού δημοσιεύει ένα κατάστημα ωράριο και κλεισίματα;
 
-Στη δημόσια σελίδα του στο [Live Business Traffic](https://www.nexaipla.com/shoptraffic/), που δείχνει εβδομαδιαίο ωράριο, ειδικές αργίες, ένδειξη «ανοιχτά» ή «προσωρινά κλειστά» και μια ανακοίνωση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στη δημόσια σελίδα του στο [Live Business Traffic](https://www.nexaipla.com/shoptraffic/), που δείχνει εβδομαδιαίο ωράριο, ειδικές αργίες, ένδειξη «ανοιχτά» ή «προσωρινά κλειστά» και μια ανακοίνωση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πόσο γρήγορα ανακοινώνω ένα απρόβλεπτο κλείσιμο;
 
-Με ένα πάτημα. Ο πίνακας ιδιοκτήτη έχει έκτακτο κλείσιμο, και η δημόσια σελίδα γυρίζει αμέσως σε «προσωρινά κλειστά». Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με ένα πάτημα. Ο πίνακας ιδιοκτήτη έχει έκτακτο κλείσιμο, και η δημόσια σελίδα γυρίζει αμέσως σε «προσωρινά κλειστά». Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορώ να περάσω τις αργίες από πριν;
 
-Ναι. Οι ειδικές αργίες προστίθενται εκ των προτέρων, και τη μέρα εκείνη η σελίδα δείχνει ήδη το κατάστημα κλειστό. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Οι ειδικές αργίες προστίθενται εκ των προτέρων, και τη μέρα εκείνη η σελίδα δείχνει ήδη το κατάστημα κλειστό. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πρέπει να ενημερώνω ακόμη το Google;
 
-Η σελίδα δεν αλλάζει το προφίλ σας στο Google. Τα περισσότερα καταστήματα βάζουν στο προφίλ τον σύνδεσμο και αντιμετωπίζουν τη σελίδα ως το σημείο που είναι πάντα ενημερωμένο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Η σελίδα δεν αλλάζει το προφίλ σας στο Google. Τα περισσότερα καταστήματα βάζουν στο προφίλ τον σύνδεσμο και αντιμετωπίζουν τη σελίδα ως το σημείο που είναι πάντα ενημερωμένο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πού μπαίνει μια σελίδα ζωντανής κίνησης ανάμεσα στις άλλες προτεραιότητες του καταστήματος. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι θέλετε μία δημόσια σελίδα για ωράριο, αργίες και έκτακτα κλεισίματα. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Αυτοματοποίηση AI για μικρές επιχειρήσεις](/el/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/el/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/el/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/el/articles/cannot-keep-up-with-emails)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
