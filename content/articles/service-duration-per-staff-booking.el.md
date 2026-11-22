@@ -3,8 +3,8 @@ title: Πώς ορίζω διάρκεια υπηρεσίας και ποιος �
 seoTitle: "Πώς ορίζω διάρκεια υπηρεσίας και ποιος την κάνει στις online κρατήσεις; | NexAIpla"
 description: "Στον Online Γραφέα 24/7 κάθε υπηρεσία έχει τη διάρκειά της και κάθε μέλος της ομάδας τις δικές του υπηρεσίες, και οι ώρες υπολογίζονται ανάλογα. Ζωντανά."
 slug: service-duration-per-staff-booking
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Στο στήσιμο του [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ορίζετε τον κατάλογο υπηρεσιών με τη διάρκεια της καθεμιάς, και ποια μέλη της ομάδας κάνουν ποια υπηρεσία. Από εκεί και πέρα η διαθεσιμότητα υπολογίζεται ζωντανά ανά υπηρεσία και άτομο: ο πελάτης βλέπει μόνο όσους προσφέρουν αυτό που ζήτησε, και μόνο ώρες όπου η υπηρεσία χωρά ολόκληρη. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Στο στήσιμο του [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ορίζετε τον κατάλογο υπηρεσιών με τη διάρκεια της καθεμιάς, και ποια μέλη της ομάδας κάνουν ποια υπηρεσία. Από εκεί και πέρα η διαθεσιμότητα υπολογίζεται ζωντανά ανά υπηρεσία και άτομο: ο πελάτης βλέπει μόνο όσους προσφέρουν αυτό που ζήτησε, και μόνο ώρες όπου η υπηρεσία χωρά ολόκληρη. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Το πρόγραμμα μιας επιχείρησης υπηρεσιών δεν είναι πλέγμα. Είναι παζλ από κομμάτια διαφορετικού μεγέθους, και καθένα ταιριάζει μόνο σε ορισμένα χέρια. Όταν το στριμώχνετε σε ίσα κουτάκια, είτε χάνετε χρόνο είτε τρέχετε πίσω από το ρολόι όλη μέρα.
 
@@ -251,22 +251,47 @@ draft: false
 
 ### Πώς ορίζω διάρκεια και προσωπικό για κάθε υπηρεσία;
 
-Στο στήσιμο του [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) κάθε υπηρεσία παίρνει διάρκεια και αντιστοιχίζεται με τα μέλη της ομάδας που την κάνουν. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στο στήσιμο του [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) κάθε υπηρεσία παίρνει διάρκεια και αντιστοιχίζεται με τα μέλη της ομάδας που την κάνουν. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Βλέπει ο πελάτης άτομα που δεν κάνουν την υπηρεσία που ζήτησε;
 
-Όχι. Η διαθεσιμότητα είναι ανά υπηρεσία και άτομο, άρα προτείνονται μόνο όσοι την προσφέρουν. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η διαθεσιμότητα είναι ανά υπηρεσία και άτομο, άρα προτείνονται μόνο όσοι την προσφέρουν. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πού βάζω τον χρόνο καθαρισμού ανάμεσα στα ραντεβού;
 
-Ο απλούστερος τρόπος είναι να τον συμπεριλάβετε στη διάρκεια της υπηρεσίας. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ο απλούστερος τρόπος είναι να τον συμπεριλάβετε στη διάρκεια της υπηρεσίας. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται αν δύο άτομα θέλουν διαφορετικό χρόνο για την ίδια δουλειά;
 
-Μπορεί να δηλωθεί ως δύο υπηρεσίες με διαφορετική διάρκεια. Πείτε μας το στο στήσιμο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Μπορεί να δηλωθεί ως δύο υπηρεσίες με διαφορετική διάρκεια. Πείτε μας το στο στήσιμο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ακόμη αποφασίζετε αν οι κρατήσεις είναι η πρώτη δουλειά που αξίζει να αυτοματοποιηθεί. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε τις πέντε πιο συχνές υπηρεσίες σας, πόσο κρατούν και ποιος τις κάνει. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό online κρατήσεων για μικρές επιχειρήσεις](/el/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/el/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/el/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/el/articles/booking-after-hours-without-receptionist)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
