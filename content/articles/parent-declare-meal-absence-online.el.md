@@ -3,8 +3,8 @@ title: Πώς δηλώνει ο γονέας online ότι το παιδί δε�
 seoTitle: "Πώς δηλώνει ο γονέας online ότι το παιδί δεν θα φάει σήμερα στο ολοήμερο; | NexAIpla"
 description: "Στο «Ολοήμερο Σχολείο — Σίτηση» ο γονέας δηλώνει την απουσία από το κινητό, με τον αριθμό του ή με προσωπικό link από SMS. Η κουζίνα ενημερώνεται αμέσως."
 slug: parent-declare-meal-absence-online
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ο γονέας το δηλώνει online στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/), το σύστημα της NexAIpla για ολοήμερα δημοτικά. Στη σελίδα του σχολείου γράφει τον αριθμό του κινητού του στο «Δεν θα φάει σήμερα» και πατά ένα κουμπί, ή ανοίγει το προσωπικό link του παιδιού από το SMS και πατά «Δεν συμμετέχει σήμερα στη σίτιση». Οι μερίδες της κουζίνας αλλάζουν αμέσως. Χωρίς λογαριασμό και χωρίς εφαρμογή. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ο γονέας το δηλώνει online στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/), το σύστημα της NexAIpla για ολοήμερα δημοτικά. Στη σελίδα του σχολείου γράφει τον αριθμό του κινητού του στο «Δεν θα φάει σήμερα» και πατά ένα κουμπί, ή ανοίγει το προσωπικό link του παιδιού από το SMS και πατά «Δεν συμμετέχει σήμερα στη σίτιση». Οι μερίδες της κουζίνας αλλάζουν αμέσως. Χωρίς λογαριασμό και χωρίς εφαρμογή. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Στις 07:20 ένα παιδί ξυπνά με πυρετό. Ο γονέας έχει τώρα τρεις δουλειές: να πάρει στη δουλειά, να πάρει τους παππούδες και να πει στο σχολείο ότι ένα μεσημεριανό δεν χρειάζεται. Η τρίτη είναι αυτή που ξεχνιέται, γιατί η γραμμή της γραμματείας είναι κατειλημμένη και η ομάδα των γονέων έχει ήδη σαράντα αδιάβαστα μηνύματα. Το μεσημέρι έχει μαγειρευτεί μια μερίδα για ένα παιδί που κοιμάται στον καναπέ.
 
@@ -199,22 +199,46 @@ draft: false
 
 ### Πώς δηλώνει ο γονέας ότι το παιδί δεν θα φάει σήμερα;
 
-Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/), είτε γράφοντας το κινητό του στη φόρμα «Δεν θα φάει σήμερα» στη σελίδα του σχολείου είτε πατώντας το κουμπί στο προσωπικό link του παιδιού. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/), είτε γράφοντας το κινητό του στη φόρμα «Δεν θα φάει σήμερα» στη σελίδα του σχολείου είτε πατώντας το κουμπί στο προσωπικό link του παιδιού. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζεται ο γονέας κωδικό ή εφαρμογή;
 
-Όχι. Η φόρμα θέλει μόνο το κινητό που είναι δηλωμένο στο σχολείο, και το προσωπικό link ανοίγει κατευθείαν από το SMS σε οποιονδήποτε browser. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η φόρμα θέλει μόνο το κινητό που είναι δηλωμένο στο σχολείο, και το προσωπικό link ανοίγει κατευθείαν από το SMS σε οποιονδήποτε browser. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορεί ο γονέας να αλλάξει γνώμη;
 
-Ναι. Στο προσωπικό link υπάρχει κουμπί που βάζει ξανά το παιδί στη σημερινή σίτιση, και η μέτρηση της κουζίνας ακολουθεί. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Στο προσωπικό link υπάρχει κουμπί που βάζει ξανά το παιδί στη σημερινή σίτιση, και η μέτρηση της κουζίνας ακολουθεί. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Κι αν ο γονέας έχει χάσει το link;
 
-Στη σελίδα του σχολείου επιλέγει «Έχασα το προσωπικό μου link», γράφει το κινητό του και το παίρνει ξανά με SMS. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στη σελίδα του σχολείου επιλέγει «Έχασα το προσωπικό μου link», γράφει το κινητό του και το παίρνει ξανά με SMS. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι θέλετε οι γονείς του ολοήμερου να δηλώνουν τις απουσίες σίτισης από το κινητό. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+- [Kitchen Live Portions All Day School](/el/articles/kitchen-live-portions-all-day-school)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
