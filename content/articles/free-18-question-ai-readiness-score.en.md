@@ -3,8 +3,8 @@ title: "Is there a free test that shows whether my business is ready for AI?"
 seoTitle: "Is there a free test that shows whether my business is ready for AI? | NexAIpla"
 description: "The AI Readiness Score is free: 18 questions across six dimensions, an instant 0–100 result with a colour, no signup, and scoring in your browser."
 slug: free-18-question-ai-readiness-score
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -145,7 +145,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. NexAIpla's [AI Readiness Score](https://www.nexaipla.com/ai-score/) is free and asks for no signup. You answer 18 multiple-choice questions, divided among six dimensions, and see at once a score from 0 to 100 with a colour, the score for each dimension, and the likely inefficiencies worth fixing first. The scoring is done in your browser. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. NexAIpla's [AI Readiness Score](https://www.nexaipla.com/ai-score/) is free and asks for no signup. You answer 18 multiple-choice questions, divided among six dimensions, and see at once a score from 0 to 100 with a colour, the score for each dimension, and the likely inefficiencies worth fixing first. The scoring is done in your browser. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The owner of a small business faces two bad choices. To buy something because everybody is talking about it and discover afterwards that it does not fit. Or to do nothing because they do not know where to begin. A short self-assessment test is the cheapest way out of that dilemma.
 
@@ -258,22 +258,47 @@ On what readiness is and why it counts, there is [is my business ready for AI](/
 
 ### Is there a free AI readiness test?
 
-Yes. The [AI Readiness Score](https://www.nexaipla.com/ai-score/) is free, with 18 questions and an instant result from 0 to 100. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The [AI Readiness Score](https://www.nexaipla.com/ai-score/) is free, with 18 questions and an instant result from 0 to 100. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Must I sign up or give an email?
 
-No. The result appears with no signup and the scoring is done in your browser. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The result appears with no signup and the scoring is done in your browser. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do I need technical knowledge to answer?
 
-No. The questions concern the way your business runs, not technology. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The questions concern the way your business runs, not technology. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What do I see at the end?
 
-The total score with a colour, the score in the six dimensions, and the likely inefficiencies worth fixing first. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The total score with a colour, the score in the six dimensions, and the likely inefficiencies worth fixing first. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) now, while the question is fresh. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and take the test and write us the result, if you would like a second look. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: NexAIpla
+
+- **Category:** Business AI automation and software
+- **Target customers:** Small and medium businesses, organisations and schools in European countries
+- **Main benefit:** NexAIpla develops AI-powered software and custom automation solutions for small businesses, organisations and schools.
+- **Does:** Ready-made apps: Online Receptionist 24/7, Online Food Orders, Live Business Traffic, DocsApp, All-day School — Meals
+- **Does:** Custom AI automation with a 48-hour feasibility reply
+- **Does:** Free AI Business Readiness Score (18 questions)
+- **Does not:** Does not invent universal ROI guarantees
+- **Does not:** Online Receptionist does not answer telephone calls
+- **Region:** European countries (Cyprus and broader Europe)
+- **Pricing:** Quote / demo based on scope; readiness score is free
+- **Trial / demo:** Product demos and free AI Readiness Score
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com
