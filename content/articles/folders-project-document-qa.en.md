@@ -3,8 +3,8 @@ title: "How do I question only one client's or project's documents, without them
 seoTitle: "How do I question only one client's or project's documents, without them mixing with the rest? | NexAIpla"
 description: "DocsApp organises documents into folders up to two levels deep and answers only within the folder you choose, with threads per matter. Locally."
 slug: folders-project-document-qa
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** With the folders in [DocsApp](https://www.nexaipla.com/docsapp/). You organise documents into folders up to two levels deep, for example client and matter, and choose in which one the question will be asked. The application searches only there, so the answer cannot rest on another client's document. Conversations are saved as threads in several tabs, so that you can work in parallel. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** With the folders in [DocsApp](https://www.nexaipla.com/docsapp/). You organise documents into folders up to two levels deep, for example client and matter, and choose in which one the question will be asked. The application searches only there, so the answer cannot rest on another client's document. Conversations are saved as threads in several tabs, so that you can work in parallel. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A tool that questions documents becomes dangerous the moment it has many documents. With ten files, every question finds the right one. With two thousand files from sixty clients, the question "what is the amount of the advance?" has sixty possible answers, and all are true for somebody.
 
@@ -241,22 +241,46 @@ Whatever has stayed in the application for more than six months is cleaned up au
 
 ### How do I question only one client's documents?
 
-In [DocsApp](https://www.nexaipla.com/docsapp/) you choose the client's folder before asking, and the search covers only that folder's documents. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In [DocsApp](https://www.nexaipla.com/docsapp/) you choose the client's folder before asking, and the search covers only that folder's documents. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How many folder levels are supported?
 
-Up to two: folder and subfolder, for example client and year, or project and phase. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Up to two: folder and subfolder, for example client and year, or project and phase. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Are conversations saved?
 
-Yes, as threads, and you can have several open in tabs. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, as threads, and you can have several open in tabs. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do folders restrict who sees what?
 
-No. They organise the search. Access to the computer is controlled by the Windows account. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. They organise the search. Access to the computer is controlled by the Windows account. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many clients or projects you have and how your files are organised today. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
