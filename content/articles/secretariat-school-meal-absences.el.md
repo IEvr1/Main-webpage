@@ -3,8 +3,8 @@ title: Πώς καταχωρεί η γραμματεία την απουσία �
 seoTitle: "Πώς καταχωρεί η γραμματεία την απουσία σίτισης όταν τηλεφωνεί ο γονέας; | NexAIpla"
 description: "Στο «Ολοήμερο Σχολείο — Σίτηση» η γραμματεία βρίσκει το παιδί με όνομα, τάξη ή τηλέφωνο και καταχωρεί την απουσία με ένα κουμπί. Η κουζίνα το βλέπει αμέσως."
 slug: secretariat-school-meal-absences
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Η γραμματεία την καταχωρεί στην οθόνη γραμματείας του [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/). Αναζητά το παιδί με όνομα, τάξη ή τηλέφωνο, πατά «Καταχώρηση απουσίας», και η απουσία μπαίνει στην ίδια λίστα που συμπληρώνουν οι γονείς από το κινητό τους. Οι «Καταχωρήσεις σήμερα» δείχνουν όλη τη μέρα και επιτρέπουν να αφαιρεθεί ένα λάθος. Οι μερίδες της κουζίνας ενημερώνονται αμέσως. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Η γραμματεία την καταχωρεί στην οθόνη γραμματείας του [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/). Αναζητά το παιδί με όνομα, τάξη ή τηλέφωνο, πατά «Καταχώρηση απουσίας», και η απουσία μπαίνει στην ίδια λίστα που συμπληρώνουν οι γονείς από το κινητό τους. Οι «Καταχωρήσεις σήμερα» δείχνουν όλη τη μέρα και επιτρέπουν να αφαιρεθεί ένα λάθος. Οι μερίδες της κουζίνας ενημερώνονται αμέσως. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Όσο καλά κι αν στηθεί ένα σύστημα για γονείς, το τηλέφωνο της γραμματείας θα χτυπά το πρωί. Κάποιος οδηγεί, κάποιος δεν έχει δεδομένα στο κινητό, κάποιος απλώς προτιμά να το πει σε άνθρωπο. Το ζήτημα δεν είναι να σταματήσουν αυτές οι κλήσεις. Είναι να μη χαθεί αυτό που ειπώθηκε στα τριάντα δευτερόλεπτά τους.
 
@@ -203,22 +203,46 @@ draft: false
 
 ### Πώς καταχωρεί η γραμματεία μια απουσία σίτισης από τηλέφωνο;
 
-Στην οθόνη γραμματείας του [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/): αναζήτηση με όνομα, τάξη ή τηλέφωνο και μετά «Καταχώρηση απουσίας». Η κουζίνα βλέπει την αλλαγή αμέσως. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στην οθόνη γραμματείας του [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/): αναζήτηση με όνομα, τάξη ή τηλέφωνο και μετά «Καταχώρηση απουσίας». Η κουζίνα βλέπει την αλλαγή αμέσως. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορεί η γραμματεία να διορθώσει μια λάθος καταχώρηση;
 
-Ναι. Στις «Καταχωρήσεις σήμερα» κάθε εγγραφή έχει «Αφαίρεση», και η μερίδα επιστρέφει στη μέτρηση της τάξης. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Στις «Καταχωρήσεις σήμερα» κάθε εγγραφή έχει «Αφαίρεση», και η μερίδα επιστρέφει στη μέτρηση της τάξης. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πώς συνδέεται η γραμματεία;
 
-Με μυστικό link και PIN του ρόλου της. Δεν υπάρχει δημόσιο όνομα χρήστη, και μετά το PIN το κλειδί δεν μένει στη διεύθυνση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με μυστικό link και PIN του ρόλου της. Δεν υπάρχει δημόσιο όνομα χρήστη, και μετά το PIN το κλειδί δεν μένει στη διεύθυνση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορεί η γραμματεία να αλλάξει τη λίστα των παιδιών;
 
-Όχι από αυτή την οθόνη. Η λίστα, τα links των γονέων και το πρόγραμμα ανήκουν στον ρόλο της διαχείρισης του Συνδέσμου. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι από αυτή την οθόνη. Η λίστα, τα links των γονέων και το πρόγραμμα ανήκουν στον ρόλο της διαχείρισης του Συνδέσμου. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι θέλετε η γραμματεία να περνά τις τηλεφωνικές απουσίες σίτισης σε μία οθόνη. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
