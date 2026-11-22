@@ -3,8 +3,8 @@ title: "Πώς ρωτάω μόνο τα έγγραφα ενός συγκεκρι
 seoTitle: "Πώς ρωτάω μόνο τα έγγραφα ενός συγκεκριμένου πελάτη ή έργου, χωρίς να ανακατεύονται με τα υπόλοιπα; | NexAIpla"
 description: "Το DocsApp οργανώνει έγγραφα σε φακέλους έως δύο επιπέδων, απαντά μόνο στον φάκελο που διαλέγετε, με νήματα ανά υπόθεση. Τοπικά, χωρίς cloud."
 slug: folders-project-document-qa
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Με τους φακέλους του [DocsApp](https://www.nexaipla.com/docsapp/). Οργανώνετε τα έγγραφα σε φακέλους έως δύο επιπέδων, για παράδειγμα πελάτης και υπόθεση, και διαλέγετε σε ποιον θα γίνει η ερώτηση. Η εφαρμογή αναζητά μόνο εκεί, άρα η απάντηση δεν μπορεί να στηριχτεί σε έγγραφο άλλου πελάτη. Οι συνομιλίες αποθηκεύονται ως νήματα σε πολλές καρτέλες, ώστε να δουλεύετε παράλληλα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Με τους φακέλους του [DocsApp](https://www.nexaipla.com/docsapp/). Οργανώνετε τα έγγραφα σε φακέλους έως δύο επιπέδων, για παράδειγμα πελάτης και υπόθεση, και διαλέγετε σε ποιον θα γίνει η ερώτηση. Η εφαρμογή αναζητά μόνο εκεί, άρα η απάντηση δεν μπορεί να στηριχτεί σε έγγραφο άλλου πελάτη. Οι συνομιλίες αποθηκεύονται ως νήματα σε πολλές καρτέλες, ώστε να δουλεύετε παράλληλα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Ένα εργαλείο που ρωτά έγγραφα γίνεται επικίνδυνο τη στιγμή που έχει πολλά έγγραφα. Με δέκα αρχεία, κάθε ερώτηση βρίσκει το σωστό. Με δύο χιλιάδες αρχεία από εξήντα πελάτες, η ερώτηση «ποιο είναι το ποσό της προκαταβολής;» έχει εξήντα πιθανές απαντήσεις, και όλες είναι αληθινές για κάποιον.
 
@@ -241,22 +241,46 @@ draft: false
 
 ### Πώς ρωτάω μόνο τα έγγραφα ενός πελάτη;
 
-Στο [DocsApp](https://www.nexaipla.com/docsapp/) διαλέγετε τον φάκελο του πελάτη πριν ρωτήσετε, και η αναζήτηση γίνεται μόνο στα έγγραφα εκείνου του φακέλου. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στο [DocsApp](https://www.nexaipla.com/docsapp/) διαλέγετε τον φάκελο του πελάτη πριν ρωτήσετε, και η αναζήτηση γίνεται μόνο στα έγγραφα εκείνου του φακέλου. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πόσα επίπεδα φακέλων υποστηρίζονται;
 
-Έως δύο: φάκελος και υποφάκελος, για παράδειγμα πελάτης και έτος ή έργο και φάση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Έως δύο: φάκελος και υποφάκελος, για παράδειγμα πελάτης και έτος ή έργο και φάση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Αποθηκεύονται οι συνομιλίες;
 
-Ναι, ως νήματα, και μπορείτε να έχετε πολλά ανοιχτά σε καρτέλες. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι, ως νήματα, και μπορείτε να έχετε πολλά ανοιχτά σε καρτέλες. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Περιορίζουν οι φάκελοι το ποιος βλέπει τι;
 
-Όχι. Οργανώνουν την αναζήτηση. Η πρόσβαση στον υπολογιστή ελέγχεται από τον λογαριασμό των Windows. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Οργανώνουν την αναζήτηση. Η πρόσβαση στον υπολογιστή ελέγχεται από τον λογαριασμό των Windows. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πόσους πελάτες ή έργα έχετε και πώς είναι οργανωμένα σήμερα τα αρχεία σας. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
