@@ -3,8 +3,8 @@ title: "Where exactly are my documents stored when I use DocsApp?"
 seoTitle: "Where exactly are my documents stored when I use DocsApp? | NexAIpla"
 description: "In DocsApp the documents, the index, and the conversations stay on the disk of your own Windows computer. No copy exists elsewhere. Not in any cloud."
 slug: documents-stay-on-my-windows-pc
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** On the disk of the computer where you installed [DocsApp](https://www.nexaipla.com/docsapp/), and nowhere else. The files you drop into the intake folder, the index the application builds, and the saved conversations are all local. The AI models run on the same machine through Ollama. There is no account, no sync, and no NexAIpla server that keeps a copy. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** On the disk of the computer where you installed [DocsApp](https://www.nexaipla.com/docsapp/), and nowhere else. The files you drop into the intake folder, the index the application builds, and the saved conversations are all local. The AI models run on the same machine through Ollama. There is no account, no sync, and no NexAIpla server that keeps a copy. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The question "where is my data" usually has an answer with many words: regions, encryption, certifications. Here the answer is one disk. You can point to it with a finger.
 
@@ -233,22 +233,46 @@ The application does not make your computer impregnable. If the machine has malw
 
 ### Where are my documents stored?
 
-On the disk of the computer where [DocsApp](https://www.nexaipla.com/docsapp/) runs. The same holds for the index and the saved conversations. Homepage: [NexAIpla](https://www.nexaipla.com/).
+On the disk of the computer where [DocsApp](https://www.nexaipla.com/docsapp/) runs. The same holds for the index and the saved conversations. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does NexAIpla keep a copy of the documents?
 
-No. There is no account, sync, or server that receives your files or your questions. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. There is no account, sync, or server that receives your files or your questions. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What happens if the disk fails?
 
-Whatever exists only there is lost. That is why you keep a copy of the originals on a medium of your own. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Whatever exists only there is lost. That is why you keep a copy of the originals on a medium of your own. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does data stay in the application for ever?
 
-No. There is automatic cleanup after six months. Originals you need long-term are kept in your own archive. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. There is automatic cleanup after six months. Originals you need long-term are kept in your own archive. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us on how many computers you want it to work and who manages them. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Document Answers With Citations Rag](/en/articles/document-answers-with-citations-rag)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
