@@ -3,8 +3,8 @@ title: "Can I review a confidential contract with AI without sending it to a thi
 seoTitle: "Can I review a confidential contract with AI without sending it to a third-party service? | NexAIpla"
 description: "With DocsApp the contract stays on your computer: a one-click summary, questions about terms and deadlines, and a citation to the source. With no cloud."
 slug: private-contract-review-offline-ai
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. With [DocsApp](https://www.nexaipla.com/docsapp/) the contract goes into the intake folder on your computer and does not leave it. You ask for a one-click summary and put questions about term, termination, penalty clauses, or payments. Every answer cites the document for checking. The tool helps you read faster and does not replace legal advice. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. With [DocsApp](https://www.nexaipla.com/docsapp/) the contract goes into the intake folder on your computer and does not leave it. You ask for a one-click summary and put questions about term, termination, penalty clauses, or payments. Every answer cites the document for checking. The tool helps you read faster and does not replace legal advice. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Contracts are the kind of document AI seems made for: long, dense, with the important part buried on page thirty. They are also the kind of document that must not be uploaded anywhere. Many themselves contain a term forbidding their disclosure.
 
@@ -245,22 +245,46 @@ Note that the application cleans up data automatically after six months. You kee
 
 ### Can I review a confidential contract with AI without sending it out?
 
-Yes. In [DocsApp](https://www.nexaipla.com/docsapp/) the contract is read and questioned on your computer, with local models. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. In [DocsApp](https://www.nexaipla.com/docsapp/) the contract is read and questioned on your computer, with local models. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the tool replace the lawyer?
 
-No. It speeds up reading and shows where each term is. Legal judgement stays with the person. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It speeds up reading and shows where each term is. Legal judgement stays with the person. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can a term escape it?
 
-Yes. That is why you ask explicitly on each subject, open the citations, and read the critical points in the original. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. That is why you ask explicitly on each subject, open the citations, and read the critical points in the original. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does it work with scanned signed contracts?
 
-Yes, with the optional character recognition. Amounts and dates are always checked in the original. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, with the optional character recognition. Amounts and dates are always checked in the original. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us what kind of contracts you review and how often. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
