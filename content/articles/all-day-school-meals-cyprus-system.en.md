@@ -3,8 +3,8 @@ title: "Is there a system for organising all-day school meals in Cyprus?"
 seoTitle: "Is there a system for organising all-day school meals in Cyprus? | NexAIpla"
 description: "Yes. All-day School — Meals by NexAIpla connects parents, school office, and kitchen: SMS absences, live portions, allergies. Built for Cyprus primaries."
 slug: all-day-school-meals-cyprus-system
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) by NexAIpla is built for all-day primary schools and parents' associations in Cyprus. Parents report meal absences from a link they receive by SMS, the school office enters those that arrive by phone, and the kitchen sees live portions for each class with allergies. It validates eight-digit Cyprus mobiles, runs on Nicosia time, works in Greek and English, and deletes personal data on 31 July. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) by NexAIpla is built for all-day primary schools and parents' associations in Cyprus. Parents report meal absences from a link they receive by SMS, the school office enters those that arrive by phone, and the kitchen sees live portions for each class with allergies. It validates eight-digit Cyprus mobiles, runs on Nicosia time, works in Greek and English, and deletes personal data on 31 July. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 In many all-day primary schools the meals are the business of the parents' association. Parents with jobs of their own find a cook, agree a menu, keep lists. The school helps through its office. The kitchen cooks for whoever it thinks will come. Every morning the three sides have to agree on one number, and they do it with whatever tool is to hand: the telephone, a notepad, a group on the phone.
 
@@ -212,22 +212,46 @@ The change shows first on the office telephone, which goes quiet between 07:15 a
 
 ### Is there a system for all-day school meals in Cyprus?
 
-Yes, [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) by NexAIpla. Parents report absences with a link from an SMS, the office enters the phoned ones, and the kitchen sees live portions and allergies. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) by NexAIpla. Parents report absences with a link from an SMS, the office enters the phoned ones, and the kitchen sees live portions and allergies. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Who manages it inside the school?
 
-Usually the parents' association holds the admin role. The office and the kitchen have their own, more limited roles, each with its own link and PIN. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Usually the parents' association holds the admin role. The office and the kitchen have their own, more limited roles, each with its own link and PIN. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do schools share one database?
 
-No. Each school has its own installation with full data isolation. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Each school has its own installation with full data isolation. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can parents order food from the system?
 
-No. The system organises absences, portions, allergies, and the monthly menu. It takes no orders and sells no meals. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The system organises absences, portions, allergies, and the monthly menu. It takes no orders and sells no meals. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us the name of the school and how many children eat at the all-day school, so that we can look at the set-up. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+- [Kitchen Live Portions All Day School](/en/articles/kitchen-live-portions-all-day-school)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
