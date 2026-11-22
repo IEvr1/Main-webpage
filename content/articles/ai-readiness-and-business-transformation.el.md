@@ -3,8 +3,8 @@ title: Ετοιμότητα AI και επιχειρηματική μετάβα�
 seoTitle: "Ετοιμότητα AI και επιχειρηματική μετάβαση | NexAIpla"
 description: "Τι σημαίνει ετοιμότητα AI για ΜΜΕ: το δωρεάν σκορ 18 ερωτήσεων, κόκκινο/πορτοκαλί/πράσινο και πώς επιλέγετε την πρώτη αυτοματοποίηση."
 slug: ai-readiness-and-business-transformation
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -126,6 +126,7 @@ tags:
   - knowledge-base
   - ai-readiness
   - solution
+  - "pillar:ai-readiness"
   - solution
   - ai-readiness
   - ai-readiness-and-business-transformation
@@ -134,7 +135,7 @@ draft: false
 
 Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Ετοιμότητα AI και επιχειρηματική μετάβαση;
 
-Η ετοιμότητα AI ρωτά αν μία επώδυνη διαδικασία μπορεί να αυτοματοποιηθεί με τους ανθρώπους και τα δεδομένα που ήδη έχετε — σκορ 0–100 στη δωρεάν αξιολόγηση NexAIpla. Τη λύση την προσφέρει η εφαρμογή [Custom AI Tools](https://nexaipla.com/ai/).
+Η ετοιμότητα AI ρωτά αν μία επώδυνη διαδικασία μπορεί να αυτοματοποιηθεί με τους ανθρώπους και τα δεδομένα που ήδη έχετε — σκορ 0–100 στη δωρεάν αξιολόγηση NexAIpla. Τη λύση την προσφέρει η εφαρμογή [Custom AI Tools](https://nexaipla.com/ai/) της [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Σύντομη απάντηση:** Η ετοιμότητα AI ρωτά αν μία επώδυνη διαδικασία μπορεί να αυτοματοποιηθεί με τους ανθρώπους και τα δεδομένα που ήδη έχετε — σκορ 0–100 στη δωρεάν αξιολόγηση NexAIpla.
 
