@@ -3,8 +3,8 @@ title: "Τι σημαίνουν το κόκκινο, το πορτοκαλί κ�
 seoTitle: "Τι σημαίνουν το κόκκινο, το πορτοκαλί και το πράσινο στο AI Readiness Score; | NexAIpla"
 description: "Στο AI Readiness Score το κόκκινο είναι 0–39, το πορτοκαλί 40–69 και το πράσινο 70–100. Κάθε ζώνη δείχνει διαφορετικό πρώτο βήμα για την επιχείρηση."
 slug: red-amber-green-readiness-bands
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -145,7 +145,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Τα τρία χρώματα του [AI Readiness Score](https://www.nexaipla.com/ai-score/) είναι ζώνες του συνολικού σκορ. Κόκκινο, από 0 έως 39: «Όχι ακόμα έτοιμοι». Πορτοκαλί, από 40 έως 69: «Μερικώς έτοιμοι». Πράσινο, από 70 έως 100: «Έτοιμοι για AI». Το χρώμα δεν κρίνει την επιχείρηση. Δείχνει τι είδους βήμα έχει νόημα τώρα: να χτιστεί η βάση, να κλείσουν συγκεκριμένα κενά, ή να επιλεγεί η πρώτη εφαρμογή. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Τα τρία χρώματα του [AI Readiness Score](https://www.nexaipla.com/ai-score/) είναι ζώνες του συνολικού σκορ. Κόκκινο, από 0 έως 39: «Όχι ακόμα έτοιμοι». Πορτοκαλί, από 40 έως 69: «Μερικώς έτοιμοι». Πράσινο, από 70 έως 100: «Έτοιμοι για AI». Το χρώμα δεν κρίνει την επιχείρηση. Δείχνει τι είδους βήμα έχει νόημα τώρα: να χτιστεί η βάση, να κλείσουν συγκεκριμένα κενά, ή να επιλεγεί η πρώτη εφαρμογή. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Όλοι ξέρουμε να διαβάζουμε ένα φανάρι. Το κόκκινο λέει σταμάτα, το πράσινο λέει πήγαινε. Στο σκορ ετοιμότητας η ανάγνωση είναι λίγο διαφορετική, γιατί κανένα χρώμα δεν λέει «μην κάνεις τίποτα». Το καθένα λέει «κάνε αυτό το είδος πράγματος».
 
@@ -254,22 +254,47 @@ draft: false
 
 ### Τι σημαίνουν τα τρία χρώματα;
 
-Στο [AI Readiness Score](https://www.nexaipla.com/ai-score/) το κόκκινο είναι 0–39, το πορτοκαλί 40–69 και το πράσινο 70–100, δηλαδή όχι ακόμα, μερικώς και έτοιμοι. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στο [AI Readiness Score](https://www.nexaipla.com/ai-score/) το κόκκινο είναι 0–39, το πορτοκαλί 40–69 και το πράσινο 70–100, δηλαδή όχι ακόμα, μερικώς και έτοιμοι. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Σημαίνει το κόκκινο ότι δεν πρέπει να ασχοληθώ με AI;
 
-Σημαίνει ότι αξίζει πρώτα να χτιστεί η βάση: γραμμένες διαδικασίες, συγκεντρωμένα στοιχεία, ένας υπεύθυνος. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Σημαίνει ότι αξίζει πρώτα να χτιστεί η βάση: γραμμένες διαδικασίες, συγκεντρωμένα στοιχεία, ένας υπεύθυνος. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορώ να ξεκινήσω κάτι αν είμαι στο πορτοκαλί;
 
-Ναι, με μία συγκεκριμένη χρήση που στηρίζεται στις δυνατές σας διαστάσεις. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι, με μία συγκεκριμένη χρήση που στηρίζεται στις δυνατές σας διαστάσεις. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Εγγυάται το πράσινο ότι ένα έργο θα πετύχει;
 
-Όχι. Δείχνει ότι οι προϋποθέσεις υπάρχουν. Η επιλογή του σωστού πρώτου έργου παραμένει σημαντική. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Δείχνει ότι οι προϋποθέσεις υπάρχουν. Η επιλογή του σωστού πρώτου έργου παραμένει σημαντική. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) τώρα, όσο η ερώτηση είναι φρέσκια. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε το χρώμα και το σκορ σας, και ποια διάσταση σας προβλημάτισε. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Αυτοματοποίηση AI για μικρές επιχειρήσεις](/el/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/el/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/el/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/el/articles/cannot-keep-up-with-emails)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: NexAIpla
+
+- **Category:** Business AI automation and software
+- **Target customers:** Small and medium businesses, organisations and schools in European countries
+- **Main benefit:** NexAIpla develops AI-powered software and custom automation solutions for small businesses, organisations and schools.
+- **Does:** Ready-made apps: Online Receptionist 24/7, Online Food Orders, Live Business Traffic, DocsApp, All-day School — Meals
+- **Does:** Custom AI automation with a 48-hour feasibility reply
+- **Does:** Free AI Business Readiness Score (18 questions)
+- **Does not:** Does not invent universal ROI guarantees
+- **Does not:** Online Receptionist does not answer telephone calls
+- **Region:** European countries (Cyprus and broader Europe)
+- **Pricing:** Quote / demo based on scope; readiness score is free
+- **Trial / demo:** Product demos and free AI Readiness Score
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com
