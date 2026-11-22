@@ -3,8 +3,8 @@ title: "How does a customer track a food order without an app?"
 seoTitle: "How does a customer track a food order without an app? | NexAIpla"
 description: "In Online Food Orders the confirmation SMS has a link where the customer sees the order's status, changes it, or cancels it. With no login. No app."
 slug: track-food-order-sms-link
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** From the link that comes with the confirmation SMS of [Online Food Orders](https://www.nexaipla.com/foodorder/). The customer opens it in the phone's browser, with no app and no password, and sees the order and its status. From the same page they modify it, cancel it, or see their history. For delivery they also receive a second SMS with an estimated arrival time when the driver sets off. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** From the link that comes with the confirmation SMS of [Online Food Orders](https://www.nexaipla.com/foodorder/). The customer opens it in the phone's browser, with no app and no password, and sees the order and its status. From the same page they modify it, cancel it, or see their history. For delivery they also receive a second SMS with an estimated arrival time when the driver sets off. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Waiting for food has two parts: the time that passes and the uncertainty. The shop cannot always shorten the time. It can bring the uncertainty to zero, and that is usually what makes the customer pick up the phone.
 
@@ -229,22 +229,47 @@ It is also worth telling the customer. One line on the packaging or on your page
 
 ### How does the customer track their order?
 
-From the link in the [Online Food Orders](https://www.nexaipla.com/foodorder/) confirmation SMS, where they see the order and its status without an app or a password. Homepage: [NexAIpla](https://www.nexaipla.com/).
+From the link in the [Online Food Orders](https://www.nexaipla.com/foodorder/) confirmation SMS, where they see the order and its status without an app or a password. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can they cancel from the same link?
 
-Yes. From the same page they modify or cancel the order, and the change shows in the shop's queue. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. From the same page they modify or cancel the order, and the change shows in the shop's queue. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do they see the driver on a map?
 
-No. They see the order's stages and receive an SMS with an estimated arrival time when the driver sets off. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. They see the order's stages and receive an SMS with an estimated arrival time when the driver sets off. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What happens if the customer deletes the SMS?
 
-Without the message they do not have the link, so they contact the shop, which sees the order on its dashboard. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Without the message they do not have the link, so they contact the shop, which sees the order on its dashboard. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are weighing online orders against other changes in the restaurant. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many "where is my order" calls you receive in an evening. We reply within 48 hours.
+
+## Related in this topic
+
+- [Restaurant online ordering systems](/en/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/en/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/en/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/en/articles/pickup-and-delivery-same-food-app)
+
+## Product facts
+
+### Product facts: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
