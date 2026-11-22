@@ -3,8 +3,8 @@ title: Μπορώ να βγάλω γραφήματα και αναλύσεις �
 seoTitle: "Μπορώ να βγάλω γραφήματα και αναλύσεις από αρχεία Excel με AI χωρίς ίντερνετ; | NexAIpla"
 description: "Το DocsApp διαβάζει αρχεία Excel και CSV τοπικά και βγάζει γραφήματα και αναλύσεις με ερωτήσεις σε απλή γλώσσα, χωρίς cloud. Σε Windows. Χωρίς τύπους."
 slug: excel-charts-offline-documents
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) δέχεται αρχεία Excel και CSV στον φάκελο εισαγωγής και σας αφήνει να ζητήσετε γραφήματα και αναλύσεις με ερωτήσεις σε απλή γλώσσα, όπως «δείξε τις πωλήσεις ανά μήνα». Όλα γίνονται στον υπολογιστή σας με τοπικά μοντέλα μέσω Ollama. Τα οικονομικά σας στοιχεία δεν ανεβαίνουν σε καμία υπηρεσία. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) δέχεται αρχεία Excel και CSV στον φάκελο εισαγωγής και σας αφήνει να ζητήσετε γραφήματα και αναλύσεις με ερωτήσεις σε απλή γλώσσα, όπως «δείξε τις πωλήσεις ανά μήνα». Όλα γίνονται στον υπολογιστή σας με τοπικά μοντέλα μέσω Ollama. Τα οικονομικά σας στοιχεία δεν ανεβαίνουν σε καμία υπηρεσία. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Κάθε μικρή επιχείρηση έχει ένα αρχείο Excel που τα ξέρει όλα. Πωλήσεις ανά ημέρα, έξοδα ανά προμηθευτή, ώρες προσωπικού. Και σχεδόν πάντα το ξέρει να το διαβάζει ένας μόνο άνθρωπος: αυτός που το έφτιαξε. Οι υπόλοιποι το ανοίγουν, βλέπουν τέσσερις χιλιάδες γραμμές και το κλείνουν.
 
@@ -237,22 +237,46 @@ draft: false
 
 ### Βγάζει γραφήματα από Excel χωρίς ίντερνετ;
 
-Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) διαβάζει Excel και CSV τοπικά και φτιάχνει γραφήματα και αναλύσεις από ερωτήσεις σε απλή γλώσσα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) διαβάζει Excel και CSV τοπικά και φτιάχνει γραφήματα και αναλύσεις από ερωτήσεις σε απλή γλώσσα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πρέπει να ξέρω τύπους του Excel;
 
-Όχι. Γράφετε τι θέλετε να δείτε, και η εφαρμογή βρίσκει τις στήλες και κάνει τον υπολογισμό. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Γράφετε τι θέλετε να δείτε, και η εφαρμογή βρίσκει τις στήλες και κάνει τον υπολογισμό. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Ανεβαίνουν τα οικονομικά μου στοιχεία κάπου;
 
-Όχι. Το αρχείο, το μοντέλο και το γράφημα βρίσκονται όλα στον δικό σας υπολογιστή. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Το αρχείο, το μοντέλο και το γράφημα βρίσκονται όλα στον δικό σας υπολογιστή. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορώ να εμπιστευτώ τα νούμερα;
 
-Ελέγχετέ τα. Συγκρίνετε ένα σύνολο με αυτό που ξέρετε από το λογιστικό σας πρόγραμμα πριν στηρίξετε απόφαση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ελέγχετέ τα. Συγκρίνετε ένα σύνολο με αυτό που ξέρετε από το λογιστικό σας πρόγραμμα πριν στηρίξετε απόφαση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε τι στοιχεία κρατάτε σε Excel και ποια ερώτηση θα θέλατε να απαντήσετε πρώτη. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
