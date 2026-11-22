@@ -3,8 +3,8 @@ title: "How do we load the list of children into the school meals system at the 
 seoTitle: "How do we load the list of children into the school meals system at the start of the year? | NexAIpla"
 description: "In All-day School — Meals the association uploads a CSV or Excel file with name, class, and parents' mobiles, then sends the links by SMS. Once a year."
 slug: csv-import-students-school-meals
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) the association uploads the list as a CSV or Excel file from the admin screen. Each row has the child's name, the class, and the parents' mobile numbers. Children who enrol later are added without touching the rest, and the whole list is replaced only after explicit confirmation. Once the list is in, the personal links go out by SMS with one button. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) the association uploads the list as a CSV or Excel file from the admin screen. Each row has the child's name, the class, and the parents' mobile numbers. Children who enrol later are added without touching the rest, and the whole list is replaced only after explicit confirmation. Once the list is in, the personal links go out by SMS with one button. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Every count in the system comes from the list. If a child is entered in the wrong class, the portion shows in the wrong row in the kitchen. If the mobile number has one wrong digit, the family never receives its link. That is why the list is not typed into the system. It is prepared in a file, checked at your own pace, and uploaded whole.
 
@@ -209,22 +209,46 @@ On 31 July personal data is deleted automatically. The next year starts with a n
 
 ### How do we load the list of children into the system?
 
-In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) you upload a CSV or Excel file from the admin screen, with first name, surname, class, one or two mobile numbers, and optionally allergies. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) you upload a CSV or Excel file from the admin screen, with first name, surname, class, one or two mobile numbers, and optionally allergies. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What do we do about a child who enrols during the year?
 
-You add them with "Import additional children". The rest of the list and the links already sent do not change. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You add them with "Import additional children". The rest of the list and the links already sent do not change. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can someone erase the list by mistake?
 
-Replacing the list is done only by the admin role and asks for explicit confirmation. The office and the kitchen do not have that option. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Replacing the list is done only by the admin role and asks for explicit confirmation. The office and the kitchen do not have that option. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How do parents get their links after the import?
 
-Through the "Send personal link" button, which sends an SMS to every registered mobile. There is also a copy of a single link and a CSV export for SMS. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Through the "Send personal link" button, which sends an SMS to every registered mobile. There is also a copy of a single link and a CSV export for SMS. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many children the all-day school has and in what form you keep the list today. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
