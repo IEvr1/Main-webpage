@@ -3,8 +3,8 @@ title: "Does my business data stay mine in an AI project?"
 seoTitle: "Does my business data stay mine in an AI project? | NexAIpla"
 description: "Yes. With Custom AI Tools your business data stays yours, and there are options for running on your own premises or fully offline when needed. Ask first."
 slug: business-data-stays-mine-ai-project
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. The principle of [Custom AI Tools](https://www.nexaipla.com/ai/) is that your business data stays yours. A tool built for you works with your records on your behalf. Where the nature of the data requires it, there are options for running on your own premises or fully offline. Where the data will live is discussed before anything starts. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. The principle of [Custom AI Tools](https://www.nexaipla.com/ai/) is that your business data stays yours. A tool built for you works with your records on your behalf. Where the nature of the data requires it, there are options for running on your own premises or fully offline. Where the data will live is discussed before anything starts. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The worry is reasonable, and shows you are thinking straight. A small business's customer list was built over fifteen years. Its terms with suppliers are its margin. Nobody should hand those over without knowing where they go.
 
@@ -271,22 +271,45 @@ It is a five-minute conversation at the start that prevents a difficult one at t
 
 ### Does my data stay mine in an AI project?
 
-Yes. With [Custom AI Tools](https://www.nexaipla.com/ai/) your business data stays yours and is used for your own task. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. With [Custom AI Tools](https://www.nexaipla.com/ai/) your business data stays yours and is used for your own task. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can the tool run without the data leaving my premises?
 
-Yes, there are options for running on your premises or offline, when the data requires it. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, there are options for running on your premises or offline, when the data requires it. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Must I send files to get the 48-hour reply?
 
-No. A description of the task and of the kind of data is enough. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. A description of the task and of the kind of data is enough. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Who is responsible for my customers' details?
 
-You remain responsible towards your customers. Mention your obligations before design. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You remain responsible towards your customers. Mention your obligations before design. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want a number for your starting point before you describe the task. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and describe the task and what kind of data it touches, without sending the records themselves. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Custom AI Tools
+
+- **Category:** Custom AI automation
+- **Target customers:** SMBs with a repeated process to automate
+- **Main benefit:** Custom AI Tools is NexAIpla’s path for automating one repeated business task when a ready-made app is not enough.
+- **Does:** 48-hour feasibility reply with cost range and timeline
+- **Does:** On-premise / offline options when required
+- **Does not:** Does not start a build before a feasibility discussion
+- **Region:** European countries
+- **Pricing:** Scoped quote after feasibility reply
+- **Trial / demo:** Feasibility reply — no obligation
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/ai/
