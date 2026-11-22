@@ -3,8 +3,8 @@ title: "How can a pharmacy show customers how busy it is before they come in?"
 seoTitle: "How can a pharmacy show customers how busy it is before they come in? | NexAIpla"
 description: "With Live Business Traffic a pharmacy shows by colour how busy it is right now, with opening hours and duty days. No health data. No customer account."
 slug: pharmacy-busy-status-walk-in
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -145,7 +145,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** A pharmacy shows customers how busy it is with [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The pharmacist or an assistant taps one of four colour-coded levels on a private screen, and the public page shows it together with the opening hours, duty days, and announcements. Customers need no account, and the page holds no health information of any kind. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** A pharmacy shows customers how busy it is with [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The pharmacist or an assistant taps one of four colour-coded levels on a private screen, and the public page shows it together with the opening hours, duty days, and announcements. Customers need no account, and the page holds no health information of any kind. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A pharmacy queue is not like a café queue. The people standing in it are often unwell, tired, or holding a child with a fever. Many could come an hour later with no harm at all, if they knew that in an hour the counter would be quiet. Nobody tells them, so they come when everyone else comes.
 
@@ -198,22 +198,45 @@ It does not take orders for medicines, it does not put a product aside, and it d
 
 ### How can a pharmacy show how busy it is?
 
-With a public page on [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The staff tap a colour-coded level and customers read it, with hours and announcements, before they leave home. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With a public page on [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The staff tap a colour-coded level and customers read it, with hours and announcements, before they leave home. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the page store customer details or health data?
 
-No. Customers do not sign in, and nothing about prescriptions or people appears. The page describes only how busy the pharmacy is. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Customers do not sign in, and nothing about prescriptions or people appears. The page describes only how busy the pharmacy is. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can we announce that we are the pharmacy on duty?
 
-Yes. You write it in the announcement line and adjust the hours for that day, so the page shows you open when the others are closed. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. You write it in the announcement line and adjust the hours for that day, so the page shows you open when the others are closed. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can customers order or reserve medicines there?
 
-No. The page is informational. It shows a busy level and opening times, and it does not handle orders, stock, or reservations. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The page is informational. It shows a busy level and opening times, and it does not handle orders, stock, or reservations. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to see where a live busy page sits among the shop's other priorities. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you run a pharmacy and want a live busy page for walk-in customers. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
