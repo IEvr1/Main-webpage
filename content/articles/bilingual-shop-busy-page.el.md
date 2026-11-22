@@ -3,8 +3,8 @@ title: Εμφανίζεται η σελίδα ζωντανής κίνησης τ
 seoTitle: "Εμφανίζεται η σελίδα ζωντανής κίνησης του καταστήματος στα ελληνικά και στα αγγλικά; | NexAIpla"
 description: "Ναι. Η δημόσια σελίδα του Live Business Traffic έχει ελληνικά και αγγλικά, ώστε ντόπιοι και επισκέπτες να διαβάζουν κίνηση και ωράριο. Χωρίς λογαριασμό."
 slug: bilingual-shop-busy-page
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι. Η δημόσια σελίδα του [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) διατίθεται στα ελληνικά και στα αγγλικά. Επισκέπτες, ξένοι κάτοικοι και ντόπιοι διαβάζουν το ίδιο επίπεδο κίνησης, το ωράριο και την ένδειξη «ανοιχτά» ή «κλειστά» στη γλώσσα που διαλέγουν, χωρίς λογαριασμό. Τα τέσσερα επίπεδα έχουν χρώμα, οπότε το βασικό μήνυμα φαίνεται πριν διαβαστεί οποιαδήποτε λέξη. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι. Η δημόσια σελίδα του [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) διατίθεται στα ελληνικά και στα αγγλικά. Επισκέπτες, ξένοι κάτοικοι και ντόπιοι διαβάζουν το ίδιο επίπεδο κίνησης, το ωράριο και την ένδειξη «ανοιχτά» ή «κλειστά» στη γλώσσα που διαλέγουν, χωρίς λογαριασμό. Τα τέσσερα επίπεδα έχουν χρώμα, οπότε το βασικό μήνυμα φαίνεται πριν διαβαστεί οποιαδήποτε λέξη. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Στη Λεμεσό, στην Πάφο, στη Λάρνακα, στα νησιά, στο κέντρο της Αθήνας, οι πελάτες ενός καταστήματος δεν μοιράζονται μία γλώσσα. Το φαρμακείο δίπλα στη μαρίνα, ο κουρέας κοντά στο πανεπιστήμιο, το καφέ στην παλιά πόλη εξυπηρετούν και όσους διαβάζουν ελληνικά και όσους δεν διαβάζουν. Το τηλεφώνημα της δεύτερης ομάδας είναι το πιο δύσκολο μέσα στην αιχμή, γιατί κρατά περισσότερο και οι δύο πλευρές μαντεύουν.
 
@@ -206,22 +206,45 @@ draft: false
 
 ### Υπάρχει η σελίδα κίνησης στα ελληνικά και στα αγγλικά;
 
-Ναι. Η δημόσια σελίδα του [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) έχει διεπαφή στα ελληνικά και στα αγγλικά, και ο επισκέπτης διαλέγει γλώσσα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Η δημόσια σελίδα του [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) έχει διεπαφή στα ελληνικά και στα αγγλικά, και ο επισκέπτης διαλέγει γλώσσα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μεταφράζονται αυτόματα οι ανακοινώσεις μου;
 
-Μην το θεωρείτε δεδομένο. Η ανακοίνωση είναι δικό σας κείμενο, οπότε γράψτε το σύντομο μήνυμα και στις δύο γλώσσες στην ίδια γραμμή. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Μην το θεωρείτε δεδομένο. Η ανακοίνωση είναι δικό σας κείμενο, οπότε γράψτε το σύντομο μήνυμα και στις δύο γλώσσες στην ίδια γραμμή. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Είναι δίγλωσση και η οθόνη του ιδιοκτήτη;
 
-Η διεπαφή υπάρχει στα ελληνικά και στα αγγλικά. Ο ιδιοκτήτης πάντως δουλεύει κυρίως με τέσσερα χρωματιστά κουμπιά, που δεν θέλουν διάβασμα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Η διεπαφή υπάρχει στα ελληνικά και στα αγγλικά. Ο ιδιοκτήτης πάντως δουλεύει κυρίως με τέσσερα χρωματιστά κουμπιά, που δεν θέλουν διάβασμα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζεται ο επισκέπτης να εγκαταστήσει κάτι;
 
-Όχι. Η σελίδα ανοίγει στον browser του κινητού από σύνδεσμο ή QR, χωρίς λογαριασμό, σε όποια από τις δύο γλώσσες προτιμά. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η σελίδα ανοίγει στον browser του κινητού από σύνδεσμο ή QR, χωρίς λογαριασμό, σε όποια από τις δύο γλώσσες προτιμά. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πού μπαίνει μια σελίδα ζωντανής κίνησης ανάμεσα στις άλλες προτεραιότητες του καταστήματος. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι έχετε και ξένους πελάτες και θέλετε δίγλωσση σελίδα ζωντανής κίνησης. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Αυτοματοποίηση AI για μικρές επιχειρήσεις](/el/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/el/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/el/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/el/articles/cannot-keep-up-with-emails)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
