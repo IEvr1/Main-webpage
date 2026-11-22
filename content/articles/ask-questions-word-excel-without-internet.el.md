@@ -3,8 +3,8 @@ title: Πώς κάνω ερωτήσεις σε αρχεία Word και Excel χ
 seoTitle: "Πώς κάνω ερωτήσεις σε αρχεία Word και Excel χωρίς ίντερνετ και χωρίς συνδρομή σε cloud AI; | NexAIpla"
 description: "Το DocsApp ευρετηριάζει αρχεία Word, Excel και CSV στον υπολογιστή σας και απαντά με τοπικά μοντέλα, χωρίς λογαριασμό cloud. Με παραπομπές. Offline."
 slug: ask-questions-word-excel-without-internet
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ρίχνοντας τα αρχεία στον φάκελο εισαγωγής του [DocsApp](https://www.nexaipla.com/docsapp/). Η εφαρμογή διαβάζει αρχεία Word, Excel και CSV, μαζί με PDF, κείμενο και εικόνες, και τα ευρετηριάζει στον δίσκο σας. Ύστερα ρωτάτε σε απλή γλώσσα από τον browser, και τα τοπικά μοντέλα του Ollama απαντούν με παραπομπή στο αρχείο. Δεν χρειάζεται σύνδεση ούτε λογαριασμός σε υπηρεσία cloud. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ρίχνοντας τα αρχεία στον φάκελο εισαγωγής του [DocsApp](https://www.nexaipla.com/docsapp/). Η εφαρμογή διαβάζει αρχεία Word, Excel και CSV, μαζί με PDF, κείμενο και εικόνες, και τα ευρετηριάζει στον δίσκο σας. Ύστερα ρωτάτε σε απλή γλώσσα από τον browser, και τα τοπικά μοντέλα του Ollama απαντούν με παραπομπή στο αρχείο. Δεν χρειάζεται σύνδεση ούτε λογαριασμός σε υπηρεσία cloud. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Τα περισσότερα έγγραφα μιας επιχείρησης δεν είναι PDF. Είναι αρχεία Word που ακόμη αλλάζουν: προσφορές, υπομνήματα, πρακτικά, διαδικασίες. Και λογιστικά φύλλα: τιμοκατάλογοι, προϋπολογισμοί, λίστες υλικών. Είναι τα αρχεία της δουλειάς, όχι του αρχείου.
 
@@ -249,22 +249,46 @@ draft: false
 
 ### Πώς ρωτάω αρχεία Word και Excel χωρίς ίντερνετ;
 
-Τα ρίχνετε στον φάκελο εισαγωγής του [DocsApp](https://www.nexaipla.com/docsapp/), που τα ευρετηριάζει τοπικά, και ρωτάτε από τον browser στον ίδιο υπολογιστή. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Τα ρίχνετε στον φάκελο εισαγωγής του [DocsApp](https://www.nexaipla.com/docsapp/), που τα ευρετηριάζει τοπικά, και ρωτάτε από τον browser στον ίδιο υπολογιστή. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζομαι συνδρομή στον βοηθό AI της σουίτας γραφείου;
 
-Όχι. Η εφαρμογή διαβάζει τα αρχεία απευθείας και χρησιμοποιεί τοπικά μοντέλα μέσω Ollama. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η εφαρμογή διαβάζει τα αρχεία απευθείας και χρησιμοποιεί τοπικά μοντέλα μέσω Ollama. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Αλλάζει η εφαρμογή τα αρχεία μου;
 
-Όχι. Τα διαβάζει μόνο. Το πρωτότυπο Word ή Excel μένει ακριβώς όπως ήταν. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Τα διαβάζει μόνο. Το πρωτότυπο Word ή Excel μένει ακριβώς όπως ήταν. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται όταν ενημερώσω ένα αρχείο;
 
-Ρίχνετε τη νέα έκδοση στον φάκελο εισαγωγής, ώστε οι απαντήσεις να βασίζονται στο τρέχον περιεχόμενο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ρίχνετε τη νέα έκδοση στον φάκελο εισαγωγής, ώστε οι απαντήσεις να βασίζονται στο τρέχον περιεχόμενο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε τι αρχεία Word και Excel δουλεύετε καθημερινά και πού σας λείπει η σύνδεση. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
