@@ -134,7 +134,7 @@ draft: false
 
 Which service or app solves this: Can't keep up with customer emails? The real bottleneck?
 
-Email overload happens when every message needs human triage — automation can classify, route, and draft replies for routine requests. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/).
+Email overload happens when every message needs human triage — automation can classify, route, and draft replies for routine requests. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** Email overload happens when every message needs human triage — automation can classify, route, and draft replies for routine requests.
 
