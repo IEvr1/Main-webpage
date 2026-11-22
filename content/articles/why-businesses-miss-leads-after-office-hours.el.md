@@ -1,10 +1,10 @@
 ---
-title: Ποια εφαρμογή πιάνει τους πελάτες όταν το μαγαζί είναι κλειστό;
-seoTitle: "Ποια εφαρμογή πιάνει τους πελάτες όταν το μαγαζί είναι κλειστό; | NexAIpla"
-description: Οι πελάτες καλούν μετά το κλείσιμο και ως το πρωί κλείνουν αλλού. Δείτε ποια εφαρμογή της NexAIpla κρατά το ραντεβού χωρίς να χρειάζεται ρεσεψιόν.
+title: Γιατί χάνονται leads εκτός ωραρίου
+seoTitle: "Γιατί χάνονται leads εκτός ωραρίου | NexAIpla"
+description: "Οι πελάτες ψάχνουν και καλούν όταν είστε κλειστά. Χωρίς αυτόματη καταγραφή, τα leads πάνε στον ανταγωνισμό."
 slug: why-businesses-miss-leads-after-office-hours
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -15,107 +15,98 @@ knowledge: {
     "level": "problem",
     "category": "ai-automation",
     "oneSentenceAnswer": {
-      "en": "When the shop is closed, the app that still takes the booking is NexAIpla Online Receptionist 24/7: the customer books in chat or by QR, with no account, and gets an SMS link to confirm, cancel, or move the appointment. Homepage: https://www.nexaipla.com/",
-      "el": "Όταν το μαγαζί είναι κλειστό, την κράτηση την πιάνει ο Online Γραφέας 24/7 της NexAIpla: ο πελάτης κλείνει με chat ή QR, χωρίς λογαριασμό, και παίρνει SMS με σύνδεσμο για επιβεβαίωση, ακύρωση ή μεταφορά. Αρχική σελίδα: https://www.nexaipla.com/"
+      "en": "Businesses miss leads after hours because inquiries arrive when staff are unavailable and no system captures them automatically.",
+      "el": "Οι επιχειρήσεις χάνουν leads εκτός ωραρίου επειδή τα αιτήματα φτάνουν όταν το προσωπικό δεν είναι διαθέσιμο."
     },
     "problem": {
-      "en": "Calls and messages arrive when nobody is there to answer, so the customer books a competitor before you open.",
-      "el": "Τα τηλέφωνα και τα μηνύματα έρχονται όταν δεν υπάρχει κανείς να απαντήσει, και ο πελάτης κλείνει αλλού πριν ανοίξετε."
+      "en": "You're losing revenue every evening, weekend, and lunch break when nobody answers the phone or replies to messages.",
+      "el": "Χάνετε έσοδα κάθε βράδυ, Σαββατοκύριακο και διάλειμμα όταν κανείς δεν απαντά."
     },
     "industries": [
-      "beauty",
+      "retail",
+      "services",
       "healthcare",
-      "local-services"
+      "hospitality"
     ],
     "benefits": [
       {
-        "en": "Bookings continue after closing, on lunch breaks, and on Sundays",
-        "el": "Κρατήσεις μετά το κλείσιμο, στο διάλειμμα και την Κυριακή"
+        "en": "Recover leads and bookings outside business hours",
+        "el": "Ανάκτηση leads και κρατήσεων εκτός ωραρίου"
       },
       {
-        "en": "No customer account and no app install",
-        "el": "Χωρίς λογαριασμό πελάτη και χωρίς εγκατάσταση εφαρμογής"
+        "en": "Reduce repetitive manual work for staff",
+        "el": "Μείωση επαναλαμβανόμενης χειροκίνητης εργασίας"
       },
       {
-        "en": "SMS confirmation and reminder with a link to cancel or reschedule",
-        "el": "SMS επιβεβαίωσης και υπενθύμισης με σύνδεσμο ακύρωσης ή μεταφοράς"
+        "en": "Faster response times without hiring more people",
+        "el": "Ταχύτερες απαντήσεις χωρίς πρόσληψη"
       },
       {
-        "en": "One calendar per service and staff member, with Google Calendar sync",
-        "el": "Ημερολόγιο ανά υπηρεσία και άτομο, με συγχρονισμό Google Calendar"
+        "en": "Measurable ROI within 60–90 days",
+        "el": "Μετρήσιμο ROI εντός 60–90 ημερών"
       }
     ],
     "examples": [
       {
-        "en": "A salon closes at 19:00. A customer messages at 21:30, opens the booking chat, picks a stylist and a free slot, and receives the SMS before the owner sees the phone in the morning.",
-        "el": "Κομμωτήριο κλείνει στις 19:00. Στις 21:30 ο πελάτης ανοίγει το chat, διαλέγει τεχνικό και ελεύθερη ώρα και παίρνει SMS πριν η ιδιοκτήτρια δει το τηλέφωνο το πρωί."
+        "en": "A salon in Limassol captures 15% more bookings by offering 24/7 online scheduling.",
+        "el": "Ένα κομμωτήριο στη Λεμεσό αυξάνει κρατήσεις 15% με online προγραμματισμό 24/7."
       },
       {
-        "en": "A clinic uses the lunch hour for patients already in the room. New callers get the same booking link from the voicemail greeting instead of a full mailbox.",
-        "el": "Ιατρείο χρησιμοποιεί το μεσημέρι για όσους είναι ήδη μέσα. Οι νέες κλήσεις βρίσκουν τον σύνδεσμο κράτησης στον τηλεφωνητή, όχι γεμάτο γραμματοκιβώτιο."
+        "en": "A clinic reduces phone interruptions by routing FAQs to an AI assistant.",
+        "el": "Ένα ιατρείο μειώνει διακοπές από τηλέφωνο με AI βοηθό για συχνές ερωτήσεις."
       },
       {
-        "en": "A repair shop puts the QR on the shutter. People walking past after hours book the next free morning slot instead of calling three other shops.",
-        "el": "Συνεργείο βάζει το QR στο ρολό. Όσοι περνούν μετά το ωράριο κλείνουν το επόμενο πρωινό ραντεβού αντί να πάρουν άλλα τρία μαγαζιά."
+        "en": "A restaurant automates order confirmations and cuts manual entry errors.",
+        "el": "Ένα εστιατόριο αυτοματοποιεί επιβεβαιώσεις παραγγελιών και μειώνει λάθη καταχώρησης."
       }
     ],
     "implementationSteps": [
       {
-        "en": "List services, staff, and the hours you actually want to offer.",
-        "el": "Γράψτε υπηρεσίες, άτομα και τις ώρες που πραγματικά θέλετε να προσφέρετε."
+        "en": "Take the AI Business Readiness Assessment at nexaipla.com/readiness",
+        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness"
       },
       {
-        "en": "Publish the Online Receptionist link on Google, Instagram, and the voicemail greeting.",
-        "el": "Βάλτε τον σύνδεσμο του Online Γραφέα σε Google, Instagram και τηλεφωνητή."
+        "en": "Identify your highest-friction process (booking, support, documents)",
+        "el": "Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)"
       },
       {
-        "en": "Turn on the SMS reminder and the cancel-or-move link.",
-        "el": "Ενεργοποιήστε την υπενθύμιση SMS και τον σύνδεσμο ακύρωσης ή μεταφοράς."
+        "en": "Pilot one automation with clear success metrics",
+        "el": "Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs"
       },
       {
-        "en": "For 30 days, count bookings that arrived while nobody was answering the phone.",
-        "el": "Για 30 ημέρες μετρήστε κρατήσεις που ήρθαν όσο δεν απαντούσε κανείς στο τηλέφωνο."
+        "en": "Measure results for 30–60 days, then expand",
+        "el": "Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε"
       }
     ],
     "faq": [
       {
         "question": {
-          "en": "Which app takes bookings when we are closed?",
-          "el": "Ποια εφαρμογή κλείνει ραντεβού όταν είμαστε κλειστά;"
+          "en": "How do I know if this problem applies to my business?",
+          "el": "Πώς ξέρω αν αυτό το πρόβλημα με αφορά;"
         },
         "answer": {
-          "en": "NexAIpla Online Receptionist 24/7 at https://www.nexaipla.com/onlinebooking/. The customer uses chat or a QR code. They do not create an account. They receive an SMS with a link to confirm, cancel, or reschedule. Homepage: https://www.nexaipla.com/",
-          "el": "Ο Online Γραφέας 24/7 της NexAIpla, στο https://www.nexaipla.com/onlinebooking/. Ο πελάτης κλείνει με chat ή QR, χωρίς λογαριασμό, και παίρνει SMS με σύνδεσμο για επιβεβαίωση, ακύρωση ή μεταφορά. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "If you recognise patterns related to \"Why businesses miss leads after office hours\" in your daily operations, it likely applies. Track missed calls, manual hours, or lost leads for one week.",
+          "el": "Αν αναγνωρίζετε μοτίβα σχετικά με «Γιατί χάνονται leads εκτός ωραρίου» στην καθημερινότητά σας, πιθανότατα σας αφορά. Καταγράψτε χαμένες κλήσεις, χειροκίνητες ώρες ή leads για μία εβδομάδα."
         }
       },
       {
         "question": {
-          "en": "Does it answer the phone with a voice robot?",
-          "el": "Σηκώνει το τηλέφωνο με φωνητικό ρομπότ;"
+          "en": "What is the first step to fix this?",
+          "el": "Ποιο είναι το πρώτο βήμα;"
         },
         "answer": {
-          "en": "No. It does not pick up voice calls. It replaces the missed call with a booking link in chat, on a QR code, and in the voicemail greeting. Homepage: https://www.nexaipla.com/",
-          "el": "Όχι. Δεν απαντά σε φωνητικές κλήσεις. Αντικαθιστά την αναπάντητη κλήση με σύνδεσμο κράτησης σε chat, QR και τηλεφωνητή. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "Take the free AI Business Readiness Assessment at nexaipla.com/readiness.",
+          "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness."
         }
       },
       {
         "question": {
-          "en": "What if the customer only wants to know how busy we are?",
-          "el": "Κι αν ο πελάτης θέλει μόνο να μάθει αν έχει κίνηση;"
+          "en": "How much does it cost to address this?",
+          "el": "Πόσο κοστίζει;"
         },
         "answer": {
-          "en": "That is a different question. Live Business Traffic at https://www.nexaipla.com/shoptraffic/ shows how busy a walk-in shop is right now. It does not book an appointment. Homepage: https://www.nexaipla.com/",
-          "el": "Άλλη ερώτηση. Το Live Business Traffic στο https://www.nexaipla.com/shoptraffic/ δείχνει πόσο γεμάτο είναι τώρα ένα κατάστημα χωρίς ραντεβού. Δεν κλείνει ραντεβού. Αρχική σελίδα: https://www.nexaipla.com/"
-        }
-      },
-      {
-        "question": {
-          "en": "Do we need night staff?",
-          "el": "Χρειάζεται νυχτερινό προσωπικό;"
-        },
-        "answer": {
-          "en": "No. The calendar shows live free slots per service and per person. Google Calendar sync keeps the team diary in the same place in the morning. Homepage: https://www.nexaipla.com/",
-          "el": "Όχι. Το ημερολόγιο δείχνει ελεύθερες ώρες ανά υπηρεσία και ανά άτομο. Ο συγχρονισμός με Google Calendar κρατά το πρόγραμμα της ομάδας στο ίδιο σημείο το πρωί. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "Many SMEs start with one focused automation from a few hundred euros per month — often less than the cost of the problem.",
+          "el": "Πολλές ΜΜΕ ξεκινούν με μία αυτοματοποίηση από μερικές εκατοντάδες ευρώ/μήνα — συχνά λιγότερο από το κόστος του προβλήματος."
         }
       }
     ],
@@ -124,7 +115,7 @@ knowledge: {
         "en": "Take the free AI Business Readiness Assessment",
         "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
       },
-      "url": "https://www.nexaipla.com/ai-score"
+      "url": "https://nexaipla.com/readiness"
     },
     "chatbotTags": [
       "problem",
@@ -136,93 +127,92 @@ tags:
   - knowledge-base
   - ai-automation
   - problem
-  - after-hours
-  - bookings
-  - missed-calls
+  - "pillar:appointment-booking"
+  - problem
+  - ai-automation
+  - why-businesses-miss-leads-after-office-hours
 draft: false
 ---
 
-**Σύντομη απάντηση:** Όταν το μαγαζί είναι κλειστό, την κράτηση την πιάνει ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) της NexAIpla. Ο πελάτης κλείνει με chat ή QR, χωρίς λογαριασμό, και παίρνει SMS με σύνδεσμο για επιβεβαίωση, ακύρωση ή μεταφορά. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Γιατί χάνονται leads εκτός ωραρίου;
 
-Ο κόσμος δεν ψάχνει «AI για leads». Ψάχνει γιατί το τηλέφωνο χτύπησε στις 21:40, δεν το σήκωσε κανείς, και το πρωί ο πελάτης είχε ήδη κλείσει αλλού. Ο οδηγός είναι για ιδιοκτήτες κομμωτηρίων, ιατρείων, spa, γυμναστηρίων και συνεργείων σε χώρες της Ευρώπης που δουλεύουν με ραντεβού.
+Οι επιχειρήσεις χάνουν leads εκτός ωραρίου επειδή τα αιτήματα φτάνουν όταν το προσωπικό δεν είναι διαθέσιμο. Τη λύση την προσφέρει η εφαρμογή [Online Γραφέας 24/7](https://nexaipla.com/onlinebooking/).
 
-## Τι γίνεται στην πράξη μετά το κλείσιμο
+> **Σύντομη απάντηση:** Οι επιχειρήσεις χάνουν leads εκτός ωραρίου επειδή τα αιτήματα φτάνουν όταν το προσωπικό δεν είναι διαθέσιμο.
 
-Η μέρα τελειώνει. Το τηλέφωνο όχι. Ο πελάτης σχολάει αργότερα από εσάς, ανοίγει το Google και παίρνει το πρώτο μαγαζί που μοιάζει να απαντά σε μήνυμα. Αν πέσει σε τηλεφωνητή, οι περισσότεροι δεν αφήνουν μήνυμα. Παίρνουν το επόμενο αποτέλεσμα.
+Χάνετε έσοδα κάθε βράδυ, Σαββατοκύριακο και διάλειμμα όταν κανείς δεν απαντά.
 
-Το ίδιο κενό υπάρχει στο μεσημεριανό, την Κυριακή και το απόγευμα που η ρεσεψιόν είναι στην καρέκλα ή με ασθενή. Το lead δεν είναι «κακής ποιότητας». Είναι άνθρωπος που ήταν έτοιμος να κλείσει και βρήκε γραμμή που δεν απαντά.
+## Αναλυτική εξήγηση
 
-Το WhatsApp μόνο του δεν το λύνει. Μήνυμα που κάθεται ως το πρωί είναι χαμένη κράτηση, αν κάποιος άλλος απάντησε πρώτος. Το τετράδιο δίπλα στο τηλέφωνο δεν κλείνει ραντεβού όσο κοιμάστε.
+Οι πελάτες ψάχνουν και καλούν όταν είστε κλειστά. Χωρίς αυτόματη καταγραφή, τα leads πάνε στον ανταγωνισμό.
 
-## Η εφαρμογή που απαντά σε αυτή την ερώτηση
+Πολλές μικρές επιχειρήσεις στην **Κύπρο και την Ελλάδα** αντιμετωπίζουν το ίδιο πρόβλημα: περιορισμένο προσωπικό, μεγάλο ωράριο και πελάτες που περιμένουν άμεσες απαντήσεις. Η στοχευμένη αυτοματοποίηση — όχι «ολική μεταμόρφωση AI» — συχνά λύνει το πρόβλημα σε εβδομάδες.
 
-Τη δουλειά αυτή την κάνει ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) της [NexAIpla](https://www.nexaipla.com/), για επιχειρήσεις με ραντεβού.
+## Οφέλη
 
-Τι κάνει ο πελάτης:
+- Ανάκτηση leads και κρατήσεων εκτός ωραρίου
+- Μείωση επαναλαμβανόμενης χειροκίνητης εργασίας
+- Ταχύτερες απαντήσεις χωρίς πρόσληψη
+- Μετρήσιμο ROI εντός 60–90 ημερών
 
-1. Ανοίγει chat ή σκανάρει QR.
-2. Διαλέγει υπηρεσία, άτομο και ελεύθερη ώρα.
-3. Κλείνει χωρίς λογαριασμό και χωρίς κωδικό.
-4. Παίρνει SMS με σύνδεσμο για επιβεβαίωση, ακύρωση ή μεταφορά.
+## Πραγματικά παραδείγματα
 
-Τι βλέπει η επιχείρηση το πρωί:
+1. Ένα κομμωτήριο στη Λεμεσό αυξάνει κρατήσεις 15% με online προγραμματισμό 24/7.
+2. Ένα ιατρείο μειώνει διακοπές από τηλέφωνο με AI βοηθό για συχνές ερωτήσεις.
+3. Ένα εστιατόριο αυτοματοποιεί επιβεβαιώσεις παραγγελιών και μειώνει λάθη καταχώρησης.
 
-- Ημερολόγιο με διαθεσιμότητα ανά υπηρεσία και ανά άτομο, ώστε δύο πελάτες να μην γράφονται στην ίδια καρέκλα.
-- Υπενθύμιση SMS πριν την επίσκεψη, για να ακυρώσει όποιος δεν θα έρθει αντί να εξαφανιστεί.
-- Πίνακα που ανοίγει με προσωπικό σύνδεσμο, όχι με κοινόχρηστο κωδικό.
-- Συγχρονισμό με Google Calendar, ώστε το παλιό πρόγραμμα και οι νέες κρατήσεις να κάθονται μαζί.
+## Βήματα υλοποίησης
 
-Δεν είναι φωνητική γραμματέας. Αν κάποιος ξέρει μόνο να τηλεφωνεί, βάλτε τον σύνδεσμο στον τηλεφωνητή και στο προφίλ Google. Η κλήση μπορεί να χαθεί. Το επόμενο βήμα όχι.
+1. Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness
+2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
+3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
+4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
 
-## Άλλη ερώτηση: «Έχει κίνηση τώρα;»
+## Σχετικά σε αυτό το θέμα
 
-Μερικοί δεν θέλουν μελλοντικό ραντεβού. Θέλουν να ξέρουν αν ένα κατάστημα χωρίς ραντεβού είναι ήσυχο αυτή τη στιγμή. Αυτό το απαντά το [Live Business Traffic](https://www.nexaipla.com/shoptraffic/): δημόσια σελίδα με το επίπεδο αναμονής, το ωράριο και το έκτακτο κλείσιμο. Δεν αντικαθιστά το ραντεβού. Κομμωτήριο με ημερολόγιο θέλει τον Online Γραφέα. Κουρείο που παίρνει όποιον μπει θέλει τη σελίδα κίνησης. Μερικές επιχειρήσεις θέλουν και τα δύο, γιατί οι πελάτες λένε δύο διαφορετικές φράσεις.
-
-## Πόσο σας κοστίζει, με μέτρηση δική σας
-
-Μην δανειστείτε ποσοστό από ξένη ιστορία. Μετρήστε τη δική σας εβδομάδα.
-
-| Τι μετράτε για 7 ημέρες | Πώς το χρησιμοποιείτε |
-| --- | --- |
-| Αναπάντητες κλήσεις μετά το ωράριο και στο διάλειμμα | Πολλαπλασιάστε με το μερίδιο που συνήθως γίνεται επίσκεψη |
-| Μέση τιμή της υπηρεσίας που θα έκλειναν | Πολλαπλασιάστε με αυτό το μερίδιο |
-| Ώρες που η ομάδα ξοδεύει να καλεί πίσω | Πολλαπλασιάστε με ό,τι σας κοστίζει η ώρα |
-
-Παράδειγμα, ως παράδειγμα και όχι ως μέτρηση της NexAIpla: 4 αναπάντητες κλήσεις την εβδομάδα, η 1 θα έκλεινε υπηρεσία 40€. Περίπου 160€ τον μήνα, πριν μετρήσετε τον χρόνο της επιστροφής κλήσεων. Οι δικοί σας αριθμοί θα διαφέρουν. Η μέτρηση δείχνει αν το κενό είναι αρκετά μεγάλο για έναν σύνδεσμο κράτησης.
-
-Η τιμή του Online Γραφέα βγαίνει σε προσφορά για τις δικές σας υπηρεσίες και την ομάδα. Δεν αναγράφεται σε αυτό το άρθρο. Συγκρίνετέ την με το εβδομαδιαίο κενό που μόλις μετρήσατε. Η μέθοδος είναι η ίδια με το [Πώς υπολογίζω αν αξίζει μια αυτοματοποίηση;](/articles/calculate-automation-roi).
-
-## Πώς το βάζετε μπροστά στους πελάτες αυτή την εβδομάδα
-
-1. Γράψτε υπηρεσίες, διάρκειες, άτομα και τις ώρες που δέχεστε. Ώρα που δεν θέλετε στις 21:00 δεν πρέπει να φαίνεται ελεύθερη.
-2. Βάλτε τον σύνδεσμο στο Google Business, στο Instagram και στον τηλεφωνητή. Η ίδια φράση και στα τρία: «Κλείστε εδώ. Χωρίς λογαριασμό.»
-3. Ανοίξτε την επιβεβαίωση SMS και την υπενθύμιση. Δοκιμάστε μόνοι σας τον σύνδεσμο ακύρωσης.
-4. Για 30 ημέρες σημειώστε κάθε κράτηση που ήρθε όσο το τηλέφωνο ήταν αφύλακτο. Ο αριθμός λέει αν η σελίδα κάνει τη δουλειά.
-
-Αν ο πόνος δεν είναι τα ραντεβού αλλά τα emails, διαβάστε [Ποια εφαρμογή απαντά στα emails των πελατών όταν δεν προλαβαίνω;](/articles/cannot-keep-up-with-emails). Η εφαρμογή κρατήσεων δεν ταξινομεί inbox.
-
-## Ποιοι να το προσπεράσουν
-
-Παραλείψτε το αν δεν δουλεύετε με ραντεβού. Καφέ που θέλει μόνο την ουρά τώρα κοιτάζει την κίνηση καταστήματος, όχι ημερολόγιο. Παραλείψτε το αν θέλετε φωνητικό ρομπότ στο τηλέφωνο. Αυτό δεν το κάνει το προϊόν.
+- [Λογισμικό online κρατήσεων για μικρές επιχειρήσεις](/el/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/el/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/el/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/el/articles/booking-after-hours-without-receptionist)
+- [Qr Code Appointment Booking](/el/articles/qr-code-appointment-booking)
+- [Sms Appointment Confirm Remind Cancel](/el/articles/sms-appointment-confirm-remind-cancel)
 
 ## Συχνές ερωτήσεις
 
-### Ποια εφαρμογή κλείνει ραντεβού όταν είμαστε κλειστά;
+### Πώς ξέρω αν αυτό το πρόβλημα με αφορά;
 
-Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) της NexAIpla. Ο πελάτης κλείνει με chat ή QR, χωρίς λογαριασμό, και παίρνει SMS για επιβεβαίωση, ακύρωση ή μεταφορά. Το ημερολόγιο μένει ανοιχτό αφού κλειδώσετε. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
-### Σηκώνει το τηλέφωνο με φωνητικό ρομπότ;
+Αν αναγνωρίζετε μοτίβα σχετικά με «Γιατί χάνονται leads εκτός ωραρίου» στην καθημερινότητά σας, πιθανότατα σας αφορά. Καταγράψτε χαμένες κλήσεις, χειροκίνητες ώρες ή leads για μία εβδομάδα.
 
-Όχι. Δεν απαντά σε φωνητικές κλήσεις. Βάζετε τον σύνδεσμο εκεί που ήδη στέλνει η αναπάντητη κλήση: τηλεφωνητή, Google και QR στην πόρτα. Δείτε την αρχική σελίδα της [NexAIpla](https://www.nexaipla.com/).
-### Κι αν θέλουν μόνο να μάθουν αν έχουμε κίνηση;
+### Ποιο είναι το πρώτο βήμα;
 
-Χρησιμοποιήστε το [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). Δείχνει την αναμονή για κατάστημα χωρίς ραντεβού. Δεν κλείνει μελλοντικό ραντεβού. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
-### Χρειάζεται ο πελάτης λογαριασμό ή εφαρμογή στο κινητό;
+Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness.
 
-Όχι. Η κράτηση γίνεται στον browser. Τη διαχείριση του ραντεβού την κάνει ο σύνδεσμος στο SMS. Δείτε την αρχική σελίδα της [NexAIpla](https://www.nexaipla.com/).
+### Πόσο κοστίζει;
+
+Πολλές ΜΜΕ ξεκινούν με μία αυτοματοποίηση από μερικές εκατοντάδες ευρώ/μήνα — συχνά λιγότερο από το κόστος του προβλήματος.
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
+
 ## Επόμενο βήμα
 
-Αν δεν είστε σίγουροι ότι τα ραντεβού είναι το πρώτο που πρέπει να αυτοματοποιηθεί, κάντε το δωρεάν [AI Readiness Score](https://www.nexaipla.com/ai-score): 18 ερωτήσεις, σκορ 0–100 και φωτεινός σηματοδότης. Τρέχει στον browser και δεν ζητά λογαριασμό.
+Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://www.nexaipla.com/ai-score)
+[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://nexaipla.com/readiness)
 
-[Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι χάνετε κλήσεις μετά το κλείσιμο. Απαντάμε εντός 48 ωρών.
+[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
