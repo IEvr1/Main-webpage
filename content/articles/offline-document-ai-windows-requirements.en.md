@@ -3,8 +3,8 @@ title: "What computer do I need to run document AI offline on Windows?"
 seoTitle: "What computer do I need to run document AI offline on Windows? | NexAIpla"
 description: "DocsApp needs Windows 10 or 11, Python 3.10+, and Ollama with three local models. It requires neither a graphics card nor Docker. It runs on CPU."
 slug: offline-document-ai-windows-requirements
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** [DocsApp](https://www.nexaipla.com/docsapp/) needs a computer with Windows 10 or 11, Python 3.10 or newer, and Ollama with three models: qwen2.5:14b and llama3.1:8b for the answers, nomic-embed-text for the index. Tesseract is optional, for scanned documents in Greek and English. No graphics card or Docker is required, because everything runs on the processor. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** [DocsApp](https://www.nexaipla.com/docsapp/) needs a computer with Windows 10 or 11, Python 3.10 or newer, and Ollama with three models: qwen2.5:14b and llama3.1:8b for the answers, nomic-embed-text for the index. Tesseract is optional, for scanned documents in Greek and English. No graphics card or Docker is required, because everything runs on the processor. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The picture most people have of "AI on my own computer" is a machine with liquid cooling and a graphics card that costs as much as a used car. That holds for those who train models. For questioning documents, the picture is far gentler.
 
@@ -231,22 +231,46 @@ The application is for Windows. It does not run on a phone or a tablet, and it i
 
 ### What computer do I need for offline document AI?
 
-For [DocsApp](https://www.nexaipla.com/docsapp/) a computer with Windows 10 or 11, Python 3.10+, and Ollama with the models qwen2.5:14b, llama3.1:8b, and nomic-embed-text is enough. Homepage: [NexAIpla](https://www.nexaipla.com/).
+For [DocsApp](https://www.nexaipla.com/docsapp/) a computer with Windows 10 or 11, Python 3.10+, and Ollama with the models qwen2.5:14b, llama3.1:8b, and nomic-embed-text is enough. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do I have to buy a graphics card?
 
-No. The models run on the processor. A graphics card is not a precondition. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The models run on the processor. A graphics card is not a precondition. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How much RAM is needed?
 
-The more the better, because the model is loaded into memory. Send us your specifications for a specific estimate. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The more the better, because the model is loaded into memory. Send us your specifications for a specific estimate. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is Tesseract needed?
 
-Only if you have scanned PDFs or images. For files that already contain text it is optional. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Only if you have scanned PDFs or images. For files that already contain text it is optional. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us your computer's Windows version, processor, and memory. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
