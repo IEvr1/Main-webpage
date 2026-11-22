@@ -134,7 +134,7 @@ draft: false
 
 Which service or app solves this: AI appointment booking assistant?
 
-An AI appointment booking assistant automatically manages appointments, reminders, and customer inquiries without human intervention. The app that offers this solution is [Online Receptionist 24/7](https://nexaipla.com/onlinebooking/).
+An AI appointment booking assistant automatically manages appointments, reminders, and customer inquiries without human intervention. The app that offers this solution is [Online Receptionist 24/7](https://nexaipla.com/onlinebooking/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** An AI appointment booking assistant automatically manages appointments, reminders, and customer inquiries without human intervention.
 
