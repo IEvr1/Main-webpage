@@ -3,8 +3,8 @@ title: "How can customers see how busy my shop is right now?"
 seoTitle: "How can customers see how busy my shop is right now? | NexAIpla"
 description: "With Live Business Traffic a customer opens one public page and sees, by colour, how busy your walk-in shop is right now. No account. No booking."
 slug: how-busy-is-shop-right-now
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Customers see how busy your shop is right now on the public page of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The page shows one of four colour-coded levels, from LOW to VERY BUSY, together with your opening hours and any announcement. It opens on any phone, with no account, and it refreshes by itself. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Customers see how busy your shop is right now on the public page of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The page shows one of four colour-coded levels, from LOW to VERY BUSY, together with your opening hours and any announcement. It opens on any phone, with no account, and it refreshes by itself. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A walk-in shop has no diary anyone can consult. The only way a customer learns whether this is a good moment is to stand at the door, or to ring and interrupt whoever is working. Both are expensive. The first costs the customer a trip. The second costs you a pause, with someone already in front of you.
 
@@ -199,22 +199,45 @@ Write the rule on a note beside the till for the first week. The customer never 
 
 ### How can customers see how busy my shop is right now?
 
-On the public page of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). It shows one of four colour-coded levels, your hours, and your announcements, and it refreshes automatically. Homepage: [NexAIpla](https://www.nexaipla.com/).
+On the public page of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). It shows one of four colour-coded levels, your hours, and your announcements, and it refreshes automatically. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the page count people automatically?
 
-No. The owner or the staff set the level with one tap on a private screen. No cameras and no sensors are installed. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The owner or the staff set the level with one tap on a private screen. No cameras and no sensors are installed. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the customer need an app or an account?
 
-No. The page opens in the browser of any phone, in Greek or in English. On supported phones it can also be added to the home screen. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The page opens in the browser of any phone, in Greek or in English. On supported phones it can also be added to the home screen. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can a customer reserve a place from the page?
 
-No. The page shows a busy level, not an appointment time. For appointments at a set time there is [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/). Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The page shows a busy level, not an appointment time. For appointments at a set time there is [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/). Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to see where a live busy page sits among the shop's other priorities. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want a live busy page for a walk-in shop. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
