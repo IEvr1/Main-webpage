@@ -3,8 +3,8 @@ title: "Can a shop's live busy page be shown in Greek and English?"
 seoTitle: "Can a shop's live busy page be shown in Greek and English? | NexAIpla"
 description: "Yes. The public Live Business Traffic page works in Greek and English, so locals and visitors read the same busy level and hours. No account. No app."
 slug: bilingual-shop-busy-page
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. The public page of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) is available in Greek and in English. Visitors, foreign residents, and locals read the same busy level, opening hours, and "open" or "closed" status in the language they choose, with no account. The four levels are colour-coded, so the main message is clear before a single word is read. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. The public page of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) is available in Greek and in English. Visitors, foreign residents, and locals read the same busy level, opening hours, and "open" or "closed" status in the language they choose, with no account. The four levels are colour-coded, so the main message is clear before a single word is read. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 In Limassol, Paphos, Larnaca, on the islands, in the centre of Athens, a shop's customers do not share one language. The pharmacy beside the marina, the barber near the university, the café in the old town serve people who read Greek and people who do not. The phone call from the second group is the hardest one in a rush, because it lasts longer and both sides are guessing.
 
@@ -206,22 +206,45 @@ And on the phone, when it rings all the same. Instead of explaining opening time
 
 ### Is the busy page available in Greek and English?
 
-Yes. The public page of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) has a Greek and an English interface, and the visitor chooses the language. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The public page of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) has a Greek and an English interface, and the visitor chooses the language. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Are my announcements translated automatically?
 
-Do not take that for granted. The announcement is your own text, so write the short message in both languages on the same line. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Do not take that for granted. The announcement is your own text, so write the short message in both languages on the same line. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is the owner screen bilingual as well?
 
-The interface exists in Greek and in English. The owner, in any case, works mainly with four colour-matched buttons that need no reading. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The interface exists in Greek and in English. The owner, in any case, works mainly with four colour-matched buttons that need no reading. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does a visitor need to install anything?
 
-No. The page opens in the phone's browser from a link or a QR, with no account, in whichever of the two languages they prefer. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The page opens in the phone's browser from a link or a QR, with no account, in whichever of the two languages they prefer. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to see where a live busy page sits among the shop's other priorities. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you also serve foreign customers and want a bilingual live busy page. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
