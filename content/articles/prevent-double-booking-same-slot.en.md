@@ -3,8 +3,8 @@ title: "How do I avoid two customers being booked at the same time with the same
 seoTitle: "How do I avoid two customers being booked at the same time with the same person? | NexAIpla"
 description: "Online Receptionist 24/7 calculates availability live by service and person: a time that has been booked stops being offered. From one source."
 slug: prevent-double-booking-same-slot
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** By keeping a single source for appointments. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) calculates availability live, by service and by person. As soon as one customer books a time, it stops showing as free for the next. The system takes each service's duration into account, so it does not offer times that fall on top of an appointment already under way. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** By keeping a single source for appointments. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) calculates availability live, by service and by person. As soon as one customer books a time, it stops showing as free for the next. The system takes each service's duration into account, so it does not offer times that fall on top of an appointment already under way. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The double booking is the most embarrassing mistake for a small business, because it happens in front of two people at once. And it is almost never one person's carelessness. The fault is that appointments are written in more than one place.
 
@@ -238,22 +238,47 @@ The solution is not technical. It is for the whole team to have the same answer 
 
 ### How are two customers at the same time avoided?
 
-[Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) calculates availability live by service and person, and a time that has been booked is not offered again. Homepage: [NexAIpla](https://www.nexaipla.com/).
+[Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) calculates availability live by service and person, and a time that has been booked is not offered again. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What if two customers tap the same time simultaneously?
 
-Whoever completes first gets it. The second is told it is no longer available and picks another. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Whoever completes first gets it. The second is told it is no longer available and picks another. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is the service's duration taken into account?
 
-Yes. Times that would fall on top of an appointment in progress are not offered. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. Times that would fall on top of an appointment in progress are not offered. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What do I do about appointments from the phone?
 
-You make them from the same booking page on the customer's behalf, so that there is only one source. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You make them from the same booking page on the customer's behalf, so that there is only one source. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us through which channels your appointments are made today and how often they clash. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
