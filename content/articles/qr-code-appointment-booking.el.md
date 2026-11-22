@@ -3,8 +3,8 @@ title: Μπορούν οι πελάτες να κλείσουν ραντεβού
 seoTitle: "Μπορούν οι πελάτες να κλείσουν ραντεβού σκανάροντας έναν κωδικό QR; | NexAIpla"
 description: "Ναι. Με τον Online Γραφέα 24/7 ο πελάτης σκανάρει έναν κωδικό QR στη βιτρίνα ή στην κάρτα και κλείνει ραντεβού από το κινητό, χωρίς εφαρμογή."
 slug: qr-code-appointment-booking
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι. Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) σάς δίνει τη σελίδα κράτησης και ως κωδικό QR. Ο πελάτης τον σκανάρει με την κάμερα του κινητού, ανοίγει η συνομιλία κράτησης, διαλέγει υπηρεσία, άτομο και ώρα, και λαμβάνει SMS επιβεβαίωσης. Δεν κατεβάζει εφαρμογή και δεν δημιουργεί λογαριασμό. Ο κωδικός δουλεύει και όταν το μαγαζί είναι κλειστό. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι. Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) σάς δίνει τη σελίδα κράτησης και ως κωδικό QR. Ο πελάτης τον σκανάρει με την κάμερα του κινητού, ανοίγει η συνομιλία κράτησης, διαλέγει υπηρεσία, άτομο και ώρα, και λαμβάνει SMS επιβεβαίωσης. Δεν κατεβάζει εφαρμογή και δεν δημιουργεί λογαριασμό. Ο κωδικός δουλεύει και όταν το μαγαζί είναι κλειστό. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Η βιτρίνα είναι το πιο ακριβό διαφημιστικό μέσο που έχετε, γιατί την πληρώνετε με το ενοίκιο. Όταν είστε ανοιχτά, δουλεύει: ο περαστικός μπαίνει και ρωτά. Όταν είστε κλειστά, δείχνει ένα ωράριο και έναν αριθμό τηλεφώνου που δεν θα απαντήσει.
 
@@ -253,22 +253,47 @@ draft: false
 
 ### Μπορούν οι πελάτες να κλείσουν ραντεβού με κωδικό QR;
 
-Ναι. Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) δίνει τη σελίδα κράτησης και ως κωδικό QR, που ανοίγει από την κάμερα του κινητού. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) δίνει τη σελίδα κράτησης και ως κωδικό QR, που ανοίγει από την κάμερα του κινητού. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζεται ο πελάτης εφαρμογή για να σκανάρει;
 
-Όχι. Τα σύγχρονα κινητά διαβάζουν κωδικούς QR από την κάμερα, και η κράτηση γίνεται σε σελίδα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Τα σύγχρονα κινητά διαβάζουν κωδικούς QR από την κάμερα, και η κράτηση γίνεται σε σελίδα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Είναι διαφορετικός ο κωδικός από τον σύνδεσμο;
 
-Όχι. Οδηγούν στην ίδια σελίδα κράτησης. Ο κωδικός εξυπηρετεί τα έντυπα και τη βιτρίνα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Οδηγούν στην ίδια σελίδα κράτησης. Ο κωδικός εξυπηρετεί τα έντυπα και τη βιτρίνα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται με πελάτες που δεν σκανάρουν;
 
-Κλείνετε το ραντεβού για λογαριασμό τους από την ίδια σελίδα, και λαμβάνουν το ίδιο SMS. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Κλείνετε το ραντεβού για λογαριασμό τους από την ίδια σελίδα, και λαμβάνουν το ίδιο SMS. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ακόμη αποφασίζετε αν οι κρατήσεις είναι η πρώτη δουλειά που αξίζει να αυτοματοποιηθεί. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε τι είδους επιχείρηση έχετε και πού θα βάζατε πρώτα τον κωδικό. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό online κρατήσεων για μικρές επιχειρήσεις](/el/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/el/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/el/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/el/articles/booking-after-hours-without-receptionist)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
