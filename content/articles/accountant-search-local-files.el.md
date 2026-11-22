@@ -3,8 +3,8 @@ title: Πώς βρίσκει ένας λογιστής γρήγορα μια π�
 seoTitle: "Πώς βρίσκει ένας λογιστής γρήγορα μια πληροφορία μέσα στους φακέλους των πελατών του; | NexAIpla"
 description: "Με το DocsApp ο λογιστής ρωτά τους φακέλους κάθε πελάτη σε απλή γλώσσα και παίρνει απάντηση με παραπομπή, χωρίς να φύγει αρχείο από το γραφείο. Offline."
 slug: accountant-search-local-files
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ρωτώντας τους φακέλους αντί να τους ανοίγει έναν έναν. Με το [DocsApp](https://www.nexaipla.com/docsapp/) ο λογιστής οργανώνει τα αρχεία ανά πελάτη και έτος, και ρωτά σε απλή γλώσσα: «τι ποσό ΦΠΑ δηλώθηκε το δεύτερο τρίμηνο;». Η απάντηση έρχεται με παραπομπή στο έγγραφο. Η εφαρμογή διαβάζει PDF, Word, Excel και σαρωμένα, και τρέχει offline στον υπολογιστή του γραφείου. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ρωτώντας τους φακέλους αντί να τους ανοίγει έναν έναν. Με το [DocsApp](https://www.nexaipla.com/docsapp/) ο λογιστής οργανώνει τα αρχεία ανά πελάτη και έτος, και ρωτά σε απλή γλώσσα: «τι ποσό ΦΠΑ δηλώθηκε το δεύτερο τρίμηνο;». Η απάντηση έρχεται με παραπομπή στο έγγραφο. Η εφαρμογή διαβάζει PDF, Word, Excel και σαρωμένα, και τρέχει offline στον υπολογιστή του γραφείου. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Ένα λογιστικό γραφείο δεν παράγει μόνο δηλώσεις. Παράγει χαρτί. Για κάθε πελάτη υπάρχουν δηλώσεις, εκκαθαριστικά, ισοζύγια, συμβάσεις, επιστολές από την εφορία, αποφάσεις, μισθωτήρια, τραπεζικές βεβαιώσεις. Επί εξήντα πελάτες. Επί δέκα χρόνια.
 
@@ -241,22 +241,46 @@ draft: false
 
 ### Πώς βρίσκει ο λογιστής γρήγορα μια πληροφορία στους φακέλους πελατών;
 
-Με το [DocsApp](https://www.nexaipla.com/docsapp/) ρωτά τον φάκελο του πελάτη σε απλή γλώσσα και παίρνει απάντηση με παραπομπή στο έγγραφο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με το [DocsApp](https://www.nexaipla.com/docsapp/) ρωτά τον φάκελο του πελάτη σε απλή γλώσσα και παίρνει απάντηση με παραπομπή στο έγγραφο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Αντικαθιστά το λογιστικό πρόγραμμα;
 
-Όχι. Δεν κάνει εγγραφές ούτε υποβολές. Ρωτά έγγραφα, ενώ οι υπολογισμοί μένουν στο λογιστικό σύστημα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Δεν κάνει εγγραφές ούτε υποβολές. Ρωτά έγγραφα, ενώ οι υπολογισμοί μένουν στο λογιστικό σύστημα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Ψάχνει και σε σαρωμένα τιμολόγια και επιστολές;
 
-Ναι, με την προαιρετική αναγνώριση χαρακτήρων. Ποσά και ημερομηνίες επιβεβαιώνονται στο πρωτότυπο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι, με την προαιρετική αναγνώριση χαρακτήρων. Ποσά και ημερομηνίες επιβεβαιώνονται στο πρωτότυπο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Ανεβαίνουν τα στοιχεία των πελατών στο διαδίκτυο;
 
-Όχι. Η εφαρμογή και τα μοντέλα τρέχουν στον υπολογιστή του γραφείου, χωρίς σύνδεση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η εφαρμογή και τα μοντέλα τρέχουν στον υπολογιστή του γραφείου, χωρίς σύνδεση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πόσους πελάτες έχει το γραφείο σας και τι ερωτήσεις σάς κάνουν συχνότερα. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
