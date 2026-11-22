@@ -3,8 +3,8 @@ title: "How do I set service duration and who performs it in online booking?"
 seoTitle: "How do I set service duration and who performs it in online booking? | NexAIpla"
 description: "In Online Receptionist 24/7 each service has its duration and each team member their own services, and the times offered are calculated accordingly."
 slug: service-duration-per-staff-booking
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** At the setup of [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) you define the list of services with the duration of each, and which team members perform which service. From there on availability is calculated live by service and person: the customer sees only those who offer what was asked for, and only times in which the service fits whole. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** At the setup of [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) you define the list of services with the duration of each, and which team members perform which service. From there on availability is calculated live by service and person: the customer sees only those who offer what was asked for, and only times in which the service fits whole. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The schedule of a service business is not a grid. It is a puzzle of pieces of different sizes, each of which fits only certain hands. When you squeeze it into equal boxes, you either lose time or chase the clock all day.
 
@@ -251,22 +251,47 @@ Someone has trained in something new: you add the service to them, and from that
 
 ### How do I set duration and staff for each service?
 
-At the setup of [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) each service gets a duration and is matched to the team members who perform it. Homepage: [NexAIpla](https://www.nexaipla.com/).
+At the setup of [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) each service gets a duration and is matched to the team members who perform it. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the customer see people who do not do the service asked for?
 
-No. Availability is by service and person, so only those who offer it are suggested. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Availability is by service and person, so only those who offer it are suggested. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Where do I put cleaning time between appointments?
 
-The simplest way is to include it in the service's duration. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The simplest way is to include it in the service's duration. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What if two people need different time for the same job?
 
-It can be declared as two services with different durations. Tell us at setup. Homepage: [NexAIpla](https://www.nexaipla.com/).
+It can be declared as two services with different durations. Tell us at setup. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us your five most frequent services, how long they take, and who does them. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
