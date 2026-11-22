@@ -3,8 +3,8 @@ title: "How does a shop owner update the busy level while working?"
 seoTitle: "How does a shop owner update the busy level while working? | NexAIpla"
 description: "In Live Business Traffic the owner changes the busy level with one tap on four colour-matched buttons, from a private link. No shared password. No typing."
 slug: owner-update-busy-level-one-tap
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** The owner updates the busy level from a private screen in [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) that has four colour-matched buttons: LOW, MEDIUM, BUSY, VERY BUSY. One tap changes what customers see on the public page. The screen opens from a secure personal link, with no shared password, and can be added to the phone's home screen. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** The owner updates the busy level from a private screen in [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) that has four colour-matched buttons: LOW, MEDIUM, BUSY, VERY BUSY. One tap changes what customers see on the public page. The screen opens from a secure personal link, with no shared password, and can be added to the phone's home screen. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Every owner asks the same thing on first seeing a live busy page: "And who is going to update it? On Saturdays I am alone in here." It is the right question. A page that says LOW while eight people are waiting is worse than no page. So the update has to cost almost nothing, and it has to become a reflex.
 
@@ -206,22 +206,45 @@ If a rush truly leaves no free hand for half an hour, tap VERY BUSY at the start
 
 ### How does the owner update the busy level?
 
-By tapping one of four colour-matched buttons on a private screen of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The public page updates by itself. Homepage: [NexAIpla](https://www.nexaipla.com/).
+By tapping one of four colour-matched buttons on a private screen of [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The public page updates by itself. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do the staff need a username and a password?
 
-No. The owner screen opens from a secure personal link. You share it only with the people who are meant to change the level. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The owner screen opens from a secure personal link. You share it only with the people who are meant to change the level. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What if I forget to update it during a rush?
 
-Tap the busiest level when the rush begins and come back to it when it has passed. Once the tap is tied to a routine action, it is rarely forgotten. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Tap the busiest level when the rush begins and come back to it when it has passed. Once the tap is tied to a routine action, it is rarely forgotten. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I close the shop on the page in an emergency?
 
-Yes. The dashboard has an emergency open and close, and the public page then shows the shop as temporarily closed. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The dashboard has an emergency open and close, and the public page then shows the shop as temporarily closed. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to see where a live busy page sits among the shop's other priorities. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want to try the one-tap owner screen in your shop. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
