@@ -3,8 +3,8 @@ title: Πώς βλέπει η κουζίνα ενός εστιατορίου ό�
 seoTitle: "Πώς βλέπει η κουζίνα ενός εστιατορίου όλες τις online παραγγελίες σε μία οθόνη; | NexAIpla"
 description: "Ο πίνακας του Online Food Orders δείχνει ζωντανή ουρά παραγγελιών, βασικούς δείκτες και κλεισίματα του μαγαζιού, και ανοίγει με ασφαλή σύνδεσμο. Σε tablet."
 slug: restaurant-kitchen-order-dashboard
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Με τον πίνακα ιδιοκτήτη του [Online Food Orders](https://www.nexaipla.com/foodorder/). Κάθε παραγγελία που στέλνει πελάτης εμφανίζεται σε ζωντανή ουρά με πιάτα, ποσότητες, σημειώσεις, παραλαβή ή διανομή και ώρα. Η ίδια οθόνη έχει τους βασικούς δείκτες της ημέρας, τα κλεισίματα του μαγαζιού, τη μαζική ακύρωση για έκτακτη ανάγκη και τις ρυθμίσεις. Ανοίγει με ασφαλή σύνδεσμο, χωρίς κωδικό. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Με τον πίνακα ιδιοκτήτη του [Online Food Orders](https://www.nexaipla.com/foodorder/). Κάθε παραγγελία που στέλνει πελάτης εμφανίζεται σε ζωντανή ουρά με πιάτα, ποσότητες, σημειώσεις, παραλαβή ή διανομή και ώρα. Η ίδια οθόνη έχει τους βασικούς δείκτες της ημέρας, τα κλεισίματα του μαγαζιού, τη μαζική ακύρωση για έκτακτη ανάγκη και τις ρυθμίσεις. Ανοίγει με ασφαλή σύνδεσμο, χωρίς κωδικό. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Σε μια μικρή κουζίνα η «σειρά» των παραγγελιών ζει σε τρία μέρη: σε μια καρφίτσα με χαρτάκια, στο κεφάλι του ψήστη και στο κινητό του ιδιοκτήτη. Όσο οι παραγγελίες είναι λίγες, τα τρία συμφωνούν. Όταν γίνουν πολλές, ένα χαρτάκι πέφτει πίσω από τον πάγκο και ο πελάτης τηλεφωνεί σαράντα λεπτά αργότερα.
 
@@ -215,22 +215,47 @@ draft: false
 
 ### Πώς βλέπει η κουζίνα όλες τις online παραγγελίες;
 
-Στον πίνακα του [Online Food Orders](https://www.nexaipla.com/foodorder/), σε ζωντανή ουρά με πιάτα, σημειώσεις, τρόπο παράδοσης και ώρα για κάθε παραγγελία. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στον πίνακα του [Online Food Orders](https://www.nexaipla.com/foodorder/), σε ζωντανή ουρά με πιάτα, σημειώσεις, τρόπο παράδοσης και ώρα για κάθε παραγγελία. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται στην οθόνη όταν ο πελάτης ακυρώσει;
 
-Η ακύρωση που κάνει ο πελάτης από τον σύνδεσμο του SMS εμφανίζεται αμέσως στην ουρά, ώστε να μην ετοιμαστεί το φαγητό. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Η ακύρωση που κάνει ο πελάτης από τον σύνδεσμο του SMS εμφανίζεται αμέσως στην ουρά, ώστε να μην ετοιμαστεί το φαγητό. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζεται κωδικός για να ανοίξει ο πίνακας;
 
-Όχι. Ανοίγει με ασφαλή, υπογεγραμμένο σύνδεσμο. Οι διανομείς έχουν ξεχωριστό πίνακα με δικό του σύνδεσμο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Ανοίγει με ασφαλή, υπογεγραμμένο σύνδεσμο. Οι διανομείς έχουν ξεχωριστό πίνακα με δικό του σύνδεσμο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι κάνω αν πρέπει να σταματήσω τις παραγγελίες ξαφνικά;
 
-Δηλώνετε κλείσιμο του μαγαζιού και, αν χρειαστεί, ακυρώνετε μαζικά τις ανοιχτές παραγγελίες από την ίδια οθόνη. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Δηλώνετε κλείσιμο του μαγαζιού και, αν χρειαστεί, ακυρώνετε μαζικά τις ανοιχτές παραγγελίες από την ίδια οθόνη. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ζυγίζετε τις online παραγγελίες απέναντι σε άλλες αλλαγές στο μαγαζί. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πώς φτάνουν σήμερα οι παραγγελίες στην κουζίνα σας. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Συστήματα online παραγγελιών για εστιατόρια](/el/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/el/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/el/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/el/articles/pickup-and-delivery-same-food-app)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
