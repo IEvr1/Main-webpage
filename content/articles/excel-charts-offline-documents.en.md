@@ -3,8 +3,8 @@ title: "Can I get charts and analysis from Excel files with AI without the inter
 seoTitle: "Can I get charts and analysis from Excel files with AI without the internet? | NexAIpla"
 description: "DocsApp reads Excel and CSV files locally and produces charts and analysis from plain-language questions, with no cloud. On Windows. No formulas."
 slug: excel-charts-offline-documents
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. [DocsApp](https://www.nexaipla.com/docsapp/) accepts Excel and CSV files in the intake folder and lets you ask for charts and analysis with plain-language questions such as "show sales by month". Everything happens on your computer with local models through Ollama. Your financial data is not uploaded to any service. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. [DocsApp](https://www.nexaipla.com/docsapp/) accepts Excel and CSV files in the intake folder and lets you ask for charts and analysis with plain-language questions such as "show sales by month". Everything happens on your computer with local models through Ollama. Your financial data is not uploaded to any service. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Every small business has one Excel file that knows everything. Sales per day, costs per supplier, staff hours. And almost always only one person can read it: the one who made it. The rest open it, see four thousand rows, and close it.
 
@@ -237,22 +237,46 @@ The models run on the processor, with no graphics card. A sheet of a few thousan
 
 ### Does it produce charts from Excel without the internet?
 
-Yes. [DocsApp](https://www.nexaipla.com/docsapp/) reads Excel and CSV locally and makes charts and analysis from plain-language questions. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. [DocsApp](https://www.nexaipla.com/docsapp/) reads Excel and CSV locally and makes charts and analysis from plain-language questions. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do I have to know Excel formulas?
 
-No. You write what you want to see, and the application finds the columns and does the calculation. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. You write what you want to see, and the application finds the columns and does the calculation. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is my financial data uploaded anywhere?
 
-No. The file, the model, and the chart are all on your own computer. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The file, the model, and the chart are all on your own computer. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I trust the numbers?
 
-Check them. Compare a total with what you know from your accounting software before resting a decision on it. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Check them. Compare a total with what you know from your accounting software before resting a decision on it. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us what data you keep in Excel and which question you would like answered first. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
