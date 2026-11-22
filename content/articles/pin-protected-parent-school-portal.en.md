@@ -3,8 +3,8 @@ title: "Is access to the school meals portal protected by a PIN or a password?"
 seoTitle: "Is access to the school meals portal protected by a PIN or a password? | NexAIpla"
 description: "In All-day School — Meals staff enter with a secret link plus a PIN, while a parent uses a personal link per child. No password. Expires 31 July."
 slug: pin-protected-parent-school-portal
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) the staff screens are protected by two things together: a secret link and a PIN for each role, that is admin, school office, and kitchen. Parents have neither a PIN nor a password. They enter through a personal, random link per child that they receive by SMS, and they see only their own child. All links expire on 31 July. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) the staff screens are protected by two things together: a secret link and a PIN for each role, that is admin, school office, and kitchen. Parents have neither a PIN nor a password. They enter through a personal, random link per child that they receive by SMS, and they see only their own child. All links expire on 31 July. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 When a parents' association hears "no password", it worries. These are children, family phone numbers, allergies. The worry is right. But the answer is not one password for everybody. It is a different lock for a different user, according to what each can see.
 
@@ -216,22 +216,46 @@ Technical protection does not rescue a PIN written on a sticker on the kitchen t
 
 ### Is access to the school meals system protected by a PIN?
 
-In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) the admin, office, and kitchen roles enter with a secret link and a PIN. Parents enter with a personal link per child, without a PIN. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) the admin, office, and kitchen roles enter with a secret link and a PIN. Parents enter with a personal link per child, without a PIN. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Why do parents have no password?
 
-Because they see only their own child, and a password would leave many families out. The link is random, is renewed on recovery, and expires on 31 July. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Because they see only their own child, and a password would leave many families out. The link is random, is renewed on recovery, and expires on 31 July. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What happens if someone tries many numbers or many PINs?
 
-The attempts are limited, and the public forms do not disclose whether a mobile number is on the list. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The attempts are limited, and the public forms do not disclose whether a mobile number is on the list. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the kitchen role have access to families' contact details?
 
-No. The kitchen role shows portions, allergies, and comments. Contact details stay with the admin role. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The kitchen role shows portions, allergies, and comments. Contact details stay with the admin role. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want to see how parent and staff access to the school meals system is protected. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
