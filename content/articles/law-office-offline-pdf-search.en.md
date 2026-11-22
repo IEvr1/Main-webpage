@@ -3,8 +3,8 @@ title: "How does a law office search inside case files without uploading anythin
 seoTitle: "How does a law office search inside case files without uploading anything to the internet? | NexAIpla"
 description: "With DocsApp a lawyer questions the case file in plain language and gets an answer with a citation, while everything runs offline in the office. With OCR."
 slug: law-office-offline-pdf-search
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** With a tool that runs entirely on the office computer. [DocsApp](https://www.nexaipla.com/docsapp/) indexes pleadings, rulings, contracts, and scanned documents locally, and the lawyer asks in plain language: "when was the claim served?". The answer cites the document. The models run through Ollama with no connection, so the client's confidences are exposed to no third party. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** With a tool that runs entirely on the office computer. [DocsApp](https://www.nexaipla.com/docsapp/) indexes pleadings, rulings, contracts, and scanned documents locally, and the lawyer asks in plain language: "when was the claim served?". The answer cites the document. The models run through Ollama with no connection, so the client's confidences are exposed to no third party. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A lawyer's work is to a great extent reading. And reading has a familiar problem: the passage you need is never where you remember it. Was it in the third supplementary pleading or in the reply? Was the date in the letter or in the formal notice?
 
@@ -249,22 +249,46 @@ And in large case files, where nobody can any longer hold them all in their head
 
 ### How does a law office search case files without the internet?
 
-With [DocsApp](https://www.nexaipla.com/docsapp/), which indexes the documents and runs the models on the office computer, with no connection. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With [DocsApp](https://www.nexaipla.com/docsapp/), which indexes the documents and runs the models on the office computer, with no connection. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is professional secrecy exposed?
 
-The documents are not sent to an outside service. Protecting the computer itself remains the office's responsibility. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The documents are not sent to an outside service. Protecting the computer itself remains the office's responsibility. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does it find case law on my issue?
 
-No. It questions only the documents you have loaded. It is not a legal database. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It questions only the documents you have loaded. It is not a legal database. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I rely on the answer for my pleading?
 
-As a pointer to where to look. You always read and quote the passage from the original. Homepage: [NexAIpla](https://www.nexaipla.com/).
+As a pointer to where to look. You always read and quote the passage from the original. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many active cases the office has and how large your case files are. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
