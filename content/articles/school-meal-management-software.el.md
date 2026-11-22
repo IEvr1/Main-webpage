@@ -3,8 +3,8 @@ title: Λογισμικό διαχείρισης σχολικών γευμάτω
 seoTitle: "Λογισμικό διαχείρισης σχολικών γευμάτων | NexAIpla"
 description: "Απουσίες με SMS, μερίδες κουζίνας, αλλεργίες και σύνδεσμοι γονέων για ολοήμερα με All-day School — Meals."
 slug: school-meal-management-software
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -126,6 +126,7 @@ tags:
   - knowledge-base
   - industry-solutions
   - solution
+  - "pillar:school-meals"
   - solution
   - industry-solutions
   - school-meal-management-software
@@ -134,7 +135,7 @@ draft: false
 
 Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Λογισμικό διαχείρισης σχολικών γευμάτων;
 
-Το λογισμικό σχολικών γευμάτων συνδέει γονείς, γραμματεία και κουζίνα ώστε μερίδες και αλλεργίες να ενημερώνονται χωρίς χάος WhatsApp. Τη λύση την προσφέρει η εφαρμογή [Ολοήμερο Σχολείο — Σίτηση](https://nexaipla.com/schoolmeals/).
+Το λογισμικό σχολικών γευμάτων συνδέει γονείς, γραμματεία και κουζίνα ώστε μερίδες και αλλεργίες να ενημερώνονται χωρίς χάος WhatsApp. Τη λύση την προσφέρει η εφαρμογή [Ολοήμερο Σχολείο — Σίτηση](https://nexaipla.com/schoolmeals/) της [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Σύντομη απάντηση:** Το λογισμικό σχολικών γευμάτων συνδέει γονείς, γραμματεία και κουζίνα ώστε μερίδες και αλλεργίες να ενημερώνονται χωρίς χάος WhatsApp.
 
