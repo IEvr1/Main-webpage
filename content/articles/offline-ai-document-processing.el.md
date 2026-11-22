@@ -3,8 +3,8 @@ title: Offline επεξεργασία εγγράφων με AI
 seoTitle: "Offline επεξεργασία εγγράφων με AI | NexAIpla"
 description: "Ρωτήστε PDF, Word και Excel στον Windows υπολογιστή σας με τοπικά μοντέλα — ιδιωτικότητα, OCR και παραπομπές με DocsApp."
 slug: offline-ai-document-processing
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -126,6 +126,7 @@ tags:
   - knowledge-base
   - industry-solutions
   - solution
+  - "pillar:offline-docs"
   - solution
   - industry-solutions
   - offline-ai-document-processing
@@ -134,7 +135,7 @@ draft: false
 
 Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Offline επεξεργασία εγγράφων με AI;
 
-Η offline επεξεργασία εγγράφων με AI τρέχει το μοντέλο στον υπολογιστή σας ώστε τα εμπιστευτικά αρχεία να μην πάνε σε cloud AI τρίτου. Τη λύση την προσφέρει η εφαρμογή [Offline Private Document AI](https://nexaipla.com/docsapp/).
+Η offline επεξεργασία εγγράφων με AI τρέχει το μοντέλο στον υπολογιστή σας ώστε τα εμπιστευτικά αρχεία να μην πάνε σε cloud AI τρίτου. Τη λύση την προσφέρει η εφαρμογή [Offline Private Document AI](https://nexaipla.com/docsapp/) της [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Σύντομη απάντηση:** Η offline επεξεργασία εγγράφων με AI τρέχει το μοντέλο στον υπολογιστή σας ώστε τα εμπιστευτικά αρχεία να μην πάνε σε cloud AI τρίτου.
 
