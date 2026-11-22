@@ -3,8 +3,8 @@ title: "Can customers book an appointment by scanning a QR code?"
 seoTitle: "Can customers book an appointment by scanning a QR code? | NexAIpla"
 description: "Yes. With Online Receptionist 24/7 the customer scans a QR code in the window or on a card and books from their phone, with no app to install."
 slug: qr-code-appointment-booking
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) gives you the booking page as a QR code as well. The customer scans it with the phone's camera, the booking chat opens, they choose service, person, and time, and receive a confirmation SMS. They download no app and create no account. The code works when the shop is closed too. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) gives you the booking page as a QR code as well. The customer scans it with the phone's camera, the booking chat opens, they choose service, person, and time, and receive a confirmation SMS. They download no app and create no account. The code works when the shop is closed too. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The window is the most expensive advertising medium you have, because you pay for it with the rent. When you are open, it works: the passer-by comes in and asks. When you are closed, it shows opening hours and a phone number that will not answer.
 
@@ -253,22 +253,47 @@ And it does not open the business's board. That has its own, signed link.
 
 ### Can customers book an appointment with a QR code?
 
-Yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) gives the booking page as a QR code too, which opens from the phone's camera. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) gives the booking page as a QR code too, which opens from the phone's camera. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the customer need an app to scan?
 
-No. Modern phones read QR codes from the camera, and booking is done on a page. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Modern phones read QR codes from the camera, and booking is done on a page. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is the code different from the link?
 
-No. They lead to the same booking page. The code serves printed matter and the window. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. They lead to the same booking page. The code serves printed matter and the window. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What about customers who do not scan?
 
-You make the appointment on their behalf from the same page, and they receive the same SMS. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You make the appointment on their behalf from the same page, and they receive the same SMS. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us what kind of business you have and where you would put the code first. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
