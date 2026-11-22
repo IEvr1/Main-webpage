@@ -3,8 +3,8 @@ title: "Where can a shop publish its opening hours, closed days, and sudden clos
 seoTitle: "Where can a shop publish its opening hours, closed days, and sudden closures? | NexAIpla"
 description: "The Live Business Traffic page shows weekly hours, special closed days, and a one-tap \"temporarily closed\" status beside the live busy level. From a phone."
 slug: shop-hours-closures-public-page
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** A shop publishes its opening hours, closed days, and sudden closures on its public page in [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The page shows the weekly hours, special closed days, a clear "open" or "temporarily closed" status, and an announcement, beside the live busy level. The owner changes them from a private dashboard, which also has a one-tap emergency close. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** A shop publishes its opening hours, closed days, and sudden closures on its public page in [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). The page shows the weekly hours, special closed days, a clear "open" or "temporarily closed" status, and an announcement, beside the live busy level. The owner changes them from a private dashboard, which also has a one-tap emergency close. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 "Are you open?" is the oldest question a shop receives, and it ought to be the easiest. In practice the answer lives in four places that disagree with each other: a sticker on the door, a Google profile last corrected two summers ago, a pinned post, and the owner's head. The disagreement shows on exactly the days when customers most need to know: at holidays, in summer hours, on the afternoon the plumber is coming.
 
@@ -202,22 +202,45 @@ An announcement works when it is short, dated, and removed on time. "Closed on M
 
 ### Where can a shop publish its hours and closures?
 
-On its public page in [Live Business Traffic](https://www.nexaipla.com/shoptraffic/), which shows the weekly hours, special closed days, an "open" or "temporarily closed" status, and an announcement. Homepage: [NexAIpla](https://www.nexaipla.com/).
+On its public page in [Live Business Traffic](https://www.nexaipla.com/shoptraffic/), which shows the weekly hours, special closed days, an "open" or "temporarily closed" status, and an announcement. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How fast can I announce an unexpected closure?
 
-In one tap. The owner dashboard has an emergency close, and the public page switches to "temporarily closed" straight away. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In one tap. The owner dashboard has an emergency close, and the public page switches to "temporarily closed" straight away. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I enter closed days in advance?
 
-Yes. Special closed days are added ahead of time, and on that day the page already shows the shop as closed. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. Special closed days are added ahead of time, and on that day the page already shows the shop as closed. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do I still need to update Google?
 
-The page does not change your Google profile. Most shops put the link in the profile and treat the page as the place that is always current. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The page does not change your Google profile. Most shops put the link in the profile and treat the page as the place that is always current. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to see where a live busy page sits among the shop's other priorities. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want one public page for hours, closed days, and sudden closures. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
