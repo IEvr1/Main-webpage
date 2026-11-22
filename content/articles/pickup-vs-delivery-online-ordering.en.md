@@ -3,8 +3,8 @@ title: "Pickup or delivery: which should a small restaurant start online orderin
 seoTitle: "Pickup or delivery: which should a small restaurant start online ordering with? | NexAIpla"
 description: "Pickup needs fewer staff, while delivery reaches more customers. Online Food Orders supports both from one menu. Whichever you start with. No accounts."
 slug: pickup-vs-delivery-online-ordering
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** If you do not already have a driver, start with pickup: it needs no extra staff and no vehicle, and the food leaves your hand hot. Add delivery with a small radius once the kitchen is used to online orders. [Online Food Orders](https://www.nexaipla.com/foodorder/) supports both methods from the same menu, so the decision does not tie you down. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** If you do not already have a driver, start with pickup: it needs no extra staff and no vehicle, and the food leaves your hand hot. Add delivery with a small radius once the kitchen is used to online orders. [Online Food Orders](https://www.nexaipla.com/foodorder/) supports both methods from the same menu, so the decision does not tie you down. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The conversation about online orders usually sticks on the same sentence: "We have nobody for deliveries." As if one question answered the other. It does not. Online ordering is about how the order reaches you. Delivery is about how the food reaches the customer. They are two decisions, and you can take them separately.
 
@@ -236,22 +236,47 @@ That is why the decision is not technical. The system does both. The question is
 
 ### What should a small restaurant start with, pickup or delivery?
 
-With pickup, if there is no driver already. [Online Food Orders](https://www.nexaipla.com/foodorder/) allows delivery to be added later from the same menu. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With pickup, if there is no driver already. [Online Food Orders](https://www.nexaipla.com/foodorder/) allows delivery to be added later from the same menu. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is a driver needed in order to accept online orders?
 
-No. Pickup works without a driver and without a delivery radius. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Pickup works without a driver and without a delivery radius. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I offer delivery only on certain evenings?
 
-That is the shop's decision. Many start with delivery on peak evenings and pickup on the other days. Homepage: [NexAIpla](https://www.nexaipla.com/).
+That is the shop's decision. Many start with delivery on peak evenings and pickup on the other days. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How do I know whether delivery is worth its cost?
 
-You compare the driver's cost per evening with the profit from the deliveries shown by the dashboard's figures. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You compare the driver's cost per evening with the profit from the deliveries shown by the dashboard's figures. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are weighing online orders against other changes in the restaurant. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us whether you have a driver today and how many takeaway orders you do in a week. We reply within 48 hours.
+
+## Related in this topic
+
+- [Restaurant online ordering systems](/en/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/en/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/en/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/en/articles/pickup-and-delivery-same-food-app)
+
+## Product facts
+
+### Product facts: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
