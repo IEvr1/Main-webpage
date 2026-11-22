@@ -3,8 +3,8 @@ title: "Can customers book an appointment online without creating an account?"
 seoTitle: "Can customers book an appointment online without creating an account? | NexAIpla"
 description: "In Online Receptionist 24/7 the customer books from chat or a QR code with just a mobile number: no sign-up, password, or app. With a confirmation SMS."
 slug: booking-without-customer-account
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the customer signs up nowhere. They open the booking page from a link or a QR code, choose service, person, and time through a short chat, and give a mobile number. They get a confirmation SMS with a link, from which they cancel or change the appointment. There is no account, password, or app. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the customer signs up nowhere. They open the booking page from a link or a QR code, choose service, person, and time through a short chat, and give a mobile number. They get a confirmation SMS with a link, from which they cancel or change the appointment. There is no account, password, or app. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Booking systems were designed by people who love accounts. Profiles, history, loyalty points. A barber's customer does not want a profile. They want to know whether you have a gap at six.
 
@@ -242,22 +242,47 @@ For those who want not even that, your phone is always there. The aim is not to 
 
 ### Can the customer book an appointment without an account?
 
-Yes. In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the mobile number is enough. Nobody signs up, sets a password, or installs an app. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the mobile number is enough. Nobody signs up, sets a password, or installs an app. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How do they cancel or change the appointment?
 
-From the link contained in the confirmation SMS and in the reminder SMS. Homepage: [NexAIpla](https://www.nexaipla.com/).
+From the link contained in the confirmation SMS and in the reminder SMS. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Will I not get fake bookings without sign-up?
 
-Every booking is tied to a mobile that receives a message, and all appointments show on your board for checking. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Every booking is tied to a mobile that receives a message, and all appointments show on your board for checking. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the customer need to download anything?
 
-No. Booking happens in the phone's browser, from a link or a QR code. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Booking happens in the phone's browser, from a link or a QR code. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how your customers book appointments today and where they struggle. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+- [Qr Code Appointment Booking](/en/articles/qr-code-appointment-booking)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
