@@ -3,8 +3,8 @@ title: "Where do my answers go when I take the AI Readiness Score?"
 seoTitle: "Where do my answers go when I take the AI Readiness Score? | NexAIpla"
 description: In the AI Readiness Score the scoring is done in your browser. Your answers are sent only if you yourself submit the contact form. No signup. Free.
 slug: readiness-score-data-stays-in-browser
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -145,7 +145,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Nowhere, unless you decide otherwise. In the [AI Readiness Score](https://www.nexaipla.com/ai-score/) the scoring is done inside your browser: the 18 answers are turned into a score on your own device. Neither signup nor email is needed to see the result. The answers are sent only if you submit a contact message, which is prefilled with your score and your weakest areas. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Nowhere, unless you decide otherwise. In the [AI Readiness Score](https://www.nexaipla.com/ai-score/) the scoring is done inside your browser: the 18 answers are turned into a score on your own device. Neither signup nor email is needed to see the result. The answers are sent only if you submit a contact message, which is prefilled with your score and your weakest areas. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Most of us have learned to be suspicious of "free tests" on the internet. You answer ten questions, and at the end a field appears: "Enter your email to see the result". From that moment you receive newsletters for ever.
 
@@ -248,22 +248,47 @@ It is the same principle we would suggest for your own business when you design 
 
 ### Where do my answers go?
 
-In the [AI Readiness Score](https://www.nexaipla.com/ai-score/) the scoring is done in your browser. The answers are sent only if you submit the contact form. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In the [AI Readiness Score](https://www.nexaipla.com/ai-score/) the scoring is done in your browser. The answers are sent only if you submit the contact form. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is an email needed to see the result?
 
-No. The result appears at once, with no signup. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The result appears at once, with no signup. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What does the contact message contain?
 
-It is prefilled with your score and your weakest areas, and you see it before you send it. Homepage: [NexAIpla](https://www.nexaipla.com/).
+It is prefilled with your score and your weakest areas, and you see it before you send it. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Shall I find my result if I come back later?
 
-Do not take it for granted. Note the score or keep a screenshot. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Do not take it for granted. Note the score or keep a screenshot. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) now, while the question is fresh. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and send your score and weak areas only if you want us to discuss them. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: NexAIpla
+
+- **Category:** Business AI automation and software
+- **Target customers:** Small and medium businesses, organisations and schools in European countries
+- **Main benefit:** NexAIpla develops AI-powered software and custom automation solutions for small businesses, organisations and schools.
+- **Does:** Ready-made apps: Online Receptionist 24/7, Online Food Orders, Live Business Traffic, DocsApp, All-day School — Meals
+- **Does:** Custom AI automation with a 48-hour feasibility reply
+- **Does:** Free AI Business Readiness Score (18 questions)
+- **Does not:** Does not invent universal ROI guarantees
+- **Does not:** Online Receptionist does not answer telephone calls
+- **Region:** European countries (Cyprus and broader Europe)
+- **Pricing:** Quote / demo based on scope; readiness score is free
+- **Trial / demo:** Product demos and free AI Readiness Score
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com
