@@ -3,8 +3,8 @@ title: "How does the school office record a meal absence when a parent phones?"
 seoTitle: "How does the school office record a meal absence when a parent phones? | NexAIpla"
 description: "In All-day School — Meals the school office finds the child by name, class, or phone and registers the absence with one button. The kitchen sees it at once."
 slug: secretariat-school-meal-absences
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** The office records it on the secretariat screen of [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). It searches for the child by name, class, or phone number, presses "Register absence", and the absence joins the same list that parents fill in from their phones. "Today's entries" shows the whole day and lets a mistake be removed. The kitchen's portions update at once. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** The office records it on the secretariat screen of [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). It searches for the child by name, class, or phone number, presses "Register absence", and the absence joins the same list that parents fill in from their phones. "Today's entries" shows the whole day and lets a mistake be removed. The kitchen's portions update at once. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 However well a system is set up for parents, the office phone will ring in the morning. Someone is driving, someone has no data on their phone, someone simply prefers to tell a person. The aim is not to stop those calls. It is to make sure that what was said in their thirty seconds is not lost.
 
@@ -203,22 +203,46 @@ The role is limited to what the office does: searching for children and the day'
 
 ### How does the office record a meal absence reported by phone?
 
-On the secretariat screen of [All-day School — Meals](https://www.nexaipla.com/schoolmeals/): a search by name, class, or phone number, then "Register absence". The kitchen sees the change at once. Homepage: [NexAIpla](https://www.nexaipla.com/).
+On the secretariat screen of [All-day School — Meals](https://www.nexaipla.com/schoolmeals/): a search by name, class, or phone number, then "Register absence". The kitchen sees the change at once. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can the office correct a wrong entry?
 
-Yes. In "Today's entries" every entry has "Remove", and the portion returns to the class count. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. In "Today's entries" every entry has "Remove", and the portion returns to the class count. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How does the office log in?
 
-With a secret link and the PIN of its role. There is no public username, and after the PIN the key does not stay in the address. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With a secret link and the PIN of its role. There is no public username, and after the PIN the key does not stay in the address. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can the office change the list of children?
 
-Not from this screen. The list, the parents' links, and the menu belong to the association's admin role. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Not from this screen. The list, the parents' links, and the menu belong to the association's admin role. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want the school office to enter phoned meal absences on one screen. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
