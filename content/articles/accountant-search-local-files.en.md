@@ -3,8 +3,8 @@ title: "How does an accountant quickly find a piece of information inside client
 seoTitle: "How does an accountant quickly find a piece of information inside clients' files? | NexAIpla"
 description: "With DocsApp an accountant asks each client's files in plain language and gets an answer with a citation, with no file leaving the office. Offline."
 slug: accountant-search-local-files
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** By questioning the files instead of opening them one by one. With [DocsApp](https://www.nexaipla.com/docsapp/) an accountant organises the files by client and year, and asks in plain language: "what VAT amount was declared in the second quarter?". The answer comes with a citation to the document. The application reads PDF, Word, Excel, and scans, and runs offline on the office computer. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** By questioning the files instead of opening them one by one. With [DocsApp](https://www.nexaipla.com/docsapp/) an accountant organises the files by client and year, and asks in plain language: "what VAT amount was declared in the second quarter?". The answer comes with a citation to the document. The application reads PDF, Word, Excel, and scans, and runs offline on the office computer. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 An accounting office does not produce only returns. It produces paper. For every client there are returns, assessments, trial balances, contracts, letters from the tax office, rulings, leases, bank certificates. Times sixty clients. Times ten years.
 
@@ -241,22 +241,46 @@ And when a colleague is away. The file that only they "knew" can be questioned b
 
 ### How does an accountant quickly find information in clients' files?
 
-With [DocsApp](https://www.nexaipla.com/docsapp/) they question the client's folder in plain language and get an answer with a citation to the document. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With [DocsApp](https://www.nexaipla.com/docsapp/) they question the client's folder in plain language and get an answer with a citation to the document. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does it replace the accounting software?
 
-No. It makes no entries and no filings. It questions documents, while calculations stay in the accounting system. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It makes no entries and no filings. It questions documents, while calculations stay in the accounting system. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does it search scanned invoices and letters too?
 
-Yes, with the optional character recognition. Amounts and dates are confirmed in the original. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, with the optional character recognition. Amounts and dates are confirmed in the original. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Are clients' details uploaded to the internet?
 
-No. The application and the models run on the office computer, with no connection. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The application and the models run on the office computer, with no connection. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many clients your office has and which questions they ask you most often. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
