@@ -3,8 +3,8 @@ title: "By what time in the morning must a parent report that a child will not e
 seoTitle: "By what time in the morning must a parent report that a child will not eat at school? | NexAIpla"
 description: All-day School — Meals accepts the report whenever it is made. The hour that counts for cooking is set by the school itself. Together with the kitchen.
 slug: parent-meal-absence-before-morning-deadline
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) does not lock the report at any hour: a parent reports from their link whenever they find out, and the kitchen's number changes at once. The hour by which a report is in time for the cooking is decided by the school together with the kitchen and announced to parents. For absences known in advance there are future absences with dates. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) does not lock the report at any hour: a parent reports from their link whenever they find out, and the kitchen's number changes at once. The hour by which a report is in time for the cooking is decided by the school together with the kitchen and announced to parents. For absences known in advance there are future absences with dates. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The question "by what time" has two answers, and most misunderstandings arise because they are confused. The first is technical: until when the system accepts the report. The second is practical: until when the report changes how much food goes into the pot.
 
@@ -211,22 +211,46 @@ The opposite also happens: the parent reported an absence and the child went to 
 
 ### By what time must a meal absence be reported?
 
-[All-day School — Meals](https://www.nexaipla.com/schoolmeals/) accepts the report at any hour. The hour that is in time for the cooking is set and announced by each school. Homepage: [NexAIpla](https://www.nexaipla.com/).
+[All-day School — Meals](https://www.nexaipla.com/schoolmeals/) accepts the report at any hour. The hour that is in time for the cooking is set and announced by each school. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the form close after a certain hour?
 
-No. There is no automatic lock. A late report is recorded as usual and changes the number the kitchen sees. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. There is no automatic lock. A late report is recorded as usual and changes the number the kitchen sees. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I report today an absence for next week?
 
-Yes. The personal link has future absences, with a from and a to date. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The personal link has future absences, with a from and a to date. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### I reported an absence but the child went to school after all. What do I do?
 
-You change the day's switch again from your link. Otherwise you phone the office, which can remove the absence. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You change the day's switch again from your link. Otherwise you phone the office, which can remove the absence. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us at what hour your school gives the kitchen its portion number today. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
