@@ -3,8 +3,8 @@ title: "Can an offline AI read scanned PDFs in Greek and English?"
 seoTitle: "Can an offline AI read scanned PDFs in Greek and English? | NexAIpla"
 description: "DocsApp optionally uses Tesseract OCR for Greek and English, so that scanned PDFs and images become text locally. With no upload. On your own PC."
 slug: ocr-scanned-pdfs-greek-english
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes, with character recognition. [DocsApp](https://www.nexaipla.com/docsapp/) optionally works with Tesseract OCR, configured for Greek and English. When you drop a scanned PDF or an image into the intake folder, the text is recognised on your computer and enters the index like any other document. After that you ask as usual and get answers with citations. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes, with character recognition. [DocsApp](https://www.nexaipla.com/docsapp/) optionally works with Tesseract OCR, configured for Greek and English. When you drop a scanned PDF or an image into the intake folder, the text is recognised on your computer and enters the index like any other document. After that you ask as usual and get answers with citations. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A PDF is not always what it seems. Some contain text: you can select a sentence with the mouse and copy it. Others contain only images: the machine photographed every page and bound them into one file. On screen they look the same. To a computer, the second is a blank page.
 
@@ -235,22 +235,46 @@ The same goes for image files. A photo of a receipt or a screenshot goes into th
 
 ### Does offline AI read scanned PDFs?
 
-Yes. [DocsApp](https://www.nexaipla.com/docsapp/) optionally uses Tesseract OCR for Greek and English and turns scans into text locally. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. [DocsApp](https://www.nexaipla.com/docsapp/) optionally uses Tesseract OCR for Greek and English and turns scans into text locally. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is the page sent to an outside service for recognition?
 
-No. Character recognition runs on your computer, as the models do. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Character recognition runs on your computer, as the models do. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does it read handwriting?
 
-Not reliably. Recognition is for printed text. Handwriting needs checking by a person. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Not reliably. Recognition is for printed text. Handwriting needs checking by a person. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How do I know whether a scan was read correctly?
 
-You ask a question with a known answer and check the citation. For critical numbers you always open the original. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You ask a question with a known answer and check the citation. For critical numbers you always open the original. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many of your documents are scanned and what condition the scans are in. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
