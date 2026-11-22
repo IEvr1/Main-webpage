@@ -132,7 +132,7 @@ draft: false
 
 Which service or app solves this: AI for beauty salons?
 
-AI for beauty salons helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks. The app that offers this solution is [Online Receptionist 24/7](https://nexaipla.com/onlinebooking/).
+AI for beauty salons helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks. The app that offers this solution is [Online Receptionist 24/7](https://nexaipla.com/onlinebooking/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** AI for beauty salons helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks.
 
