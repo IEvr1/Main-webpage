@@ -3,8 +3,8 @@ title: "Live shop traffic or online booking: which one does my business need?"
 seoTitle: "Live shop traffic or online booking: which one does my business need? | NexAIpla"
 description: "If customers ask \"are you busy?\" you need Live Business Traffic. If they ask \"what time can I come?\" you need Online Receptionist 24/7. Some need both."
 slug: live-traffic-vs-online-booking
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** It depends on the question your customers ask. If they ask "how busy are you now?", you need [Live Business Traffic](https://www.nexaipla.com/shoptraffic/), which shows walk-in customers a live colour-coded level, opening hours, and closures. If they ask "what time can I come?", you need Online Receptionist 24/7, which books a time by chat or QR and confirms by SMS. Some businesses need both. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** It depends on the question your customers ask. If they ask "how busy are you now?", you need [Live Business Traffic](https://www.nexaipla.com/shoptraffic/), which shows walk-in customers a live colour-coded level, opening hours, and closures. If they ask "what time can I come?", you need Online Receptionist 24/7, which books a time by chat or QR and confirms by SMS. Some businesses need both. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Both products exist to take a question off the phone. The mistake is to choose by trade, "I am a barber, so I need bookings", and not by how people really arrive at your door. Two barbers on the same street can need different products. One works by appointment only. The other has never kept a diary and never will.
 
@@ -214,22 +214,45 @@ Neither is a marketplace that brings in strangers. Neither answers voice calls. 
 
 ### Live traffic or online booking: which do I need?
 
-[Live Business Traffic](https://www.nexaipla.com/shoptraffic/) if customers walk in and ask how busy you are. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) if they need a set time. Count your phone questions for a week and it will show. Homepage: [NexAIpla](https://www.nexaipla.com/).
+[Live Business Traffic](https://www.nexaipla.com/shoptraffic/) if customers walk in and ask how busy you are. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) if they need a set time. Count your phone questions for a week and it will show. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I start with one and add the other?
 
-Yes. They are separate products with separate links, and neither depends on the other. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. They are separate products with separate links, and neither depends on the other. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the customer need an account for either one?
 
-No. The busy page is anonymous. For a booking the customer gives a mobile number and manages the visit from an SMS link. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The busy page is anonymous. For a booking the customer gives a mobile number and manages the visit from an SMS link. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the busy page know about my bookings?
 
-No. The level is what the staff tap. If the shop is full of appointments, you tap the level that someone arriving without one will find. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The level is what the staff tap. If the shop is full of appointments, you tap the level that someone arriving without one will find. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to see where a live busy page sits among the shop's other priorities. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and send us your two columns for the week, and we will tell you whether live traffic, bookings, or both fit. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
