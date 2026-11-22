@@ -3,8 +3,8 @@ title: Πώς μπαίνει η ομάδα στον πίνακα ραντεβο�
 seoTitle: "Πώς μπαίνει η ομάδα στον πίνακα ραντεβού χωρίς κοινόχρηστο κωδικό; | NexAIpla"
 description: "Ο πίνακας ραντεβού του Online Γραφέα 24/7 ανοίγει με υπογεγραμμένο σύνδεσμο: χωρίς κοινόχρηστο κωδικό γραμμένο σε χαρτάκι δίπλα στο ταμείο. Χωρίς login."
 slug: appointment-dashboard-without-shared-password
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Με υπογεγραμμένο σύνδεσμο. Στον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πίνακας ραντεβού δεν έχει οθόνη σύνδεσης με όνομα χρήστη και κωδικό. Ανοίγει από μια διεύθυνση που περιέχει ψηφιακή υπογραφή, την οποία ελέγχει το σύστημα. Όποιος έχει τον σύνδεσμο βλέπει ραντεβού, δείκτες και κλεισίματα. Όποιος δεν τον έχει δεν μπορεί να τον μαντέψει. Δεν υπάρχει κωδικός για να ξεχαστεί ή να κυκλοφορήσει. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Με υπογεγραμμένο σύνδεσμο. Στον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πίνακας ραντεβού δεν έχει οθόνη σύνδεσης με όνομα χρήστη και κωδικό. Ανοίγει από μια διεύθυνση που περιέχει ψηφιακή υπογραφή, την οποία ελέγχει το σύστημα. Όποιος έχει τον σύνδεσμο βλέπει ραντεβού, δείκτες και κλεισίματα. Όποιος δεν τον έχει δεν μπορεί να τον μαντέψει. Δεν υπάρχει κωδικός για να ξεχαστεί ή να κυκλοφορήσει. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Σε μια μικρή επιχείρηση ο κοινόχρηστος κωδικός δεν είναι αμέλεια. Είναι η μόνη πρακτική λύση όταν πέντε άνθρωποι χρησιμοποιούν έναν υπολογιστή και κανείς δεν έχει χρόνο για προσωπικούς λογαριασμούς. Το πρόβλημα είναι τι ακολουθεί.
 
@@ -259,22 +259,47 @@ draft: false
 
 ### Πώς μπαίνει η ομάδα στον πίνακα χωρίς κωδικό;
 
-Στον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πίνακας ανοίγει με υπογεγραμμένο σύνδεσμο, που ελέγχεται από το σύστημα. Δεν υπάρχει οθόνη σύνδεσης. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πίνακας ανοίγει με υπογεγραμμένο σύνδεσμο, που ελέγχεται από το σύστημα. Δεν υπάρχει οθόνη σύνδεσης. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πρέπει όλο το προσωπικό να έχει τον σύνδεσμο;
 
-Όχι. Όσοι χρειάζονται μόνο το πρόγραμμά τους το βλέπουν στο Google Calendar τους. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Όσοι χρειάζονται μόνο το πρόγραμμά τους το βλέπουν στο Google Calendar τους. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι κάνω αν φύγει κάποιος που είχε τον σύνδεσμο;
 
-Ζητάτε νέο σύνδεσμο και τον δίνετε μόνο σε όσους τον χρειάζονται. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ζητάτε νέο σύνδεσμο και τον δίνετε μόνο σε όσους τον χρειάζονται. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Είναι ο ίδιος σύνδεσμος με αυτόν που παίρνει ο πελάτης;
 
-Όχι. Ο πελάτης έχει σύνδεσμο μόνο για το δικό του ραντεβού, και η σελίδα κράτησης είναι ξεχωριστή και δημόσια. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Ο πελάτης έχει σύνδεσμο μόνο για το δικό του ραντεβού, και η σελίδα κράτησης είναι ξεχωριστή και δημόσια. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ακόμη αποφασίζετε αν οι κρατήσεις είναι η πρώτη δουλειά που αξίζει να αυτοματοποιηθεί. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πόσα άτομα χρειάζεται να βλέπουν το συνολικό πρόγραμμα και από ποιες συσκευές. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό online κρατήσεων για μικρές επιχειρήσεις](/el/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/el/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/el/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/el/articles/booking-after-hours-without-receptionist)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
