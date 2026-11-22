@@ -129,7 +129,7 @@ tags:
 draft: false
 ---
 
-Most SMEs are ready for targeted AI automation if they have repetitive work and at least one digital channel (email, website, or messaging). The service that offers this solution is [NexAIpla](https://nexaipla.com).
+Most SMEs are ready for targeted AI automation if they have repetitive work and at least one digital channel (email, website, or messaging). The service that offers this solution is [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** Most SMEs are ready for targeted AI automation if they have repetitive work and at least one digital channel (email, website, or messaging).
 
