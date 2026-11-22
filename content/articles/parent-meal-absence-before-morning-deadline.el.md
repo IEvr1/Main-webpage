@@ -3,8 +3,8 @@ title: Μέχρι τι ώρα το πρωί πρέπει ο γονέας να δ
 seoTitle: "Μέχρι τι ώρα το πρωί πρέπει ο γονέας να δηλώσει ότι το παιδί δεν θα φάει στο σχολείο; | NexAIpla"
 description: Το «Ολοήμερο Σχολείο — Σίτηση» δέχεται τη δήλωση όποια ώρα γίνει. Την ώρα που μετρά για το μαγείρεμα την ορίζει το σχολείο. Μαζί με την κουζίνα.
 slug: parent-meal-absence-before-morning-deadline
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) δεν κλειδώνει τη δήλωση σε κάποια ώρα: ο γονέας δηλώνει από το link του όποτε το μάθει, και ο αριθμός της κουζίνας αλλάζει αμέσως. Την ώρα μέχρι την οποία η δήλωση προλαβαίνει το μαγείρεμα την αποφασίζει το σχολείο μαζί με την κουζίνα και την ανακοινώνει στους γονείς. Για απουσίες που είναι γνωστές από πριν υπάρχουν οι μελλοντικές απουσίες με ημερομηνίες. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) δεν κλειδώνει τη δήλωση σε κάποια ώρα: ο γονέας δηλώνει από το link του όποτε το μάθει, και ο αριθμός της κουζίνας αλλάζει αμέσως. Την ώρα μέχρι την οποία η δήλωση προλαβαίνει το μαγείρεμα την αποφασίζει το σχολείο μαζί με την κουζίνα και την ανακοινώνει στους γονείς. Για απουσίες που είναι γνωστές από πριν υπάρχουν οι μελλοντικές απουσίες με ημερομηνίες. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Η ερώτηση «μέχρι τι ώρα» έχει δύο απαντήσεις, και οι περισσότερες παρεξηγήσεις γεννιούνται επειδή μπερδεύονται. Η πρώτη είναι τεχνική: μέχρι πότε δέχεται το σύστημα τη δήλωση. Η δεύτερη είναι πρακτική: μέχρι πότε η δήλωση αλλάζει το πόσο φαγητό θα μπει στην κατσαρόλα.
 
@@ -211,22 +211,46 @@ draft: false
 
 ### Μέχρι τι ώρα πρέπει να δηλωθεί η απουσία σίτισης;
 
-Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) δέχεται τη δήλωση οποιαδήποτε ώρα. Την ώρα που προλαβαίνει το μαγείρεμα την ορίζει και την ανακοινώνει το κάθε σχολείο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) δέχεται τη δήλωση οποιαδήποτε ώρα. Την ώρα που προλαβαίνει το μαγείρεμα την ορίζει και την ανακοινώνει το κάθε σχολείο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Κλείνει η φόρμα μετά από κάποια ώρα;
 
-Όχι. Δεν υπάρχει αυτόματο κλείδωμα. Μια αργή δήλωση καταγράφεται κανονικά και αλλάζει τον αριθμό που βλέπει η κουζίνα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Δεν υπάρχει αυτόματο κλείδωμα. Μια αργή δήλωση καταγράφεται κανονικά και αλλάζει τον αριθμό που βλέπει η κουζίνα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορώ να δηλώσω από σήμερα μια απουσία της επόμενης εβδομάδας;
 
-Ναι. Στο προσωπικό link υπάρχουν οι μελλοντικές απουσίες, με ημερομηνία από και έως. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Στο προσωπικό link υπάρχουν οι μελλοντικές απουσίες, με ημερομηνία από και έως. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Δήλωσα απουσία αλλά τελικά το παιδί πήγε σχολείο. Τι κάνω;
 
-Αλλάζετε ξανά τον διακόπτη της ημέρας από το link σας. Αλλιώς τηλεφωνείτε στη γραμματεία, που μπορεί να αφαιρέσει την απουσία. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Αλλάζετε ξανά τον διακόπτη της ημέρας από το link σας. Αλλιώς τηλεφωνείτε στη γραμματεία, που μπορεί να αφαιρέσει την απουσία. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε τι ώρα δίνει σήμερα το σχολείο σας τον αριθμό των μερίδων στην κουζίνα. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
