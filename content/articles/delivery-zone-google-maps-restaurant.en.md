@@ -3,8 +3,8 @@ title: "How does a restaurant set how far it delivers, so that it gets no orders
 seoTitle: "How does a restaurant set how far it delivers, so that it gets no orders from outside its area? | NexAIpla"
 description: In Online Food Orders the customer drops a pin on Google Maps and the system checks whether it lies inside the shop's delivery radius. Before sending.
 slug: delivery-zone-google-maps-restaurant
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** In [Online Food Orders](https://www.nexaipla.com/foodorder/) you set a delivery radius around the shop. A customer who chooses delivery places a pin on the Google Maps map, and the system checks whether the spot lies inside the radius before the order is sent. Anyone outside learns it at once and can choose pickup. The driver receives an exact point and not a description. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** In [Online Food Orders](https://www.nexaipla.com/foodorder/) you set a delivery radius around the shop. A customer who chooses delivery places a pin on the Google Maps map, and the system checks whether the spot lies inside the radius before the order is sent. Anyone outside learns it at once and can choose pickup. The driver receives an exact point and not a description. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 "Do you deliver to Latsia?" is one of the commonest questions on the phone, and the answer depends on who picks up. The owner says no. The new employee says "I think so". The driver, who will make the trip, is not asked.
 
@@ -221,22 +221,47 @@ The driver board shows the orders for delivery with their spot. The driver does 
 
 ### How does the restaurant set its delivery area?
 
-In [Online Food Orders](https://www.nexaipla.com/foodorder/) a radius is set around the shop, and every customer pin on Google Maps is checked against it before the order is sent. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In [Online Food Orders](https://www.nexaipla.com/foodorder/) a radius is set around the shop, and every customer pin on Google Maps is checked against it before the order is sent. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What does a customer outside the area see?
 
-They are told at once that their spot is not served by delivery and can select pickup from the shop. Homepage: [NexAIpla](https://www.nexaipla.com/).
+They are told at once that their spot is not served by delivery and can select pickup from the shop. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the customer have to write an address?
 
-They place a pin on the map, which is more exact than text. Details such as floor or doorbell go in the notes. Homepage: [NexAIpla](https://www.nexaipla.com/).
+They place a pin on the map, which is more exact than text. Details such as floor or doorbell go in the notes. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the system work out driving time?
 
-The check is by radius, that is, distance from the shop. That is why the radius is chosen with the area's hardest routes in mind. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The check is by radius, that is, distance from the shop. That is why the radius is chosen with the area's hardest routes in mind. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are weighing online orders against other changes in the restaurant. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many drivers you have and which neighbourhoods you serve today. We reply within 48 hours.
+
+## Related in this topic
+
+- [Restaurant online ordering systems](/en/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/en/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/en/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/en/articles/pickup-and-delivery-same-food-app)
+
+## Product facts
+
+### Product facts: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
