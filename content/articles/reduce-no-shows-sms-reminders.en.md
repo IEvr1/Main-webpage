@@ -3,8 +3,8 @@ title: "Do SMS reminders reduce customers who fail to show up for their appointm
 seoTitle: "Do SMS reminders reduce customers who fail to show up for their appointment? | NexAIpla"
 description: "Online Receptionist 24/7 sends an automatic SMS reminder with a cancel link, so that whoever is not coming frees the time instead of wasting it. No calls."
 slug: reduce-no-shows-sms-reminders
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** In most cases, yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) sends an automatic SMS reminder before each appointment, and the message has a link from which the customer cancels or moves the appointment in a few taps. Those who had forgotten come. Those who cannot say so, and the time is offered again to someone else. What remains are the few who would not have come whatever you did. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** In most cases, yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) sends an automatic SMS reminder before each appointment, and the message has a link from which the customer cancels or moves the appointment in a few taps. Those who had forgotten come. Those who cannot say so, and the time is offered again to someone else. What remains are the few who would not have come whatever you did. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 An appointment that did not show costs twice. You lose the takings for the hour, and you lose the customer who had asked for that hour the day before and was told it was taken. Staff are paid and wait.
 
@@ -247,22 +247,47 @@ The customer who came and found the door shut is the likeliest not to appear nex
 
 ### Do SMS reminders reduce no-shows?
 
-Usually yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) sends an automatic reminder with a link to cancel or change, which covers those who forgot and those who did not want to phone. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Usually yes. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) sends an automatic reminder with a link to cancel or change, which covers those who forgot and those who did not want to phone. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What happens to the hour when someone cancels?
 
-It returns to availability at once and another customer can book it. Homepage: [NexAIpla](https://www.nexaipla.com/).
+It returns to availability at once and another customer can book it. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the system charge a deposit or a no-show penalty?
 
-No. The policy on no-shows is the business's decision. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The policy on no-shows is the business's decision. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do phone appointments get a reminder too?
 
-Yes, if you make them from the booking page on the customer's behalf. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, if you make them from the booking page on the customer's behalf. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many appointments you have in a week and roughly how many fail to show. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
