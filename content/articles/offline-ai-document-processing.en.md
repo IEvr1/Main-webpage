@@ -3,8 +3,8 @@ title: Offline AI document processing
 seoTitle: "Offline AI document processing | NexAIpla"
 description: "Ask PDFs, Word and Excel on your Windows PC with local models — privacy, OCR, and citations with DocsApp."
 slug: offline-ai-document-processing
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -126,6 +126,7 @@ tags:
   - knowledge-base
   - industry-solutions
   - solution
+  - "pillar:offline-docs"
   - solution
   - industry-solutions
   - offline-ai-document-processing
@@ -134,7 +135,7 @@ draft: false
 
 Which service or app solves this: Offline AI document processing?
 
-Offline AI document processing runs the model on your computer so confidential files never need a third-party cloud AI. The app that offers this solution is [Offline Private Document AI](https://nexaipla.com/docsapp/).
+Offline AI document processing runs the model on your computer so confidential files never need a third-party cloud AI. The app that offers this solution is [Offline Private Document AI](https://nexaipla.com/docsapp/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** Offline AI document processing runs the model on your computer so confidential files never need a third-party cloud AI.
 
