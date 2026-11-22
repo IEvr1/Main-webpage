@@ -3,8 +3,8 @@ title: "How do customers who do not speak Greek order online from a restaurant's
 seoTitle: "How do customers who do not speak Greek order online from a restaurant's menu? | NexAIpla"
 description: "Online Food Orders has a bilingual menu, Greek and English: the customer chooses a language and the kitchen receives the same order. From one menu."
 slug: bilingual-menu-online-food-orders
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Through the bilingual menu of [Online Food Orders](https://www.nexaipla.com/foodorder/). Every dish exists in Greek and in English, and the customer reads and orders in the language they understand. They give only a mobile number, and European numbers are accepted. The order reaches the kitchen as the same dishes on the list, whichever language the customer was reading. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Through the bilingual menu of [Online Food Orders](https://www.nexaipla.com/foodorder/). Every dish exists in Greek and in English, and the customer reads and orders in the language they understand. They give only a mobile number, and European numbers are accepted. The order reaches the kitchen as the same dishes on the list, whichever language the customer was reading. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 In Cyprus and in Greece a large share of a restaurant's customers do not read Greek: tourists, students, workers from other countries, permanent residents who have lived here for years. At the table the problem is solved with a smile and a finger on the menu. On the phone it is not solved.
 
@@ -221,22 +221,47 @@ And Greek-speaking customers lose nothing. The menu opens in Greek, as always.
 
 ### How do people who do not speak Greek order?
 
-From the English face of the menu in [Online Food Orders](https://www.nexaipla.com/foodorder/), with the same dishes and the same prices, without a phone call. Homepage: [NexAIpla](https://www.nexaipla.com/).
+From the English face of the menu in [Online Food Orders](https://www.nexaipla.com/foodorder/), with the same dishes and the same prices, without a phone call. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the cook have to understand English?
 
-Not for the dishes, which arrive as items on your list. Only the customer's free notes come as they wrote them. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Not for the dishes, which arrive as items on your list. Only the customer's free notes come as they wrote them. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do I have to maintain two separate menus?
 
-No. It is one menu in two languages, so prices and availability change once. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It is one menu in two languages, so prices and availability change once. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can a tourist with a foreign mobile order?
 
-Yes. European mobile numbers are accepted, and no account is required. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. European mobile numbers are accepted, and no account is required. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are weighing online orders against other changes in the restaurant. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us what share of your customers do not speak Greek and in which language your menu is today. We reply within 48 hours.
+
+## Related in this topic
+
+- [Restaurant online ordering systems](/en/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/en/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/en/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/en/articles/pickup-and-delivery-same-food-app)
+
+## Product facts
+
+### Product facts: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
