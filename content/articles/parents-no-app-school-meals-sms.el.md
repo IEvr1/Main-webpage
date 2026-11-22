@@ -3,8 +3,8 @@ title: Χρειάζονται οι γονείς εφαρμογή ή λογαρι
 seoTitle: "Χρειάζονται οι γονείς εφαρμογή ή λογαριασμό για το σύστημα σίτισης του σχολείου; | NexAIpla"
 description: Όχι. Στο «Ολοήμερο Σχολείο — Σίτηση» κάθε γονέας παίρνει προσωπικό link με SMS και το ανοίγει στον browser. Χωρίς κωδικό. Χωρίς εγκατάσταση.
 slug: parents-no-app-school-meals-sms
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Όχι. Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) οι γονείς δεν εγκαθιστούν τίποτα και δεν φτιάχνουν λογαριασμό. Κάθε οικογένεια παίρνει με SMS ένα προσωπικό link ανά παιδί και το ανοίγει στον browser του κινητού. Από εκεί δηλώνει απουσίες, προγραμματίζει τις επόμενες και ενημερώνει αλλεργίες. Όποιος χάσει το link το παίρνει ξανά με SMS, γράφοντας τον αριθμό του κινητού του. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Όχι. Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) οι γονείς δεν εγκαθιστούν τίποτα και δεν φτιάχνουν λογαριασμό. Κάθε οικογένεια παίρνει με SMS ένα προσωπικό link ανά παιδί και το ανοίγει στον browser του κινητού. Από εκεί δηλώνει απουσίες, προγραμματίζει τις επόμενες και ενημερώνει αλλεργίες. Όποιος χάσει το link το παίρνει ξανά με SMS, γράφοντας τον αριθμό του κινητού του. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Ένα σχολείο δεν διαλέγει τους χρήστες του. Έχει τριακόσιες οικογένειες με κάθε είδους κινητό, γονείς που δουλεύουν βάρδιες, παππούδες που αναλαμβάνουν τις Τετάρτες, οικογένειες που ήρθαν πέρσι στη χώρα. Ό,τι ζητά κατέβασμα, εγγραφή με email και κωδικό με ένα κεφαλαίο και ένα σύμβολο θα το ολοκληρώσουν οι μισοί. Οι άλλοι μισοί θα συνεχίσουν να τηλεφωνούν, και το σύστημα θα δείχνει μισή εικόνα.
 
@@ -201,22 +201,46 @@ draft: false
 
 ### Χρειάζονται οι γονείς εφαρμογή ή λογαριασμό;
 
-Όχι. Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) ο γονέας ανοίγει ένα προσωπικό link από SMS στον browser του κινητού, χωρίς εγγραφή και χωρίς κωδικό. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) ο γονέας ανοίγει ένα προσωπικό link από SMS στον browser του κινητού, χωρίς εγγραφή και χωρίς κωδικό. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι κάνει ο γονέας που έχασε το link;
 
-Στη σελίδα του σχολείου πατά «Έχασα το προσωπικό μου link», γράφει το κινητό του και το παίρνει ξανά με SMS. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στη σελίδα του σχολείου πατά «Έχασα το προσωπικό μου link», γράφει το κινητό του και το παίρνει ξανά με SMS. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Έχει κάθε παιδί δικό του link;
 
-Ναι. Το link είναι ανά παιδί. Όποιος έχει περισσότερα παιδιά μπορεί εναλλακτικά να δηλώσει απουσία με τον αριθμό του κινητού και να επιλέξει παιδί. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Το link είναι ανά παιδί. Όποιος έχει περισσότερα παιδιά μπορεί εναλλακτικά να δηλώσει απουσία με τον αριθμό του κινητού και να επιλέξει παιδί. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Είναι ασφαλές χωρίς κωδικό;
 
-Το link είναι τυχαίο, ανανεώνεται όταν ξανασταλεί και λήγει στις 31 Ιουλίου. Οι δημόσιες φόρμες έχουν όριο αποπειρών και δεν αποκαλύπτουν αν ένας αριθμός υπάρχει στη λίστα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Το link είναι τυχαίο, ανανεώνεται όταν ξανασταλεί και λήγει στις 31 Ιουλίου. Οι δημόσιες φόρμες έχουν όριο αποπειρών και δεν αποκαλύπτουν αν ένας αριθμός υπάρχει στη λίστα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι θέλετε σύστημα σίτισης όπου οι γονείς δεν χρειάζονται εφαρμογή ούτε κωδικό. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Kitchen Live Portions All Day School](/el/articles/kitchen-live-portions-all-day-school)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
