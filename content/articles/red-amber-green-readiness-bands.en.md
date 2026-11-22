@@ -3,8 +3,8 @@ title: "What do red, amber, and green mean in the AI Readiness Score?"
 seoTitle: "What do red, amber, and green mean in the AI Readiness Score? | NexAIpla"
 description: "In the AI Readiness Score red is 0–39, amber 40–69, and green 70–100. Each band points to a different first step for the business. Free, 18 questions."
 slug: red-amber-green-readiness-bands
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -145,7 +145,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** The three colours of the [AI Readiness Score](https://www.nexaipla.com/ai-score/) are bands of the total score. Red, from 0 to 39: "Not ready yet". Amber, from 40 to 69: "Partially ready". Green, from 70 to 100: "AI-ready". The colour does not judge the business. It shows what kind of step makes sense now: building the base, closing particular gaps, or choosing the first application. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** The three colours of the [AI Readiness Score](https://www.nexaipla.com/ai-score/) are bands of the total score. Red, from 0 to 39: "Not ready yet". Amber, from 40 to 69: "Partially ready". Green, from 70 to 100: "AI-ready". The colour does not judge the business. It shows what kind of step makes sense now: building the base, closing particular gaps, or choosing the first application. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 We all know how to read a traffic light. Red says stop, green says go. In the readiness score the reading is slightly different, because no colour says "do nothing". Each says "do this kind of thing".
 
@@ -254,22 +254,47 @@ And do not take red to mean "AI is not for us". It means "not yet", and "yet" is
 
 ### What do the three colours mean?
 
-In the [AI Readiness Score](https://www.nexaipla.com/ai-score/) red is 0–39, amber 40–69, and green 70–100, that is not yet, partially, and ready. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In the [AI Readiness Score](https://www.nexaipla.com/ai-score/) red is 0–39, amber 40–69, and green 70–100, that is not yet, partially, and ready. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does red mean I should not bother with AI?
 
-It means the base is worth building first: written processes, gathered records, one person responsible. Homepage: [NexAIpla](https://www.nexaipla.com/).
+It means the base is worth building first: written processes, gathered records, one person responsible. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I start something if I am in amber?
 
-Yes, with one specific use that rests on your strong dimensions. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, with one specific use that rests on your strong dimensions. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does green guarantee that a project will succeed?
 
-No. It shows the preconditions exist. Choosing the right first project remains important. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It shows the preconditions exist. Choosing the right first project remains important. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) now, while the question is fresh. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us your colour and score, and which dimension gave you pause. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: NexAIpla
+
+- **Category:** Business AI automation and software
+- **Target customers:** Small and medium businesses, organisations and schools in European countries
+- **Main benefit:** NexAIpla develops AI-powered software and custom automation solutions for small businesses, organisations and schools.
+- **Does:** Ready-made apps: Online Receptionist 24/7, Online Food Orders, Live Business Traffic, DocsApp, All-day School — Meals
+- **Does:** Custom AI automation with a 48-hour feasibility reply
+- **Does:** Free AI Business Readiness Score (18 questions)
+- **Does not:** Does not invent universal ROI guarantees
+- **Does not:** Online Receptionist does not answer telephone calls
+- **Region:** European countries (Cyprus and broader Europe)
+- **Pricing:** Quote / demo based on scope; readiness score is free
+- **Trial / demo:** Product demos and free AI Readiness Score
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com
