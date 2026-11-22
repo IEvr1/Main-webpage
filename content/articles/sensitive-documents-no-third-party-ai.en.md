@@ -3,8 +3,8 @@ title: "How do I use AI on sensitive documents without a third-party AI provider
 seoTitle: "How do I use AI on sensitive documents without a third-party AI provider seeing them? | NexAIpla"
 description: "In DocsApp the model runs on your computer, so there is no AI provider receiving payrolls, medical files, or client records. No third party at all."
 slug: sensitive-documents-no-third-party-ai
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** By running the model on your own computer. [DocsApp](https://www.nexaipla.com/docsapp/) uses local models through Ollama, so the documents and the questions never reach an outside AI provider. There is no third party processing the data, and no transfer outside your office. You remain responsible for the security of the computer and for who has access. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** By running the model on your own computer. [DocsApp](https://www.nexaipla.com/docsapp/) uses local models through Ollama, so the documents and the questions never reach an outside AI provider. There is no third party processing the data, and no transfer outside your office. You remain responsible for the security of the computer and for who has access. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The question "are we allowed to use AI?" has already been answered in most offices, only not by management. It was answered by the employee who had a forty-page report to summarise at five in the afternoon. They pasted it into a chatbot. It worked. They did it again.
 
@@ -246,22 +246,46 @@ Three lines that are kept are worth more than ten pages nobody reads.
 
 ### How do I use AI on sensitive documents with no third-party provider?
 
-With [DocsApp](https://www.nexaipla.com/docsapp/) the model runs locally through Ollama, so the documents reach no outside AI service. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With [DocsApp](https://www.nexaipla.com/docsapp/) the model runs locally through Ollama, so the documents reach no outside AI service. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is a data processing agreement with an AI provider needed?
 
-There is no outside AI provider processing the documents. For your overall compliance, consult your legal adviser. Homepage: [NexAIpla](https://www.nexaipla.com/).
+There is no outside AI provider processing the documents. For your overall compliance, consult your legal adviser. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Which obligations stay with me?
 
-The security of the computer, access control, retention of the originals, and use only for a legitimate purpose. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The security of the computer, access control, retention of the originals, and use only for a legitimate purpose. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How do I prove that nothing is sent out?
 
-With a test on a disconnected network, or with your technician monitoring the connections. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With a test on a disconnected network, or with your technician monitoring the connections. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us which categories of sensitive documents you handle and who has access to them. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+- [Document Answers With Citations Rag](/en/articles/document-answers-with-citations-rag)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
