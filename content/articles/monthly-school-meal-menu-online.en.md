@@ -3,8 +3,8 @@ title: "Where can parents see the monthly school meal menu online?"
 seoTitle: "Where can parents see the monthly school meal menu online? | NexAIpla"
 description: In All-day School — Meals the parents' association uploads the monthly menu as a photo and every parent sees it on the school's home page. No login needed.
 slug: monthly-school-meal-menu-online
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Parents see it on the school's home page in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). The parents' association uploads a photo or scan of the monthly meal menu, chooses the month and the year, and the menu is visible to everyone. Announcements and useful phone numbers sit under it. No login is needed, and the page exists in Greek and in English. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Parents see it on the school's home page in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). The parents' association uploads a photo or scan of the monthly meal menu, chooses the month and the year, and the menu is visible to everyone. Announcements and useful phone numbers sit under it. No login is needed, and the page exists in Greek and in English. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The month's menu begins its life as paper. It is printed, it goes into three hundred school bags, and a week later half the copies are under a car seat. Somebody photographs it and sends it to the parents' group, where by Wednesday it is covered by a hundred messages about a lost cardigan. Then the questions to the school office begin: "What is it tomorrow?"
 
@@ -203,22 +203,46 @@ The question "what is it tomorrow?" is not important, but it is frequent. Every 
 
 ### Where do parents see the monthly meal menu?
 
-On the school's home page in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/), in the "Monthly meal menu" section, without logging in anywhere. Homepage: [NexAIpla](https://www.nexaipla.com/).
+On the school's home page in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/), in the "Monthly meal menu" section, without logging in anywhere. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do we have to type the menu dish by dish?
 
-No. You upload a photo or a scan of the menu and set the year and the month. The image only needs to be clearly readable on a phone. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. You upload a photo or a scan of the menu and set the year and the month. The image only needs to be clearly readable on a phone. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How do we announce a change to one day's food?
 
-With an active announcement from the admin screen. It appears under the menu and is removed when it is no longer needed. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With an active announcement from the admin screen. It appears under the menu and is removed when it is no longer needed. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can parents choose food from the menu?
 
-No. The menu is for information. The system organises absences, portions, and allergies, and it does not take dish selections. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The menu is for information. The system organises absences, portions, and allergies, and it does not take dish selections. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want the all-day school's monthly meal menu on one page that every parent can see. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
