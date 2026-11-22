@@ -3,8 +3,8 @@ title: "What happens to children's data in the school meals system when the scho
 seoTitle: "What happens to children's data in the school meals system when the school year ends? | NexAIpla"
 description: In All-day School — Meals personal data is deleted automatically on 31 July every year and the parents' links expire that day. With a published policy.
 slug: school-meals-gdpr-annual-deletion
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) personal data is deleted automatically on 31 July every year. Until then the system keeps only what the meal service needs: name, class, parents' phone numbers, allergies, and absences. Personal links expire on the same day, staff enter with a secret link and a PIN, and a privacy policy is published on the school's page. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) personal data is deleted automatically on 31 July every year. Until then the system keeps only what the meal service needs: name, class, parents' phone numbers, allergies, and absences. Personal links expire on the same day, staff enter with a secret link and a PIN, and a privacy policy is published on the school's page. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A parents' association that organises school meals holds sensitive information whether it wants to or not: which child is in which class, which mobile number belongs to which family, which child must not eat nuts. Usually this lives in a spreadsheet on a volunteer's personal computer. When the volunteer changes, the file is forwarded by email. Three years later nobody knows how many copies exist, or why they still exist.
 
@@ -205,22 +205,46 @@ This article describes how the product behaves. It is not legal advice. The asso
 
 ### What happens to children's data when the year ends?
 
-In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) personal data is deleted automatically on 31 July every year, and the personal links expire on the same day. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/) personal data is deleted automatically on 31 July every year, and the personal links expire on the same day. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Which data does the system keep during the year?
 
-The child's name, class, parents' phone numbers, allergies, and meal absences. They are used only for the meal service and for communication about it. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The child's name, class, parents' phone numbers, allergies, and meal absences. They are used only for the meal service and for communication about it. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can the association erase the data earlier?
 
-Yes. The admin screen has a manual deletion of the school year's data, with explicit confirmation before it runs. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The admin screen has a manual deletion of the school year's data, with explicit confirmation before it runs. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Whom does a parent ask for access or deletion?
 
-The body that organises the meals, usually the parents' association, as stated on the school's "Privacy" page. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The body that organises the meals, usually the parents' association, as stated on the school's "Privacy" page. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want to see how the school meals system handles children's data and the yearly deletion. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
