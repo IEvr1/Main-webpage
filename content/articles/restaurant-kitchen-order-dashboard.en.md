@@ -3,8 +3,8 @@ title: "How does a restaurant kitchen see all its online orders on one screen?"
 seoTitle: "How does a restaurant kitchen see all its online orders on one screen? | NexAIpla"
 description: "The Online Food Orders dashboard shows a live order queue, key figures, and shop closures, and it opens through a secure link. On a kitchen tablet."
 slug: restaurant-kitchen-order-dashboard
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** With the owner dashboard of [Online Food Orders](https://www.nexaipla.com/foodorder/). Every order a customer sends appears in a live queue with dishes, quantities, notes, pickup or delivery, and the time. The same screen has the day's key figures, the shop closures, the bulk cancel for emergencies, and the settings. It opens through a secure link, without a password. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** With the owner dashboard of [Online Food Orders](https://www.nexaipla.com/foodorder/). Every order a customer sends appears in a live queue with dishes, quantities, notes, pickup or delivery, and the time. The same screen has the day's key figures, the shop closures, the bulk cancel for emergencies, and the settings. It opens through a secure link, without a password. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 In a small kitchen the "order" of the orders lives in three places: on a spike with slips of paper, in the grill cook's head, and on the owner's phone. While orders are few, the three agree. When they become many, a slip falls behind the counter and the customer phones forty minutes later.
 
@@ -215,22 +215,47 @@ Those who still want paper on the plate can go on writing a mark on the packagin
 
 ### How does the kitchen see all its online orders?
 
-On the [Online Food Orders](https://www.nexaipla.com/foodorder/) dashboard, in a live queue with dishes, notes, handover method, and time for each order. Homepage: [NexAIpla](https://www.nexaipla.com/).
+On the [Online Food Orders](https://www.nexaipla.com/foodorder/) dashboard, in a live queue with dishes, notes, handover method, and time for each order. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What happens on the screen when the customer cancels?
 
-A cancellation the customer makes from the SMS link appears in the queue at once, so that the food is not prepared. Homepage: [NexAIpla](https://www.nexaipla.com/).
+A cancellation the customer makes from the SMS link appears in the queue at once, so that the food is not prepared. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is a password needed to open the dashboard?
 
-No. It opens through a secure, signed link. Drivers have a separate board with its own link. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It opens through a secure, signed link. Drivers have a separate board with its own link. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What do I do if I have to stop orders suddenly?
 
-You declare a shop closure and, if necessary, bulk-cancel the open orders from the same screen. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You declare a shop closure and, if necessary, bulk-cancel the open orders from the same screen. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are weighing online orders against other changes in the restaurant. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how orders reach your kitchen today. We reply within 48 hours.
+
+## Related in this topic
+
+- [Restaurant online ordering systems](/en/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/en/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/en/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/en/articles/pickup-and-delivery-same-food-app)
+
+## Product facts
+
+### Product facts: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
