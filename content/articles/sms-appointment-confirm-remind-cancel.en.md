@@ -3,8 +3,8 @@ title: "How are appointments confirmed, reminded, and cancelled by SMS without p
 seoTitle: "How are appointments confirmed, reminded, and cancelled by SMS without phone calls? | NexAIpla"
 description: Online Receptionist 24/7 sends a confirmation SMS and an automatic reminder with a link for the customer to cancel or change the time. No calls needed.
 slug: sms-appointment-confirm-remind-cancel
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** With three messages that go out by themselves. In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the customer gets a confirmation SMS as soon as they book, and an automatic reminder before the appointment. Both contain the same link, from which they cancel or change the time by themselves. The time that is freed shows as available at once, and your board updates without a single phone call. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** With three messages that go out by themselves. In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the customer gets a confirmation SMS as soon as they book, and an automatic reminder before the appointment. Both contain the same link, from which they cancel or change the time by themselves. The time that is freed shows as available at once, and your board updates without a single phone call. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 An appointment is not one moment. It is a small story that lasts days. The customer books. A week passes. They forget or remember. Something comes up or does not. They come or do not. At each point in that story, someone has to talk to someone.
 
@@ -240,22 +240,47 @@ Count again a month later. The difference in the second number is income. The di
 
 ### How are appointments confirmed and reminded?
 
-[Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) sends a confirmation SMS at booking and an automatic reminder before the appointment. Homepage: [NexAIpla](https://www.nexaipla.com/).
+[Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) sends a confirmation SMS at booking and an automatic reminder before the appointment. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can the customer cancel without phoning?
 
-Yes. The link in the messages lets them cancel or change the time by themselves. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The link in the messages lets them cancel or change the time by themselves. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What happens to the time that was cancelled?
 
-It returns to availability at once and can be booked by another customer. Homepage: [NexAIpla](https://www.nexaipla.com/).
+It returns to availability at once and can be booked by another customer. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the system make reminder phone calls?
 
-No. It neither makes nor takes calls. Reminders are written messages. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It neither makes nor takes calls. Reminders are written messages. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many appointments you have in a week and how many customers do not turn up. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
