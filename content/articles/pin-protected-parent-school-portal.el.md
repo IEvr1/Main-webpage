@@ -3,8 +3,8 @@ title: Προστατεύεται με PIN ή κωδικό η πρόσβαση �
 seoTitle: "Προστατεύεται με PIN ή κωδικό η πρόσβαση στο σύστημα σίτισης του σχολείου; | NexAIpla"
 description: "Στο «Ολοήμερο Σχολείο — Σίτηση» το προσωπικό μπαίνει με μυστικό link και PIN, ενώ ο γονέας με προσωπικό link ανά παιδί. Χωρίς κωδικό. Λήξη 31 Ιουλίου."
 slug: pin-protected-parent-school-portal
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) οι οθόνες του προσωπικού προστατεύονται με δύο πράγματα μαζί: ένα μυστικό link και ένα PIN για κάθε ρόλο, δηλαδή διαχείριση, γραμματεία και κουζίνα. Οι γονείς δεν έχουν PIN ούτε κωδικό. Μπαίνουν με προσωπικό, τυχαίο link ανά παιδί που παίρνουν με SMS και βλέπουν μόνο το δικό τους παιδί. Όλα τα links λήγουν στις 31 Ιουλίου. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) οι οθόνες του προσωπικού προστατεύονται με δύο πράγματα μαζί: ένα μυστικό link και ένα PIN για κάθε ρόλο, δηλαδή διαχείριση, γραμματεία και κουζίνα. Οι γονείς δεν έχουν PIN ούτε κωδικό. Μπαίνουν με προσωπικό, τυχαίο link ανά παιδί που παίρνουν με SMS και βλέπουν μόνο το δικό τους παιδί. Όλα τα links λήγουν στις 31 Ιουλίου. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Όταν ένας Σύνδεσμος Γονέων ακούει «χωρίς κωδικό», ανησυχεί. Πρόκειται για παιδιά, για τηλέφωνα οικογενειών, για αλλεργίες. Η ανησυχία είναι σωστή. Η απάντηση όμως δεν είναι ένας κωδικός για όλους. Είναι διαφορετική κλειδαριά για διαφορετικό χρήστη, ανάλογα με το τι μπορεί να δει ο καθένας.
 
@@ -216,22 +216,46 @@ draft: false
 
 ### Προστατεύεται με PIN η πρόσβαση στο σύστημα σίτισης;
 
-Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) η διαχείριση, η γραμματεία και η κουζίνα μπαίνουν με μυστικό link και PIN. Οι γονείς μπαίνουν με προσωπικό link ανά παιδί, χωρίς PIN. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) η διαχείριση, η γραμματεία και η κουζίνα μπαίνουν με μυστικό link και PIN. Οι γονείς μπαίνουν με προσωπικό link ανά παιδί, χωρίς PIN. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Γιατί οι γονείς δεν έχουν κωδικό;
 
-Γιατί βλέπουν μόνο το δικό τους παιδί, και ένας κωδικός θα άφηνε πολλές οικογένειες έξω. Το link είναι τυχαίο, ανανεώνεται στην ανάκτηση και λήγει στις 31 Ιουλίου. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Γιατί βλέπουν μόνο το δικό τους παιδί, και ένας κωδικός θα άφηνε πολλές οικογένειες έξω. Το link είναι τυχαίο, ανανεώνεται στην ανάκτηση και λήγει στις 31 Ιουλίου. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται αν κάποιος δοκιμάσει πολλούς αριθμούς ή πολλά PIN;
 
-Οι απόπειρες περιορίζονται, και οι δημόσιες φόρμες δεν αποκαλύπτουν αν ένας αριθμός κινητού υπάρχει στη λίστα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Οι απόπειρες περιορίζονται, και οι δημόσιες φόρμες δεν αποκαλύπτουν αν ένας αριθμός κινητού υπάρχει στη λίστα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Έχει ο ρόλος της κουζίνας πρόσβαση στα στοιχεία επικοινωνίας των οικογενειών;
 
-Όχι. Ο ρόλος της κουζίνας δείχνει μερίδες, αλλεργίες και σχόλια. Τα στοιχεία επικοινωνίας μένουν στη διαχείριση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Ο ρόλος της κουζίνας δείχνει μερίδες, αλλεργίες και σχόλια. Τα στοιχεία επικοινωνίας μένουν στη διαχείριση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι θέλετε να δείτε πώς προστατεύεται η πρόσβαση γονέων και προσωπικού στο σύστημα σίτισης. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
