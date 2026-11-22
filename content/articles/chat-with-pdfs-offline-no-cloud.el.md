@@ -3,8 +3,8 @@ title: Μπορώ να κάνω ερωτήσεις στα PDF μου με AI χ�
 seoTitle: "Μπορώ να κάνω ερωτήσεις στα PDF μου με AI χωρίς να τα ανεβάσω στο cloud; | NexAIpla"
 description: "Το DocsApp τρέχει σε Windows με τοπικά μοντέλα μέσω Ollama: τα PDF μένουν στον δίσκο σας και οι απαντήσεις έρχονται με παραπομπές. Χωρίς cloud."
 slug: chat-with-pdfs-offline-no-cloud
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) είναι εφαρμογή για Windows που τρέχει τα μοντέλα AI τοπικά μέσω Ollama. Ρίχνετε τα PDF σε έναν φάκελο εισαγωγής στον υπολογιστή σας, κάνετε ερωτήσεις από τον browser στη διεύθυνση 127.0.0.1:8080 και παίρνετε απαντήσεις με παραπομπές στα έγγραφα. Τίποτα δεν στέλνεται σε cloud ή σε τρίτη υπηρεσία AI. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) είναι εφαρμογή για Windows που τρέχει τα μοντέλα AI τοπικά μέσω Ollama. Ρίχνετε τα PDF σε έναν φάκελο εισαγωγής στον υπολογιστή σας, κάνετε ερωτήσεις από τον browser στη διεύθυνση 127.0.0.1:8080 και παίρνετε απαντήσεις με παραπομπές στα έγγραφα. Τίποτα δεν στέλνεται σε cloud ή σε τρίτη υπηρεσία AI. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Τα περισσότερα εργαλεία «ρώτα το PDF σου» δουλεύουν με τον ίδιο τρόπο. Ανεβάζετε το αρχείο, αυτό ταξιδεύει σε διακομιστή κάποιας εταιρείας, ένα μοντέλο το διαβάζει εκεί, και η απάντηση γυρίζει πίσω. Είναι γρήγορο και βολικό. Και για πολλά έγγραφα δεν επιτρέπεται.
 
@@ -223,22 +223,46 @@ Windows 10 ή 11. Python 3.10 ή νεότερη. Το Ollama με τα μοντ�
 
 ### Μπορώ να ρωτήσω τα PDF μου χωρίς να τα ανεβάσω στο cloud;
 
-Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) τρέχει τα μοντέλα τοπικά σε Windows μέσω Ollama, και τα έγγραφα μένουν στον δίσκο σας. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) τρέχει τα μοντέλα τοπικά σε Windows μέσω Ollama, και τα έγγραφα μένουν στον δίσκο σας. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Αφού ανοίγει στον browser, δεν είναι online;
 
-Όχι. Η διεύθυνση 127.0.0.1:8080 είναι ο ίδιος ο υπολογιστής σας. Ο browser μιλά με πρόγραμμα που τρέχει τοπικά. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η διεύθυνση 127.0.0.1:8080 είναι ο ίδιος ο υπολογιστής σας. Ο browser μιλά με πρόγραμμα που τρέχει τοπικά. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζεται κάρτα γραφικών;
 
-Όχι. Τα μοντέλα τρέχουν στον επεξεργαστή. Οι απαντήσεις είναι πιο αργές από μια υπηρεσία cloud, αλλά τα δεδομένα δεν μετακινούνται. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Τα μοντέλα τρέχουν στον επεξεργαστή. Οι απαντήσεις είναι πιο αργές από μια υπηρεσία cloud, αλλά τα δεδομένα δεν μετακινούνται. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πώς ξέρω ότι η απάντηση είναι σωστή;
 
-Κάθε απάντηση έχει παραπομπή στο έγγραφο από το οποίο προήλθε, και η εφαρμογή δηλώνει όταν δεν βρίσκει την απάντηση στα έγγραφα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Κάθε απάντηση έχει παραπομπή στο έγγραφο από το οποίο προήλθε, και η εφαρμογή δηλώνει όταν δεν βρίσκει την απάντηση στα έγγραφα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε τι είδους έγγραφα θέλετε να ρωτάτε και γιατί δεν μπορούν να ανέβουν σε cloud. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+- [Document Answers With Citations Rag](/el/articles/document-answers-with-citations-rag)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
