@@ -3,8 +3,8 @@ title: Πώς δέχομαι κρατήσεις εκτός ωραρίου χωρ
 seoTitle: "Πώς δέχομαι κρατήσεις εκτός ωραρίου χωρίς να προσλάβω άνθρωπο στη ρεσεψιόν; | NexAIpla"
 description: "Με τον Online Γραφέα 24/7 οι πελάτες κλείνουν ραντεβού τη νύχτα, την Κυριακή και στις αργίες, χωρίς να χρειάζεται κάποιος να απαντήσει. Χωρίς πρόσληψη."
 slug: booking-after-hours-without-receptionist
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Αφήνοντας τη σελίδα κράτησης να κάνει τη δουλειά όταν εσείς δεν είστε εκεί. Με τον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πελάτης ανοίγει τον σύνδεσμο ή σκανάρει τον κωδικό QR οποιαδήποτε ώρα, διαλέγει υπηρεσία, άτομο και ελεύθερη ώρα, και λαμβάνει αμέσως SMS επιβεβαίωσης. Το πρωί βρίσκετε το ραντεβού στον πίνακα. Δεν χρειάζεται βάρδια, ούτε επιστροφή κλήσεων. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Αφήνοντας τη σελίδα κράτησης να κάνει τη δουλειά όταν εσείς δεν είστε εκεί. Με τον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πελάτης ανοίγει τον σύνδεσμο ή σκανάρει τον κωδικό QR οποιαδήποτε ώρα, διαλέγει υπηρεσία, άτομο και ελεύθερη ώρα, και λαμβάνει αμέσως SMS επιβεβαίωσης. Το πρωί βρίσκετε το ραντεβού στον πίνακα. Δεν χρειάζεται βάρδια, ούτε επιστροφή κλήσεων. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Το ωράριό σας και το ωράριο των πελατών σας συμπίπτουν σχεδόν απόλυτα. Όσο εσείς δουλεύετε, δουλεύουν και εκείνοι. Η στιγμή που έχουν ελεύθερο μυαλό για να οργανώσουν ένα κούρεμα, ένα μασάζ ή ένα σέρβις είναι ακριβώς η στιγμή που εσείς έχετε κατεβάσει ρολά.
 
@@ -251,22 +251,47 @@ draft: false
 
 ### Πώς δέχομαι κρατήσεις όταν το μαγαζί είναι κλειστό;
 
-Με τον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πελάτης κλείνει μόνος του από σύνδεσμο ή κωδικό QR, οποιαδήποτε ώρα, και λαμβάνει SMS επιβεβαίωσης. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με τον [Online Γραφέα 24/7](https://www.nexaipla.com/onlinebooking/) ο πελάτης κλείνει μόνος του από σύνδεσμο ή κωδικό QR, οποιαδήποτε ώρα, και λαμβάνει SMS επιβεβαίωσης. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πρέπει να επιβεβαιώσω εγώ το ραντεβού το πρωί;
 
-Όχι. Η κράτηση είναι ολοκληρωμένη και η ώρα δεσμευμένη από τη στιγμή που έγινε. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η κράτηση είναι ολοκληρωμένη και η ώρα δεσμευμένη από τη στιγμή που έγινε. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορεί κάποιος να κλείσει σε μέρα που είμαστε κλειστά;
 
-Όχι, εφόσον έχετε δηλώσει το κλείσιμο στον πίνακα. Οι ώρες εκείνες δεν προσφέρονται. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι, εφόσον έχετε δηλώσει το κλείσιμο στον πίνακα. Οι ώρες εκείνες δεν προσφέρονται. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζομαι υπάλληλο για να το παρακολουθεί;
 
-Όχι. Βλέπετε τα νέα ραντεβού στον πίνακα όταν ανοίξετε. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Βλέπετε τα νέα ραντεβού στον πίνακα όταν ανοίξετε. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ακόμη αποφασίζετε αν οι κρατήσεις είναι η πρώτη δουλειά που αξίζει να αυτοματοποιηθεί. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε το ωράριό σας και πόσες αναπάντητες κλήσεις βρίσκετε συνήθως το πρωί. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό online κρατήσεων για μικρές επιχειρήσεις](/el/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/el/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/el/articles/booking-without-customer-account)
+- [Qr Code Appointment Booking](/el/articles/qr-code-appointment-booking)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
