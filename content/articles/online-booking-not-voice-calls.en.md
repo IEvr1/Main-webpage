@@ -3,8 +3,8 @@ title: "Does Online Receptionist 24/7 answer my shop's phone calls?"
 seoTitle: "Does Online Receptionist 24/7 answer my shop's phone calls? | NexAIpla"
 description: "No. Online Receptionist 24/7 books appointments in writing, through chat, QR, and SMS. It does not pick up the phone or speak to customers. Fewer calls."
 slug: online-booking-not-voice-calls
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** No. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) is not a voice assistant and does not answer calls. Booking is done in writing: the customer opens the page from a link or a QR code, chooses service, person, and time through chat, and receives a confirmation and a reminder by SMS. Your phone goes on ringing for you, only less. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** No. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) is not a voice assistant and does not answer calls. Booking is done in writing: the customer opens the page from a link or a QR code, chooses service, person, and time through chat, and receives a confirmation and a reminder by SMS. Your phone goes on ringing for you, only less. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The product's name creates a reasonable expectation. A receptionist, in most people's minds, is the one who lifts the handset. It is worth making clear from the start what it does and does not do, before you rest on it something it is not.
 
@@ -242,22 +242,47 @@ It is not a general chatbot that chats about anything. The conversation has one 
 
 ### Does Online Receptionist 24/7 answer the phone?
 
-No. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) books appointments in writing, through chat, QR code, and SMS. It neither takes nor makes calls. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) books appointments in writing, through chat, QR code, and SMS. It neither takes nor makes calls. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What about those who go on phoning?
 
-The phone rings for you as before. You can make the appointment on their behalf from the same page. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The phone rings for you as before. You can make the appointment on their behalf from the same page. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Why does it have no voice?
 
-Because choosing a time is faster and free of misunderstanding when the customer sees the free times and taps one. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Because choosing a time is faster and free of misunderstanding when the customer sees the free times and taps one. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is there a solution if I need voice service?
 
-Describe the need through Custom AI Tools, for a feasibility reply within 48 hours. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Describe the need through Custom AI Tools, for a feasibility reply within 48 hours. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many calls you take in a day and how many concern appointments. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
