@@ -3,8 +3,8 @@ title: "What happens after I receive the feasibility reply for the AI project?"
 seoTitle: "What happens after I receive the feasibility reply for the AI project? | NexAIpla"
 description: "After the Custom AI Tools feasibility reply the decision is yours: stop there, ask more questions, or start with one small piece of the job. No obligation."
 slug: what-happens-after-ai-feasibility-reply
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Whatever you decide. The reply from [Custom AI Tools](https://www.nexaipla.com/ai/) creates no obligation. You can stop there, ask for clarification on the percentage, the cost, or the time, or go ahead following the recommended next steps, which usually mean starting with a small, measurable piece of the job. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Whatever you decide. The reply from [Custom AI Tools](https://www.nexaipla.com/ai/) creates no obligation. You can stop there, ask for clarification on the percentage, the cost, or the time, or go ahead following the recommended next steps, which usually mean starting with a small, measurable piece of the job. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The reply has arrived. It has a percentage, a range, an estimate in weeks, and some suggestions. The next move is yours, and there are three doors.
 
@@ -263,22 +263,45 @@ A week is reasonable. It is enough to discuss it with whoever you must and to pu
 
 ### What happens after I receive the feasibility reply?
 
-You decide. With [Custom AI Tools](https://www.nexaipla.com/ai/) you can stop, ask for clarification, or go ahead with the recommended steps. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You decide. With [Custom AI Tools](https://www.nexaipla.com/ai/) you can stop, ask for clarification, or go ahead with the recommended steps. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Am I obliged to go ahead?
 
-No. The reply is given with no obligation. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The reply is given with no obligation. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How does a project usually start?
 
-With a small piece of the task, which is tried with real work before being extended. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With a small piece of the task, which is tried with real work before being extended. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What do I do if the recommendation is to prepare first?
 
-You do the preparation described and send the need again when it is complete. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You do the preparation described and send the need again when it is complete. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want a number for your starting point before you describe the task. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and write us your idea, or your questions about a reply you have already received. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Custom AI Tools
+
+- **Category:** Custom AI automation
+- **Target customers:** SMBs with a repeated process to automate
+- **Main benefit:** Custom AI Tools is NexAIpla’s path for automating one repeated business task when a ready-made app is not enough.
+- **Does:** 48-hour feasibility reply with cost range and timeline
+- **Does:** On-premise / offline options when required
+- **Does not:** Does not start a build before a feasibility discussion
+- **Region:** European countries
+- **Pricing:** Scoped quote after feasibility reply
+- **Trial / demo:** Feasibility reply — no obligation
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/ai/
