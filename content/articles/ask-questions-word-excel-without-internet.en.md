@@ -3,8 +3,8 @@ title: "How do I ask questions of Word and Excel files without the internet and 
 seoTitle: "How do I ask questions of Word and Excel files without the internet and without a cloud AI subscription? | NexAIpla"
 description: "DocsApp indexes Word, Excel, and CSV files on your computer and answers with local models, with no cloud account at all. With citations. Offline."
 slug: ask-questions-word-excel-without-internet
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** By dropping the files into the intake folder of [DocsApp](https://www.nexaipla.com/docsapp/). The application reads Word, Excel, and CSV files, along with PDF, text, and images, and indexes them on your disk. Then you ask in plain language from the browser, and Ollama's local models answer with a citation to the file. Neither a connection nor an account with a cloud service is needed. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** By dropping the files into the intake folder of [DocsApp](https://www.nexaipla.com/docsapp/). The application reads Word, Excel, and CSV files, along with PDF, text, and images, and indexes them on your disk. Then you ask in plain language from the browser, and Ollama's local models answer with a citation to the file. Neither a connection nor an account with a cloud service is needed. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Most of a business's documents are not PDFs. They are Word files that are still changing: quotations, memos, minutes, procedures. And spreadsheets: price lists, budgets, lists of materials. They are the files of the work, not of the archive.
 
@@ -249,22 +249,46 @@ The models run on your computer's processor. No graphics card is needed, but ans
 
 ### How do I question Word and Excel files without the internet?
 
-You drop them into the intake folder of [DocsApp](https://www.nexaipla.com/docsapp/), which indexes them locally, and you ask from the browser on the same computer. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You drop them into the intake folder of [DocsApp](https://www.nexaipla.com/docsapp/), which indexes them locally, and you ask from the browser on the same computer. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do I need a subscription to the office suite's AI assistant?
 
-No. The application reads the files directly and uses local models through Ollama. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The application reads the files directly and uses local models through Ollama. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the application change my files?
 
-No. It only reads them. The original Word or Excel file stays exactly as it was. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It only reads them. The original Word or Excel file stays exactly as it was. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What happens when I update a file?
 
-You drop the new version into the intake folder, so that answers rest on the current content. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You drop the new version into the intake folder, so that answers rest on the current content. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us which Word and Excel files you work with every day and where you lack a connection. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
