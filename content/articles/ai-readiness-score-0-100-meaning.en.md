@@ -3,8 +3,8 @@ title: "What does the 0–100 score in the AI Readiness Score mean?"
 seoTitle: "What does the 0–100 score in the AI Readiness Score mean? | NexAIpla"
 description: "The AI Readiness Score turns 18 answers into a number from 0 to 100: it shows how ready the business is across six dimensions, not how good it is."
 slug: ai-readiness-score-0-100-meaning
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -145,7 +145,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** The score in the [AI Readiness Score](https://www.nexaipla.com/ai-score/) is the sum of your answers to 18 questions, converted to a scale from 0 to 100. Each answer gives from 0 to 3 points, and the questions are divided among six dimensions. The number shows how ready the business is today to benefit from AI. It does not grade the business itself, and the breakdown by dimension says more than the total. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** The score in the [AI Readiness Score](https://www.nexaipla.com/ai-score/) is the sum of your answers to 18 questions, converted to a scale from 0 to 100. Each answer gives from 0 to 3 points, and the questions are divided among six dimensions. The number shows how ready the business is today to benefit from AI. It does not grade the business itself, and the breakdown by dimension says more than the total. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A number with no explanation is noise. 52 may be good news for a business that had never thought about the subject, and bad for one about to spend on tools next month. To read it correctly, you need to know where it comes from.
 
@@ -254,22 +254,47 @@ For the wider frame, see [what AI readiness is](/en/articles/what-is-ai-readines
 
 ### What does the 0–100 score mean?
 
-In the [AI Readiness Score](https://www.nexaipla.com/ai-score/) it is the sum of 18 answers, from 0 to 3 points each, converted to a scale of 100. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In the [AI Readiness Score](https://www.nexaipla.com/ai-score/) it is the sum of 18 answers, from 0 to 3 points each, converted to a scale of 100. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What are the six dimensions?
 
-Strategy, data, people, process, technology, and governance, with three questions each. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Strategy, data, people, process, technology, and governance, with three questions each. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does a low score mean my business is doing badly?
 
-No. It measures readiness for AI, not the quality or profitability of the business. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It measures readiness for AI, not the quality or profitability of the business. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How often is it worth repeating?
 
-Every three to six months, or after a substantial change in the way you work. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Every three to six months, or after a substantial change in the way you work. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) now, while the question is fresh. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us your score and which dimension came out lowest, if you would like us to look at it together. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: NexAIpla
+
+- **Category:** Business AI automation and software
+- **Target customers:** Small and medium businesses, organisations and schools in European countries
+- **Main benefit:** NexAIpla develops AI-powered software and custom automation solutions for small businesses, organisations and schools.
+- **Does:** Ready-made apps: Online Receptionist 24/7, Online Food Orders, Live Business Traffic, DocsApp, All-day School — Meals
+- **Does:** Custom AI automation with a 48-hour feasibility reply
+- **Does:** Free AI Business Readiness Score (18 questions)
+- **Does not:** Does not invent universal ROI guarantees
+- **Does not:** Online Receptionist does not answer telephone calls
+- **Region:** European countries (Cyprus and broader Europe)
+- **Pricing:** Quote / demo based on scope; readiness score is free
+- **Trial / demo:** Product demos and free AI Readiness Score
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com
