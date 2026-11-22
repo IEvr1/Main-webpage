@@ -3,8 +3,8 @@ title: "How does the school kitchen know how many portions to cook today?"
 seoTitle: "How does the school kitchen know how many portions to cook today? | NexAIpla"
 description: "The kitchen screen in All-day School — Meals shows enrolled children, absences, and portions to cook for each class, with a total. Live. No phone calls."
 slug: kitchen-live-portions-all-day-school
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** The kitchen knows from the live portions screen in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). For each class it shows the children enrolled, today's absences, and the portions to prepare, with the total at the bottom. The numbers change as parents and the school office register absences, so the cook reads a count instead of collecting messages. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** The kitchen knows from the live portions screen in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). For each class it shows the children enrolled, today's absences, and the portions to prepare, with the total at the bottom. The numbers change as parents and the school office register absences, so the cook reads a count instead of collecting messages. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Ask a school cook how many children will eat today, and the honest answer at 08:00 is often "about the same as yesterday". The real figure is split between a note on the office desk, two phone calls nobody wrote down, and a message in a chat the cook is not a member of. So the kitchen cooks for everyone and hopes, or cooks for fewer and hopes harder.
 
@@ -197,22 +197,46 @@ The gain is not dramatic on any single day. It is three portions here, five ther
 
 ### How does the kitchen know how many portions to cook?
 
-From the live table in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/), which shows enrolled children, absences, and portions for each class and the total for the day. Homepage: [NexAIpla](https://www.nexaipla.com/).
+From the live table in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/), which shows enrolled children, absences, and portions for each class and the total for the day. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does someone have to enter the numbers for the kitchen?
 
-No. The count comes out of the absences that parents and the office register. The cook only reads it. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The count comes out of the absences that parents and the office register. The cook only reads it. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the table update during the morning?
 
-Yes. It refreshes automatically and also has a "Refresh" button, so later absences appear without anyone passing them on. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. It refreshes automatically and also has a "Refresh" button, so later absences appear without anyone passing them on. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can the kitchen see the parents' phone numbers?
 
-No. The kitchen role shows the day's portions, allergies, and comments. Family details stay with the admin and office roles. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The kitchen role shows the day's portions, allergies, and comments. Family details stay with the admin and office roles. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want the all-day school kitchen to see live portions for each class. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
