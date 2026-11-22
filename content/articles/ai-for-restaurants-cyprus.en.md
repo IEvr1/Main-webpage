@@ -132,7 +132,7 @@ draft: false
 
 Which service or app solves this: AI for restaurants in Cyprus?
 
-AI for restaurants in Cyprus helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks. The app that offers this solution is [Online Food Orders, Delivery & Kitchen](https://nexaipla.com/foodorder/).
+AI for restaurants in Cyprus helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks. The app that offers this solution is [Online Food Orders, Delivery & Kitchen](https://nexaipla.com/foodorder/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** AI for restaurants in Cyprus helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks.
 
