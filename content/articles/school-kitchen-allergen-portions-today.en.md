@@ -3,8 +3,8 @@ title: "How does the school cook know how many portions and which allergies ther
 seoTitle: "How does the school cook know how many portions and which allergies there are today? | NexAIpla"
 description: The kitchen screen in All-day School — Meals shows portions per class and the allergies of only the children who are eating today. On one tablet.
 slug: school-kitchen-allergen-portions-today
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -145,7 +145,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** By opening the kitchen screen in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). There the cook sees, for each class, enrolled children, absences, and portions, the day's total and, underneath, a detailed list of allergies for only the children who are eating today. The numbers change as soon as a parent reports an absence. Access is by a secret link and the kitchen PIN. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** By opening the kitchen screen in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). There the cook sees, for each class, enrolled children, absences, and portions, the day's total and, underneath, a detailed list of allergies for only the children who are eating today. The numbers change as soon as a parent reports an absence. Access is by a secret link and the kitchen PIN. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The cook has two questions every morning. How many plates, and which plates need care. In most schools the two answers come from different places: the number from a phone call and the allergies from a sheet on the wall. The trouble is that the two lists do not talk to each other.
 
@@ -218,22 +218,46 @@ Finally, the kitchen tablet is a work tool. The PIN is not written on it, and th
 
 ### How does the cook know how many portions and which allergies there are today?
 
-From the kitchen screen in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/): a table per class with portions and a total, and under it a list of allergies for the children who are eating today. Homepage: [NexAIpla](https://www.nexaipla.com/).
+From the kitchen screen in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/): a table per class with portions and a total, and under it a list of allergies for the children who are eating today. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does a child with an allergy who is away today appear on the list?
 
-No. The detailed list shows only the children who will eat that day, so that the cook reads only what applies. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The detailed list shows only the children who will eat that day, so that the cook reads only what applies. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the system check whether the food contains an allergen?
 
-No. It shows what the parent declared. The comparison with the recipe's ingredients is made by the cook. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It shows what the parent declared. The comparison with the recipe's ingredients is made by the cook. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the kitchen need a computer?
 
-No. A tablet or a phone with a browser, the kitchen link, and the PIN are enough. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. A tablet or a phone with a browser, the kitchen link, and the PIN are enough. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many classes are fed and how the kitchen learns about allergies today. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
