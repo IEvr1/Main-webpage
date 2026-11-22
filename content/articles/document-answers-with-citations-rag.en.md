@@ -3,8 +3,8 @@ title: "How do I know the AI's answer really came from my documents and was not 
 seoTitle: "How do I know the AI's answer really came from my documents and was not made up? | NexAIpla"
 description: "DocsApp answers only from excerpts of your documents, shows the source of every answer, and says so when it cannot find the information. Locally."
 slug: document-answers-with-citations-rag
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** From the citations. [DocsApp](https://www.nexaipla.com/docsapp/) does not answer from the model's general knowledge. It first finds in your documents the excerpts related to the question, and gives the model only those to compose an answer from. Every answer shows which document it came from, and when the information is not there, the application states so instead of guessing. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** From the citations. [DocsApp](https://www.nexaipla.com/docsapp/) does not answer from the model's general knowledge. It first finds in your documents the excerpts related to the question, and gives the model only those to compose an answer from. Every answer shows which document it came from, and when the information is not there, the application states so instead of guessing. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Anyone who has tried a general chatbot on a professional question has seen the phenomenon. You ask about a provision, and you get an answer that is well written, persuasive, with an article number. Then you look for the article and it does not exist. The model did not lie on purpose. It simply wrote the most probable text.
 
@@ -235,22 +235,46 @@ The index, the retrieval, and the model run on your computer through Ollama. The
 
 ### How do I know the answer came from my documents?
 
-[DocsApp](https://www.nexaipla.com/docsapp/) shows with every answer the document it came from, so that you can check it against the original. Homepage: [NexAIpla](https://www.nexaipla.com/).
+[DocsApp](https://www.nexaipla.com/docsapp/) shows with every answer the document it came from, so that you can check it against the original. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What does it do if the answer is not in the documents?
 
-It states that it did not find it. It does not fill the gap with the model's general knowledge. Homepage: [NexAIpla](https://www.nexaipla.com/).
+It states that it did not find it. It does not fill the gap with the model's general knowledge. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can it be wrong all the same?
 
-Yes, if the wrong excerpt is retrieved or if a scan was badly read. That is why the source is always checked. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, if the wrong excerpt is retrieved or if a scan was badly read. That is why the source is always checked. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does this method need the cloud to work?
 
-No. Index, retrieval, and model run locally on your computer. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Index, retrieval, and model run locally on your computer. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us for what kind of questions you need answers that you can check. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
