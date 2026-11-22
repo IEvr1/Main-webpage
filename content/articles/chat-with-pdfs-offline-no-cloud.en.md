@@ -3,8 +3,8 @@ title: "Can I ask questions of my PDFs with AI without uploading them to the clo
 seoTitle: "Can I ask questions of my PDFs with AI without uploading them to the cloud? | NexAIpla"
 description: "DocsApp runs on Windows with local models through Ollama: your PDFs stay on your disk and the answers come with citations. No cloud. No GPU."
 slug: chat-with-pdfs-offline-no-cloud
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. [DocsApp](https://www.nexaipla.com/docsapp/) is a Windows application that runs the AI models locally through Ollama. You drop the PDFs into an intake folder on your computer, ask questions from the browser at 127.0.0.1:8080, and get answers with citations to the documents. Nothing is sent to the cloud or to a third-party AI service. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. [DocsApp](https://www.nexaipla.com/docsapp/) is a Windows application that runs the AI models locally through Ollama. You drop the PDFs into an intake folder on your computer, ask questions from the browser at 127.0.0.1:8080, and get answers with citations to the documents. Nothing is sent to the cloud or to a third-party AI service. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Most "ask your PDF" tools work the same way. You upload the file, it travels to some company's server, a model reads it there, and the answer comes back. It is fast and convenient. And for many documents it is not permitted.
 
@@ -223,22 +223,46 @@ It is not a service you log in to from anywhere. It runs on the computer where i
 
 ### Can I question my PDFs without uploading them to the cloud?
 
-Yes. [DocsApp](https://www.nexaipla.com/docsapp/) runs the models locally on Windows through Ollama, and the documents stay on your disk. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. [DocsApp](https://www.nexaipla.com/docsapp/) runs the models locally on Windows through Ollama, and the documents stay on your disk. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### If it opens in the browser, is it not online?
 
-No. The address 127.0.0.1:8080 is your own computer. The browser talks to a program running locally. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The address 127.0.0.1:8080 is your own computer. The browser talks to a program running locally. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is a graphics card required?
 
-No. The models run on the processor. Answers are slower than a cloud service, but the data does not move. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The models run on the processor. Answers are slower than a cloud service, but the data does not move. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How do I know the answer is right?
 
-Every answer has a citation to the document it came from, and the application states when it cannot find the answer in the documents. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Every answer has a citation to the document it came from, and the application states when it cannot find the answer in the documents. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us what kind of documents you want to question and why they cannot go to the cloud. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+- [Document Answers With Citations Rag](/en/articles/document-answers-with-citations-rag)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
