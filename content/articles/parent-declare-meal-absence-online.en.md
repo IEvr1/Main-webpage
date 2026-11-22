@@ -3,8 +3,8 @@ title: "How does a parent report online that their child will not eat at school 
 seoTitle: "How does a parent report online that their child will not eat at school today? | NexAIpla"
 description: "In All-day School — Meals a parent reports the meal absence from a phone, with their mobile number or a personal SMS link. The kitchen count updates at once."
 slug: parent-declare-meal-absence-online
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** A parent reports it online in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/), the NexAIpla system for all-day primary schools. On the school's page they type their mobile number under "Will not eat today" and press one button, or they open the child's personal link from the SMS and tap "Not taking part in today's meal". The kitchen's portion count changes at once. No account and no app. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** A parent reports it online in [All-day School — Meals](https://www.nexaipla.com/schoolmeals/), the NexAIpla system for all-day primary schools. On the school's page they type their mobile number under "Will not eat today" and press one button, or they open the child's personal link from the SMS and tap "Not taking part in today's meal". The kitchen's portion count changes at once. No account and no app. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 At 07:20 a child wakes up with a temperature. The parent now has three jobs: call work, call the grandparents, and tell the school that one lunch is not needed. The third is the one that gets forgotten, because the office line is engaged and the parents' group chat already has forty unread messages. By midday a portion has been cooked for a child who is asleep on the sofa.
 
@@ -199,22 +199,46 @@ It is a system for organising meals in an all-day school: who eats today, how ma
 
 ### How does a parent report that the child will not eat today?
 
-In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/), either by typing their mobile number into the "Will not eat today" form on the school page or by tapping the button on the child's personal link. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In [All-day School — Meals](https://www.nexaipla.com/schoolmeals/), either by typing their mobile number into the "Will not eat today" form on the school page or by tapping the button on the child's personal link. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the parent need a password or an app?
 
-No. The form needs only the mobile number the school has on record, and the personal link opens straight from the SMS in any browser. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The form needs only the mobile number the school has on record, and the personal link opens straight from the SMS in any browser. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can the parent change their mind?
 
-Yes. The personal link has a button that puts the child back into today's meal, and the kitchen count follows. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. The personal link has a button that puts the child back into today's meal, and the kitchen count follows. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What if the parent has lost the link?
 
-On the school page they choose "I lost my personal link", type their mobile number, and receive it again by SMS. Homepage: [NexAIpla](https://www.nexaipla.com/).
+On the school page they choose "I lost my personal link", type their mobile number, and receive it again by SMS. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want parents at your all-day school to report meal absences from their phones. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+- [Kitchen Live Portions All Day School](/en/articles/kitchen-live-portions-all-day-school)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
