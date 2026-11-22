@@ -3,8 +3,8 @@ title: Πώς βλέπει η κουζίνα του σχολείου ποια π
 seoTitle: "Πώς βλέπει η κουζίνα του σχολείου ποια παιδιά έχουν αλλεργίες; | NexAIpla"
 description: Στο «Ολοήμερο Σχολείο — Σίτηση» ο γονέας γράφει τις αλλεργίες στο προσωπικό link και η κουζίνα τις βλέπει δίπλα στις μερίδες της ημέρας. Ανά παιδί.
 slug: allergies-visible-school-kitchen
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) ο γονέας γράφει τις αλλεργίες ή τα φαγητά προς αποφυγή στο προσωπικό link του παιδιού και αποθηκεύει. Η σημείωση εμφανίζεται στην οθόνη της κουζίνας, στη γραμμή της τάξης και σε αναλυτική λίστα ανά παιδί, για τα παιδιά που τρώνε σήμερα. Ο μάγειρας τη διαβάζει δίπλα στις μερίδες, όχι σε χαρτί φυλαγμένο σε συρτάρι. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) ο γονέας γράφει τις αλλεργίες ή τα φαγητά προς αποφυγή στο προσωπικό link του παιδιού και αποθηκεύει. Η σημείωση εμφανίζεται στην οθόνη της κουζίνας, στη γραμμή της τάξης και σε αναλυτική λίστα ανά παιδί, για τα παιδιά που τρώνε σήμερα. Ο μάγειρας τη διαβάζει δίπλα στις μερίδες, όχι σε χαρτί φυλαγμένο σε συρτάρι. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Τον Σεπτέμβριο κάθε γονέας συμπληρώνει ένα έντυπο. Σε μια γραμμή του γράφει «αλλεργία στο αυγό». Το έντυπο μπαίνει σε ντοσιέ, το ντοσιέ σε ράφι. Τον Φεβρουάριο ο μάγειρας αρρωσταίνει και έρχεται αντικαταστάτης που δεν είδε ποτέ το ντοσιέ. Η πληροφορία υπάρχει μέσα στο σχολείο. Δεν υπάρχει στην κουζίνα, τη μέρα που μετρά.
 
@@ -206,22 +206,46 @@ draft: false
 
 ### Πώς βλέπει η κουζίνα ποια παιδιά έχουν αλλεργίες;
 
-Στην οθόνη κουζίνας του [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/), στις στήλες αλλεργιών και σχολίων ανά τάξη και στην αναλυτική λίστα ανά παιδί, για όσα τρώνε σήμερα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στην οθόνη κουζίνας του [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/), στις στήλες αλλεργιών και σχολίων ανά τάξη και στην αναλυτική λίστα ανά παιδί, για όσα τρώνε σήμερα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Ποιος γράφει τις αλλεργίες;
 
-Ο γονέας, στο προσωπικό link του παιδιού, στο πεδίο «Αλλεργίες / φαγητά προς αποφυγή». Μπορεί να το αλλάξει όποτε χρειαστεί. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ο γονέας, στο προσωπικό link του παιδιού, στο πεδίο «Αλλεργίες / φαγητά προς αποφυγή». Μπορεί να το αλλάξει όποτε χρειαστεί. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Ελέγχει το σύστημα αυτόματα το πρόγραμμα φαγητού για αλλεργιογόνα;
 
-Όχι. Μεταφέρει τη σημείωση του γονέα στην κουζίνα. Το τι θα σερβιριστεί στο παιδί το αποφασίζουν η κουζίνα και το σχολείο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Μεταφέρει τη σημείωση του γονέα στην κουζίνα. Το τι θα σερβιριστεί στο παιδί το αποφασίζουν η κουζίνα και το σχολείο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Βλέπουν άλλοι γονείς τις αλλεργίες του παιδιού μου;
 
-Όχι. Ο γονέας βλέπει μόνο το δικό του παιδί. Οι σημειώσεις φαίνονται στους ρόλους του προσωπικού που τις χρειάζονται, όπως η κουζίνα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Ο γονέας βλέπει μόνο το δικό του παιδί. Οι σημειώσεις φαίνονται στους ρόλους του προσωπικού που τις χρειάζονται, όπως η κουζίνα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι θέλετε οι αλλεργίες των παιδιών να φαίνονται στην κουζίνα του ολοήμερου κάθε πρωί. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
