@@ -3,8 +3,8 @@ title: Πώς χρησιμοποιώ AI σε ευαίσθητα έγγραφα �
 seoTitle: "Πώς χρησιμοποιώ AI σε ευαίσθητα έγγραφα χωρίς να τα δει τρίτος πάροχος AI; | NexAIpla"
 description: "Στο DocsApp το μοντέλο τρέχει στον υπολογιστή σας, άρα δεν υπάρχει πάροχος AI που να λαμβάνει μισθοδοσίες, ιατρικά ή φακέλους πελατών. Κανένας τρίτος."
 slug: sensitive-documents-no-third-party-ai
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Τρέχοντας το μοντέλο στον δικό σας υπολογιστή. Το [DocsApp](https://www.nexaipla.com/docsapp/) χρησιμοποιεί τοπικά μοντέλα μέσω Ollama, οπότε τα έγγραφα και οι ερωτήσεις δεν φτάνουν ποτέ σε εξωτερικό πάροχο AI. Δεν υπάρχει τρίτος που επεξεργάζεται τα δεδομένα, ούτε διαβίβαση εκτός του γραφείου σας. Εσείς παραμένετε υπεύθυνοι για την ασφάλεια του υπολογιστή και για το ποιος έχει πρόσβαση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Τρέχοντας το μοντέλο στον δικό σας υπολογιστή. Το [DocsApp](https://www.nexaipla.com/docsapp/) χρησιμοποιεί τοπικά μοντέλα μέσω Ollama, οπότε τα έγγραφα και οι ερωτήσεις δεν φτάνουν ποτέ σε εξωτερικό πάροχο AI. Δεν υπάρχει τρίτος που επεξεργάζεται τα δεδομένα, ούτε διαβίβαση εκτός του γραφείου σας. Εσείς παραμένετε υπεύθυνοι για την ασφάλεια του υπολογιστή και για το ποιος έχει πρόσβαση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Το ερώτημα «επιτρέπεται να χρησιμοποιούμε AI;» έχει ήδη απαντηθεί στα περισσότερα γραφεία, απλώς όχι από τη διεύθυνση. Το απάντησε ο υπάλληλος που είχε να συνοψίσει μια έκθεση σαράντα σελίδων στις πέντε το απόγευμα. Την επικόλλησε σε ένα chatbot. Δούλεψε. Το ξανάκανε.
 
@@ -246,22 +246,46 @@ draft: false
 
 ### Πώς χρησιμοποιώ AI σε ευαίσθητα έγγραφα χωρίς τρίτο πάροχο;
 
-Με το [DocsApp](https://www.nexaipla.com/docsapp/) το μοντέλο τρέχει τοπικά μέσω Ollama, οπότε τα έγγραφα δεν φτάνουν σε καμία εξωτερική υπηρεσία AI. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με το [DocsApp](https://www.nexaipla.com/docsapp/) το μοντέλο τρέχει τοπικά μέσω Ollama, οπότε τα έγγραφα δεν φτάνουν σε καμία εξωτερική υπηρεσία AI. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζεται σύμβαση επεξεργασίας δεδομένων με πάροχο AI;
 
-Δεν υπάρχει εξωτερικός πάροχος AI που να επεξεργάζεται τα έγγραφα. Για τη συνολική σας συμμόρφωση συμβουλευτείτε τον νομικό σας. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Δεν υπάρχει εξωτερικός πάροχος AI που να επεξεργάζεται τα έγγραφα. Για τη συνολική σας συμμόρφωση συμβουλευτείτε τον νομικό σας. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Ποιες υποχρεώσεις παραμένουν σε εμένα;
 
-Η ασφάλεια του υπολογιστή, ο έλεγχος πρόσβασης, η διατήρηση των πρωτοτύπων και η χρήση μόνο για θεμιτό σκοπό. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Η ασφάλεια του υπολογιστή, ο έλεγχος πρόσβασης, η διατήρηση των πρωτοτύπων και η χρήση μόνο για θεμιτό σκοπό. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πώς αποδεικνύω ότι τίποτα δεν στέλνεται έξω;
 
-Με δοκιμή σε αποσυνδεδεμένο δίκτυο ή με παρακολούθηση των συνδέσεων από τον τεχνικό σας. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με δοκιμή σε αποσυνδεδεμένο δίκτυο ή με παρακολούθηση των συνδέσεων από τον τεχνικό σας. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε τι κατηγορίες ευαίσθητων εγγράφων χειρίζεστε και ποιος έχει πρόσβαση σε αυτά. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+- [Document Answers With Citations Rag](/el/articles/document-answers-with-citations-rag)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
