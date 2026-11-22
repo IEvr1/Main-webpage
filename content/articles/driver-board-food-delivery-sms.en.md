@@ -3,8 +3,8 @@ title: "How does the customer learn that the driver has set off, without phoning
 seoTitle: "How does the customer learn that the driver has set off, without phoning the shop? | NexAIpla"
 description: In Online Food Orders the driver taps "on the way" on their own board and the customer gets an SMS with an estimated arrival time. Via a separate link.
 slug: driver-board-food-delivery-sms
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** In [Online Food Orders](https://www.nexaipla.com/foodorder/) drivers have their own board, with a separate signed link. Each delivery passes through three stages: ready, on the way, done. When the driver taps "on the way", the customer automatically receives an SMS with an estimated arrival time. The shop sees where each delivery stands, and nobody phones to ask. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** In [Online Food Orders](https://www.nexaipla.com/foodorder/) drivers have their own board, with a separate signed link. Each delivery passes through three stages: ready, on the way, done. When the driver taps "on the way", the customer automatically receives an SMS with an estimated arrival time. The shop sees where each delivery stands, and nobody phones to ask. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 "Where is my order?" is the call nobody wants. The customer makes it annoyed. The employee does not know the answer. They phone the driver, who pulls over to reply, and so the delivery is later still.
 
@@ -219,22 +219,47 @@ The whole benefit hangs on one tap: "on the way" before the engine starts, not a
 
 ### How does the customer learn that the driver has set off?
 
-In [Online Food Orders](https://www.nexaipla.com/foodorder/) the driver taps "on the way" on their board and the customer receives an SMS with an estimated arrival time. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In [Online Food Orders](https://www.nexaipla.com/foodorder/) the driver taps "on the way" on their board and the customer receives an SMS with an estimated arrival time. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the driver need to install an app?
 
-No. They open the signed link to the driver board in their phone's browser. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. They open the signed link to the driver board in their phone's browser. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the driver see the shop's finances or settings?
 
-No. The driver board shows only the deliveries. The figures and the settings are on the owner's dashboard. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The driver board shows only the deliveries. The figures and the settings are on the owner's dashboard. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the system track the driver's location?
 
-No. It records the stages the driver declares: ready, on the way, done. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It records the stages the driver declares: ready, on the way, done. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are weighing online orders against other changes in the restaurant. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many deliveries you make in an evening and with how many drivers. We reply within 48 hours.
+
+## Related in this topic
+
+- [Restaurant online ordering systems](/en/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/en/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/en/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/en/articles/pickup-and-delivery-same-food-app)
+
+## Product facts
+
+### Product facts: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
