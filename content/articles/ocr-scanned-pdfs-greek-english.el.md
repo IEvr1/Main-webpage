@@ -3,8 +3,8 @@ title: Μπορεί ένα offline AI να διαβάσει σαρωμένα PDF
 seoTitle: "Μπορεί ένα offline AI να διαβάσει σαρωμένα PDF στα ελληνικά και στα αγγλικά; | NexAIpla"
 description: "Το DocsApp χρησιμοποιεί προαιρετικά το Tesseract OCR για ελληνικά και αγγλικά, ώστε σαρωμένα PDF και εικόνες να γίνονται κείμενο τοπικά. Χωρίς ανέβασμα."
 slug: ocr-scanned-pdfs-greek-english
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι, με αναγνώριση χαρακτήρων. Το [DocsApp](https://www.nexaipla.com/docsapp/) συνεργάζεται προαιρετικά με το Tesseract OCR, ρυθμισμένο για ελληνικά και αγγλικά. Όταν ρίχνετε ένα σαρωμένο PDF ή μια εικόνα στον φάκελο εισαγωγής, το κείμενο αναγνωρίζεται στον υπολογιστή σας και μπαίνει στο ευρετήριο όπως κάθε άλλο έγγραφο. Μετά ρωτάτε κανονικά και παίρνετε απαντήσεις με παραπομπές. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι, με αναγνώριση χαρακτήρων. Το [DocsApp](https://www.nexaipla.com/docsapp/) συνεργάζεται προαιρετικά με το Tesseract OCR, ρυθμισμένο για ελληνικά και αγγλικά. Όταν ρίχνετε ένα σαρωμένο PDF ή μια εικόνα στον φάκελο εισαγωγής, το κείμενο αναγνωρίζεται στον υπολογιστή σας και μπαίνει στο ευρετήριο όπως κάθε άλλο έγγραφο. Μετά ρωτάτε κανονικά και παίρνετε απαντήσεις με παραπομπές. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Ένα PDF δεν είναι πάντα αυτό που φαίνεται. Κάποια περιέχουν κείμενο: μπορείτε να επιλέξετε μια πρόταση με το ποντίκι και να την αντιγράψετε. Άλλα περιέχουν μόνο εικόνες: το μηχάνημα φωτογράφισε κάθε σελίδα και τις έδεσε σε ένα αρχείο. Στην οθόνη φαίνονται ίδια. Για έναν υπολογιστή, το δεύτερο είναι λευκή σελίδα.
 
@@ -235,22 +235,46 @@ draft: false
 
 ### Διαβάζει το offline AI σαρωμένα PDF;
 
-Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) χρησιμοποιεί προαιρετικά το Tesseract OCR για ελληνικά και αγγλικά και μετατρέπει τις σαρώσεις σε κείμενο τοπικά. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) χρησιμοποιεί προαιρετικά το Tesseract OCR για ελληνικά και αγγλικά και μετατρέπει τις σαρώσεις σε κείμενο τοπικά. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Στέλνεται η σελίδα σε εξωτερική υπηρεσία για αναγνώριση;
 
-Όχι. Η αναγνώριση χαρακτήρων τρέχει στον υπολογιστή σας, όπως και τα μοντέλα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η αναγνώριση χαρακτήρων τρέχει στον υπολογιστή σας, όπως και τα μοντέλα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Διαβάζει χειρόγραφα;
 
-Όχι αξιόπιστα. Η αναγνώριση είναι για τυπωμένο κείμενο. Τα χειρόγραφα θέλουν έλεγχο από άνθρωπο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι αξιόπιστα. Η αναγνώριση είναι για τυπωμένο κείμενο. Τα χειρόγραφα θέλουν έλεγχο από άνθρωπο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πώς ξέρω αν μια σάρωση διαβάστηκε σωστά;
 
-Κάνετε μια ερώτηση με γνωστή απάντηση και ελέγχετε την παραπομπή. Για κρίσιμους αριθμούς ανοίγετε πάντα το πρωτότυπο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Κάνετε μια ερώτηση με γνωστή απάντηση και ελέγχετε την παραπομπή. Για κρίσιμους αριθμούς ανοίγετε πάντα το πρωτότυπο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πόσα από τα έγγραφά σας είναι σαρωμένα και σε τι κατάσταση είναι οι σαρώσεις. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
