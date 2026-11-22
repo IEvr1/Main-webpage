@@ -3,8 +3,8 @@ title: Πού ακριβώς αποθηκεύονται τα έγγραφά μο
 seoTitle: "Πού ακριβώς αποθηκεύονται τα έγγραφά μου όταν χρησιμοποιώ το DocsApp; | NexAIpla"
 description: "Στο DocsApp τα έγγραφα, το ευρετήριο και οι συνομιλίες μένουν στον δίσκο του δικού σας υπολογιστή Windows. Δεν υπάρχει αντίγραφο αλλού. Ούτε σε cloud."
 slug: documents-stay-on-my-windows-pc
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Στον δίσκο του υπολογιστή όπου εγκαταστήσατε το [DocsApp](https://www.nexaipla.com/docsapp/), και πουθενά αλλού. Τα αρχεία που ρίχνετε στον φάκελο εισαγωγής, το ευρετήριο που φτιάχνει η εφαρμογή και οι αποθηκευμένες συνομιλίες βρίσκονται όλα τοπικά. Τα μοντέλα AI τρέχουν στο ίδιο μηχάνημα μέσω Ollama. Δεν υπάρχει λογαριασμός, συγχρονισμός ή διακομιστής της NexAIpla που να κρατά αντίγραφο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Στον δίσκο του υπολογιστή όπου εγκαταστήσατε το [DocsApp](https://www.nexaipla.com/docsapp/), και πουθενά αλλού. Τα αρχεία που ρίχνετε στον φάκελο εισαγωγής, το ευρετήριο που φτιάχνει η εφαρμογή και οι αποθηκευμένες συνομιλίες βρίσκονται όλα τοπικά. Τα μοντέλα AI τρέχουν στο ίδιο μηχάνημα μέσω Ollama. Δεν υπάρχει λογαριασμός, συγχρονισμός ή διακομιστής της NexAIpla που να κρατά αντίγραφο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Η ερώτηση «πού είναι τα δεδομένα μου» έχει συνήθως απάντηση με πολλές λέξεις: περιοχές, κρυπτογράφηση, πιστοποιήσεις. Εδώ η απάντηση είναι ένας δίσκος. Μπορείτε να τον δείξετε με το δάχτυλο.
 
@@ -233,22 +233,46 @@ draft: false
 
 ### Πού αποθηκεύονται τα έγγραφά μου;
 
-Στον δίσκο του υπολογιστή όπου τρέχει το [DocsApp](https://www.nexaipla.com/docsapp/). Το ίδιο ισχύει για το ευρετήριο και τις αποθηκευμένες συνομιλίες. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στον δίσκο του υπολογιστή όπου τρέχει το [DocsApp](https://www.nexaipla.com/docsapp/). Το ίδιο ισχύει για το ευρετήριο και τις αποθηκευμένες συνομιλίες. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Κρατά η NexAIpla αντίγραφο των εγγράφων;
 
-Όχι. Δεν υπάρχει λογαριασμός, συγχρονισμός ή διακομιστής που να λαμβάνει τα αρχεία ή τις ερωτήσεις σας. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Δεν υπάρχει λογαριασμός, συγχρονισμός ή διακομιστής που να λαμβάνει τα αρχεία ή τις ερωτήσεις σας. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται αν χαλάσει ο δίσκος;
 
-Ό,τι υπάρχει μόνο εκεί χάνεται. Γι' αυτό κρατάτε αντίγραφο των πρωτοτύπων σε δικό σας μέσο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ό,τι υπάρχει μόνο εκεί χάνεται. Γι' αυτό κρατάτε αντίγραφο των πρωτοτύπων σε δικό σας μέσο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μένουν τα δεδομένα στην εφαρμογή για πάντα;
 
-Όχι. Υπάρχει αυτόματος καθαρισμός μετά από έξι μήνες. Τα πρωτότυπα που χρειάζεστε μακροχρόνια φυλάσσονται στο δικό σας αρχείο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Υπάρχει αυτόματος καθαρισμός μετά από έξι μήνες. Τα πρωτότυπα που χρειάζεστε μακροχρόνια φυλάσσονται στο δικό σας αρχείο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε σε πόσους υπολογιστές θέλετε να δουλεύει και ποιος τους διαχειρίζεται. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Document Answers With Citations Rag](/el/articles/document-answers-with-citations-rag)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
