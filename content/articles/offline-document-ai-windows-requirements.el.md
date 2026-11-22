@@ -3,8 +3,8 @@ title: Τι υπολογιστή χρειάζομαι για να τρέξω AI 
 seoTitle: "Τι υπολογιστή χρειάζομαι για να τρέξω AI εγγράφων offline σε Windows; | NexAIpla"
 description: "Το DocsApp θέλει Windows 10 ή 11, Python 3.10+ και Ollama με τρία τοπικά μοντέλα. Δεν απαιτεί κάρτα γραφικών ούτε Docker. Τρέχει σε CPU. Και offline."
 slug: offline-document-ai-windows-requirements
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Το [DocsApp](https://www.nexaipla.com/docsapp/) χρειάζεται υπολογιστή με Windows 10 ή 11, Python 3.10 ή νεότερη και το Ollama με τρία μοντέλα: qwen2.5:14b και llama3.1:8b για τις απαντήσεις, nomic-embed-text για το ευρετήριο. Το Tesseract είναι προαιρετικό, για σαρωμένα έγγραφα σε ελληνικά και αγγλικά. Δεν απαιτείται κάρτα γραφικών ή Docker, γιατί όλα τρέχουν στον επεξεργαστή. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Το [DocsApp](https://www.nexaipla.com/docsapp/) χρειάζεται υπολογιστή με Windows 10 ή 11, Python 3.10 ή νεότερη και το Ollama με τρία μοντέλα: qwen2.5:14b και llama3.1:8b για τις απαντήσεις, nomic-embed-text για το ευρετήριο. Το Tesseract είναι προαιρετικό, για σαρωμένα έγγραφα σε ελληνικά και αγγλικά. Δεν απαιτείται κάρτα γραφικών ή Docker, γιατί όλα τρέχουν στον επεξεργαστή. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Η εικόνα που έχουν οι περισσότεροι για το «AI στον δικό μου υπολογιστή» είναι ένα μηχάνημα με υδρόψυξη και κάρτα γραφικών που κοστίζει όσο ένα μεταχειρισμένο αυτοκίνητο. Αυτό ισχύει για όσους εκπαιδεύουν μοντέλα. Για να ρωτάτε έγγραφα, η εικόνα είναι πολύ πιο ήπια.
 
@@ -231,22 +231,46 @@ PDF, Word, Excel, CSV, απλό κείμενο, markdown και εικόνες. 
 
 ### Τι υπολογιστή χρειάζομαι για AI εγγράφων offline;
 
-Για το [DocsApp](https://www.nexaipla.com/docsapp/) αρκεί υπολογιστής με Windows 10 ή 11, Python 3.10+ και Ollama με τα μοντέλα qwen2.5:14b, llama3.1:8b και nomic-embed-text. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Για το [DocsApp](https://www.nexaipla.com/docsapp/) αρκεί υπολογιστής με Windows 10 ή 11, Python 3.10+ και Ollama με τα μοντέλα qwen2.5:14b, llama3.1:8b και nomic-embed-text. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πρέπει να αγοράσω κάρτα γραφικών;
 
-Όχι. Τα μοντέλα τρέχουν στον επεξεργαστή. Μια κάρτα γραφικών δεν είναι προϋπόθεση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Τα μοντέλα τρέχουν στον επεξεργαστή. Μια κάρτα γραφικών δεν είναι προϋπόθεση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πόση μνήμη RAM χρειάζεται;
 
-Όση περισσότερη, τόσο καλύτερα, γιατί το μοντέλο φορτώνεται στη μνήμη. Στείλτε μας τα χαρακτηριστικά σας για συγκεκριμένη εκτίμηση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όση περισσότερη, τόσο καλύτερα, γιατί το μοντέλο φορτώνεται στη μνήμη. Στείλτε μας τα χαρακτηριστικά σας για συγκεκριμένη εκτίμηση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Χρειάζεται το Tesseract;
 
-Μόνο αν έχετε σαρωμένα PDF ή εικόνες. Για αρχεία που έχουν ήδη κείμενο είναι προαιρετικό. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Μόνο αν έχετε σαρωμένα PDF ή εικόνες. Για αρχεία που έχουν ήδη κείμενο είναι προαιρετικό. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε την έκδοση των Windows, τον επεξεργαστή και τη μνήμη του υπολογιστή σας. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
