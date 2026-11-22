@@ -3,8 +3,8 @@ title: Διαβάζει το DocsApp τα email μου και απαντά στ�
 seoTitle: "Διαβάζει το DocsApp τα email μου και απαντά στους πελάτες; | NexAIpla"
 description: "Όχι. Το DocsApp ρωτά έγγραφα που βρίσκονται στον δίσκο σας. Ο «φάκελος εισαγωγής» του είναι φάκελος αρχείων, όχι τα εισερχόμενα του email. Offline."
 slug: docsapp-not-customer-email-inbox
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Όχι. Το [DocsApp](https://www.nexaipla.com/docsapp/) είναι βοηθός εγγράφων που τρέχει offline σε Windows. Δεν συνδέεται με λογαριασμό email, δεν διαβάζει εισερχόμενα και δεν στέλνει απαντήσεις σε πελάτες. Η λέξη «inbox» στην εφαρμογή σημαίνει έναν φάκελο στον δίσκο σας όπου ρίχνετε αρχεία για ευρετηρίαση. Για φόρτο email υπάρχουν άλλες λύσεις, μέσω των [Custom AI Tools](https://www.nexaipla.com/ai/). Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Όχι. Το [DocsApp](https://www.nexaipla.com/docsapp/) είναι βοηθός εγγράφων που τρέχει offline σε Windows. Δεν συνδέεται με λογαριασμό email, δεν διαβάζει εισερχόμενα και δεν στέλνει απαντήσεις σε πελάτες. Η λέξη «inbox» στην εφαρμογή σημαίνει έναν φάκελο στον δίσκο σας όπου ρίχνετε αρχεία για ευρετηρίαση. Για φόρτο email υπάρχουν άλλες λύσεις, μέσω των [Custom AI Tools](https://www.nexaipla.com/ai/). Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Η παρεξήγηση είναι κατανοητή. Η εφαρμογή έχει έναν φάκελο που λέγεται inbox, και στα αγγλικά η λέξη σημαίνει και τα εισερχόμενα του ταχυδρομείου. Προσθέστε ότι το μισό διαδίκτυο διαφημίζει «AI που απαντά στα email σας», και το συμπέρασμα βγαίνει μόνο του. Είναι όμως λάθος, και καλύτερα να ξεκαθαριστεί πριν εγκαταστήσετε οτιδήποτε.
 
@@ -239,22 +239,46 @@ draft: false
 
 ### Διαβάζει το DocsApp τα email μου;
 
-Όχι. Το [DocsApp](https://www.nexaipla.com/docsapp/) δεν συνδέεται με λογαριασμό email. Ρωτά μόνο αρχεία που βάζετε εσείς στον φάκελο εισαγωγής. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Το [DocsApp](https://www.nexaipla.com/docsapp/) δεν συνδέεται με λογαριασμό email. Ρωτά μόνο αρχεία που βάζετε εσείς στον φάκελο εισαγωγής. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι σημαίνει τότε «inbox» στην εφαρμογή;
 
-Είναι ένας φάκελος στον δίσκο σας, όπου ρίχνετε έγγραφα για ευρετηρίαση. Δεν έχει σχέση με ταχυδρομείο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Είναι ένας φάκελος στον δίσκο σας, όπου ρίχνετε έγγραφα για ευρετηρίαση. Δεν έχει σχέση με ταχυδρομείο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορώ να ρωτήσω ένα email που αποθήκευσα ως PDF;
 
-Ναι. Μόλις γίνει αρχείο και μπει στον φάκελο εισαγωγής, αντιμετωπίζεται όπως κάθε άλλο έγγραφο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Μόλις γίνει αρχείο και μπει στον φάκελο εισαγωγής, αντιμετωπίζεται όπως κάθε άλλο έγγραφο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι να χρησιμοποιήσω αν πνίγομαι στα email;
 
-Λύση επικοινωνίας, όχι βοηθό εγγράφων. Περιγράψτε την περίπτωσή σας μέσω των Custom AI Tools για απάντηση σε 48 ώρες. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Λύση επικοινωνίας, όχι βοηθό εγγράφων. Περιγράψτε την περίπτωσή σας μέσω των Custom AI Tools για απάντηση σε 48 ώρες. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε αν το πρόβλημά σας είναι τα εισερχόμενα μηνύματα ή η αναζήτηση μέσα σε έγγραφα. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
