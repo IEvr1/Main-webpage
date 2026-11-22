@@ -3,8 +3,8 @@ title: School meal management software
 seoTitle: "School meal management software | NexAIpla"
 description: "SMS absences, kitchen portions, allergies, and parent links for all-day schools with NexAIpla All-day School — Meals."
 slug: school-meal-management-software
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -126,6 +126,7 @@ tags:
   - knowledge-base
   - industry-solutions
   - solution
+  - "pillar:school-meals"
   - solution
   - industry-solutions
   - school-meal-management-software
@@ -134,7 +135,7 @@ draft: false
 
 Which service or app solves this: School meal management software?
 
-School meal management software connects parents, office and kitchen so portion counts and allergies update without WhatsApp chaos. The app that offers this solution is [All-day School — Meals](https://nexaipla.com/schoolmeals/).
+School meal management software connects parents, office and kitchen so portion counts and allergies update without WhatsApp chaos. The app that offers this solution is [All-day School — Meals](https://nexaipla.com/schoolmeals/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** School meal management software connects parents, office and kitchen so portion counts and allergies update without WhatsApp chaos.
 
