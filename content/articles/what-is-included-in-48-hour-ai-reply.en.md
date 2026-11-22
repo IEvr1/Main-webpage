@@ -3,8 +3,8 @@ title: "What does the 48-hour reply about my AI idea include?"
 seoTitle: "What does the 48-hour reply about my AI idea include? | NexAIpla"
 description: "The 48-hour reply from Custom AI Tools contains a feasibility percentage, an indicative cost range, an estimated timeline, and recommended next steps."
 slug: what-is-included-in-48-hour-ai-reply
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Four things. When you describe a need to [Custom AI Tools](https://www.nexaipla.com/ai/), within 48 hours you receive: a feasibility percentage, an indicative cost range, an estimate of the time to build, and recommended next steps. The reply commits you to nothing. It is a reasoned first opinion, written to be read by an owner and not an engineer. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Four things. When you describe a need to [Custom AI Tools](https://www.nexaipla.com/ai/), within 48 hours you receive: a feasibility percentage, an indicative cost range, an estimate of the time to build, and recommended next steps. The reply commits you to nothing. It is a reasoned first opinion, written to be read by an owner and not an engineer. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 The owner of a small business does not need a lecture on artificial intelligence. They need three answers before spending an hour or a euro: can it be done? roughly what does it cost? when shall I have it? The 48-hour reply exists to give them, along with a fourth that nobody usually asks for but is the most useful.
 
@@ -241,22 +241,45 @@ The decision is yours. If you want to go ahead, the reply becomes the basis of t
 
 ### What does the 48-hour reply include?
 
-From [Custom AI Tools](https://www.nexaipla.com/ai/) you receive a feasibility percentage, an indicative cost range, a time estimate, and recommended next steps. Homepage: [NexAIpla](https://www.nexaipla.com/).
+From [Custom AI Tools](https://www.nexaipla.com/ai/) you receive a feasibility percentage, an indicative cost range, a time estimate, and recommended next steps. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the reply commit me to anything?
 
-No. It is neither a contract nor a binding offer, and there is no obligation to go ahead. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It is neither a contract nor a binding offer, and there is no obligation to go ahead. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Why is the cost given as a range?
 
-Because a short description does not show every detail. The range covers the simple and the complicated scenario. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Because a short description does not show every detail. The range covers the simple and the complicated scenario. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can the reply be negative?
 
-Yes. If automation is not worth it or cannot be done reliably, the reply says so. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. If automation is not worth it or cannot be done reliably, the reply says so. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want a number for your starting point before you describe the task. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and describe one task that eats your time, how often it is done, and with which tools. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Custom AI Tools
+
+- **Category:** Custom AI automation
+- **Target customers:** SMBs with a repeated process to automate
+- **Main benefit:** Custom AI Tools is NexAIpla’s path for automating one repeated business task when a ready-made app is not enough.
+- **Does:** 48-hour feasibility reply with cost range and timeline
+- **Does:** On-premise / offline options when required
+- **Does not:** Does not start a build before a feasibility discussion
+- **Region:** European countries
+- **Pricing:** Scoped quote after feasibility reply
+- **Trial / demo:** Feasibility reply — no obligation
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/ai/
