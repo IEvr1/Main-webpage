@@ -3,8 +3,8 @@ title: "How do I know if a shop is busy before I leave home?"
 seoTitle: "How do I know if a shop is busy before I leave home? | NexAIpla"
 description: "If the shop has a Live Business Traffic page, you open its link and see by colour how busy it is now and whether it is open. No sign-up. No app."
 slug: customer-checks-busy-before-leaving-home
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -143,7 +143,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** You know before you leave home when the shop has a [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) page. You open the shop's link on your phone and see a colour-coded busy level, whether it is open now, and its hours. No account and no app. If the shop you go to does not have such a page yet, the owner can ask NexAIpla for one. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** You know before you leave home when the shop has a [Live Business Traffic](https://www.nexaipla.com/shoptraffic/) page. You open the shop's link on your phone and see a colour-coded busy level, whether it is open now, and its hours. No account and no app. If the shop you go to does not have such a page yet, the owner can ask NexAIpla for one. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 You need a haircut, a prescription, a coffee with somewhere to sit. The shop is ten minutes away. Whether those ten minutes are well spent depends on something you cannot see: how many people got there before you. Map apps sometimes show a "popular times" chart, but that is an average of past weeks and not a statement about this afternoon.
 
@@ -199,22 +199,45 @@ The page does not ask you to change the way you work. You take no bookings, hand
 
 ### How do I know if a shop is busy before I leave home?
 
-You open the shop's page in [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). It shows a live colour-coded level set by the staff, whether the shop is open, and the hours. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You open the shop's page in [Live Business Traffic](https://www.nexaipla.com/shoptraffic/). It shows a live colour-coded level set by the staff, whether the shop is open, and the hours. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is it the same as "popular times" on a map?
 
-No. Popular times are averages from earlier visits. This level is set today, by the people inside the shop, and it changes during the day. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Popular times are averages from earlier visits. This level is set today, by the people inside the shop, and it changes during the day. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do I have to give a phone number or sign up anywhere?
 
-No. The page is public and anonymous. You give nothing and you install nothing. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The page is public and anonymous. You give nothing and you install nothing. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### The shop I go to has no such page. What can I do?
 
-Tell the owner. A shop gets its own page by contacting NexAIpla, and the set-up needs only the opening hours and a phone. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Tell the owner. A shop gets its own page by contacting NexAIpla, and the set-up needs only the opening hours and a phone. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to see where a live busy page sits among the shop's other priorities. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want your customers to see how busy you are before they set off from home. We reply within 48 hours.
+
+## Related in this topic
+
+- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
+- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
+- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+
+## Product facts
+
+### Product facts: Live Business Traffic
+
+- **Category:** Live busy-level display for walk-in shops
+- **Target customers:** Barbers, pharmacies, cafés and walk-in shops
+- **Main benefit:** Live Business Traffic shows how busy a walk-in shop is right now so customers can check before they leave home.
+- **Does:** Public busy-level page
+- **Does:** Opening hours and temporary closures
+- **Does not:** Does not book appointments or issue queue numbers
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/shoptraffic/
