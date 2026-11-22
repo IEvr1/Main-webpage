@@ -3,8 +3,8 @@ title: Υπάρχει βοηθός AI για έγγραφα που δουλεύ�
 seoTitle: "Υπάρχει βοηθός AI για έγγραφα που δουλεύει εκεί όπου δεν υπάρχει καθόλου ίντερνετ; | NexAIpla"
 description: "Το DocsApp απαντά σε ερωτήσεις για τα έγγραφά σας χωρίς καμία σύνδεση: τα μοντέλα είναι εγκατεστημένα στον φορητό σας μέσω Ollama. Και εκτός δικτύου."
 slug: no-internet-document-assistant
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) εγκαθίσταται μία φορά με σύνδεση και μετά δουλεύει χωρίς καθόλου ίντερνετ. Τα μοντέλα AI είναι αρχεία στον δίσκο του φορητού σας και τρέχουν μέσω Ollama, το ευρετήριο των εγγράφων είναι επίσης τοπικό, και η συνομιλία ανοίγει στον browser χωρίς να βγαίνει στο δίκτυο. Σε εργοτάξιο, σε πλοίο ή σε υπόγειο, απαντά με τον ίδιο τρόπο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) εγκαθίσταται μία φορά με σύνδεση και μετά δουλεύει χωρίς καθόλου ίντερνετ. Τα μοντέλα AI είναι αρχεία στον δίσκο του φορητού σας και τρέχουν μέσω Ollama, το ευρετήριο των εγγράφων είναι επίσης τοπικό, και η συνομιλία ανοίγει στον browser χωρίς να βγαίνει στο δίκτυο. Σε εργοτάξιο, σε πλοίο ή σε υπόγειο, απαντά με τον ίδιο τρόπο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Όλοι οι γνωστοί βοηθοί AI έχουν μια κοινή αδυναμία που δεν αναφέρεται στις διαφημίσεις: χωρίς σύνδεση είναι μια άδεια οθόνη. Το μοντέλο βρίσκεται σε κέντρο δεδομένων χιλιάδες χιλιόμετρα μακριά, και κάθε ερώτηση είναι ένα ταξίδι εκεί και πίσω. Όταν το ταξίδι δεν γίνεται, δεν υπάρχει απάντηση.
 
@@ -249,22 +249,46 @@ draft: false
 
 ### Δουλεύει βοηθός εγγράφων χωρίς καθόλου ίντερνετ;
 
-Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) τρέχει μοντέλα, ευρετήριο και διεπαφή στον ίδιο τον υπολογιστή και δεν χρειάζεται σύνδεση μετά την εγκατάσταση. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Το [DocsApp](https://www.nexaipla.com/docsapp/) τρέχει μοντέλα, ευρετήριο και διεπαφή στον ίδιο τον υπολογιστή και δεν χρειάζεται σύνδεση μετά την εγκατάσταση. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πότε χρειάζεται σύνδεση;
 
-Μόνο για να κατεβούν αρχικά τα προγράμματα και τα μοντέλα. Κάντε το πριν φύγετε, γιατί είναι μεγάλα αρχεία. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Μόνο για να κατεβούν αρχικά τα προγράμματα και τα μοντέλα. Κάντε το πριν φύγετε, γιατί είναι μεγάλα αρχεία. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Αδειάζει γρήγορα η μπαταρία;
 
-Ναι, περισσότερο από την απλή χρήση, γιατί το μοντέλο απασχολεί έντονα τον επεξεργαστή. Έχετε φορτιστή. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι, περισσότερο από την απλή χρήση, γιατί το μοντέλο απασχολεί έντονα τον επεξεργαστή. Έχετε φορτιστή. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορώ να προσθέσω έγγραφα όταν είμαι εκτός δικτύου;
 
-Ναι. Τα ρίχνετε στον φάκελο εισαγωγής, και η ευρετηρίαση γίνεται τοπικά. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Τα ρίχνετε στον φάκελο εισαγωγής, και η ευρετηρίαση γίνεται τοπικά. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν θέλετε να δείτε πόσο έτοιμα είναι τα αρχεία και η ομάδα σας πριν εγκαταστήσετε οτιδήποτε. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε σε τι χώρους δουλεύετε χωρίς σύνδεση και τι έγγραφα χρειάζεστε εκεί. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Offline επεξεργασία εγγράφων με AI](/el/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/el/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/el/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/el/articles/documents-stay-on-my-windows-pc)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
