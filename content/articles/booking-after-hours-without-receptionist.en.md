@@ -3,8 +3,8 @@ title: "How do I take bookings after hours without hiring someone for reception?
 seoTitle: "How do I take bookings after hours without hiring someone for reception? | NexAIpla"
 description: "With Online Receptionist 24/7 customers book appointments at night, on Sundays, and on holidays, with nobody needing to be there to answer. By SMS."
 slug: booking-after-hours-without-receptionist
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** By letting the booking page do the job when you are not there. With [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the customer opens the link or scans the QR code at any hour, chooses service, person, and a free time, and receives a confirmation SMS at once. In the morning you find the appointment on the board. No shift is needed, and no calling back. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** By letting the booking page do the job when you are not there. With [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the customer opens the link or scans the QR code at any hour, chooses service, person, and a free time, and receives a confirmation SMS at once. In the morning you find the appointment on the board. No shift is needed, and no calling back. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Your hours and your customers' hours coincide almost exactly. While you work, so do they. The moment they have a free mind to organise a haircut, a massage, or a service is precisely the moment you have pulled the shutters down.
 
@@ -251,22 +251,47 @@ For a month, count each morning how many new appointments you found waiting. Tho
 
 ### How do I take bookings when the shop is closed?
 
-With [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the customer books by themselves from a link or QR code, at any hour, and receives a confirmation SMS. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the customer books by themselves from a link or QR code, at any hour, and receives a confirmation SMS. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Must I confirm the appointment myself in the morning?
 
-No. The booking is complete and the time reserved from the moment it was made. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The booking is complete and the time reserved from the moment it was made. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can someone book on a day we are closed?
 
-No, provided you have declared the closure on the board. Those times are not offered. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No, provided you have declared the closure on the board. Those times are not offered. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do I need an employee to watch it?
 
-No. You see the new appointments on the board when you open. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. You see the new appointments on the board when you open. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us your opening hours and how many missed calls you usually find in the morning. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Qr Code Appointment Booking](/en/articles/qr-code-appointment-booking)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
