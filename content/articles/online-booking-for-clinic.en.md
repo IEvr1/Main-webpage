@@ -3,8 +3,8 @@ title: "Does Online Receptionist 24/7 suit a medical office or a small clinic?"
 seoTitle: "Does Online Receptionist 24/7 suit a medical office or a small clinic? | NexAIpla"
 description: "Online Receptionist 24/7 suits a medical office or clinic: patients book by doctor and visit type and get a reminder by SMS, without phoning. Day or night."
 slug: online-booking-for-clinic
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes, for scheduling visits. With [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the patient chooses visit type, doctor, and time from a link or a QR code, with no account, and receives a confirmation and a reminder by SMS. Each doctor has their own availability and a sync with their Google Calendar. It is not a medical record and does not replace the phone for urgent cases. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes, for scheduling visits. With [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the patient chooses visit type, doctor, and time from a link or a QR code, with no account, and receives a confirmation and a reminder by SMS. Each doctor has their own availability and a sync with their Google Calendar. It is not a medical record and does not replace the phone for urgent cases. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A medical office is not a hair salon, but the appointment problem is the same and indeed sharper. Patients all phone at the same hour. Those who cannot get through ring again, and the queue grows. The person standing at the desk waits for the call to end.
 
@@ -254,22 +254,47 @@ Those that work mainly with unscheduled urgent cases benefit less.
 
 ### Does Online Receptionist 24/7 suit a medical office?
 
-Yes, for scheduling. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) books visits by doctor and type, with SMS confirmation and reminder. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, for scheduling. [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) books visits by doctor and type, with SMS confirmation and reminder. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does it keep medical history?
 
-No. It is not a medical record. It handles appointments only. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. It is not a medical record. It handles appointments only. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What about urgent cases?
 
-They are not served by the booking page. The patient must phone or go to the hospital on duty. Homepage: [NexAIpla](https://www.nexaipla.com/).
+They are not served by the booking page. The patient must phone or go to the hospital on duty. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can each doctor have their own schedule?
 
-Yes. Availability is calculated per doctor, with a sync to each one's Google Calendar. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. Availability is calculated per doctor, with a sync to each one's Google Calendar. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us your specialty, how many doctors you are, and how many appointment calls you take in a day. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
