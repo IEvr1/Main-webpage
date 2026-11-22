@@ -3,8 +3,8 @@ title: "How does a restaurant cut the wrong orders that phone calls cause?"
 seoTitle: "How does a restaurant cut the wrong orders that phone calls cause? | NexAIpla"
 description: "In Online Food Orders the customer picks dishes from the menu and writes the notes personally, so the kitchen reads exactly what was asked. Not what was heard."
 slug: reduce-wrong-orders-structured-menu
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** By removing the person who listens and writes. In [Online Food Orders](https://www.nexaipla.com/foodorder/) the customer selects dishes and quantities from a structured menu, writes the notes in their own words and, for delivery, places a pin on the map instead of dictating an address. They receive an SMS with what they ordered and can correct it. The kitchen reads exactly the same order. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** By removing the person who listens and writes. In [Online Food Orders](https://www.nexaipla.com/foodorder/) the customer selects dishes and quantities from a structured menu, writes the notes in their own words and, for delivery, places a pin on the map instead of dictating an address. They receive an SMS with what they ordered and can correct it. The kitchen reads exactly the same order. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 A wrong order is rarely down to carelessness. It is down to the information changing hands three times in noise. Voice became writing, writing became a shout towards the grill, the shout became a plate. Something is lost at each handover.
 
@@ -233,22 +233,47 @@ The difference is that there is now something correct to compare the bag against
 
 ### How are wrong orders from the phone reduced?
 
-With [Online Food Orders](https://www.nexaipla.com/foodorder/) the customer chooses dishes and writes the notes personally, so nobody passes the order on by word of mouth. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With [Online Food Orders](https://www.nexaipla.com/foodorder/) the customer chooses dishes and writes the notes personally, so nobody passes the order on by word of mouth. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What happens if the customer taps the wrong dish?
 
-They see the order at the SMS link and can modify it before it is prepared. Homepage: [NexAIpla](https://www.nexaipla.com/).
+They see the order at the SMS link and can modify it before it is prepared. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### How are address mistakes avoided?
 
-The customer places a pin on Google Maps, and the driver receives exactly the same spot. Homepage: [NexAIpla](https://www.nexaipla.com/).
+The customer places a pin on Google Maps, and the driver receives exactly the same spot. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do all mistakes disappear?
 
-No. Mistakes in cooking and packing remain, but there is now a written order to check against at the pass. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Mistakes in cooking and packing remain, but there is now a written order to check against at the pass. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are weighing online orders against other changes in the restaurant. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many wrong orders you have in a week and which mistake is the most frequent. We reply within 48 hours.
+
+## Related in this topic
+
+- [Restaurant online ordering systems](/en/articles/restaurant-online-ordering-systems)
+- [Food Orders Without Phone Calls](/en/articles/food-orders-without-phone-calls)
+- [Food Order No Customer Account](/en/articles/food-order-no-customer-account)
+- [Pickup And Delivery Same Food App](/en/articles/pickup-and-delivery-same-food-app)
+
+## Product facts
+
+### Product facts: Online Food Orders
+
+- **Category:** Restaurant online ordering system
+- **Target customers:** Restaurants, tavernas and takeaway businesses
+- **Main benefit:** Online Food Orders lets restaurants take written takeaway and delivery orders into one kitchen queue without relying on phone calls.
+- **Does:** Pickup and delivery from one menu
+- **Does:** Kitchen queue dashboard
+- **Does:** SMS order tracking links
+- **Does:** No customer account required
+- **Does not:** Not a marketplace that lists many restaurants
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/foodorder/
