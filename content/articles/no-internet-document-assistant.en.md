@@ -3,8 +3,8 @@ title: "Is there an AI assistant for documents that works where there is no inte
 seoTitle: "Is there an AI assistant for documents that works where there is no internet at all? | NexAIpla"
 description: "DocsApp answers questions about your documents with no connection at all: the models are installed on your laptop through Ollama. Off the grid too."
 slug: no-internet-document-assistant
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -146,7 +146,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** Yes. [DocsApp](https://www.nexaipla.com/docsapp/) is installed once with a connection and after that works with no internet at all. The AI models are files on your laptop's disk and run through Ollama, the document index is local as well, and the chat opens in the browser without going out to the network. On a building site, on a ship, or in a basement, it answers the same way. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** Yes. [DocsApp](https://www.nexaipla.com/docsapp/) is installed once with a connection and after that works with no internet at all. The AI models are files on your laptop's disk and run through Ollama, the document index is local as well, and the chat opens in the browser without going out to the network. On a building site, on a ship, or in a basement, it answers the same way. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 All the well-known AI assistants share a weakness that the advertisements do not mention: without a connection they are an empty screen. The model sits in a data centre thousands of kilometres away, and every question is a trip there and back. When the trip cannot be made, there is no answer.
 
@@ -249,22 +249,46 @@ Whoever is looking for a solution for places with no signal also gets something 
 
 ### Does a document assistant work with no internet at all?
 
-Yes. [DocsApp](https://www.nexaipla.com/docsapp/) runs models, index, and interface on the computer itself and needs no connection after installation. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. [DocsApp](https://www.nexaipla.com/docsapp/) runs models, index, and interface on the computer itself and needs no connection after installation. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### When is a connection needed?
 
-Only to download the programs and the models at the start. Do it before you leave, because they are large files. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Only to download the programs and the models at the start. Do it before you leave, because they are large files. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Does the battery drain quickly?
 
-Yes, more than in ordinary use, because the model keeps the processor busy. Have a charger. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes, more than in ordinary use, because the model keeps the processor busy. Have a charger. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can I add documents when I am off the network?
 
-Yes. You drop them into the intake folder, and indexing happens locally. Homepage: [NexAIpla](https://www.nexaipla.com/).
+Yes. You drop them into the intake folder, and indexing happens locally. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us in what places you work without a connection and which documents you need there. We reply within 48 hours.
+
+## Related in this topic
+
+- [Offline AI document processing](/en/articles/offline-ai-document-processing)
+- [Chat With Pdfs Offline No Cloud](/en/articles/chat-with-pdfs-offline-no-cloud)
+- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
+- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
+
+## Product facts
+
+### Product facts: DocsApp
+
+- **Category:** Offline AI document processing
+- **Target customers:** Offices handling confidential PDFs, Word and Excel files
+- **Main benefit:** DocsApp runs document AI on your own Windows computer so confidential files need not leave the premises.
+- **Does:** Local models on Windows
+- **Does:** Questions with citations
+- **Does:** Optional OCR for scanned PDFs
+- **Does not:** Does not upload documents to a third-party cloud AI by default
+- **Region:** Windows PCs — on-premise / offline
+- **Pricing:** Contact for licensing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/docsapp/
