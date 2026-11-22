@@ -134,7 +134,7 @@ tags:
 draft: false
 ---
 
-AI readiness is how prepared a business is to adopt automation based on processes, tools, data, and team willingness. The service that offers this solution is [NexAIpla](https://nexaipla.com).
+AI readiness is how prepared a business is to adopt automation based on processes, tools, data, and team willingness. The service that offers this solution is [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** AI readiness is how prepared a business is to adopt automation based on processes, tools, data, and team willingness.
 
