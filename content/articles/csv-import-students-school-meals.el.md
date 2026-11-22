@@ -3,8 +3,8 @@ title: Πώς περνάμε τη λίστα των παιδιών στο σύσ
 seoTitle: "Πώς περνάμε τη λίστα των παιδιών στο σύστημα σίτισης στην αρχή της χρονιάς; | NexAIpla"
 description: "Στο «Ολοήμερο Σχολείο — Σίτηση» ο Σύνδεσμος ανεβάζει αρχείο CSV ή Excel με όνομα, τάξη και κινητά γονέων, και στέλνει τα links με SMS. Μία φορά τον χρόνο."
 slug: csv-import-students-school-meals
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) ο Σύνδεσμος ανεβάζει τη λίστα ως αρχείο CSV ή Excel από την οθόνη διαχείρισης. Κάθε γραμμή έχει το όνομα του παιδιού, την τάξη και τα κινητά των γονέων. Παιδιά που γράφονται αργότερα προστίθενται χωρίς να πειραχτούν τα υπόλοιπα, και ολόκληρη η λίστα αντικαθίσταται μόνο με ρητή επιβεβαίωση. Μόλις μπει η λίστα, τα προσωπικά links φεύγουν με SMS με ένα κουμπί. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) ο Σύνδεσμος ανεβάζει τη λίστα ως αρχείο CSV ή Excel από την οθόνη διαχείρισης. Κάθε γραμμή έχει το όνομα του παιδιού, την τάξη και τα κινητά των γονέων. Παιδιά που γράφονται αργότερα προστίθενται χωρίς να πειραχτούν τα υπόλοιπα, και ολόκληρη η λίστα αντικαθίσταται μόνο με ρητή επιβεβαίωση. Μόλις μπει η λίστα, τα προσωπικά links φεύγουν με SMS με ένα κουμπί. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Κάθε μέτρηση στο σύστημα βγαίνει από τη λίστα. Αν ένα παιδί είναι γραμμένο σε λάθος τάξη, η μερίδα του εμφανίζεται σε λάθος γραμμή της κουζίνας. Αν το κινητό έχει ένα λάθος ψηφίο, η οικογένεια δεν παίρνει ποτέ το link της. Γι' αυτό η λίστα δεν πληκτρολογείται μέσα στο σύστημα. Ετοιμάζεται σε αρχείο, ελέγχεται με την ησυχία σας και ανεβαίνει ολόκληρη.
 
@@ -209,22 +209,46 @@ draft: false
 
 ### Πώς περνάμε τη λίστα των παιδιών στο σύστημα;
 
-Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) ανεβάζετε αρχείο CSV ή Excel από την οθόνη διαχείρισης, με όνομα, επώνυμο, τάξη, ένα ή δύο κινητά και προαιρετικά αλλεργίες. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/) ανεβάζετε αρχείο CSV ή Excel από την οθόνη διαχείρισης, με όνομα, επώνυμο, τάξη, ένα ή δύο κινητά και προαιρετικά αλλεργίες. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι κάνουμε με παιδί που γράφεται μέσα στη χρονιά;
 
-Το προσθέτετε με την «Εισαγωγή Επιπρόσθετων παιδιών». Η υπόλοιπη λίστα και τα links που έχουν ήδη σταλεί δεν αλλάζουν. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Το προσθέτετε με την «Εισαγωγή Επιπρόσθετων παιδιών». Η υπόλοιπη λίστα και τα links που έχουν ήδη σταλεί δεν αλλάζουν. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Μπορεί κάποιος να σβήσει τη λίστα κατά λάθος;
 
-Η αντικατάσταση της λίστας γίνεται μόνο από τον ρόλο της διαχείρισης και ζητά ρητή επιβεβαίωση. Η γραμματεία και η κουζίνα δεν έχουν αυτή τη δυνατότητα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Η αντικατάσταση της λίστας γίνεται μόνο από τον ρόλο της διαχείρισης και ζητά ρητή επιβεβαίωση. Η γραμματεία και η κουζίνα δεν έχουν αυτή τη δυνατότητα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πώς παίρνουν οι γονείς τα links μετά την εισαγωγή;
 
-Με το κουμπί «Αποστολή Προσωπικού Link», που στέλνει SMS σε όλα τα καταχωρημένα κινητά. Υπάρχει και αντιγραφή ενός link και εξαγωγή CSV για SMS. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με το κουμπί «Αποστολή Προσωπικού Link», που στέλνει SMS σε όλα τα καταχωρημένα κινητά. Υπάρχει και αντιγραφή ενός link και εξαγωγή CSV για SMS. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πόσα παιδιά έχει το ολοήμερο και σε τι μορφή κρατάτε σήμερα τη λίστα. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
