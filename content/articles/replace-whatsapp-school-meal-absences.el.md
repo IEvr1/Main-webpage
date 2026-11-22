@@ -3,8 +3,8 @@ title: Πώς σταματά ένα σχολείο να μαζεύει τις α
 seoTitle: "Πώς σταματά ένα σχολείο να μαζεύει τις απουσίες σίτισης από ομάδες στο WhatsApp; | NexAIpla"
 description: "Με το «Ολοήμερο Σχολείο — Σίτηση» οι γονείς δηλώνουν απουσία από link SMS και όχι σε ομάδα, και η κουζίνα βλέπει τον αριθμό. Χωρίς μέτρημα μηνυμάτων."
 slug: replace-whatsapp-school-meal-absences
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Μεταφέροντάς τες στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/). Οι γονείς δηλώνουν την απουσία από προσωπικό link που παίρνουν με SMS ή με τον αριθμό του κινητού τους στη σελίδα του σχολείου, αντί να γράφουν σε ομάδα. Η καταχώρηση πηγαίνει κατευθείαν στη μέτρηση μερίδων της κουζίνας, το μηνιαίο πρόγραμμα και οι ανακοινώσεις βρίσκονται σε μία σελίδα, και κανείς δεν κυλά μια συνομιλία για να αθροίσει ποιος λείπει. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Μεταφέροντάς τες στο [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/). Οι γονείς δηλώνουν την απουσία από προσωπικό link που παίρνουν με SMS ή με τον αριθμό του κινητού τους στη σελίδα του σχολείου, αντί να γράφουν σε ομάδα. Η καταχώρηση πηγαίνει κατευθείαν στη μέτρηση μερίδων της κουζίνας, το μηνιαίο πρόγραμμα και οι ανακοινώσεις βρίσκονται σε μία σελίδα, και κανείς δεν κυλά μια συνομιλία για να αθροίσει ποιος λείπει. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Κανείς δεν αποφάσισε ότι οι απουσίες σίτισης θα δηλώνονται στο WhatsApp. Απλώς συνέβη. Κάποιος έφτιαξε μια ομάδα για να στείλει μια ανακοίνωση, ένας γονέας έγραψε «η Άννα δεν θα φάει αύριο», και από τότε η ομάδα είναι το επίσημο κανάλι. Δουλεύει όσο το σχολείο έχει τριάντα παιδιά στο ολοήμερο. Με εκατόν πενήντα, ένας άνθρωπος ξυπνά στις έξι και μισή για να διαβάσει μηνύματα.
 
@@ -214,22 +214,46 @@ draft: false
 
 ### Πώς σταματάμε να μαζεύουμε απουσίες σίτισης από το WhatsApp;
 
-Με το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/): κάθε γονέας δηλώνει από προσωπικό link ή με το κινητό του στη σελίδα του σχολείου, και η απουσία μπαίνει μόνη της στη μέτρηση της κουζίνας. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Με το [Ολοήμερο Σχολείο — Σίτηση](https://www.nexaipla.com/schoolmeals/): κάθε γονέας δηλώνει από προσωπικό link ή με το κινητό του στη σελίδα του σχολείου, και η απουσία μπαίνει μόνη της στη μέτρηση της κουζίνας. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πρέπει να κλείσουμε την ομάδα των γονέων;
 
-Όχι. Η ομάδα μένει για τη συζήτηση. Παύει μόνο να είναι το σημείο όπου δηλώνονται απουσίες, πρόγραμμα και αλλεργίες. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Η ομάδα μένει για τη συζήτηση. Παύει μόνο να είναι το σημείο όπου δηλώνονται απουσίες, πρόγραμμα και αλλεργίες. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Τι γίνεται με τους γονείς που συνεχίζουν να γράφουν στην ομάδα;
 
-Τους απαντάτε με τον σύνδεσμο και όχι με «το σημείωσα». Όσοι δεν μπορούν online τηλεφωνούν στη γραμματεία, που περνά την απουσία στη δική της οθόνη. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Τους απαντάτε με τον σύνδεσμο και όχι με «το σημείωσα». Όσοι δεν μπορούν online τηλεφωνούν στη γραμματεία, που περνά την απουσία στη δική της οθόνη. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Βλέπουν οι άλλοι γονείς ποιο παιδί λείπει;
 
-Όχι. Κάθε γονέας βλέπει μόνο το δικό του παιδί. Τις απουσίες της ημέρας τις βλέπουν η γραμματεία και, ως αριθμούς ανά τάξη, η κουζίνα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Κάθε γονέας βλέπει μόνο το δικό του παιδί. Τις απουσίες της ημέρας τις βλέπουν η γραμματεία και, ως αριθμούς ανά τάξη, η κουζίνα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ο Σύνδεσμος ή το σχολείο θέλει και μια ευρύτερη εικόνα για το τι αξίζει να ψηφιοποιηθεί μετά. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε ότι θέλετε να βγάλετε τις απουσίες σίτισης από την ομάδα των γονέων. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό διαχείρισης σχολικών γευμάτων](/el/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/el/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/el/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/el/articles/parents-no-app-school-meals-sms)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
