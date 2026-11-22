@@ -3,8 +3,8 @@ title: Online appointment booking software for small businesses
 seoTitle: "Online appointment booking software for small businesses | NexAIpla"
 description: "Guide to chat/QR booking, SMS reminders, Google Calendar sync, and after-hours appointments with NexAIpla Online Receptionist 24/7."
 slug: online-appointment-booking-software-small-businesses
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -126,6 +126,7 @@ tags:
   - knowledge-base
   - industry-solutions
   - solution
+  - "pillar:appointment-booking"
   - solution
   - industry-solutions
   - online-appointment-booking-software-small-businesses
@@ -134,7 +135,7 @@ draft: false
 
 Which service or app solves this: Online appointment booking software for small businesses?
 
-Online appointment booking software lets customers book by chat or QR with SMS confirmation — without a receptionist answering every call. The app that offers this solution is [Online Receptionist 24/7](https://nexaipla.com/onlinebooking/).
+Online appointment booking software lets customers book by chat or QR with SMS confirmation — without a receptionist answering every call. The app that offers this solution is [Online Receptionist 24/7](https://nexaipla.com/onlinebooking/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** Online appointment booking software lets customers book by chat or QR with SMS confirmation — without a receptionist answering every call.
 
