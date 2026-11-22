@@ -3,8 +3,8 @@ title: "How does the team get into the appointment board without a shared passwo
 seoTitle: "How does the team get into the appointment board without a shared password? | NexAIpla"
 description: "The Online Receptionist 24/7 appointment board opens with a signed link: no shared password written on a sticky note next to the till. No login."
 slug: appointment-dashboard-without-shared-password
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -148,7 +148,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** With a signed link. In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the appointment board has no login screen with a username and password. It opens from an address that contains a digital signature, which the system checks. Whoever has the link sees appointments, figures, and closures. Whoever does not have it cannot guess it. There is no password to be forgotten or passed around. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** With a signed link. In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the appointment board has no login screen with a username and password. It opens from an address that contains a digital signature, which the system checks. Whoever has the link sees appointments, figures, and closures. Whoever does not have it cannot guess it. There is no password to be forgotten or passed around. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 In a small business the shared password is not negligence. It is the only practical solution when five people use one computer and nobody has time for personal accounts. The problem is what follows.
 
@@ -259,22 +259,47 @@ If your business needs something more elaborate, such as a different view for ea
 
 ### How does the team get into the board without a password?
 
-In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the board opens with a signed link, which the system checks. There is no login screen. Homepage: [NexAIpla](https://www.nexaipla.com/).
+In [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/) the board opens with a signed link, which the system checks. There is no login screen. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Must all staff have the link?
 
-No. Those who need only their own schedule see it in their Google Calendar. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Those who need only their own schedule see it in their Google Calendar. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What do I do if someone who had the link leaves?
 
-You ask for a new link and give it only to those who need it. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You ask for a new link and give it only to those who need it. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Is it the same link the customer gets?
 
-No. The customer has a link only for their own appointment, and the booking page is separate and public. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The customer has a link only for their own appointment, and the booking page is separate and public. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you are still deciding whether bookings are the first job worth automating. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and tell us how many people need to see the overall schedule and from which devices. We reply within 48 hours.
+
+## Related in this topic
+
+- [Online appointment booking software for small businesses](/en/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/en/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/en/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/en/articles/booking-after-hours-without-receptionist)
+
+## Product facts
+
+### Product facts: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
