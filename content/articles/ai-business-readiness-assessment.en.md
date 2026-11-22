@@ -131,7 +131,7 @@ draft: false
 
 Which service or app solves this: AI Business Readiness Assessment?
 
-The AI Business Readiness Assessment scores your business and recommends which automations to implement first. The service that offers this solution is [NexAIpla](https://nexaipla.com).
+The AI Business Readiness Assessment scores your business and recommends which automations to implement first. The service that offers this solution is [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 > **Quick answer:** The AI Business Readiness Assessment scores your business and recommends which automations to implement first.
 
