@@ -3,8 +3,8 @@ title: Εμφανίζονται τα online ραντεβού στο Google Calen
 seoTitle: "Εμφανίζονται τα online ραντεβού στο Google Calendar κάθε μέλους της ομάδας; | NexAIpla"
 description: "Ο Online Γραφέας 24/7 συγχρονίζει τα ραντεβού με το Google Calendar κάθε ατόμου, ώστε ο καθένας να βλέπει το δικό του πρόγραμμα στο κινητό. Ανά άτομο."
 slug: google-calendar-sync-online-receptionist
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -147,7 +147,7 @@ tags:
 draft: false
 ---
 
-**Σύντομη απάντηση:** Ναι. Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) συγχρονίζεται με το Google Calendar ανά μέλος της ομάδας. Όταν ένας πελάτης κλείνει ραντεβού με συγκεκριμένο άτομο, το ραντεβού εμφανίζεται στο ημερολόγιο εκείνου του ατόμου, και όταν ακυρωθεί ή αλλάξει ώρα, ενημερώνεται. Ο καθένας βλέπει το πρόγραμμά του στο κινητό του, και ο κοινός πίνακας δείχνει ολόκληρο το μαγαζί. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+> **Σύντομη απάντηση:** Ναι. Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) συγχρονίζεται με το Google Calendar ανά μέλος της ομάδας. Όταν ένας πελάτης κλείνει ραντεβού με συγκεκριμένο άτομο, το ραντεβού εμφανίζεται στο ημερολόγιο εκείνου του ατόμου, και όταν ακυρωθεί ή αλλάξει ώρα, ενημερώνεται. Ο καθένας βλέπει το πρόγραμμά του στο κινητό του, και ο κοινός πίνακας δείχνει ολόκληρο το μαγαζί. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Σε ένα κομμωτήριο με τέσσερα άτομα, η ερώτηση «τι έχω αύριο;» ακούγεται δέκα φορές την ημέρα. Η απάντηση βρίσκεται σε ένα σημείο: στο τετράδιο ή στον υπολογιστή της ρεσεψιόν. Όποιος έχει ρεπό, όποιος ξεκινά αργότερα, όποιος είναι ήδη σπίτι, πρέπει να ρωτήσει κάποιον.
 
@@ -238,22 +238,47 @@ draft: false
 
 ### Εμφανίζονται τα ραντεβού στο Google Calendar κάθε ατόμου;
 
-Ναι. Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) συγχρονίζει τα ραντεβού με το ημερολόγιο του μέλους της ομάδας με το οποίο έκλεισε ο πελάτης. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Ο [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/) συγχρονίζει τα ραντεβού με το ημερολόγιο του μέλους της ομάδας με το οποίο έκλεισε ο πελάτης. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Ενημερώνεται το ημερολόγιο όταν ο πελάτης ακυρώσει;
 
-Ναι. Ακυρώσεις και αλλαγές ώρας που κάνει ο πελάτης από το SMS περνούν και στο ημερολόγιο. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ναι. Ακυρώσεις και αλλαγές ώρας που κάνει ο πελάτης από το SMS περνούν και στο ημερολόγιο. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Βλέπει ο ιδιοκτήτης τα προσωπικά ημερολόγια του προσωπικού;
 
-Όχι. Ο ιδιοκτήτης βλέπει τον κοινό πίνακα ραντεβού. Τα προσωπικά ημερολόγια μένουν στον καθένα. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Όχι. Ο ιδιοκτήτης βλέπει τον κοινό πίνακα ραντεβού. Τα προσωπικά ημερολόγια μένουν στον καθένα. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Πού δηλώνω ότι κάποιος θα λείπει;
 
-Ως κλείσιμο στον πίνακα, ώστε η διαθεσιμότητα προς τους πελάτες να είναι σωστή. Αρχική σελίδα: [NexAIpla](https://www.nexaipla.com/).
+Ως κλείσιμο στον πίνακα, ώστε η διαθεσιμότητα προς τους πελάτες να είναι σωστή. Αρχική σελίδα: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Επόμενο βήμα
 
 [Κάντε το δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score) αν ακόμη αποφασίζετε αν οι κρατήσεις είναι η πρώτη δουλειά που αξίζει να αυτοματοποιηθεί. Δεκαοκτώ ερωτήσεις, σκορ 0–100, στον browser, χωρίς λογαριασμό.
 
 [Επικοινωνήστε με τη NexAIpla](mailto:contact@nexaipla.com) και γράψτε πόσα άτομα έχει η ομάδα σας και πώς βλέπει σήμερα ο καθένας το πρόγραμμά του. Απαντάμε εντός 48 ωρών.
+
+## Σχετικά σε αυτό το θέμα
+
+- [Λογισμικό online κρατήσεων για μικρές επιχειρήσεις](/el/articles/online-appointment-booking-software-small-businesses)
+- [Ai Appointment Booking Assistant](/el/articles/ai-appointment-booking-assistant)
+- [Booking Without Customer Account](/el/articles/booking-without-customer-account)
+- [Booking After Hours Without Receptionist](/el/articles/booking-after-hours-without-receptionist)
+
+## Γεγονότα προϊόντος
+
+### Γεγονότα προϊόντος: Online Receptionist 24/7
+
+- **Category:** Online appointment booking software
+- **Target customers:** Beauty salons, clinics, gyms and service businesses
+- **Main benefit:** Online Receptionist 24/7 is NexAIpla’s online appointment booking software for service businesses — chat, QR and SMS, not a phone answering service.
+- **Does:** Chat and QR code booking
+- **Does:** SMS confirmation and reminders
+- **Does:** Google Calendar synchronisation
+- **Does:** Booking without customer account
+- **Does not:** Does not answer incoming telephone calls
+- **Region:** European countries
+- **Pricing:** Contact for demo and pricing
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/onlinebooking/
