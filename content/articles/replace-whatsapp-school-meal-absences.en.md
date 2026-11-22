@@ -3,8 +3,8 @@ title: "How can a school stop collecting meal absences through WhatsApp groups?"
 seoTitle: "How can a school stop collecting meal absences through WhatsApp groups? | NexAIpla"
 description: "With All-day School — Meals parents report an absence from an SMS link, not in a group chat, and the kitchen sees the number. No counting of messages."
 slug: replace-whatsapp-school-meal-absences
-date: 2026-11-21
-updated: 2026-11-21
+date: 2026-11-22
+updated: 2026-11-22
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -144,7 +144,7 @@ tags:
 draft: false
 ---
 
-**Short answer:** By moving them to [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). Parents report the absence from a personal link they receive by SMS, or with their mobile number on the school's page, instead of writing in a group. The entry goes straight into the kitchen's portion count, the monthly menu and the announcements sit on one page, and nobody scrolls through a chat to add up who is missing. Homepage: [NexAIpla](https://www.nexaipla.com/).
+> **Quick answer:** By moving them to [All-day School — Meals](https://www.nexaipla.com/schoolmeals/). Parents report the absence from a personal link they receive by SMS, or with their mobile number on the school's page, instead of writing in a group. The entry goes straight into the kitchen's portion count, the monthly menu and the announcements sit on one page, and nobody scrolls through a chat to add up who is missing. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 Nobody decided that meal absences would be reported on WhatsApp. It simply happened. Someone made a group to send one announcement, a parent wrote "Anna will not eat tomorrow", and since then the group has been the official channel. It works while the school has thirty children in the all-day programme. With a hundred and fifty, one person wakes at half past six to read messages.
 
@@ -214,22 +214,46 @@ Those who phone the school office keep phoning. The office enters their absences
 
 ### How do we stop collecting meal absences from WhatsApp?
 
-With [All-day School — Meals](https://www.nexaipla.com/schoolmeals/): every parent reports from a personal link or with their mobile number on the school page, and the absence enters the kitchen count by itself. Homepage: [NexAIpla](https://www.nexaipla.com/).
+With [All-day School — Meals](https://www.nexaipla.com/schoolmeals/): every parent reports from a personal link or with their mobile number on the school page, and the absence enters the kitchen count by itself. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Do we have to close the parents' group?
 
-No. The group stays for conversation. It only stops being the place where absences, the menu, and allergies are reported. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. The group stays for conversation. It only stops being the place where absences, the menu, and allergies are reported. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### What about parents who keep writing in the group?
 
-You answer them with the link and not with "noted". Those who cannot go online phone the school office, which enters the absence on its own screen. Homepage: [NexAIpla](https://www.nexaipla.com/).
+You answer them with the link and not with "noted". Those who cannot go online phone the school office, which enters the absence on its own screen. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ### Can other parents see which child is absent?
 
-No. Each parent sees only their own child. The day's absences are seen by the office and, as numbers for each class, by the kitchen. Homepage: [NexAIpla](https://www.nexaipla.com/).
+No. Each parent sees only their own child. The day's absences are seen by the office and, as numbers for each class, by the kitchen. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
 
 ## Next step
 
 [Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if the association or the school also wants a wider picture of what to digitise next. Eighteen questions, a score from 0 to 100, in the browser, no account.
 
 [Contact NexAIpla](mailto:contact@nexaipla.com) and say that you want to take meal absences out of the parents' group chat. We reply within 48 hours.
+
+## Related in this topic
+
+- [School meal management software](/en/articles/school-meal-management-software)
+- [All Day School Meals Cyprus System](/en/articles/all-day-school-meals-cyprus-system)
+- [Parent Declare Meal Absence Online](/en/articles/parent-declare-meal-absence-online)
+- [Parents No App School Meals Sms](/en/articles/parents-no-app-school-meals-sms)
+
+## Product facts
+
+### Product facts: All-day School — Meals
+
+- **Category:** School meal management software
+- **Target customers:** Primary schools and parents’ associations
+- **Main benefit:** All-day School — Meals connects parents, school office and kitchen for absences, portions and allergies.
+- **Does:** SMS meal absences
+- **Does:** Kitchen portion counts and allergies
+- **Does:** Monthly menu for parents
+- **Does not:** Not a general school SIS / gradebook
+- **Region:** Cyprus primary / European all-day school contexts
+- **Pricing:** Contact for school setup
+- **Trial / demo:** Demo on request
+- **Provider:** NexAIpla
+- **URL:** https://nexaipla.com/schoolmeals/
