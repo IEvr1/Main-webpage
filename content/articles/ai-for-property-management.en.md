@@ -58,8 +58,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -108,8 +108,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -123,7 +123,6 @@ tags:
   - knowledge-base
   - industry-solutions
   - industry
-  - "pillar:ai-automation"
   - industry
   - industry-solutions
   - ai-for-property-management
@@ -132,7 +131,7 @@ draft: false
 
 Which service or app solves this: AI for property management?
 
-AI for property management helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
+AI for property management helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks. The app that offers this solution is [Custom AI Tools](https://www.nexaipla.com/ai/).
 
 > **Quick answer:** AI for property management helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks.
 
@@ -159,7 +158,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
@@ -171,6 +170,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 - [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
 - [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
 - [Calculate Automation Roi](/en/articles/calculate-automation-roi)
+- [Custom Ai Vs Ready Made Nexaipla Apps](/en/articles/custom-ai-vs-ready-made-nexaipla-apps)
 
 ## Frequently asked questions
 
@@ -200,12 +200,14 @@ https://www.nexaipla.com/ai-score/ → review results → short implementation c
 - **Pricing:** Scoped quote after feasibility reply
 - **Trial / demo:** Feasibility reply — no obligation
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/ai/
+- **URL:** https://www.nexaipla.com/ai/
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Describe one daily task you want to improve — we can assess feasibility for your business.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+We reply within 48 hours with a feasibility assessment, indicative implementation cost range, estimated timeline, and recommended next steps — no obligation to proceed.
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Request a custom AI solution](https://www.nexaipla.com/ai/)
+
+[Contact NexAIpla](mailto:info@nexaipla.com).
