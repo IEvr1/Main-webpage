@@ -14,6 +14,8 @@
     { "source": "/en/articles/:slug", "destination": "/en/articles/:slug/index.html" }
   ],
   "redirects": [
+    { "source": "/readiness", "destination": "/ai-score/", "permanent": true },
+    { "source": "/readiness/", "destination": "/ai-score/", "permanent": true },
     { "source": "/custom", "destination": "/ai/", "permanent": true },
     { "source": "/custom/", "destination": "/ai/", "permanent": true }
   ]

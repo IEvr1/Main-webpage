@@ -24,6 +24,12 @@ function getArticleInputs(): Record<string, string> {
 function redirectRemovedPages() {
   const redirect = (req: { url?: string }, res: { statusCode: number; setHeader: (name: string, value: string) => void; end: () => void }, next: () => void) => {
     const path = req.url?.split('?')[0] ?? '';
+    if (path === '/readiness' || path === '/readiness/') {
+      res.statusCode = 308;
+      res.setHeader('Location', '/ai-score/');
+      res.end();
+      return;
+    }
     if (path === '/custom' || path === '/custom/') {
       res.statusCode = 308;
       res.setHeader('Location', '/ai/');
