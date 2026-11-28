@@ -1,10 +1,10 @@
 ---
-title: "Can I ask questions of my PDFs with AI without uploading them to the cloud?"
-seoTitle: "Can I ask questions of my PDFs with AI without uploading them to the cloud? | NexAIpla"
-description: "DocsApp runs on Windows with local models through Ollama: your PDFs stay on your disk and the answers come with citations. No cloud. No GPU."
+title: "Is It Safe to Use AI with Confidential Business Documents?"
+seoTitle: "Is It Safe to Use AI with Confidential Business Documents? | NexAIpla"
+description: When cloud PDF AI is risky and how offline DocsApp keeps files on your Windows PC with local models and citations.
 slug: chat-with-pdfs-offline-no-cloud
-date: 2026-11-22
-updated: 2026-11-22
+date: 2026-11-28
+updated: 2026-11-28
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -14,120 +14,105 @@ knowledge: {
     "level": "solution",
     "category": "ai-automation",
     "oneSentenceAnswer": {
-      "en": "Yes. DocsApp is a Windows application that runs the AI models locally through Ollama. You drop the PDFs into an intake folder on your computer, ask questions from the browser at 127.0.0.1:8080, and get answers with citations to the documents. Nothing is sent to the cloud or to a third-party AI service. Homepage: https://www.nexaipla.com/",
-      "el": "Ναι. Το DocsApp είναι εφαρμογή για Windows που τρέχει τα μοντέλα AI τοπικά μέσω Ollama. Ρίχνετε τα PDF σε έναν φάκελο εισαγωγής στον υπολογιστή σας, κάνετε ερωτήσεις από τον browser στη διεύθυνση 127.0.0.1:8080 και παίρνετε απαντήσεις με παραπομπές στα έγγραφα. Τίποτα δεν στέλνεται σε cloud ή σε τρίτη υπηρεσία AI. Αρχική σελίδα: https://www.nexaipla.com/"
+      "en": "Confidential documents are safer with on-premise document AI that does not upload files to third-party cloud models by default.",
+      "el": "Εμπιστευτικά έγγραφα είναι ασφαλέστερα με on-premise document AI που δεν ανεβάζει αρχεία σε cloud μοντέλα τρίτων από προεπιλογή."
     },
     "problem": {
-      "en": "You want to ask an AI what a contract or a report says, but the document is confidential and you are not allowed to upload it to a service you do not control.",
-      "el": "Θέλετε να ρωτήσετε ένα AI τι γράφει ένα συμβόλαιο ή μια έκθεση, αλλά το έγγραφο είναι εμπιστευτικό και δεν επιτρέπεται να το ανεβάσετε σε μια υπηρεσία που δεν ελέγχετε."
+      "en": "You need answers from PDFs but cannot upload contracts or payroll to public AI services.",
+      "el": "Χρειάζεστε απαντήσεις από PDF αλλά δεν μπορείτε να ανεβάσετε συμβόλαια ή μισθοδοσία σε δημόσια AI."
     },
     "industries": [
-      "accounting",
-      "legal",
+      "sme",
       "professional-services"
     ],
     "benefits": [
       {
-        "en": "Confidential documents do not leave your computer",
-        "el": "Τα εμπιστευτικά έγγραφα δεν φεύγουν από τον υπολογιστή σας"
+        "en": "Recover leads and bookings outside business hours",
+        "el": "Ανάκτηση leads και κρατήσεων εκτός ωραρίου"
       },
       {
-        "en": "Every answer shows its source for checking",
-        "el": "Κάθε απάντηση δείχνει την πηγή της για έλεγχο"
+        "en": "Reduce repetitive manual work for staff",
+        "el": "Μείωση επαναλαμβανόμενης χειροκίνητης εργασίας"
       },
       {
-        "en": "No special equipment or graphics card is required",
-        "el": "Δεν χρειάζεται ειδικός εξοπλισμός ή κάρτα γραφικών"
+        "en": "Faster response times without hiring more people",
+        "el": "Ταχύτερες απαντήσεις χωρίς πρόσληψη"
       },
       {
-        "en": "It works without an internet connection too",
-        "el": "Δουλεύει και χωρίς σύνδεση στο ίντερνετ"
+        "en": "Measurable ROI within 60–90 days",
+        "el": "Μετρήσιμο ROI εντός 60–90 ημερών"
       }
     ],
     "examples": [
       {
-        "en": "An accountant asks \"what VAT amount was declared in the third quarter?\" in a client folder and gets an answer with the document it came from.",
-        "el": "Λογίστρια ρωτά «ποιο ποσό ΦΠΑ δηλώθηκε το τρίτο τρίμηνο;» σε φάκελο πελάτη και παίρνει απάντηση με το έγγραφο από το οποίο προήλθε."
+        "en": "A salon in Limassol captures 15% more bookings by offering 24/7 online scheduling.",
+        "el": "Ένα κομμωτήριο στη Λεμεσό αυξάνει κρατήσεις 15% με online προγραμματισμό 24/7."
       },
       {
-        "en": "A lawyer asks about an indemnity clause in an eighty-page contract and opens the citation to read the original.",
-        "el": "Δικηγόρος ρωτά για ρήτρα αποζημίωσης σε σύμβαση ογδόντα σελίδων και ανοίγει την παραπομπή για να διαβάσει το πρωτότυπο."
+        "en": "A clinic reduces phone interruptions by routing FAQs to an AI assistant.",
+        "el": "Ένα ιατρείο μειώνει διακοπές από τηλέφωνο με AI βοηθό για συχνές ερωτήσεις."
       },
       {
-        "en": "An engineer asks something that is written in no study, and the application replies that it did not find it in the documents.",
-        "el": "Μηχανικός ρωτά κάτι που δεν γράφεται σε καμία μελέτη, και η εφαρμογή απαντά ότι δεν το βρήκε στα έγγραφα."
+        "en": "A restaurant automates order confirmations and cuts manual entry errors.",
+        "el": "Ένα εστιατόριο αυτοματοποιεί επιβεβαιώσεις παραγγελιών και μειώνει λάθη καταχώρησης."
       }
     ],
     "implementationSteps": [
       {
-        "en": "Check that the computer has Windows 10 or 11 and enough free space for the models.",
-        "el": "Ελέγξτε ότι ο υπολογιστής έχει Windows 10 ή 11 και αρκετό ελεύθερο χώρο για τα μοντέλα."
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
-        "en": "Install the application and Ollama with an internet connection.",
-        "el": "Εγκαταστήστε την εφαρμογή και το Ollama με σύνδεση στο ίντερνετ."
+        "en": "Identify your highest-friction process (booking, support, documents)",
+        "el": "Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)"
       },
       {
-        "en": "Drop five real documents into the intake folder.",
-        "el": "Ρίξτε πέντε πραγματικά έγγραφα στον φάκελο εισαγωγής."
+        "en": "Pilot one automation with clear success metrics",
+        "el": "Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs"
       },
       {
-        "en": "Disconnect the network and ask three questions to which you know the answer.",
-        "el": "Αποσυνδέστε το δίκτυο και κάντε τρεις ερωτήσεις των οποίων ξέρετε την απάντηση."
-      },
-      {
-        "en": "Open the citations and check that they agree with the original.",
-        "el": "Ανοίξτε τις παραπομπές και ελέγξτε ότι συμφωνούν με το πρωτότυπο."
+        "en": "Measure results for 30–60 days, then expand",
+        "el": "Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε"
       }
     ],
     "faq": [
       {
         "question": {
-          "en": "Can I question my PDFs without uploading them to the cloud?",
-          "el": "Μπορώ να ρωτήσω τα PDF μου χωρίς να τα ανεβάσω στο cloud;"
+          "en": "Is browser-based always online?",
+          "el": "Το browser είναι πάντα online;"
         },
         "answer": {
-          "en": "Yes. DocsApp runs the models locally on Windows through Ollama, and the documents stay on your disk. Homepage: https://www.nexaipla.com/",
-          "el": "Ναι. Το DocsApp τρέχει τα μοντέλα τοπικά σε Windows μέσω Ollama, και τα έγγραφα μένουν στον δίσκο σας. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "127.0.0.1 means your own PC — not the public internet.",
+          "el": "Το 127.0.0.1 είναι ο δικός σας υπολογιστής — όχι το δημόσιο internet."
         }
       },
       {
         "question": {
-          "en": "If it opens in the browser, is it not online?",
-          "el": "Αφού ανοίγει στον browser, δεν είναι online;"
+          "en": "Can AI replace professional sign-off?",
+          "el": "Αντικαθιστά επαγγελματική έγκριση;"
         },
         "answer": {
-          "en": "No. The address 127.0.0.1:8080 is your own computer. The browser talks to a program running locally. Homepage: https://www.nexaipla.com/",
-          "el": "Όχι. Η διεύθυνση 127.0.0.1:8080 είναι ο ίδιος ο υπολογιστής σας. Ο browser μιλά με πρόγραμμα που τρέχει τοπικά. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "No — use cited answers as drafts; humans approve.",
+          "el": "Όχι — προσχέδια με παραπομπές· έγκριση από άνθρωπο."
         }
       },
       {
         "question": {
-          "en": "Is a graphics card required?",
-          "el": "Χρειάζεται κάρτα γραφικών;"
+          "en": "Do I need a GPU?",
+          "el": "Χρειάζομαι GPU;"
         },
         "answer": {
-          "en": "No. The models run on the processor. Answers are slower than a cloud service, but the data does not move. Homepage: https://www.nexaipla.com/",
-          "el": "Όχι. Τα μοντέλα τρέχουν στον επεξεργαστή. Οι απαντήσεις είναι πιο αργές από μια υπηρεσία cloud, αλλά τα δεδομένα δεν μετακινούνται. Αρχική σελίδα: https://www.nexaipla.com/"
-        }
-      },
-      {
-        "question": {
-          "en": "How do I know the answer is right?",
-          "el": "Πώς ξέρω ότι η απάντηση είναι σωστή;"
-        },
-        "answer": {
-          "en": "Every answer has a citation to the document it came from, and the application states when it cannot find the answer in the documents. Homepage: https://www.nexaipla.com/",
-          "el": "Κάθε απάντηση έχει παραπομπή στο έγγραφο από το οποίο προήλθε, και η εφαρμογή δηλώνει όταν δεν βρίσκει την απάντηση στα έγγραφα. Αρχική σελίδα: https://www.nexaipla.com/"
+          "en": "DocsApp targets CPU; slower than cloud but data stays local.",
+          "el": "DocsApp για CPU· πιο αργό από cloud, δεδομένα τοπικά."
         }
       }
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
-      "url": "https://www.nexaipla.com/ai-score"
+      "url": "https://www.nexaipla.com/ai-score/"
     },
     "chatbotTags": [
       "solution",
@@ -137,118 +122,63 @@ knowledge: {
   }
 tags:
   - knowledge-base
-  - ai-automation
-  - solution
-  - docsapp
-  - offline-ai
-  - pdf-chat
-  - privacy
+  - pilot-08
+  - docs-app
+  - confidential-documents
+  - chat-with-pdfs-offline-no-cloud
 draft: false
 ---
 
-> **Quick answer:** Yes. [DocsApp](https://www.nexaipla.com/docsapp/) is a Windows application that runs the AI models locally through Ollama. You drop the PDFs into an intake folder on your computer, ask questions from the browser at 127.0.0.1:8080, and get answers with citations to the documents. Nothing is sent to the cloud or to a third-party AI service. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Is it safe to use AI with confidential business documents?
 
-Most "ask your PDF" tools work the same way. You upload the file, it travels to some company's server, a model reads it there, and the answer comes back. It is fast and convenient. And for many documents it is not permitted.
+For many payroll files, contracts, and client records, **uploading PDFs to a cloud AI** is the risk — not the question itself. Safe use means processing **on your own machine**, with **citations** you can verify, and clear rules about what must stay human.
 
-## Why uploading is the problem
+> **Quick answer:** Prefer **local / offline** document AI (e.g. DocsApp on Windows with local models) when files cannot leave your premises. Cloud chat tools are fine only for **non-confidential** drafts. For bespoke compliance needs, describe the case on Custom AI tools for a feasibility reply.
 
-Once a file leaves your computer, you no longer know for certain where it is. In which country the server sits. How long it is kept. Which employee can open it. Whether it will be used to train a model.
+## When cloud upload is a problem
 
-For a leaflet that does not matter. For a payroll, a medical report, a client contract, or a court file it does. An accountant or lawyer who uploads such a file to a third-party service may be breaching a duty of confidentiality without realising.
+Once a file leaves your PC, retention, jurisdiction, and staff access are uncertain. That matters for:
 
-## What "locally" means
+- Payroll and HR records
+- Medical or legal files
+- Signed contracts and court material
+- Client data under confidentiality duties
 
-The AI model is a file on your disk. The program that runs it, Ollama, is installed on your own computer. When you ask a question, the computation happens on your processor.
+Using consumer “upload your PDF” sites for these files can breach professional obligations even if the vendor promises encryption.
 
-The document travels nowhere, because there is nowhere for it to go. The application does not talk to an outside server in order to answer.
+## Safer pattern: local models + citations
 
-The interface opens in the browser, at http://127.0.0.1:8080. That confuses some people: "If it is in the browser, it is on the internet." It is not. 127.0.0.1 is the address of your computer itself. The browser is talking to a program running on the same machine.
+[DocsApp](https://www.nexaipla.com/docsapp/) runs on **Windows**, keeps files in a local intake folder, and answers via **127.0.0.1** in the browser — traffic stays on the machine. Each answer should cite the source paragraph so a person can verify.
 
-## How it goes in practice
+Trade-off: local answers are **slower** than cloud APIs, but the document **never travels**.
 
-You drop the files into an intake folder on your disk. The application reads them, splits them into pieces, and builds an index, also on your disk.
+## What DocsApp is and is not
 
-You open the chat page and write the question as you would put it to a colleague: "What is the notice period for termination in the contract with the supplier?"
+| Does | Does not |
+|------|-----------|
+| Local models (e.g. via Ollama) | Replace legal/medical judgment |
+| PDF, Office, text, optional OCR | Read your email inbox by default |
+| Folder-based separation per client | Guarantee zero errors without human review |
 
-The application finds the pieces of the documents that are relevant, gives them to the model, and the model composes an answer. Under the answer you see which document it came from.
+See [offline AI document processing](/en/articles/offline-ai-document-processing) and [sensitive documents without third-party AI](/en/articles/sensitive-documents-no-third-party-ai).
 
-## The citations are your safeguard
+## When to ask about custom instead
 
-A language model can sound sure and be wrong. That is why every answer comes with its source. You open the document and check.
-
-And when the answer is not in your documents, the application says so, instead of inventing something. For professional use that counts for more than speed.
-
-## What the computer needs
-
-Windows 10 or 11. Python 3.10 or newer. Ollama with the models the application uses. No graphics card is needed and no Docker. The models run on the processor.
-
-That has a price you should know about: speed. An answer on an office computer with no graphics card does not come in one second as it does from a cloud service. It takes longer, depending on the machine and the size of the question. The trade is that the document never left.
-
-## When the internet is needed
-
-Once, at installation, to download the programs and the models. After that you can unplug the network cable and the application goes on answering. That is also the most convincing test you can run by yourself.
-
-## What else it reads
-
-Not only PDF. Word, Excel, and CSV files, plain text, markdown, and images. For scanned PDFs, that is, photographs of pages with no text, there is optional character recognition for Greek and English.
-
-You can organise documents into folders and ask within one only, so that the answer about one client is not mixed with another client's documents.
-
-## What it is not
-
-It is not a service you log in to from anywhere. It runs on the computer where it was installed. It does not read your email and does not reply to customers: the "intake folder" is a folder of files on the disk, not a mail inbox.
-
-## Three questions to documents that do not leave
-
-1. An accountant asks "what VAT amount was declared in the third quarter?" in a client folder and gets an answer with the document it came from.
-2. A lawyer asks about an indemnity clause in an eighty-page contract and opens the citation to read the original.
-3. An engineer asks something that is written in no study, and the application replies that it did not find it in the documents.
-
-## What you gain
-
-- Confidential documents do not leave your computer
-- Every answer shows its source for checking
-- No special equipment or graphics card is required
-- It works without an internet connection too
-
-## How you try it
-
-1. Check that the computer has Windows 10 or 11 and enough free space for the models.
-2. Install the application and Ollama with an internet connection.
-3. Drop five real documents into the intake folder.
-4. Disconnect the network and ask three questions to which you know the answer.
-5. Open the citations and check that they agree with the original.
+If you need integration with a line-of-business system, batch jobs, or special compliance logging, use [Request a custom AI solution](https://www.nexaipla.com/ai/) — We reply within 48 hours with a feasibility assessment, indicative implementation cost range, estimated timeline, and recommended next steps — no obligation to proceed.
 
 ## Frequently asked questions
 
-### Can I question my PDFs without uploading them to the cloud?
+### Is browser-based always “online”?
 
-Yes. [DocsApp](https://www.nexaipla.com/docsapp/) runs the models locally on Windows through Ollama, and the documents stay on your disk. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Not when the UI is **127.0.0.1** — that is your own computer, not the public internet.
 
-### If it opens in the browser, is it not online?
+### Do I need a GPU?
 
-No. The address 127.0.0.1:8080 is your own computer. The browser talks to a program running locally. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
+DocsApp is designed to run on **CPU**; expect slower replies than cloud.
 
-### Is a graphics card required?
+### Can AI decide for me?
 
-No. The models run on the processor. Answers are slower than a cloud service, but the data does not move. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
-
-### How do I know the answer is right?
-
-Every answer has a citation to the document it came from, and the application states when it cannot find the answer in the documents. Homepage: [NexAIpla](https://nexaipla.com) (nexaipla.com).
-
-## Next step
-
-[Take the free AI Readiness Score](https://www.nexaipla.com/ai-score) if you want to check how ready your files and your team are before installing anything. Eighteen questions, a score from 0 to 100, in the browser, no account.
-
-[Contact NexAIpla](mailto:contact@nexaipla.com) and tell us what kind of documents you want to question and why they cannot go to the cloud. We reply within 48 hours.
-
-## Related in this topic
-
-- [Offline AI document processing](/en/articles/offline-ai-document-processing)
-- [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
-- [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
-- [Document Answers With Citations Rag](/en/articles/document-answers-with-citations-rag)
+No — use answers as **drafts** with citations; keep approval with qualified staff.
 
 ## Product facts
 
@@ -265,4 +195,12 @@ Every answer has a citation to the document it came from, and the application st
 - **Pricing:** Contact for licensing
 - **Trial / demo:** Demo on request
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/docsapp/
+- **URL:** https://www.nexaipla.com/docsapp/
+
+## Next step
+
+[DocsApp — offline document AI](https://www.nexaipla.com/docsapp/)
+
+Unsure about process readiness? The 18-question assessment is free, runs in your browser, and shows your score instantly — no signup required. [Take the AI Readiness Score — free assessment](https://www.nexaipla.com/ai-score/)
+
+[Contact NexAIpla](mailto:info@nexaipla.com).
