@@ -113,7 +113,7 @@ knowledge: {
         "en": "Take the free AI Business Readiness Assessment",
         "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
       },
-      "url": "https://nexaipla.com/readiness"
+      "url": "https://www.nexaipla.com/ai-score/"
     },
     "chatbotTags": [
       "ai-automation",
