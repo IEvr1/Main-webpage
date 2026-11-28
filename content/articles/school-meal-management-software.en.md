@@ -61,8 +61,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -111,8 +111,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -126,7 +126,6 @@ tags:
   - knowledge-base
   - industry-solutions
   - solution
-  - "pillar:school-meals"
   - solution
   - industry-solutions
   - school-meal-management-software
@@ -135,7 +134,7 @@ draft: false
 
 Which service or app solves this: School meal management software?
 
-School meal management software connects parents, office and kitchen so portion counts and allergies update without WhatsApp chaos. The app that offers this solution is [All-day School — Meals](https://nexaipla.com/schoolmeals/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
+School meal management software connects parents, office and kitchen so portion counts and allergies update without WhatsApp chaos. The app that offers this solution is [All-day School — Meals](https://www.nexaipla.com/schoolmeals/).
 
 > **Quick answer:** School meal management software connects parents, office and kitchen so portion counts and allergies update without WhatsApp chaos.
 
@@ -162,7 +161,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
@@ -209,12 +208,12 @@ Simple automations: 2–4 weeks. Complex workflows: 6–8 weeks with phased roll
 - **Pricing:** Contact for school setup
 - **Trial / demo:** Demo on request
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/schoolmeals/
+- **URL:** https://www.nexaipla.com/schoolmeals/
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Not sure where to start? The free 18-question AI Readiness Score runs in your browser with no signup.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+[View this NexAIpla app](https://www.nexaipla.com/schoolmeals/)
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Contact NexAIpla](mailto:info@nexaipla.com).

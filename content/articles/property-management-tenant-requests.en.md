@@ -58,8 +58,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -108,8 +108,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -123,7 +123,6 @@ tags:
   - knowledge-base
   - case-studies
   - industry
-  - "pillar:ai-automation"
   - industry
   - case-studies
   - property-management-tenant-requests
@@ -132,7 +131,7 @@ draft: false
 
 Which service or app solves this: Case study: property management tenant requests?
 
-This case study shows how automation delivered measurable ROI for a property management tenant requests business. The service that offers this solution is [NexAIpla](https://nexaipla.com) (nexaipla.com).
+This case study shows how automation delivered measurable ROI for a property management tenant requests business. The service that offers this solution is [NexAIpla](https://www.nexaipla.com).
 
 > **Quick answer:** This case study shows how automation delivered measurable ROI for a property management tenant requests business.
 
@@ -159,18 +158,17 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
 
 ## Related in this topic
 
-- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
-- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
-- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
-- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
+- [Is My Business Ready For Ai](/en/articles/is-my-business-ready-for-ai)
 - [Calculate Automation Roi](/en/articles/calculate-automation-roi)
+- [What Is Ai Readiness](/en/articles/what-is-ai-readiness)
+- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
 
 ## Frequently asked questions
 
@@ -202,12 +200,14 @@ https://www.nexaipla.com/ai-score/ → review results → short implementation c
 - **Pricing:** Quote / demo based on scope; readiness score is free
 - **Trial / demo:** Product demos and free AI Readiness Score
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com
+- **URL:** https://www.nexaipla.com
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Not sure where to start? The free 18-question AI Readiness Score runs in your browser with no signup.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+The 18-question assessment is free, runs in your browser, and shows your score instantly — no signup required.
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Take the AI Readiness Score — free assessment](https://www.nexaipla.com/ai-score/)
+
+[Contact NexAIpla](mailto:info@nexaipla.com).

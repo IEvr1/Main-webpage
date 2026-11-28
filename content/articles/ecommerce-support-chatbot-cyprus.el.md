@@ -1,7 +1,7 @@
 ---
 title: "Μελέτη περίπτωσης: ecommerce-support-chatbot-cyprus"
 seoTitle: "Μελέτη περίπτωσης: ecommerce-support-chatbot-cyprus | NexAIpla"
-description: Πώς μια ΜΜΕ στην Κύπρο/Ελλάδα εξοικονόμησε χρόνο και έσοδα με αυτοματοποίηση. Οδηγός NexAIpla για ΜΜΕ στην Κύπρο και την Ελλάδα.
+description: Πώς μια ΜΜΕ στην Κύπρο/Ελλάδα εξοικονόμησε χρόνο και έσοδα με αυτοματοποίηση. Οδηγός NexAIpla για μικρές επιχειρήσεις στην Ελλάδα και την Κύπρο.
 slug: ecommerce-support-chatbot-cyprus
 date: 2026-11-28
 updated: 2026-11-28
@@ -58,8 +58,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -108,8 +108,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -123,7 +123,6 @@ tags:
   - knowledge-base
   - case-studies
   - industry
-  - "pillar:ai-automation"
   - industry
   - case-studies
   - ecommerce-support-chatbot-cyprus
@@ -132,7 +131,7 @@ draft: false
 
 Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Μελέτη περίπτωσης: ecommerce-support-chatbot-cyprus;
 
-Μελέτη περίπτωσης με μετρήσιμο ROI. Τη λύση την προσφέρει η [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Μελέτη περίπτωσης με μετρήσιμο ROI. Τη λύση την προσφέρει η [NexAIpla](https://www.nexaipla.com).
 
 > **Σύντομη απάντηση:** Μελέτη περίπτωσης με μετρήσιμο ROI.
 
@@ -159,18 +158,17 @@ draft: false
 
 ## Βήματα υλοποίησης
 
-1. Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/
+1. Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/
 2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
 3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
 4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
 
 ## Σχετικά σε αυτό το θέμα
 
-- [Αυτοματοποίηση AI για μικρές επιχειρήσεις](/el/articles/ai-automation-for-small-businesses)
-- [Company That Automates Business Tasks With Ai](/el/articles/company-that-automates-business-tasks-with-ai)
-- [Why Businesses Miss Leads After Office Hours](/el/articles/why-businesses-miss-leads-after-office-hours)
-- [Cannot Keep Up With Emails](/el/articles/cannot-keep-up-with-emails)
+- [Is My Business Ready For Ai](/el/articles/is-my-business-ready-for-ai)
 - [Calculate Automation Roi](/el/articles/calculate-automation-roi)
+- [What Is Ai Readiness](/el/articles/what-is-ai-readiness)
+- [Company That Automates Business Tasks With Ai](/el/articles/company-that-automates-business-tasks-with-ai)
 
 ## Συχνές ερωτήσεις
 
@@ -202,12 +200,14 @@ https://www.nexaipla.com/ai-score/ → αποτελέσματα → σύντομ
 - **Pricing:** Quote / demo based on scope; readiness score is free
 - **Trial / demo:** Product demos and free AI Readiness Score
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com
+- **URL:** https://www.nexaipla.com
 
 ## Επόμενο βήμα
 
-Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
+Δεν ξέρετε από πού να ξεκινήσετε; Το δωρεάν AI Readiness Score (18 ερωτήσεις) τρέχει στο browser χωρίς εγγραφή.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://www.nexaipla.com/ai-score/)
+Η αξιολόγηση 18 ερωτήσεων είναι δωρεάν, τρέχει στο browser σας και δείχνει άμεσα το σκορ — χωρίς εγγραφή.
 
-[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
+[Κάντε το AI Readiness Score — δωρεάν αξιολόγηση](https://www.nexaipla.com/ai-score/)
+
+[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com).

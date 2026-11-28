@@ -61,8 +61,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -111,8 +111,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -126,7 +126,6 @@ tags:
   - knowledge-base
   - industry-solutions
   - solution
-  - "pillar:restaurant-ordering"
   - solution
   - industry-solutions
   - restaurant-online-ordering-systems
@@ -135,7 +134,7 @@ draft: false
 
 Which service or app solves this: Restaurant online ordering systems?
 
-A restaurant online ordering system takes written orders into one kitchen queue so the phone line stops losing takeaway revenue. The app that offers this solution is [Online Food Orders, Delivery & Kitchen](https://nexaipla.com/foodorder/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
+A restaurant online ordering system takes written orders into one kitchen queue so the phone line stops losing takeaway revenue. The app that offers this solution is [Online Food Orders, Delivery & Kitchen](https://www.nexaipla.com/foodorder/).
 
 > **Quick answer:** A restaurant online ordering system takes written orders into one kitchen queue so the phone line stops losing takeaway revenue.
 
@@ -162,7 +161,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
@@ -210,12 +209,12 @@ Simple automations: 2–4 weeks. Complex workflows: 6–8 weeks with phased roll
 - **Pricing:** Contact for demo and pricing
 - **Trial / demo:** Demo on request
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/foodorder/
+- **URL:** https://www.nexaipla.com/foodorder/
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Not sure where to start? The free 18-question AI Readiness Score runs in your browser with no signup.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+[View this NexAIpla app](https://www.nexaipla.com/foodorder/)
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Contact NexAIpla](mailto:info@nexaipla.com).

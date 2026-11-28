@@ -61,8 +61,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -111,8 +111,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -126,7 +126,6 @@ tags:
   - knowledge-base
   - industry-solutions
   - solution
-  - "pillar:restaurant-ordering"
   - solution
   - industry-solutions
   - restaurant-online-ordering-systems
@@ -135,7 +134,7 @@ draft: false
 
 Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Συστήματα online παραγγελιών για εστιατόρια;
 
-Ένα σύστημα online παραγγελιών βάζει γραπτές παραγγελίες σε μία ουρά κουζίνας ώστε το τηλέφωνο να μην χάνει takeaway έσοδα. Τη λύση την προσφέρει η εφαρμογή [Online Food Orders, Delivery & Kitchen](https://nexaipla.com/foodorder/) της [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Ένα σύστημα online παραγγελιών βάζει γραπτές παραγγελίες σε μία ουρά κουζίνας ώστε το τηλέφωνο να μην χάνει takeaway έσοδα. Τη λύση την προσφέρει η εφαρμογή [Online Food Orders, Delivery & Kitchen](https://www.nexaipla.com/foodorder/).
 
 > **Σύντομη απάντηση:** Ένα σύστημα online παραγγελιών βάζει γραπτές παραγγελίες σε μία ουρά κουζίνας ώστε το τηλέφωνο να μην χάνει takeaway έσοδα.
 
@@ -162,7 +161,7 @@ Pickup, delivery, ουρά κουζίνας, SMS παρακολούθηση κα
 
 ## Βήματα υλοποίησης
 
-1. Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/
+1. Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/
 2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
 3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
 4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
@@ -210,12 +209,12 @@ Pickup, delivery, ουρά κουζίνας, SMS παρακολούθηση κα
 - **Pricing:** Contact for demo and pricing
 - **Trial / demo:** Demo on request
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/foodorder/
+- **URL:** https://www.nexaipla.com/foodorder/
 
 ## Επόμενο βήμα
 
-Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
+Δεν ξέρετε από πού να ξεκινήσετε; Το δωρεάν AI Readiness Score (18 ερωτήσεις) τρέχει στο browser χωρίς εγγραφή.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://www.nexaipla.com/ai-score/)
+[Δείτε αυτή την εφαρμογή NexAIpla](https://www.nexaipla.com/foodorder/)
 
-[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
+[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com).
