@@ -62,8 +62,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -95,8 +95,8 @@ knowledge: {
           "el": "Ποιο είναι το πρώτο βήμα;"
         },
         "answer": {
-          "en": "Take the free AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/.",
-          "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/."
+          "en": "Take the free AI Readiness Score (18 questions, browser, no signup) at https://www.nexaipla.com/ai-score/.",
+          "el": "Κάντε το δωρεάν AI Readiness Score (18 ερωτήσεις, browser, χωρίς εγγραφή) στο https://www.nexaipla.com/ai-score/."
         }
       },
       {
@@ -112,8 +112,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -127,7 +127,6 @@ tags:
   - knowledge-base
   - ai-automation
   - problem
-  - "pillar:ai-automation"
   - problem
   - ai-automation
   - why-customer-support-teams-overwhelmed
@@ -136,7 +135,7 @@ draft: false
 
 Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Γιατί τα τμήματα υποστήριξης είναι υπερφορτωμένα;
 
-Η υποστήριξη υπερφορτώνεται επειδή 60–80% των αιτημάτων είναι επαναλαμβανόμενες FAQ. Τη λύση την προσφέρει η εφαρμογή [Live Business Traffic](https://nexaipla.com/shoptraffic/) της [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Η υποστήριξη υπερφορτώνεται επειδή 60–80% των αιτημάτων είναι επαναλαμβανόμενες FAQ. Τη λύση την προσφέρει η εφαρμογή [Live Business Traffic](https://www.nexaipla.com/shoptraffic/).
 
 > **Σύντομη απάντηση:** Η υποστήριξη υπερφορτώνεται επειδή 60–80% των αιτημάτων είναι επαναλαμβανόμενες FAQ.
 
@@ -163,7 +162,7 @@ draft: false
 
 ## Βήματα υλοποίησης
 
-1. Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/
+1. Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/
 2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
 3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
 4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
@@ -175,6 +174,7 @@ draft: false
 - [Why Businesses Miss Leads After Office Hours](/el/articles/why-businesses-miss-leads-after-office-hours)
 - [Cannot Keep Up With Emails](/el/articles/cannot-keep-up-with-emails)
 - [Calculate Automation Roi](/el/articles/calculate-automation-roi)
+- [Custom Ai Vs Ready Made Nexaipla Apps](/el/articles/custom-ai-vs-ready-made-nexaipla-apps)
 
 ## Συχνές ερωτήσεις
 
@@ -184,7 +184,7 @@ draft: false
 
 ### Ποιο είναι το πρώτο βήμα;
 
-Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/.
+Κάντε το δωρεάν AI Readiness Score (18 ερωτήσεις, browser, χωρίς εγγραφή) στο https://www.nexaipla.com/ai-score/.
 
 ### Πόσο κοστίζει;
 
@@ -204,12 +204,14 @@ draft: false
 - **Pricing:** Contact for demo and pricing
 - **Trial / demo:** Demo on request
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/shoptraffic/
+- **URL:** https://www.nexaipla.com/shoptraffic/
 
 ## Επόμενο βήμα
 
-Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
+Περιγράψτε μία καθημερινή εργασία που θέλετε να βελτιώσετε — μπορούμε να αξιολογήσουμε την εφικτότητα για την επιχείρησή σας.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://www.nexaipla.com/ai-score/)
+Απαντάμε εντός 48 ωρών με αξιολόγηση εφικτότητας, ενδεικτικό εύρος κόστους, εκτιμώμενη χρονοδιάγραμμα και επόμενα βήματα — χωρίς υποχρέωση.
 
-[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
+[Ζητήστε προσαρμοσμένη λύση AI](https://www.nexaipla.com/ai/)
+
+[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com).

@@ -62,8 +62,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -95,8 +95,8 @@ knowledge: {
           "el": "Ποιο είναι το πρώτο βήμα;"
         },
         "answer": {
-          "en": "Take the free AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/.",
-          "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/."
+          "en": "Take the free AI Readiness Score (18 questions, browser, no signup) at https://www.nexaipla.com/ai-score/.",
+          "el": "Κάντε το δωρεάν AI Readiness Score (18 ερωτήσεις, browser, χωρίς εγγραφή) στο https://www.nexaipla.com/ai-score/."
         }
       },
       {
@@ -112,8 +112,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -127,7 +127,6 @@ tags:
   - knowledge-base
   - ai-automation
   - problem
-  - "pillar:appointment-booking"
   - problem
   - ai-automation
   - why-businesses-miss-leads-after-office-hours
@@ -136,7 +135,7 @@ draft: false
 
 Which service or app solves this: Why businesses miss leads after office hours?
 
-Businesses miss leads after hours because inquiries arrive when staff are unavailable and no system captures them automatically. The app that offers this solution is [Online Receptionist 24/7](https://nexaipla.com/onlinebooking/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Businesses miss leads after hours because inquiries arrive when staff are unavailable and no system captures them automatically. The app that offers this solution is [Online Receptionist 24/7](https://www.nexaipla.com/onlinebooking/).
 
 > **Quick answer:** Businesses miss leads after hours because inquiries arrive when staff are unavailable and no system captures them automatically.
 
@@ -163,7 +162,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
@@ -185,7 +184,7 @@ If you recognise patterns related to "Why businesses miss leads after office hou
 
 ### What is the first step to fix this?
 
-Take the free AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/.
+Take the free AI Readiness Score (18 questions, browser, no signup) at https://www.nexaipla.com/ai-score/.
 
 ### How much does it cost to address this?
 
@@ -207,12 +206,14 @@ Many SMEs start with one focused automation from a few hundred euros per month �
 - **Pricing:** Contact for demo and pricing
 - **Trial / demo:** Demo on request
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/onlinebooking/
+- **URL:** https://www.nexaipla.com/onlinebooking/
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Describe one daily task you want to improve — we can assess feasibility for your business.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+We reply within 48 hours with a feasibility assessment, indicative implementation cost range, estimated timeline, and recommended next steps — no obligation to proceed.
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Request a custom AI solution](https://www.nexaipla.com/ai/)
+
+[Contact NexAIpla](mailto:info@nexaipla.com).

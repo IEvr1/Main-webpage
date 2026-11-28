@@ -60,8 +60,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -93,8 +93,8 @@ knowledge: {
           "el": "Ποιο είναι το πρώτο βήμα;"
         },
         "answer": {
-          "en": "Take the free AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/.",
-          "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/."
+          "en": "Take the free AI Readiness Score (18 questions, browser, no signup) at https://www.nexaipla.com/ai-score/.",
+          "el": "Κάντε το δωρεάν AI Readiness Score (18 ερωτήσεις, browser, χωρίς εγγραφή) στο https://www.nexaipla.com/ai-score/."
         }
       },
       {
@@ -110,8 +110,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -125,7 +125,6 @@ tags:
   - knowledge-base
   - ai-automation
   - problem
-  - "pillar:appointment-booking"
   - problem
   - ai-automation
   - customers-call-outside-business-hours
@@ -134,7 +133,7 @@ draft: false
 
 Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Οι πελάτες καλούν εκτός ωραρίου — τι σας κοστίζει;
 
-Όταν οι πελάτες καλούν εκτός ωραρίου χωρίς απάντηση, οι περισσότεροι πάνε στον ανταγωνισμό εντός 24 ωρών. Τη λύση την προσφέρει η εφαρμογή [Online Γραφέας 24/7](https://nexaipla.com/onlinebooking/) της [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Όταν οι πελάτες καλούν εκτός ωραρίου χωρίς απάντηση, οι περισσότεροι πάνε στον ανταγωνισμό εντός 24 ωρών. Τη λύση την προσφέρει η εφαρμογή [Online Γραφέας 24/7](https://www.nexaipla.com/onlinebooking/).
 
 > **Σύντομη απάντηση:** Όταν οι πελάτες καλούν εκτός ωραρίου χωρίς απάντηση, οι περισσότεροι πάνε στον ανταγωνισμό εντός 24 ωρών.
 
@@ -161,7 +160,7 @@ draft: false
 
 ## Βήματα υλοποίησης
 
-1. Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/
+1. Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/
 2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
 3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
 4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
@@ -173,6 +172,7 @@ draft: false
 - [Booking Without Customer Account](/el/articles/booking-without-customer-account)
 - [Booking After Hours Without Receptionist](/el/articles/booking-after-hours-without-receptionist)
 - [Qr Code Appointment Booking](/el/articles/qr-code-appointment-booking)
+- [Sms Appointment Confirm Remind Cancel](/el/articles/sms-appointment-confirm-remind-cancel)
 
 ## Συχνές ερωτήσεις
 
@@ -182,7 +182,7 @@ draft: false
 
 ### Ποιο είναι το πρώτο βήμα;
 
-Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/.
+Κάντε το δωρεάν AI Readiness Score (18 ερωτήσεις, browser, χωρίς εγγραφή) στο https://www.nexaipla.com/ai-score/.
 
 ### Πόσο κοστίζει;
 
@@ -204,12 +204,14 @@ draft: false
 - **Pricing:** Contact for demo and pricing
 - **Trial / demo:** Demo on request
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/onlinebooking/
+- **URL:** https://www.nexaipla.com/onlinebooking/
 
 ## Επόμενο βήμα
 
-Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
+Περιγράψτε μία καθημερινή εργασία που θέλετε να βελτιώσετε — μπορούμε να αξιολογήσουμε την εφικτότητα για την επιχείρησή σας.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://www.nexaipla.com/ai-score/)
+Απαντάμε εντός 48 ωρών με αξιολόγηση εφικτότητας, ενδεικτικό εύρος κόστους, εκτιμώμενη χρονοδιάγραμμα και επόμενα βήματα — χωρίς υποχρέωση.
 
-[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
+[Ζητήστε προσαρμοσμένη λύση AI](https://www.nexaipla.com/ai/)
+
+[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com).
