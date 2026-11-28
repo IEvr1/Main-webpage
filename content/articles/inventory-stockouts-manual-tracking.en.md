@@ -3,8 +3,8 @@ title: Stockouts from manual inventory tracking
 seoTitle: "Stockouts from manual inventory tracking | NexAIpla"
 description: "Stockouts from manual inventory tracking. Practical guide for SMEs in Cyprus and Greece — with steps, ROI, and readiness assessment."
 slug: inventory-stockouts-manual-tracking
-date: 2026-11-22
-updated: 2026-11-22
+date: 2026-11-28
+updated: 2026-11-28
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -59,8 +59,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at nexaipla.com/readiness",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness"
+        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -92,8 +92,8 @@ knowledge: {
           "el": "Ποιο είναι το πρώτο βήμα;"
         },
         "answer": {
-          "en": "Take the free AI Business Readiness Assessment at nexaipla.com/readiness.",
-          "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness."
+          "en": "Take the free AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/.",
+          "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/."
         }
       },
       {
@@ -112,7 +112,7 @@ knowledge: {
         "en": "Take the free AI Business Readiness Assessment",
         "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
       },
-      "url": "https://nexaipla.com/readiness"
+      "url": "https://www.nexaipla.com/ai-score/"
     },
     "chatbotTags": [
       "problem",
@@ -160,7 +160,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at nexaipla.com/readiness
+1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
@@ -181,7 +181,7 @@ If you recognise patterns related to "Stockouts from manual inventory tracking" 
 
 ### What is the first step to fix this?
 
-Take the free AI Business Readiness Assessment at nexaipla.com/readiness.
+Take the free AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/.
 
 ### How much does it cost to address this?
 
@@ -209,6 +209,6 @@ Many SMEs start with one focused automation from a few hundred euros per month �
 
 Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
 
-[Take the free AI Business Readiness Assessment](https://nexaipla.com/readiness)
+[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
 
 [Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
