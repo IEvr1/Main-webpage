@@ -61,8 +61,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -111,8 +111,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -126,7 +126,6 @@ tags:
   - knowledge-base
   - ai-readiness
   - solution
-  - "pillar:ai-readiness"
   - solution
   - ai-readiness
   - ai-readiness-and-business-transformation
@@ -135,7 +134,7 @@ draft: false
 
 Which service or app solves this: AI readiness and business transformation?
 
-AI readiness asks whether one painful process can be automated with the people and data you already have — scored 0–100 in the free NexAIpla assessment. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
+AI readiness asks whether one painful process can be automated with the people and data you already have — scored 0–100 in the free NexAIpla assessment. The app that offers this solution is [Custom AI Tools](https://www.nexaipla.com/ai/).
 
 > **Quick answer:** AI readiness asks whether one painful process can be automated with the people and data you already have — scored 0–100 in the free NexAIpla assessment.
 
@@ -162,7 +161,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
@@ -178,6 +177,7 @@ Start with the guides below — each answers one concrete SME question and links
 - [Ai Readiness Score 0 100 Meaning](/en/articles/ai-readiness-score-0-100-meaning)
 - [Red Amber Green Readiness Bands](/en/articles/red-amber-green-readiness-bands)
 - [Readiness Score Data Stays In Browser](/en/articles/readiness-score-data-stays-in-browser)
+- [Calculate Automation Roi](/en/articles/calculate-automation-roi)
 
 ## Frequently asked questions
 
@@ -207,12 +207,14 @@ Simple automations: 2–4 weeks. Complex workflows: 6–8 weeks with phased roll
 - **Pricing:** Scoped quote after feasibility reply
 - **Trial / demo:** Feasibility reply — no obligation
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/ai/
+- **URL:** https://www.nexaipla.com/ai/
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Not sure where to start? The free 18-question AI Readiness Score runs in your browser with no signup.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+The 18-question assessment is free, runs in your browser, and shows your score instantly — no signup required.
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Take the AI Readiness Score — free assessment](https://www.nexaipla.com/ai-score/)
+
+[Contact NexAIpla](mailto:info@nexaipla.com).

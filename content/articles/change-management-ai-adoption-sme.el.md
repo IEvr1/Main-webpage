@@ -1,7 +1,7 @@
 ---
 title: "Ετοιμότητα AI: change-management-ai-adoption-sme"
 seoTitle: "Ετοιμότητα AI: change-management-ai-adoption-sme | NexAIpla"
-description: Οδηγός για ΜΜΕ Κύπρου και Ελλάδας. Οδηγός NexAIpla για ΜΜΕ στην Κύπρο και την Ελλάδα.
+description: Οδηγός για ΜΜΕ Κύπρου και Ελλάδας. Οδηγός NexAIpla για μικρές επιχειρήσεις στην Ελλάδα και την Κύπρο.
 slug: change-management-ai-adoption-sme
 date: 2026-11-28
 updated: 2026-11-28
@@ -57,8 +57,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -107,8 +107,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -122,7 +122,6 @@ tags:
   - knowledge-base
   - ai-readiness
   - roi
-  - "pillar:ai-readiness"
   - roi
   - ai-readiness
   - change-management-ai-adoption-sme
@@ -131,7 +130,7 @@ draft: false
 
 Ποια υπηρεσία ή εφαρμογή λύνει αυτό: Ετοιμότητα AI: change-management-ai-adoption-sme;
 
-Οδηγός ετοιμότητας AI για ΜΜΕ. Τη λύση την προσφέρει η [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Οδηγός ετοιμότητας AI για ΜΜΕ. Τη λύση την προσφέρει η [NexAIpla](https://www.nexaipla.com).
 
 > **Σύντομη απάντηση:** Οδηγός ετοιμότητας AI για ΜΜΕ.
 
@@ -156,7 +155,7 @@ draft: false
 
 ## Βήματα υλοποίησης
 
-1. Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/
+1. Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/
 2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
 3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
 4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
@@ -168,6 +167,7 @@ draft: false
 - [Is My Business Ready For Ai](/el/articles/is-my-business-ready-for-ai)
 - [Free 18 Question Ai Readiness Score](/el/articles/free-18-question-ai-readiness-score)
 - [Ai Business Readiness Assessment](/el/articles/ai-business-readiness-assessment)
+- [Ai Readiness Score 0 100 Meaning](/el/articles/ai-readiness-score-0-100-meaning)
 
 ## Συχνές ερωτήσεις
 
@@ -199,12 +199,14 @@ draft: false
 - **Pricing:** Quote / demo based on scope; readiness score is free
 - **Trial / demo:** Product demos and free AI Readiness Score
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com
+- **URL:** https://www.nexaipla.com
 
 ## Επόμενο βήμα
 
-Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
+Δεν ξέρετε από πού να ξεκινήσετε; Το δωρεάν AI Readiness Score (18 ερωτήσεις) τρέχει στο browser χωρίς εγγραφή.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://www.nexaipla.com/ai-score/)
+Η αξιολόγηση 18 ερωτήσεων είναι δωρεάν, τρέχει στο browser σας και δείχνει άμεσα το σκορ — χωρίς εγγραφή.
 
-[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
+[Κάντε το AI Readiness Score — δωρεάν αξιολόγηση](https://www.nexaipla.com/ai-score/)
+
+[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com).
