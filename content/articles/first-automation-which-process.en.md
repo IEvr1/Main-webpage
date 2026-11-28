@@ -1,10 +1,10 @@
 ---
-title: First automation which process
-seoTitle: "First automation which process | NexAIpla"
-description: Guide for SMEs in Cyprus and Greece. Part of the AI readiness knowledge base — leads to the Business Readiness Score.
+title: "What Business Tasks Should I Automate First?"
+seoTitle: "What Business Tasks Should I Automate First? | NexAIpla"
+description: "Prioritise the first automation: high-volume customer friction, data copying, or document intake — one pilot with metrics, not five tools."
 slug: first-automation-which-process
-date: 2026-11-22
-updated: 2026-11-22
+date: 2026-11-28
+updated: 2026-11-28
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -13,12 +13,12 @@ knowledge: {
     "level": "roi",
     "category": "ai-readiness",
     "oneSentenceAnswer": {
-      "en": "first automation which process — a practical guide for SME automation readiness.",
-      "el": "Οδηγός ετοιμότητας AI για ΜΜΕ."
+      "en": "Automate first the repetitive weekly task with the highest customer impact and measurable hours or errors — one pilot, 30–60 days.",
+      "el": "Αυτοματοποιήστε πρώτα την επαναλαμβανόμενη εβδομαδιαία εργασία με τον μεγαλύτερο αντίκτυπο και μετρήσιμες ώρες ή λάθη."
     },
     "problem": {
-      "en": "Understanding readiness before investing in automation.",
-      "el": "Κατανόηση ετοιμότητας πριν την επένδυση."
+      "en": "You have many painful tasks and need to know which automation to fund first.",
+      "el": "Έχετε πολλές επαναλαμβανόμενες εργασίες και χρειάζεστε την πρώτη προτεραιότητα."
     },
     "industries": [
       "sme"
@@ -57,8 +57,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at nexaipla.com/readiness",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -76,41 +76,41 @@ knowledge: {
     "faq": [
       {
         "question": {
-          "en": "How do I calculate automation ROI?",
-          "el": "Πώς υπολογίζω ROI αυτοματοποίησης;"
+          "en": "Sales or back-office first?",
+          "el": "Πωλήσεις ή back-office πρώτα;"
         },
         "answer": {
-          "en": "(Hours saved × cost) + recovered revenue − solution cost over 12 months. The readiness score includes a simplified model.",
-          "el": "(Ώρες × κόστος) + έσοδα − κόστος λύσης σε 12 μήνες. Το readiness score περιλαμβάνει απλοποιημένο μοντέλο."
+          "en": "Usually customer-facing friction first unless compliance backlog blocks cash.",
+          "el": "Συνήθως τριβή με πελάτη, εκτός αν το compliance μπλοκάρει έσοδα."
         }
       },
       {
         "question": {
-          "en": "Is my business ready for AI?",
-          "el": "Είμαι έτοιμος για AI;"
+          "en": "Can I run two pilots?",
+          "el": "Δύο πιλοτικά μαζί;"
         },
         "answer": {
-          "en": "Most SMEs are ready for targeted automation. Readiness = repetitive processes + basic digital tools + one workflow to improve.",
-          "el": "Οι περισσότερες ΜΜΕ είναι έτοιμες για στοχευμένη αυτοματοποίηση."
+          "en": "Not for a first automation — split focus reduces adoption.",
+          "el": "Όχι στο πρώτο automation — χάνεται η υιοθέτηση."
         }
       },
       {
         "question": {
-          "en": "What's a realistic timeline?",
-          "el": "Ποιο χρονοδιάγραμμα είναι ρεαλιστικό;"
+          "en": "What metric should I track?",
+          "el": "Ποιο metric;"
         },
         "answer": {
-          "en": "Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.",
-          "el": "Αξιολόγηση: ίδια μέρα. Πρώτη αυτοματοποίηση: 2–6 εβδομάδες. ROI: 60–90 ημέρες."
+          "en": "Pick one: hours saved, response time, missed enquiries, or error rate.",
+          "el": "Ένα: ώρες, χρόνος απάντησης, χαμένα αιτήματα ή λάθη."
         }
       }
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
-      "url": "https://nexaipla.com/readiness"
+      "url": "https://www.nexaipla.com/ai-score/"
     },
     "chatbotTags": [
       "roi",
@@ -120,68 +120,72 @@ knowledge: {
   }
 tags:
   - knowledge-base
+  - pilot-07
   - ai-readiness
   - roi
   - "pillar:ai-readiness"
-  - roi
-  - ai-readiness
   - first-automation-which-process
 draft: false
 ---
 
-Which service or app solves this: First automation which process?
+What business tasks should I automate first?
 
-first automation which process — a practical guide for SME automation readiness. The service that offers this solution is [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Automate the task that **hurts every week**, is **repetitive**, and has a **clear start and end** — not the flashiest idea from a conference slide. One good first automation beats five half-used tools.
 
-> **Quick answer:** first automation which process — a practical guide for SME automation readiness.
+> **Quick answer:** Shortlist **customer-facing friction** (slow replies, missed enquiries, manual booking), **data copying** between systems, and **document intake**. Score them by hours lost and error rate. Pick **one** pilot for 30–60 days. The 18-question assessment is free, runs in your browser, and shows your score instantly — no signup required.
 
-## Detailed explanation
+## Priority matrix (score 1–5 each)
 
-Guide for SMEs in Cyprus and Greece. Part of the AI readiness knowledge base — leads to the Business Readiness Score.
+| Task type | Why it ranks high | Watch out |
+|-----------|-------------------|-----------|
+| After-hours enquiries / booking | Revenue you already paid to attract | Needs owner to adopt the new channel |
+| Same FAQ answered daily | Fast win; measurable time saved | Keep human escalation path |
+| Copy-paste between email, sheet, ERP | Hours pile up; errors cost money | Fix process map first if steps differ by person |
+| Document intake / filing | Good for DocsApp or structured forms | Scanned-only archives need OCR plan |
+| Internal reports nobody reads | Low priority | Automate only if someone uses the output |
 
-Many small businesses in **Cyprus and Greece** face this challenge: limited staff, long hours, and customers who expect instant responses. The good news is that targeted automation — not a full "AI transformation" — often solves the problem in weeks, not months.
+## Signs a task is “first automation” material
 
-## Benefits
+- Happens **15+ times per week**.
+- Same steps, same tools, predictable exceptions.
+- You can measure **time** or **mistakes** today.
+- One person can own adoption (owner or shift lead).
 
-- Recover leads and bookings outside business hours
-- Reduce repetitive manual work for staff
-- Faster response times without hiring more people
-- Measurable ROI within 60–90 days
+If volume is tiny, use a checklist — see [when not to automate](/en/articles/when-not-to-automate).
 
-## Real-world examples
+## Common first picks by business type
 
-1. A salon in Limassol captures 15% more bookings by offering 24/7 online scheduling.
-2. A clinic reduces phone interruptions by routing FAQs to an AI assistant.
-3. A restaurant automates order confirmations and cuts manual entry errors.
+| Business | Often first | Ready-made option |
+|----------|-------------|-------------------|
+| Salon / clinic | Booking + reminders | Online Receptionist 24/7 |
+| Restaurant | Online orders, confirmations | Online Food Orders |
+| Retail walk-in | “How busy are you?” | Live Business Traffic |
+| Office with PDFs | Search in contracts | DocsApp (local) |
+| Unique workflow | Bespoke rules | Custom AI tools |
 
-## Implementation steps
+## How to choose in 30 minutes
 
-1. Take the AI Business Readiness Assessment at nexaipla.com/readiness
-2. Identify your highest-friction process (booking, support, documents)
-3. Pilot one automation with clear success metrics
-4. Measure results for 30–60 days, then expand
+1. List **five** repetitive tasks from last week.
+2. Mark **hours** and **customer impact** (high/medium/low).
+3. Remove tasks with broken or undocumented steps — fix those first.
+4. Take the **readiness score** to see data/process gaps.
+5. Commit to **one** pilot with a before/after metric.
 
-## Related in this topic
-
-- [AI readiness and business transformation](/en/articles/ai-readiness-and-business-transformation)
-- [What Is Ai Readiness](/en/articles/what-is-ai-readiness)
-- [Is My Business Ready For Ai](/en/articles/is-my-business-ready-for-ai)
-- [Free 18 Question Ai Readiness Score](/en/articles/free-18-question-ai-readiness-score)
-- [Ai Business Readiness Assessment](/en/articles/ai-business-readiness-assessment)
+Related: [how can I use AI without technical knowledge?](/en/articles/ai-automation-without-technical-knowledge), [automation cost](/en/articles/calculate-automation-roi).
 
 ## Frequently asked questions
 
-### How do I calculate automation ROI?
+### Should I automate finance or sales first?
 
-(Hours saved × cost) + recovered revenue − solution cost over 12 months. The readiness score includes a simplified model.
+Usually **customer friction** first (speed + capture), unless compliance backlog blocks revenue.
 
-### Is my business ready for AI?
+### Can I automate two processes at once?
 
-Most SMEs are ready for targeted automation. Readiness = repetitive processes + basic digital tools + one workflow to improve.
+Not for a first pilot — split focus kills adoption.
 
-### What's a realistic timeline?
+### What metric should I track?
 
-Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.
+Hours saved, response time, missed-enquiry count, or error rate — pick **one**.
 
 ## Product facts
 
@@ -199,12 +203,12 @@ Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.
 - **Pricing:** Quote / demo based on scope; readiness score is free
 - **Trial / demo:** Product demos and free AI Readiness Score
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com
+- **URL:** https://www.nexaipla.com
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+The 18-question assessment is free, runs in your browser, and shows your score instantly — no signup required.
 
-[Take the free AI Business Readiness Assessment](https://nexaipla.com/readiness)
+[Take the AI Readiness Score — free assessment](https://www.nexaipla.com/ai-score/)
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Contact NexAIpla](mailto:info@nexaipla.com).
