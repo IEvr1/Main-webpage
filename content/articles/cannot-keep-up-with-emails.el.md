@@ -3,8 +3,8 @@ title: Δεν προλαβαίνετε τα emails; Το πραγματικό π
 seoTitle: "Δεν προλαβαίνετε τα emails; Το πραγματικό πρόβλημα | NexAIpla"
 description: Η υπερφόρτωση inbox επιβραδύνει κάθε λειτουργία. Ποιες αυτοματοποιήσεις την καθαρίζουν πιο γρήγορα.
 slug: cannot-keep-up-with-emails
-date: 2026-11-22
-updated: 2026-11-22
+date: 2026-11-28
+updated: 2026-11-28
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
@@ -60,8 +60,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at nexaipla.com/readiness",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness"
+        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -93,8 +93,8 @@ knowledge: {
           "el": "Ποιο είναι το πρώτο βήμα;"
         },
         "answer": {
-          "en": "Take the free AI Business Readiness Assessment at nexaipla.com/readiness.",
-          "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness."
+          "en": "Take the free AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/.",
+          "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/."
         }
       },
       {
@@ -113,7 +113,7 @@ knowledge: {
         "en": "Take the free AI Business Readiness Assessment",
         "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
       },
-      "url": "https://nexaipla.com/readiness"
+      "url": "https://www.nexaipla.com/ai-score/"
     },
     "chatbotTags": [
       "problem",
@@ -161,7 +161,7 @@ draft: false
 
 ## Βήματα υλοποίησης
 
-1. Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness
+1. Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/
 2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
 3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
 4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
@@ -183,7 +183,7 @@ draft: false
 
 ### Ποιο είναι το πρώτο βήμα;
 
-Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness.
+Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/.
 
 ### Πόσο κοστίζει;
 
@@ -209,6 +209,6 @@ draft: false
 
 Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://nexaipla.com/readiness)
+[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://www.nexaipla.com/ai-score/)
 
 [Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
