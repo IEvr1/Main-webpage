@@ -3,8 +3,8 @@ title: "Is there a company that will automate my business tasks with AI?"
 seoTitle: "Is there a company that will automate my business tasks with AI? | NexAIpla"
 description: "Yes. NexAIpla takes on automating one repeated business task with AI. You get a 48-hour reply with feasibility, cost range, and timeline. No obligation."
 slug: company-that-automates-business-tasks-with-ai
-date: 2026-11-22
-updated: 2026-11-22
+date: 2026-11-28
+updated: 2026-11-28
 author: NexAIpla
 image: /og-image.svg
 relatedApps:
