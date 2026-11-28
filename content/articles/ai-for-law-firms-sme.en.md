@@ -58,8 +58,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -108,8 +108,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -123,7 +123,6 @@ tags:
   - knowledge-base
   - industry-solutions
   - industry
-  - "pillar:offline-docs"
   - industry
   - industry-solutions
   - ai-for-law-firms-sme
@@ -132,7 +131,7 @@ draft: false
 
 Which service or app solves this: AI for small law firms?
 
-AI for small law firms helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks. The app that offers this solution is [Offline Private Document AI](https://nexaipla.com/docsapp/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
+AI for small law firms helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks. The app that offers this solution is [Offline Private Document AI](https://www.nexaipla.com/docsapp/).
 
 > **Quick answer:** AI for small law firms helps SMEs automate booking, support, and admin — typically recovering 10–20% of staff time on routine tasks.
 
@@ -159,7 +158,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
@@ -171,6 +170,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 - [Sensitive Documents No Third Party Ai](/en/articles/sensitive-documents-no-third-party-ai)
 - [Documents Stay On My Windows Pc](/en/articles/documents-stay-on-my-windows-pc)
 - [Document Answers With Citations Rag](/en/articles/document-answers-with-citations-rag)
+- [Ocr Scanned Pdfs Greek English](/en/articles/ocr-scanned-pdfs-greek-english)
 
 ## Frequently asked questions
 
@@ -201,12 +201,14 @@ https://www.nexaipla.com/ai-score/ → review results → short implementation c
 - **Pricing:** Contact for licensing
 - **Trial / demo:** Demo on request
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/docsapp/
+- **URL:** https://www.nexaipla.com/docsapp/
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Not sure where to start? The free 18-question AI Readiness Score runs in your browser with no signup.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+The 18-question assessment is free, runs in your browser, and shows your score instantly — no signup required.
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Take the AI Readiness Score — free assessment](https://www.nexaipla.com/ai-score/)
+
+[Contact NexAIpla](mailto:info@nexaipla.com).
