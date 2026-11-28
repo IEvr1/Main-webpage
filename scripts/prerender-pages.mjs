@@ -16,6 +16,7 @@ const PAGES = [
     h1: 'home.hero.title',
     lead: 'home.hero.subtitle',
     faq: 'home.faq',
+    skipWhere: true,
     apps: [
       ['apps.onlineBooking.title', 'apps.onlineBooking.description'],
       ['apps.shopTraffic.title', 'apps.shopTraffic.description'],
@@ -123,8 +124,9 @@ function faqItems(dict, prefix) {
   return items;
 }
 
-function leadParagraph(dict, lang, leadKey) {
+function leadParagraph(dict, lang, leadKey, skipWhere) {
   const lead = t(dict, leadKey);
+  if (skipWhere) return lead;
   const where = WHERE[lang];
   if (
     lead.includes('European') ||
@@ -160,7 +162,7 @@ function renderLang(dict, lang, page) {
     .join('');
 
   return {
-    html: `<article lang="${lang}"><h1>${escapeHtml(t(dict, page.h1))}</h1><p>${escapeHtml(leadParagraph(dict, lang, page.lead))}</p>${list ? `<ul>${list}</ul>` : ''}<h2>${escapeHtml(t(dict, `${page.faq}.title`))}</h2>${faqHtml}</article>`,
+    html: `<article lang="${lang}"><h1>${escapeHtml(t(dict, page.h1))}</h1><p>${escapeHtml(leadParagraph(dict, lang, page.lead, page.skipWhere))}</p>${list ? `<ul>${list}</ul>` : ''}<h2>${escapeHtml(t(dict, `${page.faq}.title`))}</h2>${faqHtml}</article>`,
     faqs,
   };
 }
