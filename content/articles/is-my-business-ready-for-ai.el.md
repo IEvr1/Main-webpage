@@ -1,10 +1,10 @@
 ---
-title: Είναι η επιχείρησή μου έτοιμη για AI;
-seoTitle: "Είναι η επιχείρησή μου έτοιμη για AI; | NexAIpla"
-description: "Ειλικρινής απάντηση για ΜΜΕ: δεν χρειάζεστε να είστε tech εταιρεία — χρειάζεστε ένα painful process."
+title: Πώς ξέρω αν η επιχείρησή μου είναι έτοιμη για AI;
+seoTitle: "Πώς ξέρω αν η επιχείρησή μου είναι έτοιμη για AI; | NexAIpla"
+description: "Πρακτικά σημάδια ετοιμότητας για μικρές επιχειρήσεις: επαναλαμβανόμενη εργασία, ψηφιακά εργαλεία και μία διαδικασία προς βελτίωση — και δωρεάν σκορ 18 ερωτήσεων."
 slug: is-my-business-ready-for-ai
-date: 2026-11-22
-updated: 2026-11-22
+date: 2026-11-28
+updated: 2026-11-28
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -13,104 +13,94 @@ knowledge: {
     "level": "roi",
     "category": "ai-readiness",
     "oneSentenceAnswer": {
-      "en": "Most SMEs are ready for targeted AI automation if they have repetitive work and at least one digital channel (email, website, or messaging).",
-      "el": "Οι περισσότερες ΜΜΕ είναι έτοιμες για στοχευμένη αυτοματοποίηση αν έχουν επαναλαμβανόμενη εργασία και ένα ψηφιακό κανάλι."
+      "en": "You are ready to explore AI when you have repetitive work, at least one digital channel, and one clear process to improve — not a full tech transformation.",
+      "el": "Είστε έτοιμοι να εξερευνήσετε AI όταν έχετε επαναλαμβανόμενη εργασία, τουλάχιστον ένα ψηφιακό κανάλι και μία σαφή διαδικασία προς βελτίωση."
     },
     "problem": {
-      "en": "Is my business ready for AI?",
-      "el": "Είμαι έτοιμος για AI;"
+      "en": "You hear about AI everywhere but are not sure whether your business is actually ready to use it.",
+      "el": "Ακούτε για AI παντού αλλά δεν είστε σίγουροι αν η επιχείρησή σας είναι πραγματικά έτοιμη."
     },
     "industries": [
-      "sme"
+      "sme",
+      "retail",
+      "services"
     ],
     "benefits": [
       {
-        "en": "Recover leads and bookings outside business hours",
-        "el": "Ανάκτηση leads και κρατήσεων εκτός ωραρίου"
+        "en": "Clarity on whether to start with one workflow instead of a vague “AI project”",
+        "el": "Σαφήνεια αν ξεκινάτε από μία ροή αντί για αόριστο «έργο AI»"
       },
       {
-        "en": "Reduce repetitive manual work for staff",
-        "el": "Μείωση επαναλαμβανόμενης χειροκίνητης εργασίας"
+        "en": "Free 18-question score in the browser (no signup) to highlight gaps",
+        "el": "Δωρεάν σκορ 18 ερωτήσεων στο browser (χωρίς εγγραφή) για κενά"
       },
       {
-        "en": "Faster response times without hiring more people",
-        "el": "Ταχύτερες απαντήσεις χωρίς πρόσληψη"
-      },
-      {
-        "en": "Measurable ROI within 60–90 days",
-        "el": "Μετρήσιμο ROI εντός 60–90 ημερών"
+        "en": "Fewer wasted purchases on tools that do not match your process maturity",
+        "el": "Λιγότερες άσκοπες αγορές εργαλείων που δεν ταιριάζουν στη ωριμότητα διαδικασίας"
       }
     ],
     "examples": [
       {
-        "en": "A salon in Limassol captures 15% more bookings by offering 24/7 online scheduling.",
-        "el": "Ένα κομμωτήριο στη Λεμεσό αυξάνει κρατήσεις 15% με online προγραμματισμό 24/7."
+        "en": "Illustrative: a salon owner triages availability messages before adopting online booking.",
+        "el": "Ενδεικτικό: ιδιοκτήτης κομμωτηρίου δοκιμάζει online κρατήσεις μετά από επαναλαμβανόμενα μηνύματα διαθεσιμότητας."
       },
       {
-        "en": "A clinic reduces phone interruptions by routing FAQs to an AI assistant.",
-        "el": "Ένα ιατρείο μειώνει διακοπές από τηλέφωνο με AI βοηθό για συχνές ερωτήσεις."
-      },
-      {
-        "en": "A restaurant automates order confirmations and cuts manual entry errors.",
-        "el": "Ένα εστιατόριο αυτοματοποιεί επιβεβαιώσεις παραγγελιών και μειώνει λάθη καταχώρησης."
+        "en": "Illustrative: an office reduces retyping invoices after naming document handling as the top pain.",
+        "el": "Ενδεικτικό: γραφείο μειώνει επαναπληκτρολόγηση τιμολογίων αφού ονομάσει τα έγγραφα ως κύριο πόνο."
       }
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at nexaipla.com/readiness",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness"
+        "en": "List one process, weekly hours, and what goes wrong at busy times",
+        "el": "Καταγράψτε μία διαδικασία, ώρες/εβδομάδα και τι σπάει σε peak"
       },
       {
-        "en": "Identify your highest-friction process (booking, support, documents)",
-        "el": "Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
-        "en": "Pilot one automation with clear success metrics",
-        "el": "Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs"
-      },
-      {
-        "en": "Measure results for 30–60 days, then expand",
-        "el": "Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε"
+        "en": "Pick one pilot automation with a measurable before/after metric",
+        "el": "Επιλέξτε ένα πιλοτικό automation με μετρήσιμο πριν/μετά"
       }
     ],
     "faq": [
       {
         "question": {
-          "en": "How do I calculate automation ROI?",
-          "el": "Πώς υπολογίζω ROI αυτοματοποίησης;"
+          "en": "Do I need technical skills to be ready?",
+          "el": "Χρειάζομαι τεχνικές γνώσεις;"
         },
         "answer": {
-          "en": "(Hours saved × cost) + recovered revenue − solution cost over 12 months. The readiness score includes a simplified model.",
-          "el": "(Ώρες × κόστος) + έσοδα − κόστος λύσης σε 12 μήνες. Το readiness score περιλαμβάνει απλοποιημένο μοντέλο."
+          "en": "No. Readiness is about processes and pain points, not coding.",
+          "el": "Όχι. Η ετοιμότητα αφορά διαδικασίες, όχι προγραμματισμό."
         }
       },
       {
         "question": {
-          "en": "Is my business ready for AI?",
-          "el": "Είμαι έτοιμος για AI;"
+          "en": "Is the readiness assessment free?",
+          "el": "Είναι δωρεάν η αξιολόγηση;"
         },
         "answer": {
-          "en": "Most SMEs are ready for targeted automation. Readiness = repetitive processes + basic digital tools + one workflow to improve.",
-          "el": "Οι περισσότερες ΜΜΕ είναι έτοιμες για στοχευμένη αυτοματοποίηση."
+          "en": "Yes — 18 questions, browser-based, no signup (see nexaipla.com/ai-score/).",
+          "el": "Ναι — 18 ερωτήσεις, browser, χωρίς εγγραφή (δείτε nexaipla.com/ai-score/)."
         }
       },
       {
         "question": {
-          "en": "What's a realistic timeline?",
-          "el": "Ποιο χρονοδιάγραμμα είναι ρεαλιστικό;"
+          "en": "What if my score is low?",
+          "el": "Αν το σκορ είναι χαμηλό;"
         },
         "answer": {
-          "en": "Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.",
-          "el": "Αξιολόγηση: ίδια μέρα. Πρώτη αυτοματοποίηση: 2–6 εβδομάδες. ROI: 60–90 ημέρες."
+          "en": "Use it as a priority list: fix process clarity or data before a large automation spend.",
+          "el": "Χρησιμοποιήστε το ως λίστα προτεραιοτήτων πριν από μεγάλη επένδυση."
         }
       }
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
-      "url": "https://nexaipla.com/readiness"
+      "url": "https://www.nexaipla.com/ai-score/"
     },
     "chatbotTags": [
       "roi",
@@ -120,67 +110,91 @@ knowledge: {
   }
 tags:
   - knowledge-base
+  - pilot-02
   - ai-readiness
   - roi
   - "pillar:ai-readiness"
-  - roi
-  - ai-readiness
   - is-my-business-ready-for-ai
 draft: false
 ---
 
-Οι περισσότερες ΜΜΕ είναι έτοιμες για στοχευμένη αυτοματοποίηση αν έχουν επαναλαμβανόμενη εργασία και ένα ψηφιακό κανάλι. Τη λύση την προσφέρει η [NexAIpla](https://nexaipla.com) (nexaipla.com).
+Πώς ξέρω αν η επιχείρησή μου είναι έτοιμη για AI;
 
-> **Σύντομη απάντηση:** Οι περισσότερες ΜΜΕ είναι έτοιμες για στοχευμένη αυτοματοποίηση αν έχουν επαναλαμβανόμενη εργασία και ένα ψηφιακό κανάλι.
+Οι περισσότερες μικρές επιχειρήσεις δεν χρειάζονται τέλειο tech stack ούτε «στρατηγική AI» σε χαρτί. Συνήθως είστε έτοιμοι να **ξεκινήσετε** όταν μία διαδικασία σπαταλά μετρήσιμο χρόνο ή έσοδα, η ομάδα χρησιμοποιεί τουλάχιστον ένα ψηφιακό κανάλι (email, site, chat ή spreadsheet) και μπορείτε να περιγράψετε τη διαδικασία απλά.
 
-## Αναλυτική εξήγηση
+> **Σύντομη απάντηση:** Είστε έτοιμοι να εξερευνήσετε AI και αυτοματοποίηση όταν έχετε **επαναλαμβανόμενη εργασία**, **τουλάχιστον ένα ψηφιακό εργαλείο** και **ένα σαφές πρόβλημα** (χαμένα αιτήματα, χειροκίνητες κρατήσεις, αντιγραφή εγγράφων κ.λπ.). Δεν χρειάζεστε developers ή μεγάλο budget για το πρώτο βήμα.
 
-Ειλικρινής απάντηση για ΜΜΕ: δεν χρειάζεστε να είστε tech εταιρεία — χρειάζεστε ένα painful process.
+## Τι σημαίνει «έτοιμος» στην πράξη
 
-Πολλές μικρές επιχειρήσεις στην **Κύπρο και την Ελλάδα** αντιμετωπίζουν το ίδιο πρόβλημα: περιορισμένο προσωπικό, μεγάλο ωράριο και πελάτες που περιμένουν άμεσες απαντήσεις. Η στοχευμένη αυτοματοποίηση — όχι «ολική μεταμόρφωση AI» — συχνά λύνει το πρόβλημα σε εβδομάδες.
+Η ετοιμότητα δεν είναι αγορά νέων εργαλείων AI. Είναι αν μπορείτε να αυτοματοποιήσετε **μία** ροή με τους ανθρώπους, τα δεδομένα και το λογισμικό που έχετε ήδη. Καλές υποψήφιες:
 
-## Οφέλη
+- Οι ίδιες ερωτήσεις πελατών κάθε μέρα (ώρες, τιμές, διαθεσιμότητα).
+- Κρατήσεις ή παραγγελίες via τηλέφωνο, WhatsApp, email χωρίς ενιαίο σύστημα.
+- Αντιγραφή τιμολογίων/δεδομένων μεταξύ Excel και λογιστικής.
+- Εργασία που σταματά εκτός ωραρίου ενώ οι πελάτες συνεχίζουν να ζητούν.
 
-- Ανάκτηση leads και κρατήσεων εκτός ωραρίου
-- Μείωση επαναλαμβανόμενης χειροκίνητης εργασίας
-- Ταχύτερες απαντήσεις χωρίς πρόσληψη
-- Μετρήσιμο ROI εντός 60–90 ημερών
+Αν τίποτα από αυτά δεν ισχύει και όλες οι ροές είναι ήδη τεκμηριωμένες και μετρημένες, ίσως χρειάζεστε μικρές βελτιστοποιήσεις — όχι νέο έργο αυτοματοποίησης.
 
-## Πραγματικά παραδείγματα
+## Σημάδια ότι είστε έτοιμοι
 
-1. Ένα κομμωτήριο στη Λεμεσό αυξάνει κρατήσεις 15% με online προγραμματισμό 24/7.
-2. Ένα ιατρείο μειώνει διακοπές από τηλέφωνο με AI βοηθό για συχνές ερωτήσεις.
-3. Ένα εστιατόριο αυτοματοποιεί επιβεβαιώσεις παραγγελιών και μειώνει λάθη καταχώρησης.
+| Σημάδι | Τι δείχνει |
+|--------|------------|
+| 3+ ώρες/εβδομάδα σε επαναλαμβανόμενο admin | Αξίζει πιλοτικό |
+| Χαμένα leads/κρατήσεις εκτός ωραρίου | Η ζήτηση υπάρχει ήδη — λείπει καταγραφή |
+| Ένα άτομο «μπουκώνει» σε ραντεβού/προσφορές | Μία αλλαγή ροής ελευθερώνει χρόνο |
+| Χρησιμοποιείτε email, site ή messaging | Υπάρχει κανάλι για αυτοματοποίηση |
 
-## Βήματα υλοποίησης
+Δεν χρειάζεστε τέλεια δεδομένα παντού, data science team ούτε έγκριση για «ολική μεταμόρφωση AI».
 
-1. Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness
-2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
-3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
-4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
+## Πότε να περιμένετε ή να ξεκινήσετε μικρότερα
+
+Η αυτοματοποίηση είναι αδύναμο πρώτο βήμα αν:
+
+- Η διαδικασία δεν είναι συμφωνημένη (καθένας την κάνει διαφορετικά).
+- Το πρόβλημα είναι staffing/εκπαίδευση, όχι επανάληψη.
+- Δεν μπορείτε να μετρήσετε επιτυχία (χρόνος, λάθη, χαμένα αιτήματα).
+
+Σε αυτά τα cases, ορίστε τη ροή σε χαρτί ή χρησιμοποιήστε checklist πριν από λογισμικό.
+
+## Ενδεικτικά σενάρια
+
+*Σύνθετα παραδείγματα για εικονογράφηση — όχι επαληθευμένα αποτελέσματα πελατών.*
+
+1. **Υπηρεσίες:** Καθημερινά μηνύματα «Είστε ελεύθεροι Τρίτη;». Online κράτηση ή δομημένα μηνύματα για απλές θέσεις.
+2. **Γραφείο:** Επαναπληκτρολόγηση τιμολογίων στη λογιστική. Εξαγωγή δεδομένων ή απλή διασύνδεση με έλεγχο από άνθρωπο.
+3. **Κατάστημα:** Τηλεφωνήματα «πόσο γεμάτο είναι;». Σελίδα live κατάστασης για λιγότερες κλήσεις.
+
+## Επόμενα βήματα (με σειρά)
+
+1. Ονομάστε **μία** διαδικασία και ώρες/εβδομάδα.
+2. Κάντε το [δωρεάν AI Readiness Score](https://www.nexaipla.com/ai-score/) (18 ερωτήσεις, browser, χωρίς εγγραφή).
+3. Δείτε [Τι είναι η ετοιμότητα AI;](/el/articles/what-is-ai-readiness) για ορισμούς.
+4. Πριν δεσμεύσετε budget, [πότε να μην αυτοματοποιήσετε](/el/articles/when-not-to-automate).
 
 ## Σχετικά σε αυτό το θέμα
 
 - [Ετοιμότητα AI και επιχειρηματική μετάβαση](/el/articles/ai-readiness-and-business-transformation)
-- [What Is Ai Readiness](/el/articles/what-is-ai-readiness)
-- [Free 18 Question Ai Readiness Score](/el/articles/free-18-question-ai-readiness-score)
-- [Ai Business Readiness Assessment](/el/articles/ai-business-readiness-assessment)
-- [Ai Readiness Score 0 100 Meaning](/el/articles/ai-readiness-score-0-100-meaning)
-- [Red Amber Green Readiness Bands](/el/articles/red-amber-green-readiness-bands)
+- [Τι είναι η ετοιμότητα AI;](/el/articles/what-is-ai-readiness)
+- [Δωρεάν σκορ ετοιμότητας 18 ερωτήσεων](/el/articles/free-18-question-ai-readiness-score)
+- [Υπολογισμός ROI αυτοματοποίησης](/el/articles/calculate-automation-roi)
 
 ## Συχνές ερωτήσεις
 
-### Πώς υπολογίζω ROI αυτοματοποίησης;
+### Χρειάζομαι τεχνικές γνώσεις;
 
-(Ώρες × κόστος) + έσοδα − κόστος λύσης σε 12 μήνες. Το readiness score περιλαμβάνει απλοποιημένο μοντέλο.
+Όχι. Η ετοιμότητα αφορά διαδικασίες και pain points, όχι προγραμματισμό.
 
-### Είμαι έτοιμος για AI;
+### Είναι δωρεάν η αξιολόγηση;
 
-Οι περισσότερες ΜΜΕ είναι έτοιμες για στοχευμένη αυτοματοποίηση.
+Ναι. Η αξιολόγηση 18 ερωτήσεων είναι δωρεάν, τρέχει στο browser σας και δείχνει άμεσα το σκορ — χωρίς εγγραφή.
 
-### Ποιο χρονοδιάγραμμα είναι ρεαλιστικό;
+### Αν το σκορ είναι χαμηλό;
 
-Αξιολόγηση: ίδια μέρα. Πρώτη αυτοματοποίηση: 2–6 εβδομάδες. ROI: 60–90 ημέρες.
+Συνήθως σημαίνει ότι χρειάζονται δεδομένα, εργαλεία ή σαφήνεια διαδικασίας **πριν** μεγάλη επένδυση — χρήσιμο αποτέλεσμα, όχι αποτυχία.
+
+### Είμαι πολύ μικρή επιχείρηση;
+
+Πολύ μικρές ομάδες μπορούν να κερδίσουν από **μία** στοχευμένη αυτοματοποίηση. Το custom AI αξίζει όταν ο πόνος είναι συχνός — το σκορ βοηθά να το κρίνετε.
 
 ## Γεγονότα προϊόντος
 
@@ -198,12 +212,12 @@ draft: false
 - **Pricing:** Quote / demo based on scope; readiness score is free
 - **Trial / demo:** Product demos and free AI Readiness Score
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com
+- **URL:** https://www.nexaipla.com
 
 ## Επόμενο βήμα
 
-Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
+Η αξιολόγηση 18 ερωτήσεων είναι δωρεάν, τρέχει στο browser σας και δείχνει άμεσα το σκορ — χωρίς εγγραφή.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://nexaipla.com/readiness)
+[Κάντε το AI Readiness Score — δωρεάν αξιολόγηση](https://www.nexaipla.com/ai-score/)
 
-[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
+[Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com).
