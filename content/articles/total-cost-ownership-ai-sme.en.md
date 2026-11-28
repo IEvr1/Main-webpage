@@ -1,7 +1,7 @@
 ---
 title: Total cost ownership ai sme
 seoTitle: "Total cost ownership ai sme | NexAIpla"
-description: ROI and cost analysis for SMEs. Use with the AI Business Readiness Assessment. Practical SME automation guide from NexAIpla for Cyprus and Greece.
+description: ROI and cost analysis for SMEs. Use with the AI Business Readiness Assessment. Practical SME guide from NexAIpla — free AI Readiness Score and ready-made apps.
 slug: total-cost-ownership-ai-sme
 date: 2026-11-28
 updated: 2026-11-28
@@ -57,8 +57,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -107,8 +107,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -122,7 +122,6 @@ tags:
   - knowledge-base
   - roi-cost-savings
   - roi
-  - "pillar:ai-automation"
   - roi
   - roi-cost-savings
   - total-cost-ownership-ai-sme
@@ -131,7 +130,7 @@ draft: false
 
 Which service or app solves this: Total cost ownership ai sme?
 
-total cost ownership ai sme — quantifying automation value for Cyprus and Greece SMEs. The service that offers this solution is [NexAIpla](https://nexaipla.com) (nexaipla.com).
+total cost ownership ai sme — quantifying automation value for Cyprus and Greece SMEs. The service that offers this solution is [NexAIpla](https://www.nexaipla.com).
 
 > **Quick answer:** total cost ownership ai sme — quantifying automation value for Cyprus and Greece SMEs.
 
@@ -156,18 +155,19 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
 
 ## Related in this topic
 
-- [AI automation for small businesses](/en/articles/ai-automation-for-small-businesses)
-- [Company That Automates Business Tasks With Ai](/en/articles/company-that-automates-business-tasks-with-ai)
-- [Why Businesses Miss Leads After Office Hours](/en/articles/why-businesses-miss-leads-after-office-hours)
-- [Cannot Keep Up With Emails](/en/articles/cannot-keep-up-with-emails)
-- [Calculate Automation Roi](/en/articles/calculate-automation-roi)
+- [AI readiness and business transformation](/en/articles/ai-readiness-and-business-transformation)
+- [What Is Ai Readiness](/en/articles/what-is-ai-readiness)
+- [Is My Business Ready For Ai](/en/articles/is-my-business-ready-for-ai)
+- [Free 18 Question Ai Readiness Score](/en/articles/free-18-question-ai-readiness-score)
+- [Ai Business Readiness Assessment](/en/articles/ai-business-readiness-assessment)
+- [Ai Readiness Score 0 100 Meaning](/en/articles/ai-readiness-score-0-100-meaning)
 
 ## Frequently asked questions
 
@@ -199,12 +199,14 @@ Assessment: same day. First automation: 2–6 weeks. ROI visible: 60–90 days.
 - **Pricing:** Quote / demo based on scope; readiness score is free
 - **Trial / demo:** Product demos and free AI Readiness Score
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com
+- **URL:** https://www.nexaipla.com
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Not sure where to start? The free 18-question AI Readiness Score runs in your browser with no signup.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+The 18-question assessment is free, runs in your browser, and shows your score instantly — no signup required.
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Take the AI Readiness Score — free assessment](https://www.nexaipla.com/ai-score/)
+
+[Contact NexAIpla](mailto:info@nexaipla.com).
