@@ -3,8 +3,8 @@ title: "Μελέτη περίπτωσης: law-firm-client-intake-ai"
 seoTitle: "Μελέτη περίπτωσης: law-firm-client-intake-ai | NexAIpla"
 description: Πώς μια ΜΜΕ στην Κύπρο/Ελλάδα εξοικονόμησε χρόνο και έσοδα με αυτοματοποίηση. Οδηγός NexAIpla για ΜΜΕ στην Κύπρο και την Ελλάδα.
 slug: law-firm-client-intake-ai
-date: 2026-11-22
-updated: 2026-11-22
+date: 2026-11-28
+updated: 2026-11-28
 author: NexAIpla
 image: /og-image.svg
 relatedApps: []
@@ -58,8 +58,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at nexaipla.com/readiness",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness"
+        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -101,8 +101,8 @@ knowledge: {
           "el": "Πώς ξεκινώ;"
         },
         "answer": {
-          "en": "nexaipla.com/readiness → review results → short implementation call.",
-          "el": "nexaipla.com/readiness → αποτελέσματα → σύντομη κλήση υλοποίησης."
+          "en": "https://www.nexaipla.com/ai-score/ → review results → short implementation call.",
+          "el": "https://www.nexaipla.com/ai-score/ → αποτελέσματα → σύντομη κλήση υλοποίησης."
         }
       }
     ],
@@ -111,7 +111,7 @@ knowledge: {
         "en": "Take the free AI Business Readiness Assessment",
         "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
       },
-      "url": "https://nexaipla.com/readiness"
+      "url": "https://www.nexaipla.com/ai-score/"
     },
     "chatbotTags": [
       "industry",
@@ -159,7 +159,7 @@ draft: false
 
 ## Βήματα υλοποίησης
 
-1. Κάντε την αξιολόγηση ετοιμότητας AI στο nexaipla.com/readiness
+1. Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/
 2. Εντοπίστε τη διαδικασία με τη μεγαλύτερη τριβή (κρατήσεις, υποστήριξη, έγγραφα)
 3. Πιλοτική εφαρμογή μίας αυτοματοποίησης με σαφή KPIs
 4. Μετρήστε αποτελέσματα για 30–60 ημέρες, μετά επεκτείνετε
@@ -184,7 +184,7 @@ draft: false
 
 ### Πώς ξεκινώ;
 
-nexaipla.com/readiness → αποτελέσματα → σύντομη κλήση υλοποίησης.
+https://www.nexaipla.com/ai-score/ → αποτελέσματα → σύντομη κλήση υλοποίησης.
 
 ## Γεγονότα προϊόντος
 
@@ -208,6 +208,6 @@ nexaipla.com/readiness → αποτελέσματα → σύντομη κλήσ�
 
 Δεν ξέρετε από πού να ξεκινήσετε; Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI — χρειάζονται λίγα λεπτά και δείχνει ποιες αυτοματοποιήσεις ταιριάζουν στην επιχείρησή σας.
 
-[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://nexaipla.com/readiness)
+[Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI](https://www.nexaipla.com/ai-score/)
 
 [Επικοινωνήστε με την NexAIpla](mailto:info@nexaipla.com) για δωρεάν αξιολόγηση.
