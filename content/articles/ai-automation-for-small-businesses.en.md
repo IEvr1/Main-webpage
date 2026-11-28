@@ -61,8 +61,8 @@ knowledge: {
     ],
     "implementationSteps": [
       {
-        "en": "Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/",
-        "el": "Κάντε την αξιολόγηση ετοιμότητας AI στο https://www.nexaipla.com/ai-score/"
+        "en": "Take the AI Readiness Score at https://www.nexaipla.com/ai-score/",
+        "el": "Κάντε το AI Readiness Score στο https://www.nexaipla.com/ai-score/"
       },
       {
         "en": "Identify your highest-friction process (booking, support, documents)",
@@ -111,8 +111,8 @@ knowledge: {
     ],
     "readinessScoreCta": {
       "label": {
-        "en": "Take the free AI Business Readiness Assessment",
-        "el": "Κάντε τη δωρεάν αξιολόγηση ετοιμότητας AI"
+        "en": "Take the AI Readiness Score — free assessment",
+        "el": "Κάντε το AI Readiness Score — δωρεάν αξιολόγηση"
       },
       "url": "https://www.nexaipla.com/ai-score/"
     },
@@ -126,7 +126,6 @@ tags:
   - knowledge-base
   - ai-automation
   - solution
-  - "pillar:ai-automation"
   - solution
   - ai-automation
   - ai-automation-for-small-businesses
@@ -135,7 +134,7 @@ draft: false
 
 Which service or app solves this: AI automation for small businesses?
 
-AI automation for small businesses means picking one repeated task and replacing it with a ready-made app or a scoped custom tool — not a full digital transformation. The app that offers this solution is [Custom AI Tools](https://nexaipla.com/ai/) by [NexAIpla](https://nexaipla.com) (nexaipla.com).
+AI automation for small businesses means picking one repeated task and replacing it with a ready-made app or a scoped custom tool — not a full digital transformation. The app that offers this solution is [Custom AI Tools](https://www.nexaipla.com/ai/).
 
 > **Quick answer:** AI automation for small businesses means picking one repeated task and replacing it with a ready-made app or a scoped custom tool — not a full digital transformation.
 
@@ -162,7 +161,7 @@ Many small businesses in **Cyprus and Greece** face this challenge: limited staf
 
 ## Implementation steps
 
-1. Take the AI Business Readiness Assessment at https://www.nexaipla.com/ai-score/
+1. Take the AI Readiness Score at https://www.nexaipla.com/ai-score/
 2. Identify your highest-friction process (booking, support, documents)
 3. Pilot one automation with clear success metrics
 4. Measure results for 30–60 days, then expand
@@ -208,12 +207,14 @@ Simple automations: 2–4 weeks. Complex workflows: 6–8 weeks with phased roll
 - **Pricing:** Scoped quote after feasibility reply
 - **Trial / demo:** Feasibility reply — no obligation
 - **Provider:** NexAIpla
-- **URL:** https://nexaipla.com/ai/
+- **URL:** https://www.nexaipla.com/ai/
 
 ## Next step
 
-Not sure where to start? Take the free AI Business Readiness Assessment — it takes a few minutes and shows which automations fit your business.
+Describe one daily task you want to improve — we can assess feasibility for your business.
 
-[Take the free AI Business Readiness Assessment](https://www.nexaipla.com/ai-score/)
+We reply within 48 hours with a feasibility assessment, indicative implementation cost range, estimated timeline, and recommended next steps — no obligation to proceed.
 
-[Contact NexAIpla](mailto:info@nexaipla.com) for a free assessment.
+[Request a custom AI solution](https://www.nexaipla.com/ai/)
+
+[Contact NexAIpla](mailto:info@nexaipla.com).
